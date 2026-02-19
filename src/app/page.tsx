@@ -15,7 +15,7 @@ export default function HomePage() {
         className="relative min-h-screen flex items-center justify-center overflow-hidden"
         style={{
           backgroundImage:
-            "url('https://images.unsplash.com/photo-1533591380348-14193f1de18f?w=1800&q=80')",
+            "url('/DSC_0795.jpeg')",
           backgroundSize: "cover",
           backgroundPosition: "center 40%",
         }}
