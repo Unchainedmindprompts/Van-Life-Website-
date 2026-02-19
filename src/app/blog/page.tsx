@@ -36,7 +36,7 @@ export default function BlogPage() {
       <section
         className="relative py-24 px-6 border-b border-charcoal-700 overflow-hidden"
         style={{
-          backgroundImage: "url('/IMG_2448.jpeg')",
+          backgroundImage: "url('/IMG_1329.jpeg')",
           backgroundSize: "cover",
           backgroundPosition: "center 50%",
         }}
