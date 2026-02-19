@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Color palette — dark, earthy, adventure */
+  --color-charcoal-950: #0d0d0d;
+  --color-charcoal-900: #161614;
+  --color-charcoal-800: #1e1e1b;
+  --color-charcoal-700: #2b2b27;
+  --color-charcoal-600: #3a3a35;
+
+  --color-earth-900: #3d2b0e;
+  --color-earth-800: #5a4020;
+  --color-earth-700: #7a5930;
+  --color-earth-600: #9a7040;
+  --color-earth-500: #b88a50;
+  --color-earth-400: #c9a06a;
+  --color-earth-300: #d9b888;
+  --color-earth-200: #e8d0aa;
+  --color-earth-100: #f4e8d0;
+
+  --color-forest-900: #152515;
+  --color-forest-800: #1e3520;
+  --color-forest-700: #2a4a2c;
+  --color-forest-600: #365e38;
+  --color-forest-500: #4a7a4c;
+  --color-forest-400: #6a9e6c;
+
+  --color-sand-100: #faf6ef;
+  --color-sand-200: #f0e9d6;
+  --color-sand-300: #e2d0b2;
+  --color-sand-400: #ccb48a;
+  --color-sand-500: #a8906a;
+
+  /* Font stacks — display for headings, sans for body */
+  --font-display: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+:root {
+  --background: #161614;
+  --foreground: #f0e9d6;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+}
+
+/* Utility: font-display for Tailwind class usage */
+.font-display {
+  font-family: var(--font-display);
+}
