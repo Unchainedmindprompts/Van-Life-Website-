@@ -117,23 +117,26 @@ export default function HomePage() {
             </div>
 
             {/* Card 2 — Find Your Match */}
-            <div className="group bg-charcoal-700 border border-charcoal-600 rounded-lg p-8 flex flex-col opacity-70">
+            <div className="group bg-charcoal-700 border border-charcoal-600 rounded-lg p-8 flex flex-col hover:border-earth-600 transition-colors">
               <div className="flex items-start justify-between mb-6">
-                <svg className="w-8 h-8 text-earth-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-8 h-8 text-earth-500 group-hover:text-earth-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
                 </svg>
-                <span className="font-display text-[10px] font-bold tracking-widest uppercase text-forest-500 bg-forest-900/60 px-2 py-1 rounded">
-                  Coming Soon
+                <span className="font-display text-[10px] font-bold tracking-widest uppercase text-earth-600 bg-earth-900/60 px-2 py-1 rounded">
+                  Questionnaire
                 </span>
               </div>
               <h3 className="font-display font-bold text-xl text-sand-100 mb-3">Find Your Match</h3>
               <p className="text-sand-400 text-sm leading-relaxed flex-1 mb-8">
-                Answer a few questions about how you live, travel, and camp — and we&apos;ll match you
-                with the ideal Class B platform for your adventure style.
+                Answer five questions about how you live, travel, and camp — and we&apos;ll match you
+                to the ideal Class B platform for your adventure style.
               </p>
-              <span className="inline-block w-fit text-sm font-display font-bold tracking-wider uppercase text-charcoal-600 cursor-not-allowed">
-                Questionnaire Coming Soon &rarr;
-              </span>
+              <Link
+                href="/find-my-van"
+                className="inline-block w-fit text-sm font-display font-bold tracking-wider uppercase text-earth-400 hover:text-earth-300 transition-colors"
+              >
+                Take the Quiz &rarr;
+              </Link>
             </div>
 
             {/* Card 3 — Van Life Blog */}
