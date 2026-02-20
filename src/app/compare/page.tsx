@@ -27,8 +27,16 @@ export default function ComparePage() {
   return (
     <div className="pt-20 bg-charcoal-900 min-h-screen">
       {/* Page Header */}
-      <section className="py-16 px-6 bg-charcoal-950 border-b border-charcoal-700">
-        <div className="max-w-7xl mx-auto">
+      <section
+        className="relative py-24 px-6 border-b border-charcoal-700 overflow-hidden"
+        style={{
+          backgroundImage: "url('/tire-tread.png')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        <div className="absolute inset-0 bg-gradient-to-b from-charcoal-950/75 via-charcoal-950/60 to-charcoal-950/85" />
+        <div className="relative z-10 max-w-7xl mx-auto">
           <p className="font-display text-earth-400 text-xs font-bold tracking-[0.3em] uppercase mb-4">
             Side-by-Side
           </p>

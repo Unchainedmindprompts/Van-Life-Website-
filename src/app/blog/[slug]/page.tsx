@@ -512,8 +512,16 @@ export default async function BlogPostPage({
 
       <div className="pt-20 bg-charcoal-900 min-h-screen">
         {/* Header */}
-        <header className="bg-charcoal-950 border-b border-charcoal-700 py-12 px-6">
-          <div className="max-w-3xl mx-auto">
+        <header
+          className="relative border-b border-charcoal-700 py-20 px-6 overflow-hidden"
+          style={{
+            backgroundImage: "url('/tire-tread.png')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+        >
+          <div className="absolute inset-0 bg-gradient-to-b from-charcoal-950/75 via-charcoal-950/60 to-charcoal-950/85" />
+          <div className="relative z-10 max-w-3xl mx-auto">
             {/* Breadcrumb */}
             <nav className="flex items-center gap-2 text-xs text-sand-500 mb-6">
               <Link href="/" className="hover:text-earth-400 transition-colors">
