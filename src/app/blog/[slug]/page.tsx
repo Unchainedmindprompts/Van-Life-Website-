@@ -9,12 +9,13 @@ export function generateStaticParams() {
   return posts.map((p) => ({ slug: p.slug }));
 }
 
-export function generateMetadata({
+export async function generateMetadata({
   params,
 }: {
-  params: { slug: string };
-}): Metadata {
-  const post = posts.find((p) => p.slug === params.slug);
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const post = posts.find((p) => p.slug === slug);
   if (!post) return {};
   return {
     title: `${post.title} | Van Life`,
@@ -169,13 +170,14 @@ const categoryColors: Record<string, string> = {
   "Systems & Gear": "text-sand-400 bg-charcoal-700",
 };
 
-export default function BlogPostPage({
+export default async function BlogPostPage({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
-  const post = posts.find((p) => p.slug === params.slug);
-  const content = postContent[params.slug];
+  const { slug } = await params;
+  const post = posts.find((p) => p.slug === slug);
+  const content = postContent[slug];
 
   if (!post || !content) notFound();
 
@@ -184,7 +186,7 @@ export default function BlogPostPage({
     .filter(Boolean);
 
   // JSON-LD structured data — comprehensive schema for AEO/GEO optimization
-  const isSevenQuestions = params.slug === "class-b-van-buying-guide";
+  const isSevenQuestions = slug === "class-b-van-buying-guide";
 
   const jsonLd = isSevenQuestions
     ? {
