@@ -259,12 +259,12 @@ export const postContent: Record<string, PostContent> = {
       {
         type: "h2",
         heading: "The Short Answer",
-        text: "Buy a Sprinter if off-road capability or maximum interior height matters. Buy a Transit if you want the most builder options at a lower base cost. Buy a ProMaster if budget is tight and you'll stay on pavement. Now for the details.",
+        text: "Buy a Sprinter if off-road capability matters above all else. Buy a Transit if you want the most interior height, the most builder options, and a lower base cost. Buy a ProMaster if budget is tight and you'll stay on pavement. Now for the details.",
       },
       {
         type: "h2",
         heading: "Interior Dimensions",
-        text: "This is where the Sprinter wins decisively. The high-roof Sprinter offers 6'2\" of standing height in the cargo area, which translates directly to livability on the road. The Transit high-roof hits around 5'11\" — workable but noticeably shorter. The ProMaster is the widest of the three (approximately 60\" between wheel wells vs. 48\" for the Sprinter), which makes it excellent for crosswise sleeping arrangements.",
+        text: "This is where the Transit wins decisively. The high-roof Transit delivers 81.5\" (6'10\") of interior standing height — a full 4 inches taller than the high-roof Sprinter, which comes in at 76.7\" (6'4\"). Both are livable, but that gap is noticeable when you're standing at the stove or changing clothes. The ProMaster is the widest of the three (approximately 60\" between wheel wells vs. 48\" for the Sprinter), which makes it excellent for crosswise sleeping arrangements.",
       },
       {
         type: "h2",
