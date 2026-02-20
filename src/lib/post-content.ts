@@ -22,153 +22,224 @@ export const postContent: Record<string, PostContent> = {
   "class-b-van-buying-guide": {
     slug: "class-b-van-buying-guide",
     intro:
-      "Buying a Class B campervan is one of the biggest purchasing decisions you'll make — and the market in 2025 is more crowded and complex than ever. This guide walks you through every decision point, from choosing the right chassis to vetting a converter's build quality to making an offer without leaving money on the table.",
+      "The Class B campervan market has never been more exciting — or more confusing. You've got boutique custom builders crafting $250,000 rolling masterpieces, and you've got major RV manufacturers now offering factory 4x4 lifts, Fox suspension, and off-road tires at scale. Everyone looks legit. Every van looks amazing in photos. And the price range runs from $80,000 to well over $300,000.",
     relatedSlugs: [
       "sprinter-vs-transit-vs-promaster",
       "4x4-van-is-it-worth-it",
-      "winnebago-boldt-review",
+      "off-grid-power-systems-class-b",
     ],
     blocks: [
       {
-        type: "h2",
-        heading: "What Is a Class B Van?",
-        text: "Class B motorhomes are self-contained campervans built on a cargo van chassis — typically the Mercedes Sprinter, Ford Transit, or Ram ProMaster. Unlike larger Class A or C rigs, a Class B can be driven daily, parked in a normal space, and doesn't require a special license. That combination of livability and drivability is what's made them the fastest-growing segment in the RV industry.",
+        type: "callout",
+        text: "Before you fall in love with a van on Instagram, before you schedule a factory tour, before you put a deposit down — answer these seven questions. They'll save you from one of the most expensive mistakes you can make.",
       },
+
+      // ── Question 1 ──────────────────────────────────────────
+      {
+        type: "h2",
+        heading: "Question 1: How Do You Actually Plan to Use It?",
+        text: "This sounds obvious. It isn't.",
+      },
+      {
+        type: "h3",
+        heading: "Define Your Use Case Before You Shop",
+        text: "Most buyers say \"weekend trips and maybe some longer stuff eventually.\" That answer tells you nothing — and it leads to buying the wrong van. Be specific. Are you a solo traveler or a couple? Do you bring dogs? Kids? Bikes? Do you need to work remotely from the road? Are you camping in developed campgrounds with hookups, or are you parking on forest roads with no power and no water for a week at a time?",
+      },
+      {
+        type: "h3",
+        heading: "Why Use Case Drives Every Other Decision",
+        text: "Your use case determines your floor plan, your electrical requirements, your storage needs, and your budget. A weekend warrior who camps at state parks twice a month has completely different needs than a couple planning to full-time for two years in the backcountry. Get this wrong and you'll be living with compromises every single trip.",
+      },
+
+      // ── Question 2 ──────────────────────────────────────────
+      {
+        type: "h2",
+        heading: "Question 2: Custom Builder or RV Manufacturer?",
+        text: "This is the fork in the road — and it's a bigger decision than most buyers realize.",
+      },
+      {
+        type: "h3",
+        heading: "What the Custom Builder Path Looks Like",
+        text: "Working with a shop like Outside Van, Storyteller Overland, or dozens of regional converters means they take a raw cargo van and build it to your specifications. You get a high degree of personalization, often superior craftsmanship, and a build that reflects how you actually live. The tradeoff is lead times that can stretch 12-18 months, limited dealer networks for service, and prices that reflect handcrafted work.",
+      },
+      {
+        type: "h3",
+        heading: "What the RV Manufacturer Path Looks Like",
+        text: "Buying from companies like Winnebago, Airstream, or Thor means established dealer networks, standardized builds, financing options, and warranty infrastructure. These used to mean compromise on capability. Not anymore.",
+      },
+      {
+        type: "h3",
+        heading: "How the Market Has Changed",
+        text: "Here's what's shifted the game: major manufacturers are now bringing custom builder specs to production scale. Factory 4x4 conversions, Fox suspension upgrades, off-road wheel and tire packages — features that used to require a boutique builder are now coming off assembly lines. That blurs the line significantly and makes the decision harder than it used to be. The right answer depends on how much you value personalization versus convenience, and how comfortable you are with the service and warranty experience each path offers.",
+      },
+
+      // ── Question 3 ──────────────────────────────────────────
+      {
+        type: "h2",
+        heading: "Question 3: Do You Need 4x4 and Off-Road Capability?",
+        text: "Be honest with yourself here.",
+      },
+      {
+        type: "h3",
+        heading: "The Real Cost of 4x4",
+        text: "4x4 capability adds cost — typically $10,000 to $20,000 or more depending on the conversion. It adds weight. It adds mechanical complexity. And for a lot of buyers, it sits unused 95% of the time.",
+      },
+      {
+        type: "h3",
+        heading: "Who Actually Needs Off-Road Capability",
+        text: "If your version of adventure is driving to a trailhead, parking in a campground, and day hiking — you don't need 4x4. A well-built 2WD Sprinter will get you everywhere you actually want to go. But if you're chasing dispersed camping on unmaintained forest roads, running routes in shoulder season when conditions are unpredictable, or overlanding into genuinely remote terrain — 4x4 stops being a luxury and becomes a safety decision.",
+      },
+      {
+        type: "h3",
+        heading: "Don't Let Marketing Make This Decision",
+        text: "The current market trend is pushing buyers toward off-road specs because it looks great and it sells. Don't let marketing make this decision for you. Be clear about where you actually drive, and buy accordingly.",
+      },
+
+      // ── Question 4 ──────────────────────────────────────────
+      {
+        type: "h2",
+        heading: "Question 4: Who Converted It and Can They Prove Their Quality?",
+        text: "This is the question most buyers skip. It's the one they regret.",
+      },
+      {
+        type: "h3",
+        heading: "Understanding Converter Quality Tiers",
+        text: "Not all converters are equal — not even close. There are three rough tiers in the market:",
+      },
+      {
+        type: "ul",
+        items: [
+          "Premium builders have years of documented builds, real customer reviews, transparent build processes, proper electrical engineering, and warranties they actually stand behind. They cost more because they deliver more.",
+          "Mid-tier builders are often solid regional shops doing good work, but with less track record and less infrastructure. Some are excellent. Some cut corners you won't discover until you're three states from home.",
+          "Budget converters — domestic or overseas — often look impressive in photos and fall apart under real use. Poorly designed electrical systems, inadequate insulation, cabinetry that doesn't survive road vibration, and warranties that evaporate when you need them.",
+        ],
+      },
+      {
+        type: "h3",
+        heading: "Questions to Ask Every Converter Before You Buy",
+        text: "Before you commit, ask for a detailed build sheet. Ask for customer references and actually call them. Ask specifically about the electrical system design and who engineered it. Ask what the warranty covers and what the claims process looks like. A quality builder will answer every one of those questions without hesitation. A bad one will get vague.",
+      },
+
+      // ── Question 5 ──────────────────────────────────────────
+      {
+        type: "h2",
+        heading: "Question 5: What's Your Real Budget Including Hidden Costs?",
+        text: "Whatever number you have in your head right now — add 20 to 30 percent.",
+      },
+      {
+        type: "h3",
+        heading: "Hidden Costs Most Buyers Miss",
+        text: "The purchase price is just the beginning. Here's what most buyers don't factor in:",
+      },
+      {
+        type: "ul",
+        items: [
+          "Insurance on a $150,000 Class B is not cheap, and coverage varies significantly. Some policies don't cover full-time living situations. Get quotes before you buy, not after.",
+          "Maintenance on a Mercedes Sprinter is expensive. Dealer networks are improving but service can still be difficult in rural areas. A diesel engine, a complex electrical system, and a living space all require ongoing attention.",
+          "Storage if you're not full-timing. Climate-controlled storage for a vehicle this size runs $200 to $400 a month in most western markets.",
+        ],
+      },
+      {
+        type: "h3",
+        heading: "Costs That Catch Buyers Off Guard",
+        text: "Upgrades — almost every buyer adds things after purchase. Solar capacity, better mattress, bike rack, rooftop gear, communication devices for backcountry travel. Budget for it upfront. Depreciation — Class B vans hold value reasonably well compared to larger RVs, but they're not investments. Know your exit strategy before you buy.",
+      },
+
+      // ── Question 6 ──────────────────────────────────────────
+      {
+        type: "h2",
+        heading: "Question 6: How Do You Handle Power and Water Off-Grid?",
+        text: "This is where dream meets reality fast.",
+      },
+      {
+        type: "h3",
+        heading: "Understanding Your Electrical System",
+        text: "The electrical system is the heart of a livable van build. It determines whether you can run your coffee maker, charge your laptops, power your refrigerator, and keep your CPAP running for three days without hookups. A poorly designed system will leave you frustrated and underpowered. A well-engineered one disappears into the background and just works.",
+      },
+      {
+        type: "h3",
+        heading: "What to Look for in a Van's Electrical Build",
+        text: "Ask specifically about battery capacity in usable amp hours, solar input wattage, shore power charging capability, and inverter size. Lithium batteries are now the standard for serious builds — they're lighter, they charge faster, and they deliver more usable capacity than AGM.",
+      },
+      {
+        type: "h3",
+        heading: "Water Capacity and Real-World Use",
+        text: "Water is simpler but still matters. How many gallons does the fresh tank hold? Is there a gray water tank or does it drain directly? Is there a hot water system? For weekend use these questions are minor. For extended trips they become daily considerations.",
+      },
+
+      // ── Question 7 ──────────────────────────────────────────
+      {
+        type: "h2",
+        heading: "Question 7: What Does Ownership Look Like Long Term?",
+        text: "The purchase is day one. You need to think about year three.",
+      },
+      {
+        type: "h3",
+        heading: "Warranty Coverage That Actually Protects You",
+        text: "What's actually covered, for how long, and who honors it? A custom builder warranty is only as good as the builder's longevity and willingness to stand behind their work. A manufacturer warranty comes with dealer network support but may have more exclusions than you expect.",
+      },
+      {
+        type: "h3",
+        heading: "Service Network and Parts Availability",
+        text: "Where do you get it serviced? This matters more if you travel extensively. Sprinter dealers are widespread but not universal. Promaster and Transit have broader domestic dealer coverage. If something fails in rural Montana, your service options matter. For highly custom builds with proprietary components, replacement parts can become a challenge. For production vans from established manufacturers this is largely a non-issue.",
+      },
+      {
+        type: "h3",
+        heading: "Resale Value by Van Type",
+        text: "Class B vans from reputable builders and established manufacturers hold value well. Unknown converters and budget builds do not. If you think you might sell in five years, buy accordingly.",
+      },
+
+      // ── Bottom Line ─────────────────────────────────────────
+      {
+        type: "h2",
+        heading: "The Bottom Line",
+        text: "A Class B van is one of the best investments you can make in how you experience the world. It's also a decision that rewards research and punishes impulse. Answer these seven questions honestly before you start shopping and you'll enter the market with clarity. You'll know what you need, what you're willing to pay for, and what questions to ask before you sign anything. That puts you miles ahead of most buyers. The right van is out there. Take the time to find it.",
+      },
+
+      // ── About the Author ────────────────────────────────────
       {
         type: "callout",
-        text: "Class B vans are not a budget category — entry-level factory-built units start around $100,000 and custom builds on premium chassis regularly exceed $250,000. Understanding where your money goes is the first step in buying well.",
+        text: "About the Author — Mark Abplanalp lives in Post Falls, Idaho with his wife and their rescue dog Roxy. He owns a 2013 Sportsmobile 170 EXT Sprinter van and has spent years exploring the American West from the driver's seat. He's passionate about the Class B van space and committed to helping buyers navigate it with honest, experience-based guidance — so they buy the right rig the first time.",
       },
-      {
-        type: "h2",
-        heading: "Step 1: Choose Your Chassis",
-        text: "Before you think about the interior, you need to decide what the van is built on. The chassis determines repairability, 4x4 options, interior dimensions, and long-term maintenance costs.",
-      },
-      {
-        type: "ul",
-        heading: "Mercedes Sprinter",
-        items: [
-          "Industry standard for premium builds — widest converter ecosystem",
-          "True 4x4 option available (not AWD) with high and low range",
-          "Tall interior: 6'2\" standing room in high-roof models",
-          "Diesel engine standard — excellent torque and fuel economy on highway",
-          "Requires Mercedes dealer for warranty and major service — plan accordingly",
-        ],
-      },
-      {
-        type: "ul",
-        heading: "Ford Transit",
-        items: [
-          "Best domestic chassis option — huge builder ecosystem",
-          "AWD available (not 4x4 — no low range gear)",
-          "Lower ceiling than Sprinter but still functional for standing",
-          "Gas engine only in the US — higher fuel consumption than diesel Sprinter",
-          "Significantly more affordable base vehicle price",
-        ],
-      },
-      {
-        type: "ul",
-        heading: "Ram ProMaster",
-        items: [
-          "Most affordable chassis — lowest barrier to entry for DIY builds",
-          "Widest interior of the three — great for side-by-side sleeping",
-          "Front-wheel drive only — no AWD or 4x4 available",
-          "Best choice for urban-focused van life where off-road isn't a priority",
-          "Smaller converter and aftermarket ecosystem",
-        ],
-      },
-      {
-        type: "h2",
-        heading: "Step 2: Factory Build vs. Custom Conversion",
-        text: "Once you've picked a chassis, you need to decide between a factory-built van (Winnebago, Airstream, Storyteller) and a custom conversion from an independent builder. Both have real tradeoffs.",
-      },
-      {
-        type: "ul",
-        heading: "Factory builds",
-        items: [
-          "Consistent quality — you know exactly what you're getting",
-          "Nationwide dealer and service network",
-          "RV financing available at lower rates than personal loans",
-          "Less flexibility — trim options are limited to what the manufacturer offers",
-          "Waiting lists of 6–18 months are common for popular models",
-        ],
-      },
-      {
-        type: "ul",
-        heading: "Custom conversions",
-        items: [
-          "Full control over every design decision",
-          "Can be built around your exact needs (bed size, power system, storage)",
-          "Quality ranges wildly — vetting the builder is critical",
-          "Harder to finance, harder to insure, harder to resell quickly",
-          "Build timelines of 6–12 months are typical",
-        ],
-      },
-      {
-        type: "h2",
-        heading: "Step 3: Evaluate 4x4 Capability",
-        text: "If any part of your travel involves forest service roads, mountain access routes, beach driving, or genuine off-pavement adventure, 4x4 capability matters. Here's what the market actually offers.",
-      },
-      {
-        type: "ul",
-        items: [
-          "True 4x4 (Sprinter): Two-speed transfer case with high and low range. Meaningful capability on technical terrain.",
-          "AWD (Transit, Storyteller MODE): Permanent all-wheel drive without a low range. Great in slippery conditions; limited in technical off-road.",
-          "FWD (ProMaster): Front-wheel drive is fine for wet roads and light gravel. Not appropriate for serious off-road use.",
-          "Aftermarket lifts (all chassis): 1–2\" lifts improve ground clearance but don't change drivetrain capability.",
-        ],
-      },
-      {
-        type: "h2",
-        heading: "Step 4: Know What to Inspect Before You Buy",
-      },
-      {
-        type: "ol",
-        items: [
-          "Request a pre-purchase inspection by a mechanic familiar with the chassis — not just an RV shop",
-          "Check all water systems for leaks — shower, sink, and fresh/grey/black tank plumbing",
-          "Test every electrical circuit: 12V, shore power, solar charge controller, inverter",
-          "Inspect all exterior seams and roof penetrations for signs of water intrusion",
-          "Drive it on both highway and surface streets — listen for chassis or suspension issues",
-          "Ask for documentation of all builder/converter work, including materials used",
-        ],
-      },
-      {
-        type: "h2",
-        heading: "Step 5: Understand the Real Costs",
-        text: "The purchase price is only the beginning. Budget for the following ongoing expenses when planning your van life finances.",
-      },
-      {
-        type: "ul",
-        items: [
-          "Insurance: $150–$400/month depending on usage (full-time vs. recreational), chassis, and location",
-          "Maintenance: Diesel Sprinters run $1,500–$3,000/year for routine service at a dealer",
-          "Campsite/parking: Free camping is possible but unreliable — budget $400–$900/month for a mix of paid and free sites",
-          "Propane or power: Budget $50–$150/month depending on climate and cooking habits",
-          "Repairs: Budget 1–2% of vehicle value annually for unexpected mechanical work",
-        ],
-      },
+
+      // ── FAQ ─────────────────────────────────────────────────
       {
         type: "faq-group",
         faqs: [
           {
-            question: "What is the average price of a Class B van in 2025?",
+            question: "How do I decide how I'll actually use my Class B van?",
             answer:
-              "Factory-built Class B vans range from approximately $100,000 (entry-level Transit-based builds) to $280,000+ (Airstream Interstate). Custom Sprinter builds with premium finishes regularly exceed $200,000. The used market offers better value — expect 15–25% depreciation in the first two years.",
+              "Be specific about your travel style before you shop. Define whether you're solo or a couple, whether you bring pets or bikes, whether you need to work remotely, and whether you'll camp at developed campgrounds with hookups or boondock on forest roads for a week at a time. Your use case determines your floor plan, electrical requirements, storage needs, and budget.",
           },
           {
-            question: "Can I drive a Class B van daily?",
+            question: "Should I buy from a custom van builder or an RV manufacturer?",
             answer:
-              "Yes — Class B vans drive and park like a large cargo van. Most models are under 8 feet tall and can fit in standard parking garages. Daily driving is one of the main advantages over Class A or Class C rigs.",
+              "Custom builders like Outside Van or Storyteller Overland offer high personalization and often superior craftsmanship, but with 12-18 month lead times and limited service networks. RV manufacturers like Winnebago, Airstream, and Thor offer established dealer networks, standardized builds, and warranty infrastructure. Major manufacturers now offer factory 4x4, Fox suspension, and off-road packages that used to require a boutique builder.",
           },
           {
-            question: "Do I need a special license to drive a Class B?",
+            question: "Is 4x4 worth the cost on a Class B campervan?",
             answer:
-              "No. Class B motorhomes are under the weight threshold requiring a commercial license in all 50 states. A standard driver's license is all you need.",
+              "4x4 adds $10,000 to $20,000 or more and increases weight and mechanical complexity. If you camp at developed campgrounds and drive graded roads, you don't need it. If you chase dispersed camping on unmaintained forest roads or overland into remote terrain, 4x4 becomes a safety decision. Don't let marketing make this choice — be honest about where you actually drive.",
           },
           {
-            question: "How long do Class B vans last?",
+            question: "How do I evaluate a van converter's build quality?",
             answer:
-              "The underlying van chassis typically lasts 200,000–300,000+ miles with proper maintenance. The conversion components (plumbing, electrical, cabinetry) require periodic refurbishment and may need significant work after 10–15 years.",
+              "Ask for a detailed build sheet, customer references (and actually call them), specifics about the electrical system design and who engineered it, and exactly what the warranty covers including the claims process. Premium builders answer these questions without hesitation. There are three quality tiers: premium builders with documented track records, mid-tier regional shops with varying quality, and budget converters that often look great in photos but fall apart under real use.",
+          },
+          {
+            question: "What hidden costs should I budget for when buying a Class B van?",
+            answer:
+              "Add 20-30% to your purchase price for hidden costs. Insurance on a $150,000 Class B varies significantly and some policies don't cover full-time living. Mercedes Sprinter maintenance is expensive and service can be difficult in rural areas. Storage runs $200-$400/month if you're not full-timing. Almost every buyer adds upgrades after purchase — solar, mattress, bike rack, communication devices. Class B vans hold value better than larger RVs, but they're not investments.",
+          },
+          {
+            question: "What should I look for in a van's off-grid power and water system?",
+            answer:
+              "The electrical system determines whether you can run appliances for days without hookups. Ask about battery capacity in usable amp hours, solar input wattage, shore power charging capability, and inverter size. Lithium batteries are now the standard for serious builds. For water, check fresh tank capacity, gray water handling, and hot water availability — these matter more on extended trips than weekend use.",
+          },
+          {
+            question: "What does long-term Class B van ownership look like?",
+            answer:
+              "Think about year three, not just day one. Evaluate warranty coverage and who actually honors it — custom builder warranties depend on the builder's longevity. Consider the service network: Sprinter dealers are widespread but not universal, while Promaster and Transit have broader domestic coverage. Vans from reputable builders and established manufacturers hold resale value well; unknown converters and budget builds do not.",
           },
         ],
       },

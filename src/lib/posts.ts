@@ -17,19 +17,32 @@ export interface BlogPost {
 export const posts: BlogPost[] = [
   {
     slug: "class-b-van-buying-guide",
-    title: "The Complete Class B Van Buying Guide for 2025",
+    title: "Class B Van Buying: The 7 Questions You Must Answer Before You Spend a Dime",
     excerpt:
-      "Everything you need to know before buying a Class B campervan — from chassis selection and 4x4 options to converter quality tiers, hidden costs, and how to test-drive like an expert.",
+      "Before you fall in love with a van on Instagram, before you schedule a factory tour, before you put a deposit down — answer these seven questions. They'll save you from one of the most expensive mistakes you can make.",
     category: "Buying Guide",
-    readTime: "12 min",
-    date: "2025-01-15",
+    readTime: "11 min",
+    date: "2025-02-15",
     featured: true,
     schema: {
       "@type": "Article",
-      headline: "The Complete Class B Van Buying Guide for 2025",
+      headline: "Class B Van Buying: The 7 Questions You Must Answer Before You Spend a Dime",
       description:
-        "A comprehensive guide to buying a Class B campervan in 2025, including chassis selection, converter quality, 4x4 options, and pricing.",
-      keywords: ["Class B van buying guide", "campervan purchase", "van life", "Sprinter conversion"],
+        "The 7 critical questions every Class B campervan buyer must answer before purchasing — covering use case, custom vs manufacturer, 4x4, converter quality, budget, off-grid power, and long-term ownership. Written by Mark Abplanalp from Post Falls, Idaho.",
+      keywords: [
+        "Class B van buying guide",
+        "campervan buying questions",
+        "van life buying mistakes",
+        "Sprinter van purchase",
+        "Class B campervan",
+        "custom van builder vs manufacturer",
+        "4x4 van worth it",
+        "van converter quality",
+        "van life hidden costs",
+        "off-grid van power system",
+        "Class B van ownership",
+        "Mark Abplanalp van life",
+      ],
     },
   },
   {

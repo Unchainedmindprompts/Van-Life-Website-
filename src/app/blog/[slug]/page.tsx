@@ -183,23 +183,323 @@ export default function BlogPostPage({
     .map((s) => posts.find((p) => p.slug === s))
     .filter(Boolean);
 
-  // JSON-LD structured data
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline: post.schema.headline,
-    description: post.schema.description,
-    datePublished: post.date,
-    keywords: post.schema.keywords.join(", "),
-    author: {
-      "@type": "Organization",
-      name: "Van Life",
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "Van Life",
-    },
-  };
+  // JSON-LD structured data — comprehensive schema for AEO/GEO optimization
+  const isSevenQuestions = params.slug === "class-b-van-buying-guide";
+
+  const jsonLd = isSevenQuestions
+    ? {
+        "@context": "https://schema.org",
+        "@graph": [
+          // ── Article ──────────────────────────────────────────
+          {
+            "@type": "Article",
+            "@id": "https://vanlifewebsite.com/blog/class-b-van-buying-guide#article",
+            headline:
+              "Class B Van Buying: The 7 Questions You Must Answer Before You Spend a Dime",
+            description:
+              "The 7 critical questions every Class B campervan buyer must answer before purchasing — covering use case, custom vs manufacturer, 4x4 capability, converter quality, real budget with hidden costs, off-grid power and water, and long-term ownership.",
+            datePublished: "2025-02-15",
+            dateModified: "2025-02-15",
+            wordCount: 2180,
+            inLanguage: "en-US",
+            isAccessibleForFree: true,
+            keywords:
+              "Class B van buying guide, campervan buying questions, van life buying mistakes, Sprinter van purchase, custom van builder vs manufacturer, 4x4 van worth it, van converter quality, van life hidden costs, off-grid van power system, Class B van ownership",
+            author: {
+              "@type": "Person",
+              "@id": "https://vanlifewebsite.com/#mark-abplanalp",
+              name: "Mark Abplanalp",
+            },
+            publisher: {
+              "@type": "Organization",
+              name: "Van Life Website",
+              url: "https://vanlifewebsite.com",
+            },
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id": "https://vanlifewebsite.com/blog/class-b-van-buying-guide",
+            },
+            speakable: {
+              "@type": "SpeakableSpecification",
+              cssSelector: [
+                "article h2",
+                "article h3",
+              ],
+              xpath: [
+                "/html/body//article//h2",
+                "/html/body//article//h3",
+              ],
+            },
+            about: [
+              { "@type": "Thing", name: "Class B Campervan" },
+              { "@type": "Thing", name: "Van Life" },
+              { "@type": "Thing", name: "Sprinter Van" },
+              { "@type": "Thing", name: "RV Buying Guide" },
+            ],
+          },
+
+          // ── Person ───────────────────────────────────────────
+          {
+            "@type": "Person",
+            "@id": "https://vanlifewebsite.com/#mark-abplanalp",
+            name: "Mark Abplanalp",
+            description:
+              "Class B van expert, owner of a 2013 Sportsmobile 170 EXT Sprinter van, and longtime explorer of the American West. Mark lives in Post Falls, Idaho with his wife and their rescue dog Roxy. He is committed to helping buyers navigate the Class B van market with honest, experience-based guidance.",
+            homeLocation: {
+              "@type": "Place",
+              name: "Post Falls, Idaho",
+              address: {
+                "@type": "PostalAddress",
+                addressLocality: "Post Falls",
+                addressRegion: "Idaho",
+                addressCountry: "US",
+              },
+            },
+            knowsAbout: [
+              "Class B campervans",
+              "Sprinter van conversions",
+              "Van life lifestyle",
+              "Off-road van capability",
+              "Van electrical systems",
+              "Custom van builders",
+              "RV manufacturer comparison",
+            ],
+          },
+
+          // ── FAQPage ──────────────────────────────────────────
+          {
+            "@type": "FAQPage",
+            "@id": "https://vanlifewebsite.com/blog/class-b-van-buying-guide#faq",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "How do I decide how I'll actually use my Class B van?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Be specific about your travel style before you shop. Define whether you're solo or a couple, whether you bring pets or bikes, whether you need to work remotely, and whether you'll camp at developed campgrounds with hookups or boondock on forest roads for a week at a time. Your use case determines your floor plan, electrical requirements, storage needs, and budget. A weekend warrior who camps at state parks twice a month has completely different needs than a couple planning to full-time for two years in the backcountry.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Should I buy from a custom van builder or an RV manufacturer?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Custom builders like Outside Van or Storyteller Overland offer high personalization and often superior craftsmanship, but with 12-18 month lead times and limited service networks. RV manufacturers like Winnebago, Airstream, and Thor offer established dealer networks, standardized builds, financing options, and warranty infrastructure. Major manufacturers now offer factory 4x4 conversions, Fox suspension upgrades, and off-road packages that used to require a boutique builder — blurring the line significantly.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Is 4x4 worth the cost on a Class B campervan?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "4x4 adds $10,000 to $20,000 or more and increases weight and mechanical complexity. It sits unused 95% of the time for many buyers. If you camp at developed campgrounds and drive graded roads, you don't need it. If you chase dispersed camping on unmaintained forest roads, run routes in shoulder season, or overland into genuinely remote terrain, 4x4 stops being a luxury and becomes a safety decision. Don't let marketing make this choice for you.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How do I evaluate a van converter's build quality before buying?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Ask for a detailed build sheet, customer references (and actually call them), specifics about the electrical system design and who engineered it, and exactly what the warranty covers including the claims process. Premium builders with years of documented builds answer these questions without hesitation. There are three quality tiers: premium builders with track records and real warranties, mid-tier regional shops with varying quality, and budget converters that look great in photos but fall apart under real use with poorly designed electrical systems, inadequate insulation, and warranties that evaporate.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What hidden costs should I budget for when buying a Class B van?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Add 20-30% to your purchase price. Insurance on a $150,000 Class B varies significantly and some policies don't cover full-time living. Mercedes Sprinter maintenance is expensive and rural service is difficult. Climate-controlled storage runs $200-$400/month if not full-timing. Almost every buyer adds post-purchase upgrades: solar capacity, mattress, bike rack, rooftop gear, communication devices. Depreciation is real — Class B vans hold value better than larger RVs, but they're not investments. Know your exit strategy before you buy.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What should I look for in a van's off-grid power and water system?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "The electrical system is the heart of a livable van build — it determines whether you can run your coffee maker, charge laptops, power your refrigerator, and keep medical devices running for days without hookups. Ask about battery capacity in usable amp hours, solar input wattage, shore power charging capability, and inverter size. Lithium batteries are the standard for serious builds. For water, check fresh tank gallons, gray water handling, and hot water availability — these become daily considerations on extended trips.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What does long-term Class B van ownership look like?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Think about year three, not just day one. Custom builder warranties are only as good as the builder's longevity and willingness to stand behind their work. Manufacturer warranties come with dealer support but may have more exclusions than expected. Sprinter dealers are widespread but not universal; Promaster and Transit have broader domestic coverage. Vans from reputable builders and established manufacturers hold resale value well. Unknown converters and budget builds do not. If you might sell in five years, buy accordingly.",
+                },
+              },
+            ],
+          },
+
+          // ── HowTo ────────────────────────────────────────────
+          {
+            "@type": "HowTo",
+            "@id": "https://vanlifewebsite.com/blog/class-b-van-buying-guide#howto",
+            name: "How to Buy a Class B Campervan: 7 Questions to Answer First",
+            description:
+              "A structured 7-step process for evaluating and purchasing a Class B campervan. Answer these questions before you shop to avoid the most expensive mistakes in the van life market.",
+            totalTime: "P7D",
+            estimatedCost: {
+              "@type": "MonetaryAmount",
+              currency: "USD",
+              value: "80000-300000",
+            },
+            step: [
+              {
+                "@type": "HowToStep",
+                position: 1,
+                name: "Define how you'll actually use the van",
+                text: "Be specific about your travel style. Define whether you're solo or a couple, whether you bring dogs, kids, or bikes, whether you'll work remotely, and whether you camp at developed campgrounds or boondock on forest roads. Your use case drives every other decision — floor plan, electrical, storage, and budget.",
+                tip: "A weekend warrior at state parks has completely different needs than a couple planning to full-time for two years in the backcountry. Get this wrong and you'll be living with compromises every single trip.",
+              },
+              {
+                "@type": "HowToStep",
+                position: 2,
+                name: "Decide between a custom builder and an RV manufacturer",
+                text: "Custom builders offer personalization and often superior craftsmanship with 12-18 month lead times. Manufacturers like Winnebago, Airstream, and Thor offer dealer networks, standardized builds, and warranty infrastructure. Major manufacturers now offer factory 4x4, Fox suspension, and off-road packages at production scale.",
+                tip: "The right answer depends on how much you value personalization versus convenience, and how comfortable you are with the service and warranty experience each path offers.",
+              },
+              {
+                "@type": "HowToStep",
+                position: 3,
+                name: "Determine if you need 4x4 and off-road capability",
+                text: "4x4 adds $10,000-$20,000, weight, and mechanical complexity. If you camp at developed campgrounds and drive graded roads, a well-built 2WD Sprinter will get you everywhere. If you chase dispersed camping on unmaintained forest roads or overland into remote terrain, 4x4 becomes a safety decision.",
+                tip: "The market trend pushes buyers toward off-road specs because it looks great and sells. Don't let marketing make this decision. Be clear about where you actually drive.",
+              },
+              {
+                "@type": "HowToStep",
+                position: 4,
+                name: "Vet the converter's build quality",
+                text: "Ask for a detailed build sheet, customer references, electrical system design specifics, and warranty details including claims process. Understand the three quality tiers: premium builders with documented track records, mid-tier regional shops, and budget converters that look impressive in photos but fail under real use.",
+                tip: "This is the question most buyers skip and the one they regret. A quality builder answers every question without hesitation. A bad one gets vague.",
+              },
+              {
+                "@type": "HowToStep",
+                position: 5,
+                name: "Calculate your real budget including hidden costs",
+                text: "Add 20-30% to your purchase price for insurance, Sprinter maintenance, storage ($200-$400/month), post-purchase upgrades (solar, mattress, bike rack, communication devices), and depreciation. Get insurance quotes before you buy, not after.",
+                tip: "Whatever number you have in your head right now — add 20 to 30 percent. Almost every buyer adds things after purchase. Budget for it upfront.",
+              },
+              {
+                "@type": "HowToStep",
+                position: 6,
+                name: "Evaluate the off-grid power and water systems",
+                text: "The electrical system determines livability. Ask about battery capacity in usable amp hours, solar wattage, shore power capability, and inverter size. Lithium batteries are the standard. Check fresh water tank capacity, gray water handling, and hot water availability.",
+                tip: "A poorly designed electrical system will leave you frustrated and underpowered. A well-engineered one disappears into the background and just works.",
+              },
+              {
+                "@type": "HowToStep",
+                position: 7,
+                name: "Plan for long-term ownership",
+                text: "Evaluate warranty coverage and who honors it. Consider the service network — Sprinter dealers are widespread but not universal. Promaster and Transit have broader domestic coverage. Assess resale value: reputable builders and manufacturers hold value; unknown converters do not.",
+                tip: "The purchase is day one. You need to think about year three. If you think you might sell in five years, buy accordingly.",
+              },
+            ],
+          },
+
+          // ── BreadcrumbList ───────────────────────────────────
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://vanlifewebsite.com/blog/class-b-van-buying-guide#breadcrumb",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://vanlifewebsite.com",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Blog",
+                item: "https://vanlifewebsite.com/blog",
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: "Class B Van Buying: The 7 Questions You Must Answer Before You Spend a Dime",
+                item: "https://vanlifewebsite.com/blog/class-b-van-buying-guide",
+              },
+            ],
+          },
+
+          // ── ItemList ─────────────────────────────────────────
+          {
+            "@type": "ItemList",
+            "@id": "https://vanlifewebsite.com/blog/class-b-van-buying-guide#questions-list",
+            name: "The 7 Questions Every Class B Van Buyer Must Answer",
+            description:
+              "A structured list of the seven critical questions to answer before purchasing a Class B campervan, covering use case, builder selection, 4x4 capability, converter quality, budget, off-grid systems, and long-term ownership.",
+            numberOfItems: 7,
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "How Do You Actually Plan to Use It?",
+                description:
+                  "Define your specific travel style — solo or couple, pets, remote work needs, campground vs boondocking — before shopping. Your use case determines floor plan, electrical, storage, and budget.",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Custom Builder or RV Manufacturer?",
+                description:
+                  "Choose between high personalization from custom builders like Outside Van or Storyteller Overland, or established dealer networks and warranty infrastructure from Winnebago, Airstream, or Thor.",
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: "Do You Need 4x4 and Off-Road Capability?",
+                description:
+                  "4x4 adds $10,000-$20,000 and significant complexity. Only justified for dispersed camping on unmaintained roads or overlanding into remote terrain. Don't let marketing make this decision.",
+              },
+              {
+                "@type": "ListItem",
+                position: 4,
+                name: "Who Converted It and Can They Prove Their Quality?",
+                description:
+                  "Vet the converter with build sheets, customer references, electrical engineering specifics, and warranty details. Three quality tiers exist: premium, mid-tier, and budget converters.",
+              },
+              {
+                "@type": "ListItem",
+                position: 5,
+                name: "What's Your Real Budget Including Hidden Costs?",
+                description:
+                  "Add 20-30% for insurance, maintenance, storage, upgrades, and depreciation. Get insurance quotes before buying and budget for post-purchase additions.",
+              },
+              {
+                "@type": "ListItem",
+                position: 6,
+                name: "How Do You Handle Power and Water Off-Grid?",
+                description:
+                  "Evaluate battery capacity, solar wattage, shore power, and inverter size. Lithium batteries are the standard. Check fresh water capacity, gray water handling, and hot water systems.",
+              },
+              {
+                "@type": "ListItem",
+                position: 7,
+                name: "What Does Ownership Look Like Long Term?",
+                description:
+                  "Plan for warranty coverage, service network access, parts availability, and resale value. Reputable builders and manufacturers hold value; unknown converters do not.",
+              },
+            ],
+          },
+        ],
+      }
+    : {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        headline: post.schema.headline,
+        description: post.schema.description,
+        datePublished: post.date,
+        keywords: post.schema.keywords.join(", "),
+        author: {
+          "@type": "Organization",
+          name: "Van Life",
+        },
+        publisher: {
+          "@type": "Organization",
+          name: "Van Life",
+        },
+      };
 
   return (
     <>
