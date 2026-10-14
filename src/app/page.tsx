@@ -11,17 +11,22 @@ export default function HomePage() {
   return (
     <>
       {/* ─── Hero ─────────────────────────────────────────────── */}
-      <section
-        className="relative min-h-[540px] md:min-h-screen flex items-center justify-center overflow-hidden bg-cover bg-[position:center_40%] max-md:bg-[position:center_30%]"
-        style={{
-          backgroundImage:
-            "url('/DSC_0795.jpeg')",
-        }}
-      >
-        {/* Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-charcoal-950/35 via-charcoal-950/20 to-charcoal-950/55" />
+      <section className="relative flex flex-col overflow-hidden bg-charcoal-950 md:min-h-screen md:items-center md:justify-center">
+        {/* Hero photo: a full-width band on mobile, a full-bleed background on desktop */}
+        <div
+          aria-hidden
+          className="relative aspect-[16/10] w-full shrink-0 bg-cover bg-[position:center_40%] md:absolute md:inset-0 md:aspect-auto md:h-full"
+          style={{
+            backgroundImage: "url('/DSC_0795.jpeg')",
+          }}
+        >
+          <div className="absolute inset-x-0 bottom-0 h-14 bg-gradient-to-b from-transparent to-charcoal-950 md:hidden" />
+        </div>
 
-        <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
+        {/* Overlay (desktop only; on mobile the text sits below the photo) */}
+        <div className="absolute inset-0 hidden bg-gradient-to-b from-charcoal-950/35 via-charcoal-950/20 to-charcoal-950/55 md:block" />
+
+        <div className="relative z-10 mx-auto w-full max-w-4xl px-6 py-12 text-center md:py-0">
           <p className="font-display text-earth-400 text-xs md:text-sm font-bold tracking-[0.3em] uppercase mb-6">
             Class B Adventure Vans
           </p>
