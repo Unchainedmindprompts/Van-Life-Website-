@@ -799,6 +799,12 @@ export const postContent: Record<string, PostContent> = {
           text: "From the author's driveway: the white Sprinter in this site's homepage hero photo is my own Sportsmobile, a 2013 Sprinter 170 EXT. Thirteen model years on, the materials have held up incredibly well and the van has given me zero issues. That is one owner's experience, stated as such. Everything else in this review is checked against Sportsmobile's own published material, the way every review on this site works.",
         },
         {
+          type: "image",
+          src: "/images/sportsmobile-interior-cab.jpg",
+          alt: "Inside the author's 2013 Sportsmobile looking toward the cab: wood cabinetry, a wall-mounted TV, microwave and refrigerator, and the galley counter",
+          caption: "The author's 2013 Sportsmobile today, looking toward the cab. The cabinetry, upholstery and systems are the ones Sportsmobile fitted thirteen years ago. Photo: the author, within the last year.",
+        },
+        {
           type: "h2",
           heading: "What is Sportsmobile?",
           text: "Sportsmobile is the oldest name in American van conversion: a factory-direct converter that has been turning full-size vans into Class B campers since 1961, and still builds every one of them per client. There is no Sportsmobile dealer network and no model-year lineup in the factory sense. You pick a chassis, pick or design a floor plan, choose your roof and options, and they build your van at one of three locations: Huntington, Indiana; Austin, Texas; and Gold Canyon, Arizona. The company states it has completed more than 10,000 conversions.",
@@ -824,6 +830,12 @@ export const postContent: Record<string, PostContent> = {
         {
           type: "p",
           text: "Inside, you start from a library of numbered standard plans, codes like EB-110S that combine body and layout, or go fully custom with a DYO, design-your-own, plan drawn up with their designers. Every conversion builds on a standard equipment package that includes an extreme weather and sound insulation package, and the options catalog runs to hundreds of items. Electrical is modern where it counts: a 200 amp-hour AGM bank is standard, and the company offers lithium systems up to 1,600 amp-hours, 24 and 48 volt systems, and roof solar up to about 500 watts.",
+        },
+        {
+          type: "image",
+          src: "/images/sportsmobile-interior-door.jpg",
+          alt: "The author's 2013 Sportsmobile from the sliding door: galley and sink on the left, a bench seat on the right, and the rear bed at the back of the 170 EXT",
+          caption: "The EB 170 layout in the author's van: galley at the door, lounge bench opposite, bed across the rear. Photo: the author.",
         },
         {
           type: "p",
@@ -871,8 +883,26 @@ export const postContent: Record<string, PostContent> = {
           text: "Start with the author's evidence, since it is the reason this review exists. My 2013 Sprinter 170 EXT has needed nothing beyond ordinary chassis life in thirteen years: no conversion failures, no leaks, no cabinetry coming apart, and the materials, the top, the cabinets, the systems, still feel put together the way they did at delivery. One van is an anecdote, but it is an anecdote you can check against the company's own construction claims: a fiberglass Penthouse warranted for life against leaks, high-grade and deliberately serviceable components, name-brand appliances that any RV service center can work on, and an insulation package the company markets as four-season.",
         },
         {
+          type: "image",
+          src: "/images/sportsmobile-interior-rear.jpg",
+          alt: "The author's 2013 Sportsmobile through the open rear doors: two facing benches in gray upholstery and warm wood cabinetry in bright sunlight",
+          caption: "Through the rear doors: the twin benches and woodwork after thirteen years of use. Photo: the author, within the last year.",
+        },
+        {
+          type: "image",
+          src: "/images/sportsmobile-interior-galley.jpg",
+          alt: "The galley of the author's 2013 Sportsmobile: stone-pattern countertop and sink, microwave and refrigerator stack, and a tall wood wardrobe cabinet",
+          caption: "The galley and wardrobe wall. The tall cabinet is the bathroom and storage core of this floor plan. Photo: the author.",
+        },
+        {
+          type: "image",
+          src: "/images/sportsmobile-interior-front.jpg",
+          alt: "The front lounge of the author's 2013 Sportsmobile: a gray bench seat facing the swiveling cab seats, with a ceiling fan above",
+          caption: "The front lounge, with the cab seats swiveled into the living space. Photo: the author.",
+        },
+        {
           type: "p",
-          text: "The wider record supports the impression, with one honest exception. Sportsmobile says many owners are on their second, third or fourth van from the company, which is the retention pattern you would expect if the product lasted. The BBB profile we could locate, for the former Fresno licensee, shows zero complaints and zero reviews. Google ratings for the current locations run high, roughly 4.3 to 5.0 stars, on small counts of about 9 to 17 reviews each, and RV Insider shows 5.0 from 2 reviews. Against that, exactly one detailed critical review is easy to find: [Wand'rly Magazine's account](https://wandrlymagazine.com/a-sportsmobile-review/) of a 2020 Penthouse installation in Texas, disputing extra charges and follow-up service. Both things belong in a review. The formal record is about as clean as this industry produces, and it is not literally spotless.",
+          text: "The wider record supports the impression, with one honest exception. Sportsmobile says many owners are on their second, third or fourth van from the company, which is the retention pattern you would expect if the product lasted. The BBB profile we could locate, for the former Fresno licensee, shows zero complaints and zero reviews. Google ratings for the current locations run high, roughly 4.3 to 5.0 stars, on small counts of about 9 to 17 reviews each, and RV Insider shows 5.0 from 2 reviews. Calibrate that against the production industry on the same platform: [Thor Motor Coach averages 3.4 stars across 1,225 owner reviews](https://gorvrentals.com/blog/are-thor-motorhomes-any-good), scoring 2.9 for overall quality and 2.6 for factory warranty support, and [Winnebago](https://www.rvinsider.com/Winnebago-RV-Reviews?make=Winnebago), the strongest of the volume brands, averages about 4.2 stars across more than 1,200 reviews. Sportsmobile's 5.0 rests on just 2 reviews, so the samples are not comparable and we will not pretend otherwise. But a converter does not build more than 10,000 vans over 65 years without leaving a complaint trail if the product fails people. The near-absence of one is the evidence. Against that record, exactly one detailed critical review is easy to find: [Wand'rly Magazine's account](https://wandrlymagazine.com/a-sportsmobile-review/) of a 2020 Penthouse installation in Texas, disputing extra charges and follow-up service. Both things belong in a review. The formal record is about as clean as this industry produces, and it is not literally spotless.",
         },
         {
           type: "h2",
