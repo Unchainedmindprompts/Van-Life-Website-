@@ -20,6 +20,29 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "should-you-buy-a-covid-era-used-van",
+    title: "Should You Buy a COVID-Era Used Van? What the Data Actually Shows",
+    excerpt: "The COVID build quality story is real, but for Class B vans the evidence points somewhere else: supplier-part recalls, no measurable defect penalty, and a first owner who absorbed the depreciation and the punch list. The data, the exceptions, and the buying protocol.",
+    category: "Buying Guide",
+    readTime: "11 min",
+    date: "2026-10-14",
+    updated: "2026-10-14",
+    image: {
+      src: "/images/sportsmobile-interior-rear.jpg",
+      alt: "The rear interior of a Class B camper van with the rear doors open, showing bench seating and cabinetry",
+      caption: "On a used van, the conversion is where era risk lives, and all of it is inspectable. Photo: the author.",
+    },
+    featured: true,
+    about: ["class-b"],
+    mentions: ["org:winnebago"],
+    schema: {
+      "@type": "BlogPosting",
+      headline: "Should You Buy a COVID-Era Used Van? What the Data Actually Shows",
+      description: "RVIA shipment data, NHTSA recall records and J.D. Power values on COVID-era (2021-2023) Class B camper vans: what actually went wrong, why vans differ from trailers, and how to buy one safely.",
+      keywords: ["COVID era RV quality", "buying a used Class B van", "2021 2022 RV build quality", "COVID camper reliability", "used camper van inspection", "NRVIA inspection", "NHTSA RV recalls"],
+    },
+  },
+  {
     slug: "sportsmobile-review",
     title: "Sportsmobile Review: The Original Converter, Still Building One Van at a Time",
     excerpt:
