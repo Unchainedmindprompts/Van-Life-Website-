@@ -1,0 +1,60 @@
+{
+  "model": "coachmen-nova",
+  "name": "Nova",
+  "builder": "Coachmen",
+  "modelYear": 2027,
+  "retrievedAt": "2026-10-14",
+  "attributes": [
+    {
+      "attribute": "chassis",
+      "value": "Ram ProMaster 3500, 159in wheelbase",
+      "sourceUrl": "https://www.campersinn.com/product-coachmen-rv/nova-motor-home-class-b",
+      "sourceType": "dealer_spec_table",
+      "status": "dealer-only",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "drivetrain",
+      "value": "FWD (platform inherent), 3.6L V6, 280 hp",
+      "sourceUrl": "https://coachmenrv.com/print/features/nova",
+      "sourceType": "manufacturer_features_page",
+      "status": "manufacturer-only",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "sleeps",
+      "value": 2,
+      "sourceUrl": "https://www.campersinn.com/product-coachmen-rv/nova-motor-home-class-b",
+      "sourceType": "dealer_spec_table",
+      "status": "dealer-only",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "bathroom",
+      "value": "Wet bath with fiberglass shower",
+      "sourceUrl": "https://coachmenrv.com/print/features/nova",
+      "sourceType": "manufacturer_features_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "freshWaterGal",
+      "value": 27,
+      "sourceUrl": "https://www.campersinn.com/product-coachmen-rv/nova-motor-home-class-b",
+      "sourceType": "dealer_spec_table",
+      "status": "dealer-only",
+      "retrievedAt": "2026-10-14",
+      "unit": "gal"
+    },
+    {
+      "attribute": "winter",
+      "value": "Rockwool R-15 insulation standard; tanks above floor; optional Cozy Wrap insulation and grey tank heaters; Truma Combi Eco Plus",
+      "sourceUrl": "https://coachmenrv.com/print/features/nova",
+      "sourceType": "manufacturer_features_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    }
+  ],
+  "conflicts": [],
+  "notes": "Coachmen publishes no MSRP. Dealer MSRP for 2026 20RB $178,801 agreed by two independent dealers; 2027 20RB lists $195,170. Display price is a dealer MSRP reference."
+}

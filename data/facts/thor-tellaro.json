@@ -1,0 +1,60 @@
+{
+  "model": "thor-tellaro",
+  "name": "Tellaro",
+  "builder": "Thor Motor Coach",
+  "modelYear": 2027,
+  "retrievedAt": "2026-10-14",
+  "attributes": [
+    {
+      "attribute": "chassis",
+      "value": "Ram ProMaster 3500 XT Window Van, 159in wheelbase",
+      "sourceUrl": "https://www.thormotorcoach.com/tellaro",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "drivetrain",
+      "value": "FWD, 3.6L Pentastar V6, 280 hp",
+      "sourceUrl": "https://www.thormotorcoach.com/tellaro",
+      "sourceType": "manufacturer_spec_page",
+      "status": "manufacturer-only",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "startingPrice",
+      "value": 140560,
+      "sourceUrl": "https://www.thormotorcoach.com/tellaro",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14",
+      "unit": "USD"
+    },
+    {
+      "attribute": "sleeps",
+      "value": 2,
+      "sourceUrl": "https://www.thormotorcoach.com/tellaro",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "bathroom",
+      "value": "Enclosed wet bath (cassette toilet on 20U; gravity toilet on 20L/20Y)",
+      "sourceUrl": "https://media-center.thormotorcoach.com/m/64eff1d433c59607/original/aNvCQZ5xUNkB1RNP_2026-OH-Tellaro-pdf.pdf",
+      "sourceType": "manufacturer_brochure_pdf",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "winter",
+      "value": "Holding tank heat pads; Truma Combi Eco furnace and water heating; no insulation rating published",
+      "sourceUrl": "https://media-center.thormotorcoach.com/m/64eff1d433c59607/original/aNvCQZ5xUNkB1RNP_2026-OH-Tellaro-pdf.pdf",
+      "sourceType": "manufacturer_brochure_pdf",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    }
+  ],
+  "conflicts": [],
+  "notes": "Optional Sky Bunk pop-top on 20L/20U raises sleeping to 4. Fresh water varies by floor plan (22/27/35 gal). Dealer sticker on an optioned 2026 20U is $167,426, above Thor's published base range top; display uses Thor's base figure."
+}

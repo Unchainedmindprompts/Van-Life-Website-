@@ -91,7 +91,7 @@ export default function ComparePage() {
                   </div>
                   <div>
                     <p className="font-display text-[10px] font-bold tracking-widest uppercase text-charcoal-600 mb-1">
-                      4x4
+                      AWD / 4x4
                     </p>
                     <p className={`font-semibold text-sm ${van.has4x4 ? "text-forest-400" : "text-sand-400"}`}>
                       {van.has4x4 ? "Available" : "Not Available"}
@@ -186,7 +186,7 @@ export default function ComparePage() {
                     Price Range
                   </th>
                   <th className="text-left p-4 font-display text-[10px] font-bold tracking-widest uppercase text-earth-500">
-                    4x4
+                    AWD / 4x4
                   </th>
                   <th className="text-left p-4 font-display text-[10px] font-bold tracking-widest uppercase text-earth-500">
                     Off-Road

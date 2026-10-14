@@ -1,0 +1,60 @@
+{
+  "model": "coachmen-galleria",
+  "name": "Galleria",
+  "builder": "Coachmen",
+  "modelYear": 2026,
+  "retrievedAt": "2026-10-14",
+  "attributes": [
+    {
+      "attribute": "chassis",
+      "value": "Mercedes-Benz Sprinter 3500 EXT, 170in wheelbase",
+      "sourceUrl": "https://coachmenrv.com/class-b-motorhomes/galleria",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "drivetrain",
+      "value": "RWD standard, AWD available; 2.0L turbo diesel, 208 hp / 332 lb-ft",
+      "sourceUrl": "https://coachmenrv.com/class-b-motorhomes/galleria",
+      "sourceType": "manufacturer_spec_page",
+      "status": "manufacturer-only",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "sleeps",
+      "value": 2,
+      "sourceUrl": "https://coachmenrv.com/class-b-motorhomes/galleria",
+      "sourceType": "manufacturer_spec_page",
+      "status": "manufacturer-only",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "bathroom",
+      "value": "Wet bath",
+      "sourceUrl": "https://coachmenrv.com/class-b-motorhomes/galleria",
+      "sourceType": "manufacturer_spec_page",
+      "status": "manufacturer-only",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "freshWaterGal",
+      "value": 27,
+      "sourceUrl": "https://www.rvusa.com/2026-coachmen-galleria-24qm-class-b-4844382",
+      "sourceType": "dealer_listing",
+      "status": "dealer-only",
+      "retrievedAt": "2026-10-14",
+      "unit": "gal"
+    },
+    {
+      "attribute": "winter",
+      "value": "R-15 insulation standard; Truma Combi Eco Plus; optional Cozy Wrap insulation and Polar Package Plus tank heating",
+      "sourceUrl": "https://coachmenrv.com/class-b-motorhomes/galleria",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    }
+  ],
+  "conflicts": [],
+  "notes": "Coachmen publishes no MSRP. Lowest current dealer sticker $236,822 (2026 24QM); stickers cluster $237k-$272k by floor plan and options. Display price is a dealer sticker reference."
+}
