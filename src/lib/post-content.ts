@@ -282,12 +282,6 @@ export const postContent: Record<string, PostContent> = {
         ],
       },
       {
-        type: "image",
-        src: "/images/chassis-comparison.png",
-        alt: "Bar charts comparing interior standing height and width between wheel wells for the Sprinter, Transit, and ProMaster",
-        caption: "Interior height and wheel-well width: the two dimensions that shape a build.",
-      },
-      {
         type: "h2",
         heading: "Which is most reliable, and cheapest to own?",
         text: "The ProMaster has the simplest mechanicals and lowest service costs. The Transit is a close second — extensive dealer network, cheaper parts, and straightforward maintenance. The Sprinter is the most capable but the most expensive to maintain: diesel service at a Mercedes dealer runs $800–$1,500 for routine work, and major repairs can be significant. That said, well-maintained Sprinters regularly hit 300,000+ miles.",
@@ -584,12 +578,6 @@ export const postContent: Record<string, PostContent> = {
           "Only 50% usable capacity — a 200Ah AGM bank gives you ~100Ah usable",
           "Best for buyers on tight budgets or using the van infrequently",
         ],
-      },
-      {
-        type: "image",
-        src: "/images/power-comparison.png",
-        alt: "Bar charts comparing usable capacity and cycle life of lithium and AGM batteries",
-        caption: "The core decision in two charts: usable capacity and cycle life, lithium vs AGM.",
       },
       {
         type: "h2",

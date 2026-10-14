@@ -317,16 +317,10 @@ export default async function BlogPostPage({
       />
 
       <div className="pt-20 bg-charcoal-900 min-h-screen">
-        {/* Header */}
-        <header
-          className="relative border-b border-charcoal-700 py-20 px-6 overflow-hidden"
-          style={{
-            backgroundImage: `url('${post.image.src}')`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-          }}
-        >
-          <div className="absolute inset-0 bg-gradient-to-b from-charcoal-950/40 via-charcoal-950/25 to-charcoal-950/60" />
+        {/* Header: solid background, title never sits on top of the hero image.
+            The hero renders as a full figure below the header (see below), so
+            any image, photo or data chart, displays whole and legible. */}
+        <header className="relative border-b border-charcoal-700 py-16 px-6 bg-gradient-to-b from-charcoal-950 to-charcoal-900">
           <div className="relative z-10 max-w-3xl mx-auto">
             {/* Breadcrumb */}
             <nav className="flex items-center gap-2 text-xs text-sand-500 mb-6">
@@ -367,6 +361,22 @@ export default async function BlogPostPage({
             )}
           </div>
         </header>
+
+        {/* Hero figure: the post image shown whole, never cropped, never
+            behind text. Wider than the text column so charts stay legible. */}
+        <figure className="max-w-5xl mx-auto px-6 pt-10">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={post.image.src}
+            alt={post.image.alt}
+            className="w-full h-auto rounded-lg border border-charcoal-700"
+          />
+          {post.image.caption && (
+            <figcaption className="text-xs text-sand-500 mt-2">
+              {post.image.caption}
+            </figcaption>
+          )}
+        </figure>
 
         {/* Article body */}
         <div className="max-w-3xl mx-auto px-6 py-12">
