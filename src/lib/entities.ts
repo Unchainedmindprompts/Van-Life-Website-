@@ -43,6 +43,13 @@ export const ENTITIES: Record<string, EntityDef> = {
     name: "Winnebago",
     sameAs: ["https://www.winnebago.com"],
   },
+  "org:sportsmobile": {
+    "@type": "Organization",
+    name: "Sportsmobile",
+    sameAs: ["https://sportsmobile.com", "https://en.wikipedia.org/wiki/Sportsmobile"],
+  },
+  "model:sportsmobile-penthouse": { "@type": "Product", name: "Sportsmobile Penthouse Pop Top" },
+  "model:sportsmobile-classic": { "@type": "Product", name: "Sportsmobile Classic 4x4" },
   "org:remote-vans": {
     "@type": "Organization",
     name: "Remote Vans",

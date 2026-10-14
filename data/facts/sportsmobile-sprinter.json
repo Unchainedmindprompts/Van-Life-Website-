@@ -1,0 +1,141 @@
+{
+  "model": "sportsmobile-sprinter",
+  "name": "Sportsmobile Sprinter conversion",
+  "builder": "Sportsmobile",
+  "modelYear": 2026,
+  "retrievedAt": "2026-10-14",
+  "attributes": [
+    {
+      "attribute": "platforms",
+      "value": "Mercedes-Benz Sprinter RB 144in, EB 170in, LB 170in (factory AWD and diesel)",
+      "sourceUrl": "https://sportsmobile.com/models/mercedes-sprinter/",
+      "sourceType": "manufacturer_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "otherPlatforms",
+      "value": "Ford Transit (RB/EB/LB, factory AWD, Trail Ready package), Ram ProMaster (RB/EB/LB), Chevy Express (4x4 builds)",
+      "sourceUrl": "https://sportsmobile.com/models/ford-transit/",
+      "sourceType": "manufacturer_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "buyingModel",
+      "value": "Factory-direct, per-client builds; no third-party dealer network. Sportsmobile usually supplies the base van through preferred dealers (mandatory if financing). A small 'New Stock' inventory of completed vans is sold from Sportsmobile's own three locations.",
+      "sourceUrl": "http://sportsmobile.com/faqs/",
+      "sourceType": "manufacturer_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "conversionPriceSprinter144Base",
+      "value": 50000,
+      "sourceUrl": "http://sportsmobile.com/pricing/pricing-examples/",
+      "sourceType": "manufacturer_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14",
+      "unit": "USD (RB 2x4 Base Level conversion, plus TT&L; excludes the van)"
+    },
+    {
+      "attribute": "conversionPriceSprinterWellEquipped",
+      "value": 77000,
+      "sourceUrl": "http://sportsmobile.com/pricing/pricing-examples/",
+      "sourceType": "manufacturer_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14",
+      "unit": "USD (144 RB AWD or 170 EB AWD conversion, plus TT&L; excludes the van)"
+    },
+    {
+      "attribute": "conversionRange",
+      "value": "$75,000-$120,000 for Sprinter and ProMaster; $80,000-$125,000 for Transit",
+      "sourceUrl": "http://sportsmobile.com/pricing/pricing-examples/",
+      "sourceType": "manufacturer_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "workedExampleTotal",
+      "value": 164400,
+      "sourceUrl": "http://sportsmobile.com/pricing/pricing-examples/",
+      "sourceType": "manufacturer_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14",
+      "unit": "USD plus TT&L (Sprinter EB high-roof diesel AWD: van $78,400 + EB-110S conversion $78,500 + $7,500 options)"
+    },
+    {
+      "attribute": "depositAndLeadTime",
+      "value": "Not published by the manufacturer; quoted per build",
+      "sourceUrl": "https://sportsmobile.com/how-much-does-a-sprinter-van-cost/",
+      "sourceType": "manufacturer_page",
+      "status": "not-published",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "conversionWarranty",
+      "value": "3 years / 36,000 miles on the conversion; appliances, 4x4 and the chassis are covered by their own manufacturers",
+      "sourceUrl": "http://sportsmobile.com/faqs/",
+      "sourceType": "manufacturer_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "electrical",
+      "value": "Standard 200Ah AGM; lithium systems up to 1,600Ah offered, 24V and 48V available; solar up to ~500W depending on roof",
+      "sourceUrl": "http://sportsmobile.com/faqs/",
+      "sourceType": "manufacturer_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "locations",
+      "value": "Huntington, IN; Austin, TX; Gold Canyon, AZ (production, service and sales at all three)",
+      "sourceUrl": "https://sportsmobile.com/locations/",
+      "sourceType": "manufacturer_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    }
+  ],
+  "conflicts": [
+    {
+      "attribute": "conversionWarranty",
+      "values": [
+        {
+          "value": "3 years / 36,000 miles",
+          "sourceUrl": "http://sportsmobile.com/faqs/"
+        },
+        {
+          "value": "50 months / 50,000 miles",
+          "sourceUrl": "https://tex.biznet-us.com/firms/2521197/"
+        }
+      ],
+      "note": "Older Sportsmobile Texas marketing claimed 50 months/50,000 miles; the current manufacturer's FAQ and Why page publish 3 years/36,000 miles, which governs.",
+      "status": "resolved-by-policy",
+      "chosen": {
+        "value": "3 years / 36,000 miles",
+        "source": "sportsmobile.com/faqs/"
+      }
+    },
+    {
+      "attribute": "locations",
+      "values": [
+        {
+          "value": "Huntington IN, Austin TX, Gold Canyon AZ",
+          "sourceUrl": "https://sportsmobile.com/locations/"
+        },
+        {
+          "value": "Fresno CA (Sportsmobile West)",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Sportsmobile"
+        }
+      ],
+      "note": "Fresno was a licensee (Sportsmobile West) until September 1, 2020, when it became the independent company Field Van. Current locations per the manufacturer.",
+      "status": "resolved-by-policy",
+      "chosen": {
+        "value": "Huntington IN, Austin TX, Gold Canyon AZ",
+        "source": "sportsmobile.com/locations/"
+      }
+    }
+  ],
+  "notes": "Custom converter, deliberately NOT in the quiz/compare pool: no fixed production model or single MSRP exists to rank. The Classic 4x4 (E-Series cutaway + own fiberglass shell, 2015) is absent from the current published lineup; whether it can still be ordered is not published."
+}

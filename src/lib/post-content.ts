@@ -784,4 +784,134 @@ export const postContent: Record<string, PostContent> = {
         },
     ],
   },
+  "sportsmobile-review": {
+    slug: "sportsmobile-review",
+    intro:
+      "The white Sprinter in this site's hero photo is a Sportsmobile, the author's own 2013 Sprinter 170 EXT, and it is the reason this review can say things the others cannot. Sportsmobile has converted vans one client at a time since 1961, longer than the Class B category has had a name. It sells no production model off any lot, publishes its conversion pricing anyway, and sits squarely between the factory vans and the six-figure custom shops. Here is the company, the process, the real numbers, the warranty, and a durability report from thirteen years of ownership.",
+    relatedSlugs: [
+      "class-b-van-buying-guide",
+      "remote-vans-review",
+      "storyteller-overland-mode-suspension",
+    ],
+    blocks: [
+        {
+          type: "callout",
+          text: "From the author's driveway: the white Sprinter in this site's homepage hero photo is my own Sportsmobile, a 2013 Sprinter 170 EXT. Thirteen model years on, the materials have held up incredibly well and the van has given me zero issues. That is one owner's experience, stated as such. Everything else in this review is checked against Sportsmobile's own published material, the way every review on this site works.",
+        },
+        {
+          type: "h2",
+          heading: "What is Sportsmobile?",
+          text: "Sportsmobile is the oldest name in American van conversion: a factory-direct converter that has been turning full-size vans into Class B campers since 1961, and still builds every one of them per client. There is no Sportsmobile dealer network and no model-year lineup in the factory sense. You pick a chassis, pick or design a floor plan, choose your roof and options, and they build your van at one of three locations: Huntington, Indiana; Austin, Texas; and Gold Canyon, Arizona. The company states it has completed more than 10,000 conversions.",
+        },
+        {
+          type: "p",
+          text: "That model puts Sportsmobile in a gap in the market this site thinks about a lot. Factory vans from Winnebago or Thor are production products: fixed plans, dealer lots, a sticker price. High-end custom shops build rolling commissions at prices that can pass half a million dollars, on timelines measured in years. Sportsmobile sits between them, a tweener: custom enough that the plan is yours, established enough that the converter has outlived most of its customers' vans. Whether that middle position is the sweet spot or a compromise depends on how you buy, which is what the rest of this review is for. The company's own overview is at [sportsmobile.com](https://sportsmobile.com/).",
+        },
+        {
+          type: "h2",
+          heading: "How long has Sportsmobile been building camper vans?",
+          text: "Since 1961, when Charles Borskey founded the company in El Paso, Texas, with his father Curtis, originally under the name Sportswagon. The first conversions were Volkswagen and Ford vans. Volkswagen of America soon contracted Borskey to install his kits in VW vans, and when that contract ended in 1967, Westfalia adopted several patented features of the Sportsmobile kit, which is about as strong an endorsement as the industry gives.",
+        },
+        {
+          type: "p",
+          text: "The milestones explain the company's DNA. In the 1970s Sportsmobile built the first pop-top that raised and lowered from inside the van, the direct ancestor of today's Penthouse top. It offered 4x4 conversions on Ford Econolines from 1971. The Huntington plant opened in 1976 and very nearly closed in 1980; a foreman named Jim Friermood, later a company vice president, persuaded Borskey to keep it open. Austin followed in 1984. Charles Borskey ran the company into his 89th year and died at 90. One correction to older sources you may find: the Fresno plant you will see in older articles was Sportsmobile West, a licensee, and it ended its agreement in 2020 to become the independent company Field Van. The full timeline is on [Wikipedia's Sportsmobile entry](https://en.wikipedia.org/wiki/Sportsmobile).",
+        },
+        {
+          type: "h2",
+          heading: "What does Sportsmobile build today?",
+          text: "Four chassis families, designated by body code: RB for regular body, EB for extended body, LB for long body. The [Sprinter line](https://sportsmobile.com/models/mercedes-sprinter/) covers the 144-inch RB and the 170-inch EB and LB, built on the factory all-wheel drive and diesel. Ford Transit comes in three lengths with factory AWD and a new Trail Ready off-road package. Ram ProMaster covers the front-wheel-drive value end, and the Chevy Express serves buyers who want a frame chassis and a 4x4 build. The author's van, a 2013 Sprinter 170 EXT, is an EB 170, a platform Sportsmobile still converts today.",
+        },
+        {
+          type: "p",
+          text: "Inside, you start from a library of numbered standard plans, codes like EB-110S that combine body and layout, or go fully custom with a DYO, design-your-own, plan drawn up with their designers. Every conversion builds on a standard equipment package that includes an extreme weather and sound insulation package, and the options catalog runs to hundreds of items. Electrical is modern where it counts: a 200 amp-hour AGM bank is standard, and the company offers lithium systems up to 1,600 amp-hours, 24 and 48 volt systems, and roof solar up to about 500 watts.",
+        },
+        {
+          type: "p",
+          text: "The signature product deserves its own paragraph. The [Penthouse Pop Top](https://sportsmobile.com/sportsmobile-penthouse-pop-top-a-legacy-of-freedom-space-and-innovation/) is a paint-matched fiberglass top with convertible car-top vinyl sides and a dual U-tube lift, manual or powered, with an optional bed platform upstairs and a roof rack rated to 200 pounds. You do not have to buy a conversion to get one: Sportsmobile installs the top on its own, by appointment, on your existing van. That top-only business is a large part of how the company stays in its owners' lives for decades.",
+        },
+        {
+          type: "h2",
+          heading: "What happened to the Sportsmobile Classic 4x4?",
+          text: "It is the question longtime followers ask first, so here is the honest answer. When Ford ended the full E-Series van after 2014, Sportsmobile refused to kill its flagship 4x4 camper. Instead it engineered its own steel-reinforced fiberglass camper shell for the E-Series cutaway chassis, with its own serious 4x4 system underneath, and launched it as the Classic at Overland Expo in 2015. [MotorTrend's review](https://www.motortrend.com/reviews/1507-2015-sportsmobile-ford-e-series-classic) of that van is worth reading if you want to understand what this company is capable of when it decides to engineer rather than assemble.",
+        },
+        {
+          type: "p",
+          text: "Today, the Classic does not appear in the lineup published on Sportsmobile's site, which covers the Sprinter, Transit, ProMaster and Chevy Express, and the old Classic 4x4 page redirects to the homepage. No announcement of its discontinuation was found, and Ford still builds the E-Series cutaway the Classic sits on. So the accurate statement is: the Classic is absent from the currently published lineup, and whether it can still be special-ordered is something Sportsmobile does not publish. Ask them directly, and know that on the modern vans the 4x4 story is the factories' own AWD systems, not a Sportsmobile-engineered conversion.",
+        },
+        {
+          type: "h2",
+          heading: "How does buying a Sportsmobile work?",
+          text: "Factory-direct and per client. You work with Sportsmobile's own designers to choose the chassis, the plan and the options. Sportsmobile usually supplies the base van itself, ordering through preferred dealers who know how to spec a van for conversion, with freight and preparation included in the price and any rebates going to you. If you are financing the van and conversion together, the vehicle must be purchased through Sportsmobile. Bringing your own van is possible, and the top-only and modification work assumes it. The company offers RV financing at all three locations, delivers nationwide, does not take trades, and sells pre-owned Sportsmobiles on consignment. The details are in [their FAQ](http://sportsmobile.com/faqs/).",
+        },
+        {
+          type: "p",
+          text: "Two refinements to the usual description. First, deposits and build lead times are not published anywhere on the company's site; both are quoted per build, so any timeline a forum gives you is anecdote, not policy. Second, while there is no dealer stock anywhere, Sportsmobile's own site lists a small New Stock inventory of already-built vans at its own lots, alongside the consignment pre-owned listings. The core business is unmistakably build-to-order, but a buyer who cannot wait is not entirely out of luck.",
+        },
+        {
+          type: "h2",
+          heading: "What does a Sportsmobile cost?",
+          text: "Unusually for a custom converter, Sportsmobile publishes real numbers on its [pricing examples page](http://sportsmobile.com/pricing/pricing-examples/), all plus tax, title and license. Conversion prices for a Sprinter start at $50,000 for a base-level 144 RB two-wheel drive. A well-equipped all-wheel drive conversion runs $77,000 on either the 144 or the 170. Stated conversion ranges are $75,000 to $120,000 for Sprinter and ProMaster, and $80,000 to $125,000 for Transit. The Penthouse top with bed, installed on its own, starts at $13,000.",
+        },
+        {
+          type: "p",
+          text: "The worked example on that page is the clearest way to understand the tweener math. A Sprinter EB high-roof diesel AWD: the van itself at $78,400, the EB-110S conversion at $78,500, plus $7,500 of Sportsmobile options, totals $164,400 before tax and title. Pictured complete builds on the same page run $145,000 for a ProMaster, $160,000 for a 144 Sprinter, $180,000 for a Transit and $190,000 for a 170 Sprinter. Set those totals against the factory pool in our [compare tool](/compare) and against the half-million-dollar end of the custom world, and the middle position stops being a metaphor. It is a price band.",
+        },
+        {
+          type: "h2",
+          heading: "Where does Sportsmobile sit in the market?",
+          text: "Call it the professional middle. Against factory vans, Sportsmobile trades immediacy for authorship: no lot to drive one off today, but the floor plan, the roof and the systems are chosen with a designer rather than accepted from a brochure, and the converter answering your service call is the company that built the van. Against the high-end custom shops, it trades bespoke-everything for a 65-year-old playbook: standard plans refined over thousands of builds, published conversion pricing, and totals that land closer to a Revel than to a rolling commission. Our [buying guide](/blog/class-b-van-buying-guide) argues the first decision is how you will actually use the van. If your answer involves a plan nobody stocks, this is the tier built for you.",
+        },
+        {
+          type: "p",
+          text: "It is also worth saying who should not buy one. If you need a fixed bathroom, a fixed price on a window sticker, or a delivery date you can circle this quarter, the production market serves you better, and the [match quiz](/find-my-van) will sort you honestly. Sportsmobile is not in that quiz, deliberately: a per-client build has no single price or spec to rank, and pretending otherwise would break the rule this site runs on. The newest factory take on the same work-from-anywhere idea is covered in our [Remote Vans review](/blog/remote-vans-review).",
+        },
+        {
+          type: "h2",
+          heading: "How do Sportsmobiles hold up?",
+          text: "Start with the author's evidence, since it is the reason this review exists. My 2013 Sprinter 170 EXT has needed nothing beyond ordinary chassis life in thirteen years: no conversion failures, no leaks, no cabinetry coming apart, and the materials, the top, the cabinets, the systems, still feel put together the way they did at delivery. One van is an anecdote, but it is an anecdote you can check against the company's own construction claims: a fiberglass Penthouse warranted for life against leaks, high-grade and deliberately serviceable components, name-brand appliances that any RV service center can work on, and an insulation package the company markets as four-season.",
+        },
+        {
+          type: "p",
+          text: "The wider record supports the impression, with one honest exception. Sportsmobile says many owners are on their second, third or fourth van from the company, which is the retention pattern you would expect if the product lasted. The BBB profile we could locate, for the former Fresno licensee, shows zero complaints and zero reviews. Google ratings for the current locations run high, roughly 4.3 to 5.0 stars, on small counts of about 9 to 17 reviews each, and RV Insider shows 5.0 from 2 reviews. Against that, exactly one detailed critical review is easy to find: [Wand'rly Magazine's account](https://wandrlymagazine.com/a-sportsmobile-review/) of a 2020 Penthouse installation in Texas, disputing extra charges and follow-up service. Both things belong in a review. The formal record is about as clean as this industry produces, and it is not literally spotless.",
+        },
+        {
+          type: "h2",
+          heading: "What warranty does Sportsmobile offer?",
+          text: "The conversion is warranted for 3 years or 36,000 miles, stated in [the company FAQ](http://sportsmobile.com/faqs/) and on its Why Sportsmobile page. The Penthouse top carries the same term plus something no factory van in our pool offers: a lifetime warranty against leaks. Appliances and the 4x4 are warranted by their own manufacturers, the chassis by the van maker, and the company states its conversions do not void the chassis warranty. One caution for used-van shoppers and forum readers: older Sportsmobile Texas marketing claimed 50 months and 50,000 miles. That figure no longer appears on the manufacturer's site; the current published term is 3 years and 36,000 miles, and that is the number to plan around.",
+        },
+        {
+          type: "faq-group",
+          faqs: [
+            {
+              question: "Who founded Sportsmobile, and when?",
+              answer: "Charles Borskey, with his father Curtis, founded the company in El Paso, Texas in 1961, originally under the name Sportswagon. Charles ran it for roughly six decades, into his 89th year. The company has completed more than 10,000 conversions.",
+            },
+            {
+              question: "Can you buy a Sportsmobile off a dealer's lot?",
+              answer: "No. Sportsmobile sells factory-direct from its three locations in Huntington, Indiana; Austin, Texas; and Gold Canyon, Arizona, and builds per client. Its own site does list a small New Stock inventory of completed vans at its own lots, plus pre-owned Sportsmobiles sold on consignment.",
+            },
+            {
+              question: "How much does a Sportsmobile conversion cost?",
+              answer: "Published examples on [the manufacturer's pricing page](http://sportsmobile.com/pricing/pricing-examples/) start at a $50,000 base conversion for a Sprinter 144, with well-equipped all-wheel drive conversions at $77,000 and stated conversion ranges of $75,000 to $125,000 depending on platform, all plus tax, title and license and excluding the van itself. A worked complete example, a Sprinter EB diesel AWD, totals $164,400. The Penthouse top alone starts at $13,000 installed.",
+            },
+            {
+              question: "Can Sportsmobile still build the Classic 4x4?",
+              answer: "It is not in the lineup currently published on sportsmobile.com, and the company publishes no statement either way about special orders. The Classic was Sportsmobile's own fiberglass camper shell on the Ford E-Series cutaway, built from 2015 after Ford ended the E-Series van. Ask Sportsmobile directly; on current vans, all-wheel drive comes from the chassis factories.",
+            },
+            {
+              question: "What warranty does a Sportsmobile carry?",
+              answer: "Three years or 36,000 miles on the conversion, per [the company's FAQ](http://sportsmobile.com/faqs/). The Penthouse top adds a lifetime warranty against leaks. Appliances, the 4x4 system and the chassis are covered by their respective manufacturers.",
+            },
+            {
+              question: "Does Sportsmobile supply the van, or do you bring your own?",
+              answer: "Either, with a condition. Sportsmobile usually supplies the base van through preferred dealers, and if you finance the van and conversion together, the vehicle must be purchased through Sportsmobile. Customers can also bring their own van, and standalone work like a Penthouse top installation is offered by appointment.",
+            },
+          ],
+        },
+        {
+          type: "p",
+          text: "Sportsmobile is not the fastest way to buy a camper van, and it is not trying to be. It is the way to buy the exact van you designed, from the company that invented half the category, at a total that sits between the factory sticker and the custom stratosphere. If that is your shape of purchase, start with their [pricing examples](http://sportsmobile.com/pricing/pricing-examples/), then pressure-test the factory alternatives in our [compare tool](/compare) before you commit. The author of this site made his choice in 2013, and the van in the hero photo is still making the case.",
+        },
+    ],
+  },
 };

@@ -1,0 +1,45 @@
+{
+  "model": "sportsmobile-penthouse",
+  "name": "Sportsmobile Penthouse Pop Top",
+  "builder": "Sportsmobile",
+  "modelYear": 2026,
+  "retrievedAt": "2026-10-14",
+  "attributes": [
+    {
+      "attribute": "construction",
+      "value": "Paint-matched fiberglass top, convertible car-top vinyl sidewalls, Dual-U-Tube elevating system (manual or powered), roof rack rated 200 lbs",
+      "sourceUrl": "https://sportsmobile.com/sportsmobile-penthouse-pop-top-a-legacy-of-freedom-space-and-innovation/",
+      "sourceType": "manufacturer_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14",
+      "unit": "lbs (roof rack)"
+    },
+    {
+      "attribute": "topOnlyPrice",
+      "value": 13000,
+      "sourceUrl": "https://sportsmobile.com/sportsmobile-penthouse-pop-top-a-legacy-of-freedom-space-and-innovation/",
+      "sourceType": "manufacturer_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14",
+      "unit": "USD starting price, Penthouse top with bed, installed"
+    },
+    {
+      "attribute": "warranty",
+      "value": "3 years / 36,000 miles plus a lifetime warranty against leaks",
+      "sourceUrl": "https://sportsmobile.com/sportsmobile-penthouse-pop-top-a-legacy-of-freedom-space-and-innovation/",
+      "sourceType": "manufacturer_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "bedSize",
+      "value": "Sprinter/Transit/Chevy 40in x 78in; ProMaster 53in x 78in",
+      "sourceUrl": "https://sportsmobile.com/sportsmobile-penthouse-pop-top-a-legacy-of-freedom-space-and-innovation/",
+      "sourceType": "manufacturer_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    }
+  ],
+  "conflicts": [],
+  "notes": "Also sold as a standalone installation on an existing van, by appointment. Lineage: Sportsmobile built the first in-van pop-top that raised and lowered from inside in the 1970s."
+}

@@ -20,6 +20,31 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "sportsmobile-review",
+    title: "Sportsmobile Review: The Original Converter, Still Building One Van at a Time",
+    excerpt:
+      "Founded in 1961, Sportsmobile builds every van per client, with no dealer network and published conversion pricing. The author has owned one for thirteen years. The company, the process, the real costs, the warranty, and how they hold up.",
+    category: "Van Review",
+    readTime: "12 min",
+    date: "2026-10-14",
+    featured: true,
+    updated: "2026-10-14",
+    image: {
+      src: "/DSC_0795.jpeg",
+      alt: "The author's own Sportsmobile, a white 2013 Sprinter 170 EXT, at a coastal campsite",
+      caption: "The author's 2013 Sportsmobile Sprinter 170 EXT, the same van as Starry Van's homepage hero photo.",
+    },
+    about: ["org:sportsmobile", "model:sportsmobile-penthouse"],
+    mentions: ["chassis:sprinter", "chassis:transit", "model:sportsmobile-classic", "class-b"],
+    schema: {
+      "@type": "Article",
+      headline: "Sportsmobile Review: The Original Converter, Still Building One Van at a Time",
+      description:
+        "Sportsmobile has built per-client Class B conversions since 1961. Platforms, Penthouse top, published conversion pricing, 3-year warranty, the Classic 4x4 question, and a 13-year owner durability report, checked against the manufacturer's own pages.",
+      keywords: ["Sportsmobile", "Sportsmobile review", "Sportsmobile Sprinter", "Penthouse pop top", "custom van conversion cost", "Sportsmobile Classic 4x4", "Charles Borskey", "van converter since 1961", "Sportsmobile warranty", "EB 170"],
+    },
+  },
+  {
     slug: "remote-vans-review",
     title: "Remote Vans Review: The Class B Built for Working From Anywhere",
     excerpt:
