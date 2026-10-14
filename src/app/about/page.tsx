@@ -50,6 +50,12 @@ export default function AboutPage() {
       />
       <div className="pt-20 bg-charcoal-900 min-h-screen">
         <div className="max-w-3xl mx-auto px-6 py-16">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/images/logo-sv-lockup.png"
+            alt="Starry Van logo: the SV monogram with two stars and a camper van"
+            className="h-40 w-auto mb-10"
+          />
           <p className="font-display font-bold text-xs tracking-[0.3em] uppercase text-earth-500 mb-4">
             About
           </p>

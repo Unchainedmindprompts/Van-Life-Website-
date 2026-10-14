@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/images/logo-swirl.png" alt="" className="h-8 w-8" />
+              <img src="/images/logo-sv.png" alt="" className="h-7 w-auto" />
               <span className="font-display font-bold text-lg tracking-widest text-sand-200 uppercase">
                 STARRY VAN
               </span>

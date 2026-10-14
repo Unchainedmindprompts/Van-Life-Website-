@@ -16,7 +16,7 @@ export default function Nav() {
           aria-label="Starry Van Home"
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/images/logo-swirl.png" alt="" className="h-9 w-9" />
+          <img src="/images/logo-sv.png" alt="" className="h-8 w-auto" />
           <span
             className="font-display font-bold text-xl tracking-widest text-sand-200 uppercase group-hover:text-earth-300 transition-colors"
           >
