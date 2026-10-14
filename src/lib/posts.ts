@@ -30,9 +30,9 @@ export const posts: BlogPost[] = [
     featured: true,
     updated: "2026-10-14",
     image: {
-      src: "/images/remote-vans-lineup.png",
-      alt: "Chart of the 2026 Remote Vans lineup: manufacturer direct prices and battery capacity by model",
-      caption: "The 2026 Remote Vans lineup at the manufacturer's published direct prices. The Friday's window-sticker MSRP is higher, explained in the review.",
+      src: "/images/remote-vans-aegis-hero.jpg",
+      alt: "A gray Remote Vans Aegis Series camper van with a front bumper, roof rack, side ladder and all-terrain tires, parked on grass",
+      caption: "The Aegis Series, Remote Vans' flagship. Photo: Remote Vans.",
     },
     about: ["org:remote-vans", "model:remote-vans-friday", "model:remote-vans-aegis"],
     mentions: ["chassis:sprinter", "model:winnebago-revel", "model:storyteller-mode", "class-b"],
