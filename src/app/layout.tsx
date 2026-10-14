@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Van Life | Find Your Perfect Class B Adventure Van",
+  title: "Starry Van | Find Your Perfect Class B Adventure Van",
   description:
     "A consultative resource for people discovering and buying Class B adventure vans. Compare models, explore the lifestyle, and find your perfect van.",
   keywords: [

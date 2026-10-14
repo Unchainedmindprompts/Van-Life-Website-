@@ -5,7 +5,7 @@
    way. When the custom domain is chosen, change SITE_URL here and
    every @id follows. */
 
-export const SITE_URL = "https://van-life-website.vercel.app";
+export const SITE_URL = "https://starryvan.com";
 
 export interface EntityDef {
   "@type": string;

@@ -19,7 +19,7 @@ export async function generateMetadata({
   const post = posts.find((p) => p.slug === slug);
   if (!post) return {};
   return {
-    title: `${post.title} | Van Life`,
+    title: `${post.title} | Starry Van`,
     description: post.schema.description,
     keywords: post.schema.keywords,
     openGraph: {
@@ -296,14 +296,14 @@ export default async function BlogPostPage({
       {
         "@type": "Organization",
         "@id": `${SITE_URL}/#organization`,
-        name: "Van Life",
+        name: "Starry Van",
         url: SITE_URL,
       },
       {
         "@type": "WebSite",
         "@id": `${SITE_URL}/#website`,
         url: SITE_URL,
-        name: "Van Life",
+        name: "Starry Van",
         publisher: { "@id": `${SITE_URL}/#organization` },
       },
     ],

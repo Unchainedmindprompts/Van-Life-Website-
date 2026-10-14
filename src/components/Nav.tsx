@@ -13,13 +13,13 @@ export default function Nav() {
         <Link
           href="/"
           className="flex items-center gap-2 group"
-          aria-label="Van Life Home"
+          aria-label="Starry Van Home"
         >
           <span className="text-earth-400 text-2xl">&#9650;</span>
           <span
             className="font-display font-bold text-xl tracking-widest text-sand-200 uppercase group-hover:text-earth-300 transition-colors"
           >
-            VAN LIFE
+            STARRY VAN
           </span>
         </Link>
 

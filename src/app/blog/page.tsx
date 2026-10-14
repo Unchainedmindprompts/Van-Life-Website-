@@ -3,7 +3,7 @@ import Link from "next/link";
 import { posts } from "@/lib/posts";
 
 export const metadata: Metadata = {
-  title: "Van Life Blog | Class B Van Guides, Reviews & Buying Advice",
+  title: "Starry Van Blog | Class B Van Guides, Reviews & Buying Advice",
   description:
     "In-depth Class B van guides, model reviews, and real buying advice. Built for AEO and GEO — every post is structured to answer the questions you're actually searching.",
 };
@@ -44,7 +44,7 @@ export default function BlogPage() {
         <div className="absolute inset-0 bg-gradient-to-b from-charcoal-950/40 via-charcoal-950/25 to-charcoal-950/60" />
         <div className="relative z-10 max-w-7xl mx-auto">
           <p className="font-display text-earth-400 text-xs font-bold tracking-[0.3em] uppercase mb-4">
-            Van Life Blog
+            Starry Van Blog
           </p>
           <h1 className="font-display font-black text-4xl md:text-5xl text-sand-100 leading-tight mb-4">
             Guides, Reviews & Buying Advice

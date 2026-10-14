@@ -4,7 +4,7 @@ import { vans } from "@/lib/vans";
 import type { CapabilityLevel, BuildQuality } from "@/lib/vans";
 
 export const metadata: Metadata = {
-  title: "Compare Class B Vans | Van Life",
+  title: "Compare Class B Vans | Starry Van",
   description:
     "Side-by-side comparison of the top Class B adventure vans — Sprinter conversions, Winnebago Boldt, Airstream Interstate, Storyteller Overland, and more.",
 };
@@ -264,7 +264,7 @@ export default function ComparePage() {
           href="/blog"
           className="inline-block px-8 py-4 font-display font-bold text-sm tracking-widest uppercase border border-earth-600 hover:bg-earth-600 text-earth-400 hover:text-sand-100 rounded transition-colors"
         >
-          Read the Van Life Blog
+          Read the Starry Van Blog
         </Link>
       </section>
     </div>

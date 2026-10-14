@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Van Life | Find Your Perfect Class B Adventure Van",
+  title: "Starry Van | Find Your Perfect Class B Adventure Van",
   description:
     "Discover and compare Class B adventure vans with our consultative guide. From Sprinter conversions to the Winnebago Boldt — find the van that fits your life.",
 };
@@ -149,7 +149,7 @@ export default function HomePage() {
                   Blog
                 </span>
               </div>
-              <h3 className="font-display font-bold text-xl text-sand-100 mb-3">Van Life Blog</h3>
+              <h3 className="font-display font-bold text-xl text-sand-100 mb-3">Starry Van Blog</h3>
               <p className="text-sand-400 text-sm leading-relaxed flex-1 mb-8">
                 In-depth guides, buying advice, and real-world van life stories. Built for SEO — every
                 post is structured to answer the questions you&apos;re actually searching.

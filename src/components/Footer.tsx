@@ -10,7 +10,7 @@ export default function Footer() {
             <div className="flex items-center gap-2 mb-4">
               <span className="text-earth-400 text-xl">&#9650;</span>
               <span className="font-display font-bold text-lg tracking-widest text-sand-200 uppercase">
-                VAN LIFE
+                STARRY VAN
               </span>
             </div>
             <p className="text-sand-400 text-sm leading-relaxed">
@@ -27,7 +27,7 @@ export default function Footer() {
             <ul className="space-y-2">
               {[
                 { href: "/compare", label: "Compare Vans" },
-                { href: "/blog", label: "Van Life Blog" },
+                { href: "/blog", label: "Starry Van Blog" },
                 { href: "/find-my-van", label: "Find My Van" },
               ].map((link) => (
                 <li key={link.href}>
@@ -65,7 +65,7 @@ export default function Footer() {
 
         <div className="border-t border-charcoal-700 pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sand-400 text-xs tracking-wide">
-            &copy; {new Date().getFullYear()} Van Life. All rights reserved.
+            &copy; {new Date().getFullYear()} Starry Van. All rights reserved.
           </p>
           <p className="text-sand-400 text-xs">
             Built for adventure seekers, by adventure seekers.
