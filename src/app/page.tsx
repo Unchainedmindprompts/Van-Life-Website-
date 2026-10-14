@@ -128,7 +128,7 @@ export default function HomePage() {
               </div>
               <h3 className="font-display font-bold text-xl text-sand-100 mb-3">Find Your Match</h3>
               <p className="text-sand-400 text-sm leading-relaxed flex-1 mb-8">
-                Answer five questions about how you live, travel, and camp — and we&apos;ll match you
+                Answer eight questions about how you live, travel, and camp — and we&apos;ll match you
                 to the ideal Class B platform for your adventure style.
               </p>
               <Link

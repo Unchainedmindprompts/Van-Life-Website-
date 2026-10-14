@@ -1,0 +1,85 @@
+{
+  "model": "grech-terreno",
+  "name": "Terreno-ion AWD",
+  "builder": "Grech RV",
+  "modelYear": 2027,
+  "retrievedAt": "2026-10-14",
+  "attributes": [
+    {
+      "attribute": "chassis",
+      "value": "Mercedes-Benz Sprinter 3500XD, 170in wheelbase",
+      "sourceUrl": "https://grechrv.com/model/2027-terreno-ion-awd/",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "drivetrain",
+      "value": "AWD, 4-cyl high-output diesel, 211 hp / 332 lb-ft; air suspension",
+      "sourceUrl": "https://grechrv.com/model/2027-terreno-ion-awd/",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "startingPrice",
+      "value": 290400,
+      "sourceUrl": "https://grechrv.com/model/2027-terreno-ion-awd/",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14",
+      "unit": "USD"
+    },
+    {
+      "attribute": "sleeps",
+      "value": 2,
+      "sourceUrl": "https://grechrv.com/model/2027-terreno-ion-awd/",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "bathroom",
+      "value": "Wet bath with porcelain toilet and macerator pump",
+      "sourceUrl": "https://grechrv.com/model/2027-terreno-ion-awd/",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "freshWaterGal",
+      "value": 26,
+      "sourceUrl": "https://grechrv.com/wp-content/uploads/2025/11/NOV-UPDATE-TERRENO-Tour-Twin-Bed-2026-Owners-Manual-Final.pdf",
+      "sourceType": "manufacturer_manual_pdf",
+      "status": "verified",
+      "retrievedAt": "2026-10-14",
+      "unit": "gal"
+    },
+    {
+      "attribute": "winter",
+      "value": "All three tanks 12V heated; Timberline diesel hydronic heat and hot water; full fiberglass insulation; insulated subfloor",
+      "sourceUrl": "https://grechrv.com/wp-content/uploads/2025/11/NOV-UPDATE-TERRENO-Tour-Twin-Bed-2026-Owners-Manual-Final.pdf",
+      "sourceType": "manufacturer_manual_pdf",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    }
+  ],
+  "conflicts": [
+    {
+      "attribute": "length",
+      "values": [
+        {
+          "value": "170in non-extended (Tour 22ft)",
+          "sourceUrl": "https://grechrv.com/model/2027-terreno-ion-awd/"
+        },
+        {
+          "value": "170in EXTENDED, 24ft10in (2026 manual)",
+          "sourceUrl": "https://grechrv.com/wp-content/uploads/2025/11/NOV-UPDATE-TERRENO-Tour-Twin-Bed-2026-Owners-Manual-Final.pdf"
+        }
+      ],
+      "note": "Model-year configuration discrepancy in Grech's own materials. Length not displayed until resolved.",
+      "status": "conflict-unresolved"
+    }
+  ],
+  "notes": "MSRP cross-check agrees exactly: dealer unit in Grech's own inventory feed at $290,400. For 2027 the Terreno is offered only in -ion AWD form."
+}

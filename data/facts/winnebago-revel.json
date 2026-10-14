@@ -1,0 +1,81 @@
+{
+  "model": "winnebago-revel",
+  "name": "Revel",
+  "builder": "Winnebago",
+  "modelYear": 2026,
+  "retrievedAt": "2026-10-14",
+  "attributes": [
+    {
+      "attribute": "chassis",
+      "value": "Mercedes-Benz Sprinter, 144in wheelbase",
+      "sourceUrl": "https://www.winnebago.com/models/product?GroupID=GROUP257&ProductID=PROD670&VariantID=44E",
+      "sourceType": "manufacturer_spec_page",
+      "status": "manufacturer-only",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "drivetrain",
+      "value": "AWD, 2.0L high-output turbo-diesel, 211 hp",
+      "sourceUrl": "https://www.winnebago.com/models/product?GroupID=GROUP257&ProductID=PROD670&VariantID=44E",
+      "sourceType": "manufacturer_spec_page",
+      "status": "manufacturer-only",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "sleeps",
+      "value": 2,
+      "sourceUrl": "https://www.rvusa.com/2026-winnebago-revel-44e-class-b-4983952",
+      "sourceType": "dealer_listing",
+      "status": "dealer-only",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "bathroom",
+      "value": "Wet bath with swiveling cassette toilet",
+      "sourceUrl": "https://www.winnebago.com/models/product?GroupID=GROUP257&ProductID=PROD670&VariantID=44E",
+      "sourceType": "manufacturer_spec_page",
+      "status": "manufacturer-only",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "winter",
+      "value": "Hydronic heating; insulated gray water tank; winterization package; dual-pane windows",
+      "sourceUrl": "https://www.winnebago.com/models/product?GroupID=GROUP257&ProductID=PROD670&VariantID=44E",
+      "sourceType": "manufacturer_spec_page",
+      "status": "manufacturer-only",
+      "retrievedAt": "2026-10-14"
+    }
+  ],
+  "conflicts": [
+    {
+      "attribute": "startingPrice",
+      "values": [
+        {
+          "value": 223495,
+          "sourceUrl": "https://www.winnebago.com/models/product?GroupID=GROUP257&ProductID=PROD670&VariantID=44E"
+        },
+        {
+          "value": 261808,
+          "sourceUrl": "https://www.lichtsinn.com/blog/the-winnebago-revel-vs-the-winnebago-revel-sport/"
+        }
+      ],
+      "note": "Manufacturer structured data vs dealer base MSRP consensus. Display uses the manufacturer figure with a note that dealer MSRPs run higher. Awaiting Mark's call.",
+      "status": "conflict-unresolved"
+    },
+    {
+      "attribute": "freshWaterGal",
+      "values": [
+        {
+          "value": 21,
+          "sourceUrl": "https://www.winnebago.com/models/product?GroupID=GROUP257&ProductID=PROD670&VariantID=44E"
+        },
+        {
+          "value": 35,
+          "sourceUrl": "https://www.rvusa.com/2026-winnebago-revel-44e-class-b-4983952"
+        }
+      ],
+      "note": "Not published on the site until resolved.",
+      "status": "conflict-unresolved"
+    }
+  ]
+}

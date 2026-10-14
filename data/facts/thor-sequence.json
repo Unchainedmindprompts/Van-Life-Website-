@@ -1,0 +1,76 @@
+{
+  "model": "thor-sequence",
+  "name": "Sequence",
+  "builder": "Thor Motor Coach",
+  "modelYear": 2026,
+  "retrievedAt": "2026-10-14",
+  "attributes": [
+    {
+      "attribute": "chassis",
+      "value": "Ram ProMaster 3500 Window Van, 159in wheelbase",
+      "sourceUrl": "https://www.thormotorcoach.com/sequence/floor-plans/20y",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "drivetrain",
+      "value": "FWD (platform inherent), 3.6L Pentastar V6",
+      "sourceUrl": "https://www.thormotorcoach.com/sequence/floor-plans/20y",
+      "sourceType": "manufacturer_spec_page",
+      "status": "manufacturer-only",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "startingPrice",
+      "value": 161560,
+      "sourceUrl": "https://www.thormotorcoach.com/motorhomes/class-b",
+      "sourceType": "manufacturer_lineup_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14",
+      "unit": "USD"
+    },
+    {
+      "attribute": "sleeps",
+      "value": 2,
+      "sourceUrl": "https://www.thormotorcoach.com/sequence/floor-plans/20y",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "bathroom",
+      "value": "Wet bath (cassette toilet per floor plan copy)",
+      "sourceUrl": "https://www.thormotorcoach.com/sequence/floor-plans/20y",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "winter",
+      "value": "No winter package published by the manufacturer on the pages checked",
+      "sourceUrl": "https://www.thormotorcoach.com/sequence/floor-plans/20y",
+      "sourceType": "manufacturer_spec_page",
+      "status": "not-published",
+      "retrievedAt": "2026-10-14"
+    }
+  ],
+  "conflicts": [
+    {
+      "attribute": "freshWaterGal",
+      "values": [
+        {
+          "value": 35,
+          "sourceUrl": "https://www.thormotorcoach.com/sequence/floor-plans/20y"
+        },
+        {
+          "value": 27,
+          "sourceUrl": "https://www.rvt.com/buy/details/2026-thor-motor-coach-sequence-20u/8a2ac51a-cb52-11f0-beaa-02c8259c7411/"
+        }
+      ],
+      "note": "Floor-plan dependent: current 20Y page says 35; older floor plans say 27. Site displays the current floor plan figure with floor plan named.",
+      "status": "conflict-noted"
+    }
+  ],
+  "notes": "Starting price cross-check agrees exactly with gorvrentals ($161,560). 20Y floor plan JSON-LD price $162,960."
+}

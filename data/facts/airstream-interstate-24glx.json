@@ -1,0 +1,60 @@
+{
+  "model": "airstream-interstate-24glx",
+  "name": "Interstate 24GLX",
+  "builder": "Airstream",
+  "modelYear": 2027,
+  "retrievedAt": "2026-10-14",
+  "attributes": [
+    {
+      "attribute": "chassis",
+      "value": "Mercedes-Benz Sprinter 3500 Extended, 170in wheelbase",
+      "sourceUrl": "https://www.airstream.com/explore-products/touring-coaches/interstate/interstate-24GLX/",
+      "sourceType": "manufacturer_spec_page",
+      "status": "manufacturer-only",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "drivetrain",
+      "value": "AWD, 2.0L turbo diesel high output, 208 hp / 332 lb-ft",
+      "sourceUrl": "https://www.airstream.com/explore-products/touring-coaches/interstate/interstate-24GLX/",
+      "sourceType": "manufacturer_spec_page",
+      "status": "manufacturer-only",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "sleeps",
+      "value": 2,
+      "sourceUrl": "https://www.airstream.com/explore-products/touring-coaches/interstate/interstate-24GLX/",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "bathroom",
+      "value": "Fully plumbed wet bath with macerator system, heated",
+      "sourceUrl": "https://www.airstream.com/airstream-lifestyle/stories-hub/comparing-the-airstream-interstate-19x-to-the-interstate-24x/",
+      "sourceType": "manufacturer_article",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "freshWaterGal",
+      "value": 23,
+      "sourceUrl": "https://airstreamminneapolis.com:443/rvs/monticello-(airstream)-mn/class-b/new/2027/airstream-interstate-116403",
+      "sourceType": "dealer_listing",
+      "status": "dealer-only",
+      "retrievedAt": "2026-10-14",
+      "unit": "gal"
+    },
+    {
+      "attribute": "winter",
+      "value": "12V heated fresh and grey tanks; Timberline diesel hydronic heat and hot water; lithium bank with built-in heater",
+      "sourceUrl": "https://support.airstream.com/hc/en-us/articles/6420335408660-How-to-winterize-the-Timberline-system",
+      "sourceType": "manufacturer_support",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    }
+  ],
+  "conflicts": [],
+  "notes": "The 24X badge was renamed 24GLX for current model years. Airstream publishes no base MSRP for the 24GLX; dealer sticker on a 2027 unit is $312,600 (optioned). Sibling 24GL shows From $274,900. Display price is a dealer sticker reference, labeled as such."
+}

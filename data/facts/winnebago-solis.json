@@ -1,0 +1,69 @@
+{
+  "model": "winnebago-solis",
+  "name": "Solis 59P",
+  "builder": "Winnebago",
+  "modelYear": 2026,
+  "retrievedAt": "2026-10-14",
+  "attributes": [
+    {
+      "attribute": "chassis",
+      "value": "Ram ProMaster, 159in wheelbase",
+      "sourceUrl": "https://www.winnebago.com/models/solis-series/solis",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "drivetrain",
+      "value": "FWD, 3.6L V6 gasoline, 280 hp",
+      "sourceUrl": "https://www.winnebago.com/models/solis-series/solis",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "startingPrice",
+      "value": 156254,
+      "sourceUrl": "https://www.winnebago.com/models/solis-series/solis",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14",
+      "unit": "USD"
+    },
+    {
+      "attribute": "sleeps",
+      "value": 4,
+      "sourceUrl": "https://www.winnebago.com/models/solis-series/solis",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "bathroom",
+      "value": "Enclosed wet bath with cassette toilet",
+      "sourceUrl": "https://www.winnebago.com/models/solis-series/solis",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "freshWaterGal",
+      "value": 20,
+      "sourceUrl": "https://www.winnebago.com/models/solis-series/solis",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14",
+      "unit": "gal"
+    },
+    {
+      "attribute": "winter",
+      "value": "Ceiling-to-floor insulation; interior waterlines; freeze-resistant exterior fill; Truma Combi Eco. Manufacturer attaches a winter-use-guidelines asterisk; not marketed as true four-season",
+      "sourceUrl": "https://www.winnebago.com/models/solis-series/solis",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    }
+  ],
+  "conflicts": [],
+  "notes": "Cross-check: Camping World lists 2026 59P MSRP $156,840 (agrees within options variance). Solis Pocket is a separate compact line (136in WB) and is not in the quiz pool."
+}

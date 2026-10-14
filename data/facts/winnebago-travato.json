@@ -1,0 +1,69 @@
+{
+  "model": "winnebago-travato",
+  "name": "Travato",
+  "builder": "Winnebago",
+  "modelYear": 2026,
+  "retrievedAt": "2026-10-14",
+  "attributes": [
+    {
+      "attribute": "chassis",
+      "value": "Ram ProMaster 3500, 159in wheelbase",
+      "sourceUrl": "https://winnebago.com/models/product/motorhomes/camper-van/travato",
+      "sourceType": "manufacturer_spec_page",
+      "status": "manufacturer-only",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "drivetrain",
+      "value": "FWD, 3.6L V6 gasoline, 280 hp",
+      "sourceUrl": "https://assets-cdn.interactcp.com/lichtsinn/pdfs/Travato-2026-brochure.pdf",
+      "sourceType": "manufacturer_brochure_pdf",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "startingPrice",
+      "value": 183783,
+      "sourceUrl": "https://www.lichtsinn.com/winnebago/camper-vans",
+      "sourceType": "dealer_listing",
+      "status": "dealer-only",
+      "retrievedAt": "2026-10-14",
+      "unit": "USD"
+    },
+    {
+      "attribute": "sleeps",
+      "value": 2,
+      "sourceUrl": "https://assets-cdn.interactcp.com/lichtsinn/pdfs/Travato-2026-brochure.pdf",
+      "sourceType": "manufacturer_brochure_pdf",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "bathroom",
+      "value": "Wet bath",
+      "sourceUrl": "https://assets-cdn.interactcp.com/lichtsinn/pdfs/Travato-2026-brochure.pdf",
+      "sourceType": "manufacturer_brochure_pdf",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "freshWaterGal",
+      "value": 18,
+      "sourceUrl": "https://assets-cdn.interactcp.com/lichtsinn/pdfs/Travato-2026-brochure.pdf",
+      "sourceType": "manufacturer_brochure_pdf",
+      "status": "verified",
+      "retrievedAt": "2026-10-14",
+      "unit": "gal"
+    },
+    {
+      "attribute": "winter",
+      "value": "Truma Combi G furnace and water heater; heated tanks; insulation; thermal window covers; marketed for extended season camping",
+      "sourceUrl": "https://assets-cdn.interactcp.com/lichtsinn/pdfs/Travato-2026-brochure.pdf",
+      "sourceType": "manufacturer_brochure_pdf",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    }
+  ],
+  "conflicts": [],
+  "notes": "Winnebago's product page exposed no usable price (rendered Price: 0 USD). Starting price is the best verified dealer base (Lichtsinn). Line spans roughly $184k-$216k base by floorplan."
+}
