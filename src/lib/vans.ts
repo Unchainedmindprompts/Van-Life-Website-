@@ -23,6 +23,8 @@ export interface VanModel {
   offRoadCapability: CapabilityLevel;
   offroadNote: string;
   sleepingCapacity: number;
+  sleepsMax: number;
+  sleepsDisplay: string;
   sleepsNote?: string;
   bathroom: string;
   winterRating: WinterRating;
@@ -53,6 +55,8 @@ export const vans: VanModel[] = [
     offRoadCapability: "Low",
     offroadNote: "Front-wheel drive; the optional off-road tires are an appearance and traction package, not a capability build",
     sleepingCapacity: 2,
+    sleepsMax: 4,
+    sleepsDisplay: "2 (4 with the optional Sky Bunk pop-top)",
     sleepsNote: "Sleeps 4 with the optional Sky Bunk pop-top",
     bathroom: "Wet bath",
     winterRating: "Extended season",
@@ -88,6 +92,8 @@ export const vans: VanModel[] = [
     offRoadCapability: "Low",
     offroadNote: "Front-wheel drive with no off-road package offered",
     sleepingCapacity: 4,
+    sleepsMax: 4,
+    sleepsDisplay: "4 (includes pop-top berth)",
     sleepsNote: "Pop-top berth included in the count",
     bathroom: "Wet bath",
     winterRating: "Cold-capable",
@@ -123,6 +129,8 @@ export const vans: VanModel[] = [
     offRoadCapability: "Low",
     offroadNote: "Not marketed for off-road use",
     sleepingCapacity: 2,
+    sleepsMax: 2,
+    sleepsDisplay: "2",
     bathroom: "Wet bath",
     winterRating: "Three-season",
     winterNote: "Thor publishes no winter package for the Sequence",
@@ -157,6 +165,8 @@ export const vans: VanModel[] = [
     offRoadCapability: "Low",
     offroadNote: "Sumo Springs improve ride quality; this is not an off-road model",
     sleepingCapacity: 2,
+    sleepsMax: 2,
+    sleepsDisplay: "2 (optional pop-top berth)",
     sleepsNote: "Optional pop-top adds an upper berth",
     bathroom: "Wet bath",
     winterRating: "Extended season",
@@ -192,6 +202,8 @@ export const vans: VanModel[] = [
     offRoadCapability: "Low",
     offroadNote: "Front-wheel drive; the National Park Foundation edition adds all-terrain tires",
     sleepingCapacity: 2,
+    sleepsMax: 3,
+    sleepsDisplay: "2 (3 with the optional cab air mattress)",
     sleepsNote: "Up to 3 with the optional cab air mattress",
     bathroom: "Wet bath",
     winterRating: "Extended season",
@@ -227,6 +239,8 @@ export const vans: VanModel[] = [
     offRoadCapability: "High",
     offroadNote: "10.5 inches of ground clearance on all-terrain tires, the most in this pool",
     sleepingCapacity: 2,
+    sleepsMax: 3,
+    sleepsDisplay: "2-3 (convertible lounge bed)",
     sleepsNote: "Sleeps 2-3 per Storyteller (convertible lounge bed)",
     bathroom: "Shower system + portable toilet",
     winterRating: "Four-season",
@@ -262,6 +276,8 @@ export const vans: VanModel[] = [
     offRoadCapability: "High",
     offroadNote: "AWD Sprinter chassis with an optional BFGoodrich KO2 all-terrain tire package",
     sleepingCapacity: 2,
+    sleepsMax: 3,
+    sleepsDisplay: "2 (3 with the optional cab air mattress)",
     sleepsNote: "Optional cab air mattress adds a third berth",
     bathroom: "Wet bath",
     winterRating: "Extended season",
@@ -297,6 +313,8 @@ export const vans: VanModel[] = [
     offRoadCapability: "Moderate",
     offroadNote: "AWD is available; this is a touring coach, not a trail build",
     sleepingCapacity: 2,
+    sleepsMax: 2,
+    sleepsDisplay: "2",
     bathroom: "Wet bath",
     winterRating: "Extended season",
     winterNote: "R-15 insulation standard, with optional Cozy Wrap insulation and Polar Package tank heating",
@@ -331,6 +349,8 @@ export const vans: VanModel[] = [
     offRoadCapability: "Moderate",
     offroadNote: "AWD and air suspension; Grech publishes no lift or off-road package",
     sleepingCapacity: 2,
+    sleepsMax: 2,
+    sleepsDisplay: "2",
     bathroom: "Wet bath",
     winterRating: "Four-season",
     winterNote: "Every tank is 12V heated, with Timberline diesel hydronic heat and full insulation",
@@ -365,6 +385,8 @@ export const vans: VanModel[] = [
     offRoadCapability: "Moderate",
     offroadNote: "AWD with all-terrain tires and air ride suspension",
     sleepingCapacity: 2,
+    sleepsMax: 2,
+    sleepsDisplay: "2",
     bathroom: "Wet bath",
     winterRating: "Extended season",
     winterNote: "Heated fresh and grey tanks, Timberline diesel hydronic heat, and a heated lithium power bank",
