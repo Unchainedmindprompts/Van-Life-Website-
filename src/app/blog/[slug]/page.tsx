@@ -329,7 +329,7 @@ export default async function BlogPostPage({
               </Link>
               <span>/</span>
               <Link href="/blog" className="hover:text-earth-400 transition-colors">
-                Blog
+                Articles
               </Link>
               <span>/</span>
               <span className="text-sand-400 truncate max-w-[200px]">{post.title}</span>

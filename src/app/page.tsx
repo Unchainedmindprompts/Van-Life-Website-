@@ -51,7 +51,7 @@ export default function HomePage() {
               href="/blog"
               className="px-8 py-4 font-display font-bold text-sm tracking-widest uppercase border border-sand-300/40 hover:border-earth-400 text-sand-200 hover:text-earth-300 rounded transition-colors"
             >
-              Read the Blog
+              Read the Articles
             </Link>
           </div>
         </div>
@@ -152,7 +152,7 @@ export default function HomePage() {
                   Blog
                 </span>
               </div>
-              <h3 className="font-display font-bold text-xl text-sand-100 mb-3">Starry Van Blog</h3>
+              <h3 className="font-display font-bold text-xl text-sand-100 mb-3">Starry Van Articles</h3>
               <p className="text-sand-400 text-sm leading-relaxed flex-1 mb-8">
                 In-depth guides, buying advice, and real-world van life stories. Built for SEO — every
                 post is structured to answer the questions you&apos;re actually searching.
@@ -161,7 +161,7 @@ export default function HomePage() {
                 href="/blog"
                 className="inline-block w-fit text-sm font-display font-bold tracking-wider uppercase text-earth-400 hover:text-earth-300 transition-colors"
               >
-                Read the Blog &rarr;
+                Read the Articles &rarr;
               </Link>
             </div>
           </div>

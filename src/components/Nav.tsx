@@ -36,7 +36,13 @@ export default function Nav() {
             href="/blog"
             className="text-sm font-medium tracking-wider text-sand-300 hover:text-earth-300 uppercase transition-colors"
           >
-            Blog
+            Articles
+          </Link>
+<Link
+            href="/about"
+            className="text-sm font-medium tracking-wider text-sand-300 hover:text-earth-300 uppercase transition-colors"
+          >
+            About
           </Link>
           <Link
             href="/find-my-van"
@@ -80,7 +86,14 @@ export default function Nav() {
             className="text-sm font-medium tracking-wider text-sand-300 hover:text-earth-300 uppercase transition-colors"
             onClick={() => setMenuOpen(false)}
           >
-            Blog
+            Articles
+          </Link>
+<Link
+            href="/about"
+            className="text-sm font-medium tracking-wider text-sand-300 hover:text-earth-300 uppercase transition-colors"
+            onClick={() => setMenuOpen(false)}
+          >
+            About
           </Link>
           <Link
             href="/find-my-van"
