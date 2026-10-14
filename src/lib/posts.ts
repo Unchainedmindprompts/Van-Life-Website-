@@ -80,9 +80,9 @@ export const posts: BlogPost[] = [
     featured: true,
   updated: "2026-10-14",
   image: {
-    src: "/DSC_0795.jpeg",
-    alt: "A white Sportsmobile Sprinter camper van at a coastal campsite",
-    caption: "The author's own Class B, a Sportsmobile Sprinter, on the coast.",
+    src: "/images/sportsmobile-interior-door.jpg",
+    alt: "Inside a Class B camper van: galley and sink by the sliding door, a lounge bench opposite, and the bed at the rear of a 170-inch Sprinter",
+    caption: "Inside a Class B: galley at the door, lounge opposite, bed across the rear. The layout decisions are the purchase. Photo: the author.",
   },
   about: ["class-b"],
   mentions: ["chassis:sprinter", "org:winnebago", "org:storyteller-overland"],
