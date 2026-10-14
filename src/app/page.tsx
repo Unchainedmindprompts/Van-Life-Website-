@@ -21,7 +21,7 @@ export default function HomePage() {
         }}
       >
         {/* Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-charcoal-950/40 via-charcoal-950/25 to-charcoal-950/60" />
+        <div className="absolute inset-0 bg-gradient-to-b from-charcoal-950/35 via-charcoal-950/20 to-charcoal-950/55" />
 
         <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
           <p className="font-display text-earth-400 text-xs md:text-sm font-bold tracking-[0.3em] uppercase mb-6">
@@ -175,7 +175,7 @@ export default function HomePage() {
           backgroundPosition: "center",
         }}
       >
-        <div className="absolute inset-0 bg-charcoal-950/78" />
+        <div className="absolute inset-0 bg-charcoal-950/55" />
         <div className="relative z-10 max-w-3xl mx-auto text-center">
           <h2 className="font-display font-black text-3xl md:text-5xl text-sand-100 leading-tight mb-6">
             The right van changes{" "}

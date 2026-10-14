@@ -520,7 +520,7 @@ export default async function BlogPostPage({
             backgroundPosition: "center",
           }}
         >
-          <div className="absolute inset-0 bg-gradient-to-b from-charcoal-950/75 via-charcoal-950/60 to-charcoal-950/85" />
+          <div className="absolute inset-0 bg-gradient-to-b from-charcoal-950/40 via-charcoal-950/25 to-charcoal-950/60" />
           <div className="relative z-10 max-w-3xl mx-auto">
             {/* Breadcrumb */}
             <nav className="flex items-center gap-2 text-xs text-sand-500 mb-6">
