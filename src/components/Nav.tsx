@@ -8,7 +8,7 @@ export default function Nav() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-charcoal-950/90 backdrop-blur-sm border-b border-charcoal-700">
-      <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <nav className="max-w-7xl mx-auto px-6 py-2 flex items-center justify-between">
         {/* Logo */}
         <Link
           href="/"
@@ -16,7 +16,7 @@ export default function Nav() {
           aria-label="Starry Van Home"
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/images/logo-sv-van.png" alt="" className="h-11 w-auto" />
+          <img src="/images/logo-sv-van.png" alt="" className="h-16 w-auto" />
           <span
             className="font-display font-bold text-xl tracking-widest text-sand-200 uppercase group-hover:text-earth-300 transition-colors"
           >

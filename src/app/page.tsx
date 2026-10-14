@@ -27,12 +27,6 @@ export default function HomePage() {
         <div className="absolute inset-0 hidden bg-gradient-to-b from-charcoal-950/35 via-charcoal-950/20 to-charcoal-950/55 md:block" />
 
         <div className="relative z-10 mx-auto w-full max-w-4xl px-6 py-12 text-center md:py-0">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src="/images/logo-sv-lockup.png"
-            alt="Starry Van logo: the SV monogram with two stars and a camper van"
-            className="mx-auto h-36 w-auto md:h-44 mb-8 drop-shadow-[0_2px_10px_rgba(0,0,0,0.55)]"
-          />
           <p className="font-display text-earth-400 text-xs md:text-sm font-bold tracking-[0.3em] uppercase mb-6">
             Class B Adventure Vans
           </p>
