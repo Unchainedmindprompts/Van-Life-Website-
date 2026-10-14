@@ -257,15 +257,22 @@ export default function ComparePage() {
           Let us match you to the right van.
         </h2>
         <p className="text-sand-400 text-lg max-w-xl mx-auto mb-8">
-          Our questionnaire — coming soon — will ask about your travel style, camping habits,
+          Our questionnaire asks about your travel style, camping habits,
           and budget to recommend the perfect platform.
         </p>
         <Link
-          href="/blog"
+          href="/find-my-van"
           className="inline-block px-8 py-4 font-display font-bold text-sm tracking-widest uppercase border border-earth-600 hover:bg-earth-600 text-earth-400 hover:text-sand-100 rounded transition-colors"
         >
-          Read the Starry Van Articles
+          Take the Match Quiz
         </Link>
+        <p className="text-sand-400 mt-8">
+          Shopping something that is not compared here yet?{" "}
+          <Link href="/market" className="text-earth-400 underline hover:text-earth-300">
+            Browse the full market index
+          </Link>{" "}
+          and request the comparison you want.
+        </p>
       </section>
     </div>
   );

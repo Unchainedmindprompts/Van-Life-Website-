@@ -32,6 +32,12 @@ export default function Nav() {
           >
             Compare Vans
           </Link>
+<Link
+            href="/market"
+            className="text-sm font-medium tracking-wider text-sand-300 hover:text-earth-300 uppercase transition-colors"
+          >
+            All Vans
+          </Link>
           <Link
             href="/blog"
             className="text-sm font-medium tracking-wider text-sand-300 hover:text-earth-300 uppercase transition-colors"
@@ -80,6 +86,13 @@ export default function Nav() {
             onClick={() => setMenuOpen(false)}
           >
             Compare Vans
+          </Link>
+<Link
+            href="/market"
+            className="text-sm font-medium tracking-wider text-sand-300 hover:text-earth-300 uppercase transition-colors"
+            onClick={() => setMenuOpen(false)}
+          >
+            All Vans
           </Link>
           <Link
             href="/blog"

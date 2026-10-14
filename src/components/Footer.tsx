@@ -28,6 +28,7 @@ export default function Footer() {
             <ul className="space-y-2">
               {[
                 { href: "/compare", label: "Compare Vans" },
+                { href: "/market", label: "All Vans (Market Index)" },
                 { href: "/blog", label: "Starry Van Articles" },
                 { href: "/about", label: "About Starry Van" },
                 { href: "/find-my-van", label: "Find My Van" },
