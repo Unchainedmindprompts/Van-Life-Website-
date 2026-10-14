@@ -4,11 +4,14 @@ export interface FAQ {
 }
 
 export interface ContentBlock {
-  type: "h2" | "h3" | "p" | "ul" | "ol" | "callout" | "faq-group";
+  type: "h2" | "h3" | "p" | "ul" | "ol" | "callout" | "faq-group" | "image";
   heading?: string;
   text?: string;
   items?: string[];
   faqs?: FAQ[];
+  src?: string;
+  alt?: string;
+  caption?: string;
 }
 
 export interface PostContent {
@@ -22,7 +25,7 @@ export const postContent: Record<string, PostContent> = {
   "class-b-van-buying-guide": {
     slug: "class-b-van-buying-guide",
     intro:
-      "The Class B campervan market has never been more exciting — or more confusing. You've got boutique custom builders crafting $250,000 rolling masterpieces, and you've got major RV manufacturers now offering factory 4x4 lifts, Fox suspension, and off-road tires at scale. Everyone looks legit. Every van looks amazing in photos. And the price range runs from $80,000 to well over $300,000.",
+      "The Class B campervan market has never been more exciting — or more confusing. You've got boutique custom builders crafting $250,000 rolling masterpieces, and you've got major RV manufacturers now offering factory all-wheel drive, lifted suspensions, and off-road tires at scale. Everyone looks legit. Every van looks amazing in photos. And the price range runs from $80,000 to well over $300,000.",
     relatedSlugs: [
       "sprinter-vs-transit-vs-promaster",
       "4x4-van-is-it-worth-it",
@@ -60,17 +63,17 @@ export const postContent: Record<string, PostContent> = {
       {
         type: "h3",
         heading: "What the Custom Builder Path Looks Like",
-        text: "Working with a shop like Outside Van, Storyteller Overland, or dozens of regional converters means they take a raw cargo van and build it to your specifications. You get a high degree of personalization, often superior craftsmanship, and a build that reflects how you actually live. The tradeoff is lead times that can stretch 12-18 months, limited dealer networks for service, and prices that reflect handcrafted work.",
+        text: "Working with a shop like [Outside Van](https://www.outsidevan.com), [Storyteller Overland](https://storytelleroverland.com), or dozens of regional converters means they take a raw cargo van and build it to your specifications. You get a high degree of personalization, often superior craftsmanship, and a build that reflects how you actually live. The tradeoff is lead times that can stretch 12-18 months, limited dealer networks for service, and prices that reflect handcrafted work.",
       },
       {
         type: "h3",
         heading: "What the RV Manufacturer Path Looks Like",
-        text: "Buying from companies like Winnebago, Airstream, or Thor means established dealer networks, standardized builds, financing options, and warranty infrastructure. These used to mean compromise on capability. Not anymore.",
+        text: "Buying from companies like [Winnebago](https://www.winnebago.com), [Airstream](https://www.airstream.com), or [Thor](https://www.thormotorcoach.com) means established dealer networks, standardized builds, financing options, and warranty infrastructure. These used to mean compromise on capability. Not anymore.",
       },
       {
         type: "h3",
         heading: "How the Market Has Changed",
-        text: "Here's what's shifted the game: major manufacturers are now bringing custom builder specs to production scale. Factory 4x4 conversions, Fox suspension upgrades, off-road wheel and tire packages — features that used to require a boutique builder are now coming off assembly lines. That blurs the line significantly and makes the decision harder than it used to be. The right answer depends on how much you value personalization versus convenience, and how comfortable you are with the service and warranty experience each path offers.",
+        text: "Here's what's shifted the game: major manufacturers are now bringing custom builder specs to production scale. Factory all-wheel drive, suspension upgrades, off-road wheel and tire packages — features that used to require a boutique builder are now coming off assembly lines. That blurs the line significantly and makes the decision harder than it used to be. The right answer depends on how much you value personalization versus convenience, and how comfortable you are with the service and warranty experience each path offers.",
       },
 
       // ── Question 3 ──────────────────────────────────────────
@@ -82,7 +85,7 @@ export const postContent: Record<string, PostContent> = {
       {
         type: "h3",
         heading: "The Real Cost of 4x4",
-        text: "4x4 capability adds cost — typically $10,000 to $20,000 or more depending on the conversion. It adds weight. It adds mechanical complexity. And for a lot of buyers, it sits unused 95% of the time.",
+        text: "4x4 capability adds cost — typically $10,000 to $25,000 or more depending on the platform and conversion. It adds weight. It adds mechanical complexity. And for a lot of buyers, it sits unused 95% of the time.",
       },
       {
         type: "h3",
@@ -92,7 +95,7 @@ export const postContent: Record<string, PostContent> = {
       {
         type: "h3",
         heading: "Don't Let Marketing Make This Decision",
-        text: "The current market trend is pushing buyers toward off-road specs because it looks great and it sells. Don't let marketing make this decision for you. Be clear about where you actually drive, and buy accordingly.",
+        text: "The current market trend is pushing buyers toward off-road specs because it looks great and it sells. Don't let marketing make this decision for you. Be clear about where you actually drive, and buy accordingly. Our full breakdown: [is 4x4 actually worth it?](/blog/4x4-van-is-it-worth-it)",
       },
 
       // ── Question 4 ──────────────────────────────────────────
@@ -159,7 +162,7 @@ export const postContent: Record<string, PostContent> = {
       {
         type: "h3",
         heading: "What to Look for in a Van's Electrical Build",
-        text: "Ask specifically about battery capacity in usable amp hours, solar input wattage, shore power charging capability, and inverter size. Lithium batteries are now the standard for serious builds — they're lighter, they charge faster, and they deliver more usable capacity than AGM.",
+        text: "Ask specifically about battery capacity in usable amp hours, solar input wattage, shore power charging capability, and inverter size. Lithium batteries are now the standard for serious builds — they're lighter, they charge faster, and they deliver more usable capacity than AGM. The complete sizing guide: [off-grid power systems for Class B vans](/blog/off-grid-power-systems-class-b).",
       },
       {
         type: "h3",
@@ -193,7 +196,7 @@ export const postContent: Record<string, PostContent> = {
       {
         type: "h2",
         heading: "The Bottom Line",
-        text: "A Class B van is one of the best investments you can make in how you experience the world. It's also a decision that rewards research and punishes impulse. Answer these seven questions honestly before you start shopping and you'll enter the market with clarity. You'll know what you need, what you're willing to pay for, and what questions to ask before you sign anything. That puts you miles ahead of most buyers. The right van is out there. Take the time to find it.",
+        text: "A Class B van is one of the best investments you can make in how you experience the world. It's also a decision that rewards research and punishes impulse. Answer these seven questions honestly before you start shopping and you'll enter the market with clarity. You'll know what you need, what you're willing to pay for, and what questions to ask before you sign anything. That puts you miles ahead of most buyers. The right van is out there. Take the time to find it. When you are ready, [take the match quiz](/find-my-van) or [compare every current model side by side](/compare).",
       },
 
       // ── About the Author ────────────────────────────────────
@@ -214,12 +217,12 @@ export const postContent: Record<string, PostContent> = {
           {
             question: "Should I buy from a custom van builder or an RV manufacturer?",
             answer:
-              "Custom builders like Outside Van or Storyteller Overland offer high personalization and often superior craftsmanship, but with 12-18 month lead times and limited service networks. RV manufacturers like Winnebago, Airstream, and Thor offer established dealer networks, standardized builds, and warranty infrastructure. Major manufacturers now offer factory 4x4, Fox suspension, and off-road packages that used to require a boutique builder.",
+              "Custom builders like Outside Van or Storyteller Overland offer high personalization and often superior craftsmanship, but with 12-18 month lead times and limited service networks. RV manufacturers like Winnebago, Airstream, and Thor offer established dealer networks, standardized builds, and warranty infrastructure. Major manufacturers now offer factory all-wheel drive and off-road packages that used to require a boutique builder.",
           },
           {
             question: "Is 4x4 worth the cost on a Class B campervan?",
             answer:
-              "4x4 adds $10,000 to $20,000 or more and increases weight and mechanical complexity. If you camp at developed campgrounds and drive graded roads, you don't need it. If you chase dispersed camping on unmaintained forest roads or overland into remote terrain, 4x4 becomes a safety decision. Don't let marketing make this choice — be honest about where you actually drive.",
+              "4x4 adds $10,000 to $25,000 or more and increases weight and mechanical complexity. If you camp at developed campgrounds and drive graded roads, you don't need it. If you chase dispersed camping on unmaintained forest roads or overland into remote terrain, 4x4 becomes a safety decision. Don't let marketing make this choice — be honest about where you actually drive.",
           },
           {
             question: "How do I evaluate a van converter's build quality?",
@@ -258,34 +261,40 @@ export const postContent: Record<string, PostContent> = {
     blocks: [
       {
         type: "h2",
-        heading: "The Short Answer",
+        heading: "Which chassis should you buy?",
         text: "Buy a Sprinter if off-road capability matters above all else. Buy a Transit if you want the most interior height, the most builder options, and a lower base cost. Buy a ProMaster if budget is tight and you'll stay on pavement. Now for the details.",
       },
       {
         type: "h2",
-        heading: "Interior Dimensions",
-        text: "This is where the Transit wins decisively. The high-roof Transit delivers 81.5\" (6'10\") of interior standing height — a full 4 inches taller than the high-roof Sprinter, which comes in at 76.7\" (6'4\"). Both are livable, but that gap is noticeable when you're standing at the stove or changing clothes. The ProMaster is the widest of the three (approximately 60\" between wheel wells vs. 48\" for the Sprinter), which makes it excellent for crosswise sleeping arrangements.",
+        heading: "How do the interior dimensions compare?",
+        text: "This is where the Transit wins decisively. The high-roof Transit delivers 81.5\" (6'10\") of interior standing height — a full 4 inches taller than the high-roof Sprinter, which comes in at 76.7\" (6'4\"). Both are livable, but that gap is noticeable when you're standing at the stove or changing clothes. The ProMaster is the widest of the three (approximately 60\" between wheel wells vs. 48\" for the Sprinter), which makes it excellent for crosswise sleeping arrangements. The manufacturers publish the full specifications: [Mercedes-Benz Sprinter](https://en.wikipedia.org/wiki/Mercedes-Benz_Sprinter), [Ford Transit](https://en.wikipedia.org/wiki/Ford_Transit), and [Ram ProMaster](https://en.wikipedia.org/wiki/Ram_ProMaster).",
       },
       {
         type: "h2",
-        heading: "Drivetrain and Off-Road",
+        heading: "What about drivetrain and off-road capability?",
       },
       {
         type: "ul",
         items: [
-          "Sprinter: Diesel only (US market). True 4x4 option with two-speed transfer case. Best ground clearance stock.",
+          "Sprinter: Gas or diesel (US market). Current models use an on-demand AWD system; the older factory 4x4 with a two-speed transfer case ended with the previous generation. Best ground clearance stock.",
           "Transit: Gas only (US market). AWD option with no low range. Good in slippery conditions, limited on technical terrain.",
           "ProMaster: Gas only. Front-wheel drive exclusively — no AWD or 4x4 available, ever.",
         ],
       },
       {
+        type: "image",
+        src: "/images/chassis-comparison.png",
+        alt: "Bar charts comparing interior standing height and width between wheel wells for the Sprinter, Transit, and ProMaster",
+        caption: "Interior height and wheel-well width: the two dimensions that shape a build.",
+      },
+      {
         type: "h2",
-        heading: "Reliability and Ownership Costs",
+        heading: "Which is most reliable, and cheapest to own?",
         text: "The ProMaster has the simplest mechanicals and lowest service costs. The Transit is a close second — extensive dealer network, cheaper parts, and straightforward maintenance. The Sprinter is the most capable but the most expensive to maintain: diesel service at a Mercedes dealer runs $800–$1,500 for routine work, and major repairs can be significant. That said, well-maintained Sprinters regularly hit 300,000+ miles.",
       },
       {
         type: "h2",
-        heading: "Builder Ecosystem",
+        heading: "Which chassis has the best builder ecosystem?",
         text: "More quality custom converters build on the Sprinter than any other platform. If you want a custom build with maximum options and the best resale value, Sprinter is the industry standard. The Transit has a large and growing converter community, particularly at the mid-market price point. ProMaster converters exist but the ecosystem is considerably smaller.",
       },
       {
@@ -299,7 +308,7 @@ export const postContent: Record<string, PostContent> = {
           {
             question: "Which van has the best resale value?",
             answer:
-              "Sprinter-based conversions from reputable builders hold value best, particularly with the 4x4 option. The Sprinter brand carries a premium in the used market. Storyteller Overland also holds value well due to brand demand. ProMaster builds generally depreciate fastest.",
+              "Sprinter-based conversions from reputable builders hold value best, particularly with the AWD or 4x4 option. The Sprinter brand carries a premium in the used market. Storyteller Overland also holds value well due to brand demand. ProMaster builds generally depreciate fastest.",
           },
           {
             question: "Can I fit a full-size bed in a ProMaster?",
@@ -314,7 +323,7 @@ export const postContent: Record<string, PostContent> = {
   "4x4-van-is-it-worth-it": {
     slug: "4x4-van-is-it-worth-it",
     intro:
-      "The 4x4 option on a Sprinter-based Class B typically adds $12,000–$25,000 to the purchase price and increases your maintenance complexity. It's the right choice for some buyers and completely unnecessary for others. Here's how to decide honestly.",
+      "The 4x4 option on a Sprinter-based Class B typically adds $10,000–$25,000 to the purchase price and increases your maintenance complexity. It's the right choice for some buyers and completely unnecessary for others. Here's how to decide honestly.",
     relatedSlugs: [
       "sprinter-vs-transit-vs-promaster",
       "storyteller-overland-mode-suspension",
@@ -323,7 +332,7 @@ export const postContent: Record<string, PostContent> = {
     blocks: [
       {
         type: "h2",
-        heading: "What 4x4 Actually Gives You",
+        heading: "What does 4x4 actually give you?",
         text: "True 4x4 on a Sprinter means a two-speed transfer case with high range (for highway use and mild off-road) and low range (for technical, slow-speed terrain where torque multiplication matters). This is meaningfully different from AWD, which lacks the low range and is primarily useful for traction in slippery conditions rather than technical off-road.",
       },
       {
@@ -331,8 +340,12 @@ export const postContent: Record<string, PostContent> = {
         text: "Key distinction: Sprinter 4x4 = true 4WD with high and low range. Storyteller/Transit AWD = all-wheel drive without low range. These are different systems for different use cases.",
       },
       {
+        type: "callout",
+        text: "Buying new today? Since the 2023 model year, Mercedes sells this capability as an on-demand AWD system rather than the low-range 4x4 described in this article. Current adventure models like the [Winnebago Revel](https://www.winnebago.com/models/product?GroupID=GROUP257&ProductID=PROD670&VariantID=44E) run that AWD system. The analysis below covers the 4x4 generation, and what AWD does and does not replace.",
+      },
+      {
         type: "h2",
-        heading: "Who Actually Needs It",
+        heading: "Who actually needs 4x4?",
       },
       {
         type: "ul",
@@ -346,7 +359,7 @@ export const postContent: Record<string, PostContent> = {
       },
       {
         type: "h2",
-        heading: "Who Probably Doesn't",
+        heading: "Who probably doesn't need it?",
       },
       {
         type: "ul",
@@ -360,8 +373,8 @@ export const postContent: Record<string, PostContent> = {
       },
       {
         type: "h2",
-        heading: "The Honest Cost-Benefit",
-        text: "At $15,000–$20,000 more at purchase, a van 4x4 makes financial sense if you'll actually use it OR if you're buying in a market where 4x4 resale commands a premium. If you spend 90% of your time on paved or graded roads and buy a Sprinter 4x4 for 'just in case' scenarios you could navigate with traction boards and a shovel, you've overpaid.",
+        heading: "Does the cost-benefit math work?",
+        text: "At the $10,000–$25,000 the option typically adds, a van 4x4 makes financial sense if you'll actually use it OR if you're buying in a market where 4x4 resale commands a premium. If you spend 90% of your time on paved or graded roads and buy a Sprinter 4x4 for 'just in case' scenarios you could navigate with traction boards and a shovel, you've overpaid.",
       },
       {
         type: "faq-group",
@@ -389,7 +402,7 @@ export const postContent: Record<string, PostContent> = {
   "winnebago-boldt-review": {
     slug: "winnebago-boldt-review",
     intro:
-      "The Winnebago Boldt is the most popular factory-built Class B in North America for good reason — it's well-designed, consistently built, comes with real warranty support, and is offered with a factory 4x4 option. But it's not perfect, and at $165,000+ it's not cheap. Here's everything you need to know.",
+      "The Winnebago Boldt is discontinued. Winnebago built it from 2020 to 2023 on the Mercedes Sprinter, and it earned a loyal following: consistent factory build quality, real warranty support, and an available all-wheel-drive chassis. This review is kept and updated as a used-buying guide. It is not perfect, and used examples are not cheap. Here's everything you need to know.",
     relatedSlugs: [
       "class-b-van-buying-guide",
       "4x4-van-is-it-worth-it",
@@ -397,8 +410,12 @@ export const postContent: Record<string, PostContent> = {
     ],
     blocks: [
       {
+        type: "callout",
+        text: "Discontinued: Winnebago no longer produces the Boldt, and it does not appear in [Winnebago's current Class B lineup](https://www.winnebago.com). Everything below describes the 2020-2023 models as built. Shopping new instead? Start with the models in our [current model comparison](/compare).",
+      },
+      {
         type: "h2",
-        heading: "What the Boldt Gets Right",
+        heading: "What did the Boldt get right?",
       },
       {
         type: "ul",
@@ -407,13 +424,13 @@ export const postContent: Record<string, PostContent> = {
           "Warranty: 1-year Winnebago warranty plus underlying Mercedes chassis warranty — real coverage, real dealer network",
           "Storage: Boldt's designers maximized every cubic inch — the overhead and under-bed storage is genuinely impressive for a 144\" wheelbase",
           "Power system: 200W solar + 100Ah lithium standard. Adequate for most users without upgrades",
-          "Sprinter 4x4: Available as an option and genuinely capable — not a marketing add-on",
-          "Resale: Boldt holds its value extremely well, especially 4x4 configurations",
+          "All-wheel drive: Available on the Sprinter chassis and genuinely capable — not a marketing add-on (early model years offered the factory 4x4 system)",
+          "Resale: Boldt holds its value extremely well, especially AWD and 4x4 configurations",
         ],
       },
       {
         type: "h2",
-        heading: "Where It Falls Short",
+        heading: "Where does it fall short?",
       },
       {
         type: "ul",
@@ -421,18 +438,23 @@ export const postContent: Record<string, PostContent> = {
           "Limited customization: You get what Winnebago offers. No custom bed configurations, no alternative floor plans for a given model year",
           "Water capacity: The standard fresh water tank (26 gallons) runs out fast for two people boondocking — most owners add tank capacity",
           "Solar: 200W is starter-tier for off-grid camping. A real off-grid setup needs 400–600W; plan to upgrade",
-          "Wait times: Popular models are frequently backordered 6–12 months from dealers",
-          "Price for size: At $165K+ for a 144\" Sprinter, you're paying a quality premium — a comparable custom build might offer more for less",
+          "Availability: Production ended in 2023, so you are shopping used inventory and the occasional dealer leftover only",
+          "Price for size: At $165K+ when new for a 144\" Sprinter, you paid a quality premium — a comparable custom build might offer more for less",
         ],
       },
       {
         type: "h2",
-        heading: "4x4 Performance in the Field",
-        text: "The Boldt 4x4 uses the Quigley system on the Mercedes Sprinter chassis — the same platform used by most custom-build 4x4 converters. In real-world use it performs well: stable on technical terrain, reliable transfer case, good ground clearance stock. The 4x4 Boldt is genuinely capable, not a watered-down version of van 4x4.",
+        heading: "How does the drivetrain perform in the field?",
+        text: "The Boldt rides on the Mercedes Sprinter drivetrain: a factory 4x4 system with low range in the early model years, replaced by the Mercedes on-demand AWD in the final years. In real-world use both perform well: stable on rough terrain, good ground clearance stock, and none of the compromises of an aftermarket conversion. The driven Boldt is genuinely capable, not a watered-down version of van 4x4.",
       },
       {
         type: "faq-group",
         faqs: [
+          {
+            question: "Is the Winnebago Boldt still in production?",
+            answer:
+              "No. Winnebago discontinued the Boldt after the 2023 model year; it does not appear in their current Class B lineup. Used examples remain widely available, which is why this review is maintained as a used-buying guide.",
+          },
           {
             question: "Is the Winnebago Boldt good for full-time van life?",
             answer:
@@ -446,7 +468,7 @@ export const postContent: Record<string, PostContent> = {
           {
             question: "What is the fuel economy of the Winnebago Boldt?",
             answer:
-              "The 2WD Boldt returns approximately 20–23 MPG on the highway. The 4x4 model is slightly lower at 18–21 MPG. Both figures are strong for a self-contained campervan of this size.",
+              "Owner reports put the 2WD Boldt at approximately 20–23 MPG on the highway when it was new. The 4x4 model is slightly lower at 18–21 MPG. Both figures are strong for a self-contained campervan of this size.",
           },
         ],
       },
@@ -456,7 +478,7 @@ export const postContent: Record<string, PostContent> = {
   "storyteller-overland-mode-suspension": {
     slug: "storyteller-overland-mode-suspension",
     intro:
-      "Storyteller Overland's MODE suspension system is one of the most-discussed features in the Class B market. It's a proprietary lift and suspension upgrade built into their Transit-based vans that adds meaningful ground clearance without the cost or complexity of a true 4x4 conversion. Here's exactly what it is, what it does, and whether the off-road claims hold up.",
+      "Storyteller Overland's MODE suspension is one of the most-discussed features in the Class B market, and one of the most confused, because the MODE changed platforms. This article covers the original system: a proprietary lift and suspension package on Storyteller's earlier Transit-based vans. The current MODE is a different vehicle, built on the Sprinter AWD. Both generations are explained below.",
     relatedSlugs: [
       "4x4-van-is-it-worth-it",
       "sprinter-vs-transit-vs-promaster",
@@ -466,11 +488,11 @@ export const postContent: Record<string, PostContent> = {
       {
         type: "h2",
         heading: "What Is the MODE Suspension?",
-        text: "MODE (Modular Off-road Drivetrain Enhancements) is Storyteller's proprietary suspension package applied to the Ford Transit AWD platform. It includes a leveling lift of approximately 1.5\" over stock, upgraded shock absorbers, and in some configurations, a front skid plate and all-terrain tires. The result is a Transit that sits noticeably higher than stock and handles rough terrain with more confidence.",
+        text: "MODE (Modular Off-road Drivetrain Enhancements) is Storyteller's proprietary suspension package applied to the Ford Transit AWD platform. It includes a leveling lift of approximately 1.5\" over stock, upgraded shock absorbers, and in some configurations, a front skid plate and all-terrain tires. The result is a Transit that sits noticeably higher than stock and handles rough terrain with more confidence. That describes the Transit generation. [The current MODE](https://storytelleroverland.com/pages/2026-classic-mode-og) rides on the Sprinter 2500 AWD at stock ride height, with 10.5 inches of ground clearance and the advanced suspension reserved for higher trims.",
       },
       {
         type: "h2",
-        heading: "What It Actually Changes",
+        heading: "What does it actually change?",
       },
       {
         type: "ul",
@@ -484,16 +506,16 @@ export const postContent: Record<string, PostContent> = {
       },
       {
         type: "callout",
-        text: "The MODE suspension makes the Transit a better adventure van. It does not make it a 4x4. For Forest Service road access, beach driving, or technical two-track, a Sprinter 4x4 still has a meaningful capability advantage.",
+        text: "On the Transit generation, the MODE suspension makes the Transit a better adventure van. It does not make it a 4x4. For Forest Service road access, beach driving, or technical two-track, a Sprinter 4x4 still has a meaningful capability advantage.",
       },
       {
         type: "h2",
-        heading: "Real-World Performance",
+        heading: "How does it perform in the real world?",
         text: "Storyteller owners consistently report that the MODE suspension makes a genuine difference on rough-but-passable terrain: washboard dirt roads, packed gravel with loose sections, rocky two-tracks rated for high-clearance vehicles. The all-terrain tires add traction in loose conditions. For this use case — adventurous but not technical — the MODE system delivers.",
       },
       {
         type: "h2",
-        heading: "MODE vs. Sprinter 4x4: Honest Comparison",
+        heading: "MODE or Sprinter 4x4: which is the honest pick?",
         text: "For overlanders who need to access 4WD-required routes, the Sprinter 4x4 is the answer. For adventurers who camp on dirt roads and occasional rough terrain but don't do technical off-road, the Storyteller MODE is capable enough and comes with a lower overall purchase price. The right answer depends on where you actually drive.",
       },
       {
@@ -508,6 +530,11 @@ export const postContent: Record<string, PostContent> = {
             question: "How does the MODE suspension affect ride quality on the highway?",
             answer:
               "Most owners report improved highway ride quality over stock Transit. The upgraded shocks reduce the jittery feel that stock Transit vans sometimes have at highway speed, particularly when loaded.",
+          },
+          {
+            question: "Is the current Storyteller MODE still built on the Ford Transit?",
+            answer:
+              "No. Earlier MODE vans were Transit-based, which is the generation this article's suspension details describe. The current MODE is built on the Mercedes Sprinter 2500 with all-wheel drive. See [the 2026 MODE page at Storyteller Overland](https://storytelleroverland.com/pages/2026-classic-mode-og) for the current specification.",
           },
           {
             question: "Is the Storyteller MODE system serviceable anywhere?",
@@ -531,8 +558,8 @@ export const postContent: Record<string, PostContent> = {
     blocks: [
       {
         type: "h2",
-        heading: "Lithium vs. AGM: The Core Decision",
-        text: "For most Class B buyers in 2025, lithium (LiFePO4) is the right choice. The price premium has narrowed significantly, and the advantages — deeper usable capacity, longer cycle life, lighter weight, and faster charging — make lithium the better long-term investment for anyone camping more than a few nights at a time.",
+        heading: "Lithium or AGM: which should you choose?",
+        text: "For most Class B buyers today, lithium (LiFePO4) is the right choice. The price premium has narrowed significantly, and the advantages — deeper usable capacity, longer cycle life, lighter weight, and faster charging — make lithium the better long-term investment for anyone camping more than a few nights at a time.",
       },
       {
         type: "ul",
@@ -559,24 +586,30 @@ export const postContent: Record<string, PostContent> = {
         ],
       },
       {
+        type: "image",
+        src: "/images/power-comparison.png",
+        alt: "Bar charts comparing usable capacity and cycle life of lithium and AGM batteries",
+        caption: "The core decision in two charts: usable capacity and cycle life, lithium vs AGM.",
+      },
+      {
         type: "h2",
-        heading: "How Much Battery Do You Need?",
+        heading: "How much battery do you actually need?",
         text: "Sizing your battery bank requires knowing your daily consumption. Run an energy audit: add up watt-hours for your refrigerator (biggest draw), lighting, phone/laptop charging, water pump, fan/ventilation, and any heating system. A couple living in a van full-time typically needs 200–300Ah of lithium capacity as a baseline.",
       },
       {
         type: "h2",
-        heading: "Solar Sizing",
+        heading: "How much solar is enough?",
         text: "The standard 200W panel included with many factory builds is a reasonable starting point for weekend use in sunny regions. For full-time boondocking, most experienced van lifers recommend 400–600W of roof-mounted panels. At higher latitudes or in overcast climates, err toward the higher end of that range.",
       },
       {
         type: "h2",
-        heading: "Charging Sources",
+        heading: "What are your charging options?",
       },
       {
         type: "ul",
         items: [
           "Solar: Primary source for most boondocking setups — silent, free fuel, reliable",
-          "DC-DC charger (alternator charging): Charges batteries while driving. Essential for multi-day driving stretches without solar",
+          "DC-DC charger (alternator charging): Charges batteries while driving. Essential for multi-day driving stretches without solar. Makers like [Victron Energy](https://www.victronenergy.com) publish the sizing guides most builders follow",
           "Shore power (AC charging): For campgrounds with hookups — fast and convenient but removes the point of off-grid capability",
           "Generator: Backup option for extended cloudy periods — adds weight, noise, and fuel logistics",
         ],
@@ -597,7 +630,7 @@ export const postContent: Record<string, PostContent> = {
           {
             question: "How long does a lithium van battery last?",
             answer:
-              "Quality LiFePO4 batteries (Battle Born, Renogy, Battleborn) typically last 10+ years with 2,000–5,000 full cycles. At one full cycle per day, that's 5–13 years of life — significantly better than the 1–3 years you'd get from a comparable AGM bank under the same use pattern.",
+              "Quality LiFePO4 batteries ([Battle Born](https://battlebornbatteries.com), Renogy, Victron) typically last 10+ years with 2,000–5,000 full cycles. At one full cycle per day, that's 5–13 years of life — significantly better than the 1–3 years you'd get from a comparable AGM bank under the same use pattern.",
           },
         ],
       },

@@ -6,6 +6,10 @@ export interface BlogPost {
   readTime: string;
   date: string;
   featured: boolean;
+  updated?: string;
+  image: { src: string; alt: string; caption: string };
+  about: string[];
+  mentions: string[];
   schema: {
     "@type": string;
     headline: string;
@@ -24,6 +28,14 @@ export const posts: BlogPost[] = [
     readTime: "11 min",
     date: "2025-02-15",
     featured: true,
+  updated: "2026-10-14",
+  image: {
+    src: "/DSC_0795.jpeg",
+    alt: "A white Sportsmobile Sprinter camper van at a coastal campsite",
+    caption: "The author's own Class B, a Sportsmobile Sprinter, on the coast.",
+  },
+  about: ["class-b"],
+  mentions: ["chassis:sprinter", "org:winnebago", "org:storyteller-overland"],
     schema: {
       "@type": "Article",
       headline: "Class B Van Buying: The 7 Questions You Must Answer Before You Spend a Dime",
@@ -54,6 +66,14 @@ export const posts: BlogPost[] = [
     readTime: "9 min",
     date: "2025-01-08",
     featured: true,
+  updated: "2026-10-14",
+  image: {
+    src: "/images/chassis-comparison.png",
+    alt: "Bar charts comparing interior standing height and width between wheel wells for the Sprinter, Transit, and ProMaster",
+    caption: "The dimensions that decide the build. Manufacturer figures; sources linked in the article.",
+  },
+  about: ["chassis:sprinter", "chassis:transit", "chassis:promaster"],
+  mentions: ["class-b"],
     schema: {
       "@type": "Article",
       headline: "Sprinter vs Transit vs ProMaster: Which Chassis Wins for Van Life?",
@@ -71,6 +91,14 @@ export const posts: BlogPost[] = [
     readTime: "7 min",
     date: "2024-12-20",
     featured: false,
+  updated: "2026-10-14",
+  image: {
+    src: "/tire-tread.png",
+    alt: "Close-up of an all-terrain tire tread pattern",
+    caption: "Tread is only part of the traction story. The drivetrain decides the rest.",
+  },
+  about: ["chassis:sprinter"],
+  mentions: ["model:winnebago-revel", "model:storyteller-mode", "class-b"],
     schema: {
       "@type": "Article",
       headline: "4x4 Van: Is It Actually Worth the Premium?",
@@ -81,18 +109,26 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "winnebago-boldt-review",
-    title: "Winnebago Boldt Review: The Best Turnkey Class B for Full-Timers?",
+    title: "Winnebago Boldt Review (Discontinued): Is It Still Worth Buying Used?",
     excerpt:
-      "An in-depth look at the Winnebago Boldt — what it gets right (a lot), where it cuts corners, how the factory 4x4 system performs in the field, and whether the price premium over a custom Sprinter build is justified.",
+      "Winnebago no longer builds the Boldt. As a used buy it remains one of the strongest factory Class B options for full-timers. What it got right, where it falls short, and what to check before you buy one.",
     category: "Van Review",
     readTime: "11 min",
     date: "2024-12-05",
     featured: false,
+  updated: "2026-10-14",
+  image: {
+    src: "/IMG_1329.jpeg",
+    alt: "A Sportsmobile Sprinter Class B camper van at a coastal campsite with bicycles on a rear rack",
+    caption: "The author's own Class B, a 2013 Sportsmobile Sprinter. The Boldt is covered from manufacturer material and owner reports.",
+  },
+  about: ["model:winnebago-boldt"],
+  mentions: ["chassis:sprinter", "org:winnebago"],
     schema: {
       "@type": "Article",
-      headline: "Winnebago Boldt Review: The Best Turnkey Class B for Full-Timers?",
+      headline: "Winnebago Boldt Review (Discontinued): Is It Still Worth Buying Used?",
       description:
-        "A detailed review of the Winnebago Boldt Class B campervan for full-time van life.",
+        "The Winnebago Boldt is discontinued. Reviewed as a used buy: strengths, shortcomings, drivetrain, and what full-timers should check before purchasing.",
       keywords: ["Winnebago Boldt review", "Class B van review", "full-time van life", "turnkey van"],
     },
   },
@@ -105,6 +141,14 @@ export const posts: BlogPost[] = [
     readTime: "6 min",
     date: "2024-11-18",
     featured: false,
+  updated: "2026-10-14",
+  image: {
+    src: "/IMG_2448.jpeg",
+    alt: "A camper van on a gravel forest road at night under the Milky Way",
+    caption: "Night on a forest road: the terrain the MODE was built for.",
+  },
+  about: ["model:storyteller-mode"],
+  mentions: ["chassis:transit", "chassis:sprinter", "org:storyteller-overland"],
     schema: {
       "@type": "Article",
       headline: "Storyteller Overland MODE Suspension Explained",
@@ -115,16 +159,24 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "off-grid-power-systems-class-b",
-    title: "Off-Grid Power Systems for Class B Vans: Lithium vs AGM in 2025",
+    title: "Off-Grid Power Systems for Class B Vans: Lithium vs AGM Compared",
     excerpt:
       "Lithium or AGM? Solar only or generator backup? Shore power or a DC-DC charger? The definitive breakdown of power system options for Class B van builds — with real numbers on capacity, weight, cost, and lifespan.",
     category: "Systems & Gear",
     readTime: "10 min",
     date: "2024-11-02",
     featured: false,
+  updated: "2026-10-14",
+  image: {
+    src: "/images/power-comparison.png",
+    alt: "Bar charts comparing usable capacity and cycle life of lithium and AGM batteries",
+    caption: "Lithium vs AGM in two charts. Typical ranges; the reasoning is in the article.",
+  },
+  about: ["class-b", "topic:lifepo4"],
+  mentions: [],
     schema: {
       "@type": "Article",
-      headline: "Off-Grid Power Systems for Class B Vans: Lithium vs AGM in 2025",
+      headline: "Off-Grid Power Systems for Class B Vans: Lithium vs AGM Compared",
       description:
         "Comparing lithium and AGM battery systems for off-grid Class B van builds, including solar, shore power, and DC-DC charging options.",
       keywords: ["van life power system", "lithium battery van", "off-grid van", "solar van conversion"],
