@@ -12,12 +12,10 @@ export default function HomePage() {
     <>
       {/* ─── Hero ─────────────────────────────────────────────── */}
       <section
-        className="relative min-h-screen flex items-center justify-center overflow-hidden"
+        className="relative min-h-[540px] md:min-h-screen flex items-center justify-center overflow-hidden bg-cover bg-[position:center_40%] max-md:bg-[position:center_30%]"
         style={{
           backgroundImage:
             "url('/DSC_0795.jpeg')",
-          backgroundSize: "cover",
-          backgroundPosition: "center 40%",
         }}
       >
         {/* Overlay */}
@@ -54,7 +52,7 @@ export default function HomePage() {
         </div>
 
         {/* Scroll indicator */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce hidden md:block">
           <svg className="w-6 h-6 text-sand-400/60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
           </svg>
