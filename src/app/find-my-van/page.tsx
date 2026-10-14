@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Quiz from "@/components/quiz/Quiz";
+import { SITE_URL } from "@/lib/entities";
 
 export const metadata: Metadata = {
   title: "Find My Van | Class B Match Questionnaire",
@@ -12,16 +13,16 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://van-life-website.vercel.app/find-my-van#webpage",
-      url: "https://van-life-website.vercel.app/find-my-van",
+      "@id": `${SITE_URL}/find-my-van#webpage`,
+      url: `${SITE_URL}/find-my-van`,
       name: "Find My Van | Class B Match Questionnaire",
       description:
         "An eight-question consultative questionnaire that matches buyers to Class B camper vans using manufacturer-verified prices and specifications.",
-      isPartOf: { "@id": "https://van-life-website.vercel.app/#website" },
+      isPartOf: { "@id": `${SITE_URL}/#website` },
     },
     {
       "@type": "Quiz",
-      "@id": "https://van-life-website.vercel.app/find-my-van#quiz",
+      "@id": `${SITE_URL}/find-my-van#quiz`,
       name: "Find Your Perfect Van",
       description:
         "Eight questions covering usage, terrain, sleeping capacity, winter use, bathroom needs, budget, buying timeline, and priorities. Matches are drawn from a pool of current Class B models with fact-checked prices and specs.",
@@ -29,7 +30,7 @@ const jsonLd = {
         "@type": "Thing",
         name: "Class B camper vans",
       },
-      mainEntityOfPage: { "@id": "https://van-life-website.vercel.app/find-my-van#webpage" },
+      mainEntityOfPage: { "@id": `${SITE_URL}/find-my-van#webpage` },
     },
   ],
 };
