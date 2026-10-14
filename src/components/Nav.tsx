@@ -15,7 +15,8 @@ export default function Nav() {
           className="flex items-center gap-2 group"
           aria-label="Starry Van Home"
         >
-          <span className="text-earth-400 text-2xl">&#9650;</span>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/images/logo-swirl.png" alt="" className="h-9 w-9" />
           <span
             className="font-display font-bold text-xl tracking-widest text-sand-200 uppercase group-hover:text-earth-300 transition-colors"
           >
