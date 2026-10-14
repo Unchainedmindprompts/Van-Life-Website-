@@ -82,6 +82,46 @@ export default function AboutPage() {
               contradictory spec sheets, and reviews written by people who had never
               spent a night in the vehicle.
             </p>
+            <h2 className="font-display font-bold text-2xl text-sand-100 pt-4">
+              Why Starry Van exists
+            </h2>
+            <p>
+              A decade ago I started looking for a van with zero experience in the
+              RV world. I didn&apos;t grow up camping, and I didn&apos;t have an
+              unlimited budget. There were so many choices, and I had no idea where
+              to start.
+            </p>
+            <p>
+              My first van was a Ford Transit that doubled as my work van. I built
+              a platform bed, added a Rixen petrol heater, a 50 amp-hour lithium
+              battery and a portable toilet, and called it good. It worked for a
+              couple of years, but my wife and I wanted something that wasn&apos;t a
+              work van, with more space.
+            </p>
+            <p>
+              What followed was two years of investigation, mostly because I was
+              disappointed in what I found. I&apos;d see a van I liked, then read
+              the customer reviews and half of them were horrific. Cabinets stapled
+              together. Water lines run on the outside of the van, which matters a
+              great deal if you want to use it three or four seasons. Water
+              capacity, power, on and on. Just so many options, and no straight
+              answers.
+            </p>
+            <p>
+              In 2019 we pulled the trigger on a 2013 Mercedes Sprinter 170 EXT
+              built by Sportsmobile. It had only 54,000 miles on it when we bought
+              it, and it has been amazing ever since.
+            </p>
+            <p>
+              Starry Van exists to be an easy way to explore the options, whether
+              that&apos;s a custom bespoke builder, a factory brand off the lot, or
+              something in the middle, and whether you&apos;re buying new or used.
+              Van life has brought my wife and me so much joy and so many amazing
+              experiences. We don&apos;t live in our van. We&apos;re weekend
+              warriors, and we&apos;re thrilled to share what we&apos;ve learned: a
+              comprehensive guide to help you through the van purchasing journey,
+              the guide I wished existed when I started.
+            </p>
             <p>
               So this site runs on a rule I can be held to. Every specification
               published here is cross-checked and documented, and where a fact
