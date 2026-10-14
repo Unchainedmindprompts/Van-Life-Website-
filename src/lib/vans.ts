@@ -233,7 +233,7 @@ export const vans: VanModel[] = [
     winterNote: "Diesel-fired heat and hot water, in-cabin fresh tank, and a grey tank heating loop; Storyteller markets a four-season design",
     buildQuality: "Premium",
     priceFrom: 192206,
-    priceNote: "Storyteller's 2026 model page price. Their comparison page lists $187,321; both figures are recorded in the fact ledger.",
+    priceNote: "Storyteller's 2026 model page price, base before options. Their comparison page lists $187,321; where their pages disagree, we follow the model page.",
     sourceUrl: "https://www.storytelleroverland.com/pages/2026-classic-mode-og",
     verifiedDate: VERIFIED,
     bestFor: ["Overlanders", "Boondockers", "Adventure-first couples"],
@@ -268,7 +268,7 @@ export const vans: VanModel[] = [
     winterNote: "Hydronic heating, an insulated gray water tank, and a factory winterization package",
     buildQuality: "Premium",
     priceFrom: 223495,
-    priceNote: "Winnebago's listed starting price. Dealer base MSRPs run higher; both figures are recorded in the fact ledger.",
+    priceNote: "Manufacturer's listed starting price, base before options. Dealer MSRPs run higher; where sources disagree, we follow the manufacturer.",
     sourceUrl: "https://www.winnebago.com/models/product?GroupID=GROUP257&ProductID=PROD670&VariantID=44E",
     verifiedDate: VERIFIED,
     bestFor: ["Off-grid adventurers", "Couples who boondock", "Buyers who prioritize capability"],
@@ -280,7 +280,7 @@ export const vans: VanModel[] = [
     ],
     considerations: [
       "Dealer MSRPs run well above Winnebago's listed starting price",
-      "Manufacturer and dealer spec sheets disagree on fresh water capacity, so we do not publish it yet",
+      "Winnebago lists 21 gal of fresh water; some dealer sheets claim 35. We publish the manufacturer's figure",
       "Compact 144\" wheelbase makes a tight interior for full-time gear",
     ],
   },
@@ -349,7 +349,7 @@ export const vans: VanModel[] = [
     considerations: [
       "Among the most expensive Class B vans sold",
       "Seats six but sleeps two",
-      "Grech's own materials disagree on body length by model year, so we do not publish it yet",
+      "The current Tour floor plan runs about 22 ft on the long chassis",
     ],
   },
   {

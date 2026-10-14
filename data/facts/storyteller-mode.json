@@ -87,7 +87,12 @@
         }
       ],
       "note": "Manufacturer's own pages disagree by $4,885. Display uses the 2026 model page figure; dealer asking prices cluster at $189,206.",
-      "status": "conflict-unresolved"
+      "status": "resolved-by-policy",
+      "resolution": "Resolved by policy (Mark, Oct 14, 2026): where sources disagree, the manufacturer's published figure is authoritative for display. Within the manufacturer's pages, the dedicated model page outranks the comparison page.",
+      "chosen": {
+        "value": 192206,
+        "source": "storytelleroverland.com/pages/2026-classic-mode-og"
+      }
     }
   ],
   "notes": "Current MODE is Sprinter-based. Older model years were Ford Transit based; do not carry Transit data forward."

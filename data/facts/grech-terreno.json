@@ -78,7 +78,12 @@
         }
       ],
       "note": "Model-year configuration discrepancy in Grech's own materials. Length not displayed until resolved.",
-      "status": "conflict-unresolved"
+      "status": "resolved-by-policy",
+      "resolution": "Resolved by policy (Mark, Oct 14, 2026): where sources disagree, the manufacturer's published figure is authoritative for display. The current model-year (2027) page supersedes the prior-year manual.",
+      "chosen": {
+        "value": "170in non-extended; Tour floor plan 22ft",
+        "source": "grechrv.com/model/2027-terreno-ion-awd"
+      }
     }
   ],
   "notes": "MSRP cross-check agrees exactly: dealer unit in Grech's own inventory feed at $290,400. For 2027 the Terreno is offered only in -ion AWD form."
