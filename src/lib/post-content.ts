@@ -256,7 +256,7 @@ export const postContent: Record<string, PostContent> = {
     relatedSlugs: [
       "class-b-van-buying-guide",
       "4x4-van-is-it-worth-it",
-      "storyteller-overland-mode-suspension",
+      "remote-vans-review",
     ],
     blocks: [
       {
@@ -634,6 +634,154 @@ export const postContent: Record<string, PostContent> = {
           },
         ],
       },
+    ],
+  },
+  "remote-vans-review": {
+    slug: "remote-vans-review",
+    intro:
+      "Remote Vans is a Cincinnati builder with a focused pitch: take the Mercedes Sprinter all-wheel drive, fit one of the largest battery systems ever put in a Class B, add real off-road hardware and a Starlink dish, and sell it to people who work from the road. The founders' backgrounds, a British Army logistics officer who built overland vehicles in Africa and a tech founder who worked his way around the world without flying, say the pitch is personal. So we checked the substance: the build, the power system, the off-road kit, the prices, and the warranty agreement. The substance is real. So are two catches.",
+    relatedSlugs: [
+      "off-grid-power-systems-class-b",
+      "4x4-van-is-it-worth-it",
+      "class-b-van-buying-guide",
+    ],
+    blocks: [
+        {
+          type: "callout",
+          text: "The short version: if you earn your living from a laptop and want to do it from a forest road, Remote Vans is the most work-ready factory Class B on the market right now. Three of its four models carry a 16.8 kWh battery and a fitted Starlink dish as standard. The trade-offs are equally clear: there is no fixed bathroom in any model, and the conversion warranty is one year. Both are covered in full below.",
+        },
+        {
+          type: "h2",
+          heading: "What is Remote Vans?",
+          text: "Remote Vans is a Class B motorhome builder headquartered in Cincinnati, Ohio, founded in 2021. Every model is built on the same platform, the Mercedes-Benz Sprinter 144-inch wheelbase in all-wheel drive, and the company is explicit that it does not build on the longer 170-inch Sprinter or the Ford Transit. The vans are RVIA-accredited and sold through a dealer network that includes Johnson RV, Campers Inn, Vogt RV, Happy Daze, Van City RV, and, for North Idaho buyers, Yozzy Overland in Post Falls.",
+        },
+        {
+          type: "p",
+          text: "The brand runs on a line that tells you exactly who it is for: work, play, travel, anywhere. Pricing is published on [the manufacturer's own site](https://remotevans.com/2026-remote-vans-series/) under what it calls see-through pricing, a direct price per model with no negotiating. Owners are organized into a community the company calls the Rolling Nomads. Full background is on [Remote Vans' founders and team page](https://remotevans.com/remote-vans-founders-and-team/).",
+        },
+        {
+          type: "h2",
+          heading: "Who founded Remote Vans?",
+          text: "The two founders bring unusually relevant pasts. Daryn Hillhouse, the co-founder and CEO, served in the British Army in operations and logistics, with tours in Bosnia, Kosovo and Afghanistan, then managed defence contracts and bids worth more than a billion dollars. After the Army he founded the Put Foot Rally, described by the company as the largest road rally in Africa, and his adventure-travel outfit there built vehicles the company now calls early prototypes of Remote Vans.",
+        },
+        {
+          type: "p",
+          text: "Tony Alexander, the other co-founder, is the remote-work half of the idea. He founded or co-founded several technology companies, including one of the world's leading online travel registries, ran a major US startup accelerator as its executive director, and once circumnavigated the globe without flying while running his businesses from the road. The founding story the company tells is disarmingly small: during COVID lockdown, Alexander pitched Hillhouse the idea of a technology-packed Sprinter he could work from anywhere, over a bowl of pasta in Cincinnati.",
+        },
+        {
+          type: "p",
+          text: "The first vans, roughly twenty of them, were built by a team of less than a handful in a disused brewery, learning as they went. In 2023 the company moved into its current facility, gained RVIA certification, and opened dealer distribution. The Friday, Oasis and Aegis series debuted in early 2024, with the T-45 added later as the entry model. Andrew Cooley, fourth-generation RV family and a former dealership owner, serves as president.",
+        },
+        {
+          type: "h2",
+          heading: "How are Remote Vans built?",
+          text: "All design and build happens in-house at a 30,000 square foot facility in Cincinnati's St. Bernard neighborhood: carpentry, metalwork, upholstery, engineering and assembly under one roof. The company says every van moves through several build, testing and quality control phases on its production line. The positioning is craft rather than automation, cabinetry, disciplined wiring, and fit and finish learned by hand, and it is worth noting the company makes no robotics claims anywhere in its material.",
+        },
+        {
+          type: "p",
+          text: "Four proprietary systems appear across the range. MoPoWa houses the power and water systems in an aluminum enclosure with service panels in the garage. The Vanhalla seat swings 90 degrees and converts to a second bed. The Cyber Shower is a stowable shower system, covered below, and Pennyworth is the van's control system, run from touchscreens up to 11 inches. Named components include lightweight aluminum cabinetry, PEX-A plumbing with brass fittings throughout, an insulation stack of Kilmat sound deadening, Solarcore foam and Havelock wool, Lithionics batteries, Nomadic Cooling air conditioning, Rixen hydronic heat and Van Compass suspension parts.",
+        },
+        {
+          type: "p",
+          text: "The vans are fixed-spec rather than custom commissions, with personalization limited to branding kits: exterior and interior accent colors, cabinet inlays and drawer colors. That is how the company can describe its vans as ready in under 30 days, a sharp contrast with the 6 to 18 months its own [FAQ](https://remotevans.com/faq/) quotes for custom conversions generally.",
+        },
+        {
+          type: "h2",
+          heading: "How much battery does a Remote Vans camper have?",
+          text: "This is the headline, and it earns it. The MoPoWa system is built around a 51-volt Lithionics NEVERDIE battery. The Friday, Oasis and Aegis carry 16.8 kWh of it, which the manufacturer describes as 100 percent usable with a built-in reserve. The entry T-45 carries half that, 8.4 kWh. To put the big bank in Class B terms: most factory vans in this market run battery banks a fraction of that size, sized for a night of lights and furnace. Sixteen point eight kilowatt-hours is sized for air conditioning, for days. Our [guide to off-grid power systems](/blog/off-grid-power-systems-class-b) explains how to compare bank sizes across brands, and note that Remote Vans publishes capacity in kilowatt-hours only; it does not publish an amp-hour figure, so we do not invent one.",
+        },
+        {
+          type: "image",
+          src: "/images/remote-vans-lineup.png",
+          alt: "Chart of the 2026 Remote Vans lineup showing manufacturer direct prices from $174,900 to $247,900 and battery capacity of 8.4 kWh on the T-45 and 16.8 kWh on the Friday, Oasis and Aegis",
+          caption: "The 2026 Remote Vans lineup. Prices are the manufacturer's published direct prices (October 2026). The Friday's window-sticker MSRP is higher, explained in the pricing section below.",
+        },
+        {
+          type: "p",
+          text: "The rest of the system is specified like it was designed by people who have actually run out of power. A 3,000-watt inverter and charger with a 5,500-watt boost mode is claimed to run the air conditioner, microwave and cooktop simultaneously. Charging comes from three sources: a 30-amp shore inlet, roof solar, and the component that matters most in practice, a dedicated 48-volt, 100-amp generator alternator that rapidly refills the bank while you drive. Be clear-eyed about the solar: a single 200-watt panel is a maintainer, not a refiller, for a bank this size. The alternator does the heavy lifting, and the company claims multiple nights, three or more, of off-grid air conditioning on a single charge. Full system specs are on [Remote Vans' comparison page](https://remotevans.com/compare-adventure-vans/).",
+        },
+        {
+          type: "h2",
+          heading: "How capable is a Remote Vans camper off-road?",
+          text: "Every model starts from the right foundation: the Sprinter's all-wheel drive, BFGoodrich KO2 or KO3 all-terrain tires, and uprated rear suspension. From there the hardware climbs a clear ladder by model. The Friday gets Van Compass heavy-duty Opti-Leaf rear springs. The Oasis and Aegis add Van Compass 4.3 adjustable piggyback shocks front and rear, Baja support brackets and upgraded bump stops, plus an ARB twin onboard air compressor, a front bumper and an armor kit. The Aegis alone adds Van Compass Inverted Rally Struts and skid plates under the engine, transmission and rear differential.",
+        },
+        {
+          type: "p",
+          text: "Two honesty notes, because this site publishes what manufacturers publish and flags what they do not. Remote Vans does not publish a suspension lift height in inches for any model, and publishes no approach or departure angles, so we do not quote any. The clearance figure it does publish, on the manufacturer's own Oasis window sticker, is 9.5 inches at the rear differential. That is a real, documented number, and it puts these vans in the same working conversation as the established off-road benchmarks in our [compare tool](/compare), the Winnebago Revel and the Storyteller MODE, both of which take a different route to a similar destination. Whether any van needs this much hardware is a question we take apart in [Is 4x4 worth it?](/blog/4x4-van-is-it-worth-it)",
+        },
+        {
+          type: "h2",
+          heading: "What does the Remote Vans lineup cost?",
+          text: "Four models, all Sprinter 144 all-wheel drive, all with the same queen bed, the same 30 gallons of fresh water and 24 gallons of heated gray capacity, and the same bathroom arrangement. The 2026 manufacturer direct prices are: T-45 at $174,900, Friday at $194,900, Oasis at $224,900, and Aegis at $247,900. What the steps buy you is mostly battery, air conditioning size, Starlink hardware and off-road kit, detailed in our [comparison of all four](https://remotevans.com/compare-adventure-vans/) and in the Friday and Aegis entries in our [compare tool](/compare).",
+        },
+        {
+          type: "p",
+          text: "One pricing wrinkle deserves plain language, because Remote Vans publishes two numbers for the Friday. Its window sticker prints an MSRP of $272,900 alongside see-through launch pricing of $194,900. The direct price is the headline figure on the manufacturer's site and the one we publish; dealers can and do sell below it, with one dealer advertising a 2026 Friday at $175,610 after a factory rebate and dealer discount. Treat the direct price as the ceiling, not the floor. No 2027 models have been published yet.",
+        },
+        {
+          type: "h2",
+          heading: "Can you actually work remotely from a Remote Vans camper?",
+          text: "This is the use case the company was founded on, and it shows in the spec sheet rather than the brochure copy. Starlink fitment climbs with the range: the T-45 is compatible but not fitted, the Friday carries a Starlink Mini with a dashboard mount, the Oasis a Standard dish, and the Aegis the High-Performance dish. In every case the account is yours; the company fits the hardware and dealers walk buyers through activation at handover.",
+        },
+        {
+          type: "p",
+          text: "The Aegis goes furthest. Its manufacturer's home office section describes multiple workstation setups: both cab seats swivel, L-track on the walls and overhead shelf mounts a second screen, and one side of the bed lowers to create a standing desk. Across the range there is a Lagun-mounted bamboo table, a drop-down bamboo table, five 110-volt outlets, three 12-volt ports and up to six USB-C sockets within reach. Add the power math, a 16.8 kWh bank, an inverter that runs the air conditioner and your gear together, and an alternator that refills the bank on the drive to the next spot, and the full remote workday the company promises is genuinely supported by the hardware. Run your own priorities through [the match quiz](/find-my-van) and the Friday and Aegis are in the pool.",
+        },
+        {
+          type: "h2",
+          heading: "What warranty does Remote Vans offer?",
+          text: "Read the agreement, not the slogan. The company's material repeatedly describes its warranty as one of the most generous available. The actual published agreement, effective June 1, 2025 and reproduced on [Remote Vans' warranty page](https://remotevans.com/warranty-agreement/), is a materials and workmanship warranty of one year or 20,000 miles, whichever comes first, for the original owner only, with repairs performed by Remote Vans or an authorized provider.",
+        },
+        {
+          type: "p",
+          text: "The exclusion that matters most: components and equipment not installed or supplied by Remote Vans are not covered by that warranty, and the agreement names electrical systems and appliances, heaters, refrigerators, plumbing fixtures, fans, air conditioners, light fixtures and windows. Those carry their own component manufacturers' warranties instead, including a genuinely strong 5-year, 2,000-cycle warranty on the Lithionics batteries. The Mercedes chassis carries its own coverage, published by Remote Vans as a 3-year, 36,000-mile vehicle warranty and a 5-year, 100,000-mile powertrain warranty. None of this makes the vans a bad buy. It makes the warranty average for the industry rather than generous, and a buyer should walk in knowing the difference.",
+        },
+        {
+          type: "h2",
+          heading: "What are the catches with Remote Vans?",
+          text: "The bathroom is the big one, and it is a design choice, not an oversight. No Remote Vans model has a fixed wet bath or a black-water tank. Instead you get the Cyber Shower, a stowable indoor shower that sets up in under 30 seconds with a tray, curtain and quick-connect head, and a portable Thetford cassette toilet that stores in the shower box. On the Friday, Oasis and Aegis the shower can recirculate, which the manufacturer says stretches to 10-plus minute showers on under 3.5 gallons; that function is not available on the T-45. Plenty of owners prefer this arrangement for the space it frees up. Plenty of buyers will not consider a $200,000 van without an enclosed bathroom. Know which one you are before you fall for the battery.",
+        },
+        {
+          type: "ul",
+          items: [
+            "Sleeps 4 comes with an asterisk: the queen bed sleeps two adults, and the second bed, the Vanhalla swing seat, is sized for two smaller children, or one adult on the Aegis combined with a swivel seat.",
+            "The 200-watt solar panel cannot meaningfully refill a 16.8 kWh bank. Budget your power around driving and shore power, with solar as a top-up.",
+            "It is a young company, founded in 2021, with a dealer network in the dozens rather than the hundreds. Service access on the road will not match Winnebago's, and the warranty is one year. That is the honest price of the spec sheet.",
+          ],
+        },
+        {
+          type: "faq-group",
+          faqs: [
+            {
+              question: "Who founded Remote Vans?",
+              answer: "Daryn Hillhouse and Tony Alexander, in Cincinnati in 2021. Hillhouse is a British Army operations and logistics veteran who later founded Africa's Put Foot Rally and built prototype overland vehicles. Alexander is a serial technology founder who ran a major US startup accelerator and once circumnavigated the globe without flying while working remotely. Their backgrounds are detailed on [Remote Vans' founders page](https://remotevans.com/remote-vans-founders-and-team/).",
+            },
+            {
+              question: "Where are Remote Vans built?",
+              answer: "Entirely in-house at the company's 30,000 square foot facility in Cincinnati, Ohio, including carpentry, metalwork, upholstery, engineering and assembly. The first vans were built in a disused Cincinnati brewery; the company moved to its current facility and gained RVIA certification in 2023.",
+            },
+            {
+              question: "How much does a Remote Vans camper cost?",
+              answer: "For 2026, the manufacturer's published direct prices are $174,900 for the T-45, $194,900 for the Friday, $224,900 for the Oasis and $247,900 for the Aegis. The Friday's window sticker also prints a $272,900 MSRP; the direct price is the manufacturer's headline figure, and dealers sometimes sell below it.",
+            },
+            {
+              question: "Does a Remote Vans camper have a bathroom?",
+              answer: "Not a fixed one. Every model uses the Cyber Shower, a stowable indoor shower system (recirculating on the Friday, Oasis and Aegis, but not the T-45), plus a portable Thetford cassette toilet stored in the shower box. There is no enclosed wet bath and no black-water tank in any model.",
+            },
+            {
+              question: "How long is the Remote Vans warranty?",
+              answer: "The conversion warranty in the published agreement is 1 year or 20,000 miles for the original owner, covering materials and workmanship. Components Remote Vans did not supply, including the electrical system, appliances and air conditioner, carry their own manufacturers' warranties; the Lithionics batteries are covered for 5 years or 2,000 cycles. The full agreement is on [the manufacturer's warranty page](https://remotevans.com/warranty-agreement/).",
+            },
+            {
+              question: "Where can I see a Remote Vans camper in North Idaho?",
+              answer: "Yozzy Overland in Post Falls is a Remote Vans dealer named on the manufacturer's site, about as close to home as this site gets. The full dealer list is on [Remote Vans' site](https://remotevans.com/faq/), and factory pickup at the Cincinnati headquarters is also offered.",
+            },
+          ],
+        },
+        {
+          type: "p",
+          text: "Remote Vans will not be the right answer for everyone, and this site exists to sort that out honestly rather than sell you a van. If the bathroom arrangement is a dealbreaker, the quiz will steer you to enclosed-bath vans automatically, because we treat it as a hard requirement when you say it is. If you work from the road and your current van's battery is the thing that ends your workday, start with [the match quiz](/find-my-van), then put the Friday and Aegis side by side with the rest of the market in [the compare tool](/compare).",
+        },
     ],
   },
 };

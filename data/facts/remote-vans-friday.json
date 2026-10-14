@@ -1,0 +1,209 @@
+{
+  "model": "remote-vans-friday",
+  "name": "Friday Series",
+  "builder": "Remote Vans",
+  "modelYear": 2026,
+  "retrievedAt": "2026-10-14",
+  "attributes": [
+    {
+      "attribute": "chassis",
+      "value": "Mercedes-Benz Sprinter 144in wheelbase, high roof (2500 per dealer listings)",
+      "sourceUrl": "https://remotevans.com/compare-adventure-vans/",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "drivetrain",
+      "value": "AWD",
+      "sourceUrl": "https://remotevans.com/compare-adventure-vans/",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "startingPrice",
+      "value": 194900,
+      "sourceUrl": "https://remotevans.com/compare-adventure-vans/",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14",
+      "unit": "USD"
+    },
+    {
+      "attribute": "sleeps",
+      "value": "2-4",
+      "sourceUrl": "https://remotevans.com/compare-adventure-vans/",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "bathroom",
+      "value": "No fixed wet bath: Cyber Shower stowable shower system plus portable Thetford cassette toilet stored in the shower box; exterior shower",
+      "sourceUrl": "https://remotevans.com/van/aegis-series-2026/",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "freshWaterCapacity",
+      "value": 30,
+      "sourceUrl": "https://remotevans.com/compare-adventure-vans/",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14",
+      "unit": "gal"
+    },
+    {
+      "attribute": "grayWaterCapacity",
+      "value": 24,
+      "sourceUrl": "https://remotevans.com/compare-adventure-vans/",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14",
+      "unit": "gal (heated tank)"
+    },
+    {
+      "attribute": "batteryCapacity",
+      "value": 16.8,
+      "sourceUrl": "https://remotevans.com/compare-adventure-vans/",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14",
+      "unit": "kWh (51V Lithionics NEVERDIE; amp-hours not published by manufacturer)"
+    },
+    {
+      "attribute": "inverter",
+      "value": "3,000W inverter/charger with 5,500W boost",
+      "sourceUrl": "https://remotevans.com/compare-adventure-vans/",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14",
+      "unit": "W"
+    },
+    {
+      "attribute": "alternatorCharging",
+      "value": "48V 100A Lithionics generator alternator",
+      "sourceUrl": "https://remotevans.com/compare-adventure-vans/",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "solar",
+      "value": 200,
+      "sourceUrl": "https://remotevans.com/compare-adventure-vans/",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14",
+      "unit": "W (single roof panel, plus exterior expansion port)"
+    },
+    {
+      "attribute": "starlink",
+      "value": "Starlink Mini fitted standard (dashboard mount); owner's own Starlink account",
+      "sourceUrl": "https://remotevans.com/compare-adventure-vans/",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "suspension",
+      "value": "Van Compass heavy-duty Opti-Leaf rear spring pack (no 4.3 shock upgrade)",
+      "sourceUrl": "https://remotevans.com/compare-adventure-vans/",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "tires",
+      "value": "BFGoodrich KO2/KO3 245/70 R17",
+      "sourceUrl": "https://remotevans.com/compare-adventure-vans/",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "conversionWarranty",
+      "value": "1 year / 20,000 miles materials and workmanship, original owner only; components not supplied by Remote Vans (electrical, appliances, A/C, heaters) carry their own manufacturer warranties",
+      "sourceUrl": "https://remotevans.com/warranty-agreement/",
+      "sourceType": "manufacturer_warranty_agreement",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "batteryWarranty",
+      "value": "5 years / 2,000 cycles (Lithionics)",
+      "sourceUrl": "https://remotevans.com/compare-adventure-vans/",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "suspensionLift",
+      "value": "Not published by manufacturer",
+      "sourceUrl": "https://remotevans.com/compare-adventure-vans/",
+      "sourceType": "manufacturer_spec_page",
+      "status": "not-published",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "airConditioner",
+      "value": "Nomadic Cooling X2 (48V)",
+      "sourceUrl": "https://remotevans.com/compare-adventure-vans/",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-14"
+    },
+    {
+      "attribute": "groundClearance",
+      "value": "Not published by manufacturer; dealer listings state 8.25 in",
+      "sourceUrl": "https://remotevans.com/compare-adventure-vans/",
+      "sourceType": "manufacturer_spec_page",
+      "status": "not-published",
+      "retrievedAt": "2026-10-14"
+    }
+  ],
+  "conflicts": [
+    {
+      "attribute": "startingPrice",
+      "values": [
+        {
+          "value": 194900,
+          "sourceUrl": "https://remotevans.com/compare-adventure-vans/"
+        },
+        {
+          "value": 272900,
+          "sourceUrl": "https://remotevans.com/wp-content/uploads/2025/05/2026_Friday_Series_Window_Sticker_Remote_Van.pdf"
+        }
+      ],
+      "note": "The manufacturer publishes two figures: the Manufacturer Direct (see-through) price of $194,900 and a window-sticker MSRP of $272,900. Dealer sale prices run lower than direct (e.g., Johnson RV listed $175,610 after rebate and discount).",
+      "status": "resolved-by-policy",
+      "resolution": "Display uses the manufacturer's published direct price, with the sticker MSRP disclosed in the price note.",
+      "chosen": {
+        "value": 194900,
+        "source": "remotevans.com/compare-adventure-vans/"
+      }
+    },
+    {
+      "attribute": "sleeps",
+      "values": [
+        {
+          "value": "2-4",
+          "sourceUrl": "https://remotevans.com/compare-adventure-vans/"
+        },
+        {
+          "value": "3",
+          "sourceUrl": "https://www.rvtrader.com/listing/2026-Remote-Vans-Remote-Vans-Oasis-5037070110"
+        }
+      ],
+      "note": "Dealer listing metadata says 2 or 3 on various models; the manufacturer rates every model 'seats and sleeps 4' (queen bed plus the Vanhalla swing-seat bed, which suits two smaller children). Manufacturer figure stands.",
+      "status": "resolved-by-policy",
+      "chosen": {
+        "value": "2-4",
+        "source": "remotevans.com/compare-adventure-vans/"
+      }
+    }
+  ],
+  "notes": "Remote Vans publishes battery capacity in kWh at 51V only; amp-hours are never stated. No suspension lift height or approach/departure angles are published for any model."
+}

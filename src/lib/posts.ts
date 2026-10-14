@@ -20,6 +20,31 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "remote-vans-review",
+    title: "Remote Vans Review: The Class B Built for Working From Anywhere",
+    excerpt:
+      "A Cincinnati startup founded by an Army logistics officer and a tech founder who worked his way around the world without flying. A 16.8 kWh battery, real off-road hardware, Starlink fitted as standard, and two catches you need to know before you buy.",
+    category: "Van Review",
+    readTime: "12 min",
+    date: "2026-10-14",
+    featured: true,
+    updated: "2026-10-14",
+    image: {
+      src: "/images/remote-vans-lineup.png",
+      alt: "Chart of the 2026 Remote Vans lineup: manufacturer direct prices and battery capacity by model",
+      caption: "The 2026 Remote Vans lineup at the manufacturer's published direct prices. The Friday's window-sticker MSRP is higher, explained in the review.",
+    },
+    about: ["org:remote-vans", "model:remote-vans-friday", "model:remote-vans-aegis"],
+    mentions: ["chassis:sprinter", "model:winnebago-revel", "model:storyteller-mode", "class-b"],
+    schema: {
+      "@type": "Article",
+      headline: "Remote Vans Review: The Class B Built for Working From Anywhere",
+      description:
+        "Remote Vans builds Sprinter AWD Class B campers in Cincinnati with 16.8 kWh batteries, Van Compass off-road hardware and fitted Starlink. Founders, build process, lineup prices, warranty terms and the catches, checked against the manufacturer's own pages.",
+      keywords: ["Remote Vans", "Remote Vans review", "Remote Vans Friday", "Remote Vans Aegis", "Class B for remote work", "camper van Starlink", "16.8 kWh van battery", "Sprinter AWD camper van", "MoPoWa", "work from van"],
+    },
+  },
+  {
     slug: "class-b-van-buying-guide",
     title: "Class B Van Buying: The 7 Questions You Must Answer Before You Spend a Dime",
     excerpt:

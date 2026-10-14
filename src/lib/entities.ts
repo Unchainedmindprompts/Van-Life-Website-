@@ -43,6 +43,15 @@ export const ENTITIES: Record<string, EntityDef> = {
     name: "Winnebago",
     sameAs: ["https://www.winnebago.com"],
   },
+  "org:remote-vans": {
+    "@type": "Organization",
+    name: "Remote Vans",
+    sameAs: ["https://remotevans.com"],
+  },
+  "model:remote-vans-t45": { "@type": "Product", name: "Remote Vans T-45 Series" },
+  "model:remote-vans-friday": { "@type": "Product", name: "Remote Vans Friday Series" },
+  "model:remote-vans-oasis": { "@type": "Product", name: "Remote Vans Oasis Series" },
+  "model:remote-vans-aegis": { "@type": "Product", name: "Remote Vans Aegis Series" },
   "topic:lifepo4": {
     "@type": "Thing",
     name: "Lithium iron phosphate battery",
