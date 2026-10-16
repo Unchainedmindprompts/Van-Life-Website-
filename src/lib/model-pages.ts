@@ -2,6 +2,7 @@ import revelFacts from "../../data/facts/winnebago-revel.json";
 import travatoFacts from "../../data/facts/winnebago-travato.json";
 import solisFacts from "../../data/facts/winnebago-solis.json";
 import sequenceFacts from "../../data/facts/thor-sequence.json";
+import tellaroFacts from "../../data/facts/thor-tellaro.json";
 import storytellerModeFacts from "../../data/facts/storyteller-overland-mode.json";
 
 /**
@@ -252,7 +253,7 @@ export const modelPages: ModelPageContent[] = [
       "The compromises are the price of the price. There is no all-wheel drive at any price and no factory winter package: Thor fits heat pads to the holding tanks but publishes no insulation rating, so we rate it three-season. Only the 20U gets a cassette toilet; the 20L and 20Y use black tanks. And buyers who need real sleeping for four should look at the Winnebago Solis, which sleeps four in every floor plan, before falling for the lower sticker.",
     ],
     priceStory:
-      "Thor publishes Sequence pricing in the structured data on its own model page: the line runs from $151,060 for the 20L, with the 20U's bases at $162,120 to $165,060 and the 20Y at $162,960, each from Thor's floor plan pages. One wrinkle, documented in our [fact ledger](/about): Thor's class-B lineup page lists a flat $161,560 MSRP for the Sequence. Where the manufacturer's pages disagree, this site displays the dedicated model page figure, $151,060. Against its closest rival, the [Winnebago Solis](/models/winnebago-solis), which starts at $156,254 and sleeps four, the Sequence undercuts it by about $5,000 in base form and answers with a third floor plan and, in the 20Y, nearly twice the fresh water, and gives up the Solis's fourth berth and standard pop-top to do it.",
+      "Thor publishes Sequence pricing in the structured data on its own model page: the line runs from $151,060 for the 20L, with the 20U's bases at $162,120 to $165,060 and the 20Y at $162,960, each from Thor's floor plan pages. One wrinkle, documented in our [fact ledger](/about): Thor's class-B lineup page lists a flat $161,560 MSRP for the Sequence. Where the manufacturer's pages disagree, this site displays the dedicated model page figure, $151,060. Against its closest rival, the [Winnebago Solis](/models/winnebago-solis), which starts at $156,254 and sleeps four, the Sequence undercuts it by about $5,000 in base form and answers with a third floor plan and, in the 20Y, nearly twice the fresh water, and gives up the Solis's fourth berth and standard pop-top to do it. Thor's sister line, the [Tellaro](/models/thor-tellaro), shares the Sequence's three floor plans and toilet split, and starts lower, from $140,560.",
     faqs: [
       {
         question: "How much does the Thor Sequence cost?",
@@ -286,6 +287,52 @@ export const modelPages: ModelPageContent[] = [
       "off-grid-power-systems-class-b",
     ],
     ledger: sequenceFacts as unknown as FactLedger,
+    verifiedDate: "2026-10-16",
+  },
+  {
+    slug: "thor-tellaro",
+    tagline: "2027 · Ram ProMaster value van · 20L, 20U and 20Y floor plans",
+    intro:
+      "The Thor Tellaro is the lowest-priced factory Class B in our comparison pool: a Ram ProMaster camper built by Thor Motor Coach in three floor plans, with an enclosed wet bath in every one. Thor prices the line from $140,560 on its own Tellaro page, for the 20L. Fresh water runs 22, 27 or 35 gallons depending on floor plan, the manufacturer's figures; the toilet is a cassette on the 20U and a gravity flush into a black tank on the 20L and 20Y; and every floor plan sleeps two, with Thor's optional Sky Bunk pop-top on the 20L and 20U raising that to four. It is the sister line to Thor's Sequence: same chassis, same floor plans, same toilet split, a lower starting price.",
+    whoFor: [
+      "The Tellaro is the factory answer for buyers who want a real enclosed bathroom and a real bed at the lowest published price in the segment. It drives like the cargo van it is based on, parks in a normal space, runs on gasoline, and comes with the campground kit fitted: power awning, Thule roof rack, a generator, solar on the roof and a Truma system for heat and hot water. If your travel is weekends, state parks and long paved trips for two, and the budget leads the decision, this is where the value end of the segment starts.",
+      "The compromises are the price of the price. There is no all-wheel drive at any price and no factory winter package: Thor fits heat pads to the holding tanks but publishes no insulation rating, so we rate it extended season. Only the 20U gets a cassette toilet; the 20L and 20Y use black tanks. The base interior is simpler than the Winnebago competition's, and buyers who need four berths as standard should look at the Winnebago Solis, which sleeps four in every floor plan, before falling for the lower sticker.",
+    ],
+    priceStory:
+      "Thor publishes Tellaro pricing in the structured data on its own model page: the line runs from $140,560 for the 20L to $164,500 at the top of the published range, with the 20U at $162,120 and the 20Y at $162,960 on Thor's floor plan pages. One wrinkle, documented in our [fact ledger](/about): Thor's class-B lineup page lists a flat $161,560 MSRP for the Tellaro, the same figure it lists for the Sequence. Where the manufacturer's pages disagree, this site displays the dedicated model page figure, $140,560. Optioned dealer stickers run higher; a 2026 20U has been stickered at $167,426. Against its sister line, the [Thor Sequence](/models/thor-sequence), which shares the Tellaro's chassis, floor plans and toilet split and starts at $151,060, the Tellaro undercuts it by about $10,500 in base form, and Thor's Tellaro brochure lists a Sky Bunk option on the 20U that Thor advertises only on the Sequence 20L. Against the [Winnebago Solis](/models/winnebago-solis) at $156,254, the Tellaro starts about $15,700 lower and gives up the Solis's four-berth layout and standard pop-top to do it.",
+    faqs: [
+      {
+        question: "How much does the Thor Tellaro cost?",
+        answer:
+          "Thor publishes the Tellaro line from $140,560 (the 20L) in the structured data on its own model page, re-verified on October 16, 2026, in a published range running to $164,500; the 20U is $162,120 and the 20Y is $162,960 on Thor's floor plan pages. Thor's class-B lineup page lists a flat $161,560 for the line; that disagreement is logged in our fact ledger, and this site displays the model page figure. Optioned dealer stickers run higher.",
+      },
+      {
+        question: "How much fresh water does the Thor Tellaro hold?",
+        answer:
+          "It depends on the floor plan, per Thor's own specification pages: 22 gallons on the 20L, 27 on the 20U and 35 on the 20Y, re-verified on October 16, 2026. The single figure of 27 gallons often quoted for the Tellaro is the 20U's number generalized to the whole line; it overstates the 20L by 5 gallons and understates the 20Y by 8. Gray water runs 13, 20 and 28 gallons in the same order.",
+      },
+      {
+        question: "Does the Thor Tellaro have a cassette toilet?",
+        answer:
+          "Only on one floor plan. The 20U has a cassette toilet (4.75-gallon cassette) in its enclosed wet bath; the 20L and 20Y use gravity-flush toilets running to black tanks of 13.5 and 14 gallons. Thor states the split outright in its Tellaro brochure. Buyers who want a cassette on every floor plan should look at the Winnebago Solis; the Thor Sequence, the Tellaro's sister line, has the identical split.",
+      },
+      {
+        question: "How many people can sleep in a Thor Tellaro?",
+        answer:
+          "Two, on every floor plan, per Thor's specification tables: an expanding sleeper sofa on the 20L and 20U and a rear bed arrangement on the 20Y. Thor's brochure also lists an optional Sky Bunk pop-top on the 20L and 20U that raises sleeping capacity to four. Families who need four berths without options should look at the Winnebago Solis, which sleeps four in every floor plan.",
+      },
+      {
+        question: "What is the difference between the Thor Tellaro and the Thor Sequence?",
+        answer:
+          "Very little underneath, and that is the point: the two are sister lines on the same Ram ProMaster 3500 chassis, with the same three floor plans (20L, 20U, 20Y), the same fresh water figures (22, 27 and 35 gallons), the same toilet split (cassette on the 20U, black tanks on the 20L and 20Y) and the same Truma heat and hot water. The published differences are price and packaging: the Tellaro starts at $140,560 against the Sequence's $151,060, and Thor's Tellaro brochure lists the Sky Bunk pop-top option on both the 20L and 20U, where Thor advertises it on the Sequence 20L. Interior colors and dealer stock differ; the vans underneath are the same program. Read both guides and buy on price, options and the dealer you trust.",
+      },
+    ],
+    relatedSlugs: [
+      "class-b-van-buying-guide",
+      "sprinter-vs-transit-vs-promaster",
+      "off-grid-power-systems-class-b",
+    ],
+    ledger: tellaroFacts as unknown as FactLedger,
     verifiedDate: "2026-10-16",
   },
 ];
