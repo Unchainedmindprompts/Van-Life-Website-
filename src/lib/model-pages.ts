@@ -4,6 +4,7 @@ import solisFacts from "../../data/facts/winnebago-solis.json";
 import sequenceFacts from "../../data/facts/thor-sequence.json";
 import tellaroFacts from "../../data/facts/thor-tellaro.json";
 import storytellerModeFacts from "../../data/facts/storyteller-overland-mode.json";
+import fridayFacts from "../../data/facts/remote-vans-friday.json";
 
 /**
  * Model pages: the /models/<slug> guides. Display specs come from
@@ -333,6 +334,52 @@ export const modelPages: ModelPageContent[] = [
       "off-grid-power-systems-class-b",
     ],
     ledger: tellaroFacts as unknown as FactLedger,
+    verifiedDate: "2026-10-16",
+  },
+  {
+    slug: "remote-vans-friday",
+    tagline: "2026 · AWD Sprinter remote-work van · Friday Series",
+    intro:
+      "The Remote Vans Friday is the work-from-the-road benchmark among factory Class B vans: a Cincinnati-built camper on the all-wheel-drive Mercedes-Benz Sprinter 2500 chassis, with a 16.8 kWh battery, the largest in our comparison pool, a fitted Starlink Mini as standard and a stowable Cyber Shower in place of a fixed bath. Remote Vans publishes a manufacturer direct price of $194,900 for the Friday under its see-through pricing; the window sticker prints a $272,900 MSRP. It carries 30 gallons of fresh water, the manufacturer's figure, sleeps two to four, and trades a conventional bathroom and a deep dealer network for the power system and connectivity people who earn a living from the road actually need.",
+    whoFor: [
+      "The Friday is built for remote workers, boondockers and couples who work from the road. The spec sheet reads like a home office that happens to move: a battery sized for nights of off-grid air conditioning, an inverter that runs the A/C, microwave and cooktop together, an alternator that refills the bank while you drive, and satellite internet fitted at the factory rather than left to the aftermarket. If your travel is forest roads, dispersed camping and long stays away from hookups, with workdays in between, this is the van the connected end of the segment is measured against.",
+      "The compromises are deliberate, and they are real. There is no fixed bathroom in any Remote Vans model: the shower stows away and the toilet is a portable cartridge unit, which frees the floor plan and will end the conversation for some buyers on sight. The conversion warranty is one year or 20,000 miles, average rather than generous, and Remote Vans is a young company, founded in 2021, with a dealer network in the dozens rather than the hundreds. Buyers who want an enclosed wet bath and service everywhere should cross-shop the Winnebago Revel; buyers who want the four-season rating should weigh the Storyteller MODE.",
+    ],
+    priceStory:
+      "Remote Vans publishes its pricing outright, under what it calls see-through, Manufacturer Direct pricing: the Friday lists at $194,900, and that is the figure this site displays. One wrinkle, documented in our [fact ledger](/about): the manufacturer's own window sticker for the Friday prints an MSRP of $272,900. The direct price is the headline figure on Remote Vans' site, and dealers can and do sell below it; one dealer has advertised a 2026 Friday at $175,610 after a factory rebate and a dealer discount. Remote Vans publishes no standing rebate of its own, so treat lower figures quoted elsewhere as dealer prices, not the manufacturer's. The rest of the lineup is published on the same comparison page: the entry T-45 at $174,900, the Oasis at $224,900 and the flagship Aegis at $247,900, all on the same Sprinter 144 AWD platform with the same 30 gallons of fresh water. Against its Sprinter rivals, the Friday starts about $28,600 below the [Winnebago Revel](/models/winnebago-revel) at $223,495 and about $2,700 above the [Storyteller Overland MODE](/models/storyteller-overland-mode) at $192,206, and answers both with roughly double the MODE's battery, a battery the Revel does not approach, and factory-fitted satellite internet. Our full [Remote Vans review](/blog/remote-vans-review) covers the range, the warranty agreement and the catches in depth.",
+    faqs: [
+      {
+        question: "How much does the 2026 Remote Vans Friday cost?",
+        answer:
+          "Remote Vans publishes a Manufacturer Direct price of $194,900 for the Friday Series under its see-through pricing, re-verified on remotevans.com on October 16, 2026. The manufacturer's own window sticker prints a $272,900 MSRP for the same van, and dealers can sell below the direct price; one dealer has advertised $175,610 after a factory rebate and dealer discount. Both manufacturer figures are logged in our fact ledger, and this site displays the direct price.",
+      },
+      {
+        question: "What Class B vans does Remote Vans make, and what do they cost?",
+        answer:
+          "Four series, all on the Mercedes-Benz Sprinter 144 all-wheel-drive platform, all with 30 gallons of fresh water and the same queen bed and stowable shower arrangement. Per Remote Vans' published direct pricing, re-verified October 16, 2026: the entry T-45 at $174,900, with half the battery at 8.4 kWh; the Friday at $194,900; the Oasis at $224,900; and the flagship Aegis at $247,900. The Friday, Oasis and Aegis carry the 16.8 kWh battery; the steps buy battery, air conditioning size, Starlink hardware and off-road kit.",
+      },
+      {
+        question: "How much water and power does the Remote Vans Friday carry?",
+        answer:
+          "30 gallons of fresh water and a 24-gallon gray tank with a heating loop, per Remote Vans' published specifications. The power system is the headline: a 16.8 kWh 51V Lithionics battery, 100 percent usable with a built-in reserve, a 3,000W inverter and charger with a 5,500W boost, a 48V 100A generator alternator that refills the bank while driving, and a single 200W roof solar panel with an exterior expansion port. The solar is a maintainer; the alternator does the heavy refilling.",
+      },
+      {
+        question: "How many people can sleep in a Remote Vans Friday?",
+        answer:
+          "Remote Vans rates the Friday at seats and sleeps four: a queen bed for two adults, plus the Vanhalla rotating sleeper seat, which converts to a second bed sized for two smaller children. We record the figure as 2-4, the manufacturer's rating with its own asterisk attached. Some dealer listings say two or three; the disagreement is logged in our fact ledger.",
+      },
+      {
+        question: "How does the Remote Vans Friday compare to the Winnebago Revel and Storyteller MODE?",
+        answer:
+          "All three are all-wheel-drive Sprinter 144 vans, and they split on philosophy. The Revel ($223,495, Winnebago's figure) is the factory benchmark with a fixed wet bath, a cassette toilet and the deepest dealer network, and the smallest water and battery of the three at 21 gallons and 320 Ah. The MODE ($192,206, Storyteller's figure) is the overland pick, with 37 gallons of fresh water carried inside the cabin, 10.5 inches of ground clearance and a four-season rating. The Friday ($194,900 direct) answers with the power and connectivity neither rival matches: a 16.8 kWh battery, roughly double the MODE's, and a factory-fitted Starlink Mini, and gives up the Revel's fixed bathroom and both rivals' dealer depth to get it. The Friday also has no fixed bath, like the MODE: a stowable Cyber Shower and a portable cartridge toilet instead.",
+      },
+    ],
+    relatedSlugs: [
+      "remote-vans-review",
+      "off-grid-power-systems-class-b",
+      "4x4-van-is-it-worth-it",
+    ],
+    ledger: fridayFacts as unknown as FactLedger,
     verifiedDate: "2026-10-16",
   },
 ];

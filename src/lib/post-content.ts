@@ -700,7 +700,7 @@ export const postContent: Record<string, PostContent> = {
         {
           type: "h2",
           heading: "What does the Remote Vans lineup cost?",
-          text: "Four models, all Sprinter 144 all-wheel drive, all with the same queen bed, the same 30 gallons of fresh water and 24 gallons of heated gray capacity, and the same bathroom arrangement. The 2026 manufacturer direct prices are: T-45 at $174,900, Friday at $194,900, Oasis at $224,900, and Aegis at $247,900. What the steps buy you is mostly battery, air conditioning size, Starlink hardware and off-road kit, detailed in our [comparison of all four](https://remotevans.com/compare-adventure-vans/) and in the Friday and Aegis entries in our [compare tool](/compare).",
+          text: "Four models, all Sprinter 144 all-wheel drive, all with the same queen bed, the same 30 gallons of fresh water and 24 gallons of heated gray capacity, and the same bathroom arrangement. The 2026 manufacturer direct prices are: T-45 at $174,900, Friday at $194,900, Oasis at $224,900, and Aegis at $247,900. What the steps buy you is mostly battery, air conditioning size, Starlink hardware and off-road kit, detailed in our [comparison of all four](https://remotevans.com/compare-adventure-vans/) and in the Friday and Aegis entries in our [compare tool](/compare). The Friday, the middle step and the model most buyers cross-shop against the Sprinter establishment, gets its own full breakdown in our [Friday Series model guide](/models/remote-vans-friday).",
         },
         {
           type: "p",
