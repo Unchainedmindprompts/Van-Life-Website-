@@ -7,6 +7,7 @@ import storytellerModeFacts from "../../data/facts/storyteller-overland-mode.jso
 import fridayFacts from "../../data/facts/remote-vans-friday.json";
 import aegisFacts from "../../data/facts/remote-vans-aegis.json";
 import novaFacts from "../../data/facts/coachmen-nova.json";
+import galleriaFacts from "../../data/facts/coachmen-galleria.json";
 
 /**
  * Model pages: the /models/<slug> guides. Display specs come from
@@ -440,7 +441,7 @@ export const modelPages: ModelPageContent[] = [
       "The compromises start with the drivetrain: front-wheel drive only, with no all-wheel drive at any price, so the Nova is a pavement camper and the Sumo Springs are ride quality, not off-road kit. Coachmen publishes no price, so every figure is a dealer's and negotiation is part of the purchase. The optional tank heaters cover the grey tank only. And where the Winnebago Solis sleeps four as standard, the Nova is a two-person layout whose extra berth, the pop-top, is an extra-cost option on every floor plan.",
     ],
     priceStory:
-      "Coachmen publishes no MSRP for the Nova, so there is no manufacturer price to display, and we will not dress a dealer's number up as one. The figure this site displays, $178,801, is the dealer MSRP for the 2026 20RB recorded in our [fact ledger](/about) from two independent dealers and re-corroborated in current dealer listings on October 16, 2026; it is labeled a dealer listing wherever it appears on this page. Current 2027 20RB units list higher (one dealer lists a 2027 at $195,170), lithium-equipped units sticker higher still, and advertised sale prices run far below MSRP across the line, so treat $178,801 as the opening position of a negotiation, not the transaction price. Against its ProMaster rivals, that dealer MSRP sits above Thor's published manufacturer prices (the [Tellaro](/models/thor-tellaro) from $140,560 and the [Sequence](/models/thor-sequence) from $151,060) and just below the [Winnebago Travato](/models/winnebago-travato) at $183,783, also a dealer figure, and the [Winnebago Solis](/models/winnebago-solis) 59PX at $180,487, a manufacturer price, though the entry Solis 59P at $156,254 undercuts it. What the Nova's money buys that none of those match is the insulation package and the interior finish. Our [chassis comparison](/blog/sprinter-vs-transit-vs-promaster) covers how the ProMaster all of these vans share stacks up against the Sprinter and the Transit.",
+      "Coachmen publishes no MSRP for the Nova, so there is no manufacturer price to display, and we will not dress a dealer's number up as one. The figure this site displays, $178,801, is the dealer MSRP for the 2026 20RB recorded in our [fact ledger](/about) from two independent dealers and re-corroborated in current dealer listings on October 16, 2026; it is labeled a dealer listing wherever it appears on this page. Current 2027 20RB units list higher (one dealer lists a 2027 at $195,170), lithium-equipped units sticker higher still, and advertised sale prices run far below MSRP across the line, so treat $178,801 as the opening position of a negotiation, not the transaction price. Against its ProMaster rivals, that dealer MSRP sits above Thor's published manufacturer prices (the [Tellaro](/models/thor-tellaro) from $140,560 and the [Sequence](/models/thor-sequence) from $151,060) and just below the [Winnebago Travato](/models/winnebago-travato) at $183,783, also a dealer figure, and the [Winnebago Solis](/models/winnebago-solis) 59PX at $180,487, a manufacturer price, though the entry Solis 59P at $156,254 undercuts it. What the Nova's money buys that none of those match is the insulation package and the interior finish. Coachmen's other Class B, the [Coachmen Galleria](/models/coachmen-galleria), carries the same insulation-and-hardwood formula to the long Sprinter chassis at dealer stickers from $236,822. Our [chassis comparison](/blog/sprinter-vs-transit-vs-promaster) covers how the ProMaster all of these vans share stacks up against the Sprinter and the Transit.",
     faqs: [
       {
         question: "How much does the Coachmen Nova cost?",
@@ -474,6 +475,52 @@ export const modelPages: ModelPageContent[] = [
       "off-grid-power-systems-class-b",
     ],
     ledger: novaFacts as unknown as FactLedger,
+    verifiedDate: "2026-10-16",
+  },
+  {
+    slug: "coachmen-galleria",
+    tagline: "2026 · Sprinter 3500 EXT luxury tourer · 24A, 24FL, 24Q and 24RB floor plans",
+    intro:
+      "The Coachmen Galleria is the luxury touring coach of the factory Class B pool: a 24-foot camper on the long Mercedes-Benz Sprinter 3500 EXT chassis (170-inch wheelbase) from Coachmen, a Forest River brand, built in four floor plans (24A, 24FL, 24Q and 24RB), every one with a wet bath, a porcelain flush toilet running to a black tank, high-gloss hardwood cabinetry and R-15 insulation with Truma Combi heat and hot water. Fresh water is 26 gallons on all four floor plans, per Coachmen's own spec pages. All four are diesel, rear-wheel drive as standard with all-wheel drive optional. Coachmen publishes no price for the Galleria; the lowest verified dealer sticker is $236,822, and that is the figure this site displays, labeled as a dealer figure wherever it appears. It sleeps two, and it is built for couples who tour long distances on pavement and judge a van by its finish.",
+    whoFor: [
+      "The Galleria is built for long-distance tourers who want the Sprinter's diesel range and ride in the longest factory footprint in this pool, finished like furniture: custom high-gloss hardwood cabinetry with radius doors, a true lay-flat memory-foam power sofa, solid-surface countertops and a porcelain toilet. The equipment list runs deep as standard, 330W of solar, a 330 Ah AGM battery bank, a 2,000W Victron inverter, an Onan LP generator and Sumo Springs, with a 640 Ah lithium system and all-wheel drive on the options list, and a Forest River dealer network behind it. If your trips are long highway days between full-hookup stops and the cabin has to feel like a small luxury apartment at the end of them, this is the van.",
+      "The compromises are size, price opacity and purpose. At 24 feet it has the biggest footprint in this pool, which buys the living space and costs parking ease and trail access; the all-wheel drive is an extra-cost option and this remains a touring coach, not a trail build. Coachmen publishes no price, so every figure is a dealer's, stickers for the same line spread tens of thousands of dollars apart, and advertised sale prices run far below sticker, which makes negotiation part of the purchase. It sleeps two, period, with no pop-top or extra berth at any price. And it is priced against the Airstream Interstate 24GLX and the Grech Terreno, and judged on finish.",
+    ],
+    priceStory:
+      "Coachmen publishes no MSRP for the Galleria, so there is no manufacturer price to display, and we will not dress a dealer's number up as one. The figure this site displays, $236,822, is the dealer MSRP on a 2026 24QM listed by General RV Center, recorded in our [fact ledger](/about) on October 14, 2026 and re-corroborated in the same live listing on October 16, 2026; it is labeled a dealer listing wherever it appears on this page. Stickers on the current floor plans run higher (a 2026 24FL at $240,810, a 2026 24A at $255,756, 2026 24RB units to $271,962), and advertised sale prices run $70,000 to $105,000 below sticker across the line, so treat $236,822 as the opening position of a negotiation, not the transaction price. Against the Sprinter pool, that dealer sticker sits above the [Winnebago Revel](/models/winnebago-revel) at $223,495 (Winnebago's published figure) and the [Storyteller Overland MODE](/models/storyteller-overland-mode) at $192,206 (Storyteller's figure), in the Airstream Interstate 24GLX's territory and below the Grech Terreno at $290,400. Against its own sibling it is a $58,000 step up from the [Coachmen Nova](/models/coachmen-nova) at $178,801 (also a dealer figure), and the step buys the Sprinter chassis, four more feet of van and the luxury finish; the insulation-first formula underneath is shared. Our [chassis comparison](/blog/sprinter-vs-transit-vs-promaster) covers how the Sprinter stacks up against the Transit and the ProMaster.",
+    faqs: [
+      {
+        question: "How much does the Coachmen Galleria cost?",
+        answer:
+          "Coachmen publishes no MSRP for the Galleria, so there is no manufacturer price. The figure this site displays, $236,822, is the dealer MSRP on a 2026 24QM, recorded from a General RV Center listing on October 14, 2026 and re-corroborated in the same live listing on October 16, 2026, and it is labeled a dealer listing wherever it appears. Stickers on the current floor plans (24A, 24FL, 24Q, 24RB) run from $240,810 to $271,962 by floor plan and options, and advertised sale prices run $70,000 to $105,000 below sticker, so the honest answer is a negotiation range that starts near $236,822 at sticker and lands far lower at sale.",
+      },
+      {
+        question: "How much fresh water does the Coachmen Galleria hold?",
+        answer:
+          "26 gallons, on all four floor plans, per Coachmen's own specification pages, re-verified on October 16, 2026. Some dealer spec sheets claim 27 gallons; the disagreement is logged in our fact ledger, and we publish the manufacturer's figure. Gray water is 24 gallons on the 24A, 24FL and 24Q and 26 on the 24RB; black water runs 19 gallons (24A), 24 (24FL), 12 (24Q) and 26 (24RB). The 26-gallon fresh tank is mid-pack for a touring coach: more than the Winnebago Revel's 21 and the Solis's 20, less than the Storyteller MODE's 37.",
+      },
+      {
+        question: "Does the Coachmen Galleria have a cassette toilet?",
+        answer:
+          "No. Every Galleria floor plan has an enclosed wet bath with a sink and shower and a porcelain flush toilet running to a black tank (19 gallons on the 24A, 24 on the 24FL, 12 on the 24Q, 26 on the 24RB), per Coachmen's published specifications, with a black tank flush fitted as standard. That matches its ProMaster sibling, the Coachmen Nova, and splits the pool the same way: the Winnebago Solis is cassette throughout, the Thor Sequence and Tellaro fit a cassette on their 20U floor plans only, and the Galleria is a conventional-bathroom coach, with dump-station emptying instead of a carry-out cassette.",
+      },
+      {
+        question: "How many people can sleep in a Coachmen Galleria?",
+        answer:
+          "Two. Coachmen's published spec tables list no sleeping capacity; dealer spec tables rate every Galleria floor plan at two, and we publish two with that sourcing stated. The berths are the true lay-flat memory-foam power sofa or, in the 24RB, convertible rear twin beds, and there is no pop-top or extra berth on the options list, so unlike its sibling the Coachmen Nova, which offers an optional pop-top berth on every floor plan, a Galleria cannot be made to sleep a third person. Buyers who need four berths included should look at the Winnebago Solis, which sleeps four in both floor plans.",
+      },
+      {
+        question: "How does the Coachmen Galleria compare with the Coachmen Nova?",
+        answer:
+          "They are one brand's two answers to the same brief, split by chassis. Underneath, the formula is shared: R-15 insulation as standard, Truma Combi Eco Plus heat and hot water, hardwood cabinetry, a wet bath with a flush toilet and a black tank, and no published price on either. The Nova ($178,801, a dealer MSRP) is the smaller, cheaper van: a 20-foot-11-inch Ram ProMaster with front-wheel drive and a gasoline V6, an optional pop-top berth, and cold-climate hardware that makes it the insulation pick of the ProMaster group. The Galleria ($236,822, a dealer sticker) is the luxury tourer: a 24-foot-3-inch Sprinter 3500 EXT with a 2.0L turbo diesel, rear-wheel drive with all-wheel drive optional, a lay-flat power sofa, a porcelain toilet and a finish aimed at Airstream and Grech buyers. The roughly $58,000 step buys length, diesel torque, the Sprinter chassis and the interior finish; buyers who camp cold and drive short will not miss what it buys, and buyers who tour long distances will not miss what the Nova saves.",
+      },
+    ],
+    relatedSlugs: [
+      "sprinter-vs-transit-vs-promaster",
+      "class-b-van-buying-guide",
+      "4x4-van-is-it-worth-it",
+    ],
+    ledger: galleriaFacts as unknown as FactLedger,
     verifiedDate: "2026-10-16",
   },
 ];

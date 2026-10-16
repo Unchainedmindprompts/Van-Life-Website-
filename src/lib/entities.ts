@@ -74,6 +74,7 @@ export const ENTITIES: Record<string, EntityDef> = {
     sameAs: ["https://coachmenrv.com"],
   },
   "model:coachmen-nova": { "@type": "Product", name: "Coachmen Nova" },
+  "model:coachmen-galleria": { "@type": "Product", name: "Coachmen Galleria" },
   "topic:lifepo4": {
     "@type": "Thing",
     name: "Lithium iron phosphate battery",
