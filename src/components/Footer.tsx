@@ -73,6 +73,17 @@ export default function Footer() {
           <p className="text-sand-400 text-xs">
             Built for adventure seekers, by adventure seekers.
           </p>
+          <p className="text-sand-400 text-xs">
+            Website by{" "}
+            <a
+              href="https://kodecite.ai"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-2 hover:text-sand-200"
+            >
+              KodeCite
+            </a>
+          </p>
         </div>
       </div>
     </footer>
