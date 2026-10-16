@@ -262,7 +262,7 @@ export const postContent: Record<string, PostContent> = {
       {
         type: "h2",
         heading: "Which chassis should you buy?",
-        text: "Buy a Sprinter if off-road capability matters above all else. Buy a Transit if you want the most interior height, the most builder options, and a lower base cost. Buy a ProMaster if budget is tight and you'll stay on pavement. Now for the details.",
+        text: "Buy a Sprinter if off-road capability matters above all else. Buy a Transit if you want the most interior height, the most builder options, and a lower base cost. Buy a ProMaster if budget is tight and you'll stay on pavement; the [Winnebago Travato](/models/winnebago-travato) is the factory benchmark on that chassis. Now for the details.",
       },
       {
         type: "h2",

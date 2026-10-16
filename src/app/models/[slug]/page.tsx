@@ -63,8 +63,13 @@ function formatDate(dateStr: string) {
   });
 }
 
-function formatValue(attr: FactAttribute): string {
-  if (typeof attr.value === "number") {
+/* Manufacturer sources include the spec pages and the manufacturer's own
+   published brochures; anything else (dealer listings) is labeled as such. */
+function isManufacturerSource(sourceType: string): boolean {
+  return sourceType.startsWith("manufacturer");
+}
+
+function formatValue(attr: FactAttribute): string {  if (typeof attr.value === "number") {
     const n = attr.value.toLocaleString("en-US");
     return attr.unit ? `${n} ${attr.unit}` : n;
   }
@@ -112,6 +117,11 @@ export default async function ModelPage({
   const priceAttr = ledger.attributes.find((a) => a.attribute === "startingPrice");
   const startingPrice = priceConflict?.chosen.value ?? (typeof priceAttr?.value === "number" ? priceAttr.value : undefined);
   const priceSourceUrl = priceConflict?.values[0]?.sourceUrl ?? priceAttr?.sourceUrl ?? manufacturerUrl;
+  const priceIsManufacturer = priceConflict
+    ? true
+    : priceAttr
+      ? isManufacturerSource(priceAttr.sourceType)
+      : true;
 
   const specRows = SPEC_ORDER.map((row) => {
     const attr = ledger.attributes.find((a) => a.attribute === row.key);
@@ -119,7 +129,7 @@ export default async function ModelPage({
   }).filter(Boolean) as { key: string; label: string; attr: FactAttribute }[];
 
   const ledgerNotes = ledger.attributes.filter((a) => a.note);
-  const dealerSourced = specRows.filter((r) => r.attr.sourceType !== "manufacturer_spec_page");
+  const dealerSourced = specRows.filter((r) => !isManufacturerSource(r.attr.sourceType));
 
   const related = content.relatedSlugs
     .map((s) => posts.find((p) => p.slug === s))
@@ -278,7 +288,7 @@ export default async function ModelPage({
                         rel="noopener noreferrer"
                         className="text-xs text-earth-400 hover:text-earth-300 whitespace-nowrap"
                       >
-                        {van.maker} ↗
+                        {priceIsManufacturer ? `${van.maker} ↗` : "Dealer listing ↗"}
                       </a>
                     </td>
                   </tr>
@@ -294,7 +304,7 @@ export default async function ModelPage({
                         rel="noopener noreferrer"
                         className="text-xs text-earth-400 hover:text-earth-300 whitespace-nowrap"
                       >
-                        {attr.sourceType === "manufacturer_spec_page"
+                        {isManufacturerSource(attr.sourceType)
                           ? `${van.maker} ↗`
                           : "Dealer listing ↗"}
                       </a>

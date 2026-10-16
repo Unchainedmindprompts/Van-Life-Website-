@@ -33,6 +33,7 @@ export const ENTITIES: Record<string, EntityDef> = {
   "model:storyteller-mode": { "@type": "Product", name: "Storyteller Overland MODE" },
   "model:winnebago-boldt": { "@type": "Product", name: "Winnebago Boldt" },
   "model:winnebago-revel": { "@type": "Product", name: "Winnebago Revel" },
+  "model:winnebago-travato": { "@type": "Product", name: "Winnebago Travato" },
   "org:storyteller-overland": {
     "@type": "Organization",
     name: "Storyteller Overland",
