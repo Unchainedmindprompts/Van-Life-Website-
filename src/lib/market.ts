@@ -186,7 +186,7 @@ export const MARKET: MarketBrand[] = [
     url: "https://www.storytelleroverland.com",
     type: "builder",
     models: [
-      { id: "storyteller-mode-og", name: "MODE OG (Classic)", chassis: "Sprinter", verified: true },
+      { id: "storyteller-overland-mode", name: "MODE OG (Classic)", chassis: "Sprinter", verified: true },
       { id: "storyteller-mode-xo", name: "MODE XO", chassis: "Sprinter" },
       { id: "storyteller-mode-xl-crew", name: "MODE XL CREW", chassis: "Sprinter" },
       { id: "storyteller-mode-xl-tour", name: "MODE XL TOUR", chassis: "Sprinter" },

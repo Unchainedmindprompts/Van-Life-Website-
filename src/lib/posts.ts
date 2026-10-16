@@ -83,7 +83,7 @@ export const posts: BlogPost[] = [
       caption: "The Aegis Series, Remote Vans' flagship. Photo: Remote Vans.",
     },
     about: ["org:remote-vans", "model:remote-vans-friday", "model:remote-vans-aegis"],
-    mentions: ["chassis:sprinter", "model:winnebago-revel", "model:storyteller-mode", "class-b"],
+    mentions: ["chassis:sprinter", "model:winnebago-revel", "model:storyteller-overland-mode", "class-b"],
     schema: {
       "@type": "Article",
       headline: "Remote Vans Review: The Class B Built for Working From Anywhere",
@@ -171,7 +171,7 @@ export const posts: BlogPost[] = [
     caption: "Tread is only part of the traction story. The drivetrain decides the rest.",
   },
   about: ["chassis:sprinter"],
-  mentions: ["model:winnebago-revel", "model:storyteller-mode", "class-b"],
+  mentions: ["model:winnebago-revel", "model:storyteller-overland-mode", "class-b"],
     schema: {
       "@type": "Article",
       headline: "4x4 Van: Is It Actually Worth the Premium?",
@@ -220,7 +220,7 @@ export const posts: BlogPost[] = [
     alt: "A camper van on a gravel forest road at night under the Milky Way",
     caption: "Night on a forest road: the terrain the MODE was built for.",
   },
-  about: ["model:storyteller-mode"],
+  about: ["model:storyteller-overland-mode"],
   mentions: ["chassis:transit", "chassis:sprinter", "org:storyteller-overland"],
     schema: {
       "@type": "Article",

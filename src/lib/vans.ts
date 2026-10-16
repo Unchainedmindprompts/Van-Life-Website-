@@ -227,7 +227,7 @@ export const vans: VanModel[] = [
     ],
   },
   {
-    id: "storyteller-mode",
+    id: "storyteller-overland-mode",
     name: "Classic MODE OG",
     maker: "Storyteller Overland",
     chassis: "Mercedes Sprinter 2500 144\"",

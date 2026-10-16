@@ -30,7 +30,7 @@ export const ENTITIES: Record<string, EntityDef> = {
     name: "Ram ProMaster",
     sameAs: ["https://en.wikipedia.org/wiki/Ram_ProMaster"],
   },
-  "model:storyteller-mode": { "@type": "Product", name: "Storyteller Overland MODE" },
+  "model:storyteller-overland-mode": { "@type": "Product", name: "Storyteller Overland MODE" },
   "model:winnebago-boldt": { "@type": "Product", name: "Winnebago Boldt" },
   "model:winnebago-revel": { "@type": "Product", name: "Winnebago Revel" },
   "model:winnebago-travato": { "@type": "Product", name: "Winnebago Travato" },

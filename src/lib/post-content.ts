@@ -472,7 +472,7 @@ export const postContent: Record<string, PostContent> = {
   "storyteller-overland-mode-suspension": {
     slug: "storyteller-overland-mode-suspension",
     intro:
-      "Storyteller Overland's MODE suspension is one of the most-discussed features in the Class B market, and one of the most confused, because the MODE changed platforms. This article covers the original system: a proprietary lift and suspension package on Storyteller's earlier Transit-based vans. The current MODE is a different vehicle, built on the Sprinter AWD. Both generations are explained below.",
+      "Storyteller Overland's MODE suspension is one of the most-discussed features in the Class B market, and one of the most confused, because the MODE changed platforms. This article covers the original system: a proprietary lift and suspension package on Storyteller's earlier Transit-based vans. The [current MODE](/models/storyteller-overland-mode) is a different vehicle, built on the Sprinter AWD. Both generations are explained below.",
     relatedSlugs: [
       "4x4-van-is-it-worth-it",
       "sprinter-vs-transit-vs-promaster",
@@ -695,7 +695,7 @@ export const postContent: Record<string, PostContent> = {
         },
         {
           type: "p",
-          text: "Two honesty notes, because this site publishes what manufacturers publish and flags what they do not. Remote Vans does not publish a suspension lift height in inches for any model, and publishes no approach or departure angles, so we do not quote any. The clearance figure it does publish, on the manufacturer's own Oasis window sticker, is 9.5 inches at the rear differential. That is a real, documented number, and it puts these vans in the same working conversation as the established off-road benchmarks in our [compare tool](/compare), the [Winnebago Revel](/models/winnebago-revel) and the Storyteller MODE, both of which take a different route to a similar destination. Whether any van needs this much hardware is a question we take apart in [Is 4x4 worth it?](/blog/4x4-van-is-it-worth-it)",
+          text: "Two honesty notes, because this site publishes what manufacturers publish and flags what they do not. Remote Vans does not publish a suspension lift height in inches for any model, and publishes no approach or departure angles, so we do not quote any. The clearance figure it does publish, on the manufacturer's own Oasis window sticker, is 9.5 inches at the rear differential. That is a real, documented number, and it puts these vans in the same working conversation as the established off-road benchmarks in our [compare tool](/compare), the [Winnebago Revel](/models/winnebago-revel) and the [Storyteller MODE](/models/storyteller-overland-mode), both of which take a different route to a similar destination. Whether any van needs this much hardware is a question we take apart in [Is 4x4 worth it?](/blog/4x4-van-is-it-worth-it)",
         },
         {
           type: "h2",

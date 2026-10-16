@@ -91,6 +91,7 @@ const SPEC_ORDER: { key: string; label: string }[] = [
   { key: "cassetteToiletGal", label: "Cassette toilet" },
   { key: "fuelGal", label: "Fuel capacity" },
   { key: "gvwr", label: "GVWR" },
+  { key: "groundClearance", label: "Ground clearance" },
   { key: "battery", label: "House battery" },
   { key: "inverter", label: "Inverter" },
   { key: "winter", label: "Cold-weather equipment" },

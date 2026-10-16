@@ -1,5 +1,6 @@
 import revelFacts from "../../data/facts/winnebago-revel.json";
 import travatoFacts from "../../data/facts/winnebago-travato.json";
+import storytellerModeFacts from "../../data/facts/storyteller-overland-mode.json";
 
 /**
  * Model pages: the /models/<slug> guides. Display specs come from
@@ -145,6 +146,52 @@ export const modelPages: ModelPageContent[] = [
       "off-grid-power-systems-class-b",
     ],
     ledger: travatoFacts as unknown as FactLedger,
+    verifiedDate: "2026-10-16",
+  },
+  {
+    slug: "storyteller-overland-mode",
+    tagline: "2026 · AWD Sprinter overland van · Classic MODE OG",
+    intro:
+      "The Storyteller Overland MODE is the overland benchmark among factory Class B vans: a modular camper on the all-wheel-drive Mercedes-Benz Sprinter 2500 chassis, with a bed that converts to a work surface, a second row that seats four belted and folds out to a twin bed, and a stowable shower in place of a fixed bath. Storyteller lists the 2026 Classic MODE OG at $192,206 under its See-Through pricing. It carries 37 gallons of fresh water inside the cabin, the manufacturer's figure, rides on 10.5 inches of ground clearance, the most in our comparison pool, and sleeps two to three.",
+    whoFor: [
+      "The MODE is built for travelers who treat the van as a basecamp: overlanders, boondockers and adventure-first couples who drive forest roads to trailheads and sleep where the day ends. The modular interior is the draw. The rear bed folds up into a standing-height workspace over a gear garage, the second row converts between seating, lounging and a second bed, and the systems (diesel-fired heat and hot water, an 8.4 kWh power system, four-season water plumbing) are sized for staying out rather than plugging in.",
+      "The compromises are deliberate, and they are real. There is no fixed wet bath: the shower stows away and the toilet is a portable 2.6-gallon unit, which some buyers will love for the space it frees and others will reject on sight. Storyteller's dealer network is smaller than Winnebago's, and the price buys a 20-foot van. Buyers who want a conventional bathroom and a campground-first layout should cross-shop the [Winnebago Revel](/models/winnebago-revel) and the hardwall-bath MODE XO before deciding.",
+    ],
+    priceStory:
+      "Storyteller publishes its pricing outright: the 2026 Classic MODE OG lists at $192,206 under the company's See-Through, no-haggle pricing, base before any added accessories. One wrinkle, documented in our [fact ledger](/about): Storyteller's own comparison page lists the same van at $187,321. Where the manufacturer's pages disagree, this site displays the dedicated model page figure, $192,206, and dealer asking prices cluster near $189,206. The rest of the lineup is published on the same page: the Classic MODE XO, which adds a hardwall bathroom, at $200,801; the DARK MODE OG at $215,108; the BEAST MODE OG at $252,821; the 170-inch TOUR MODE XL at $254,012; and the five-seatbelt CREW MODE XL at $272,208. Against its closest factory rival, the [Winnebago Revel](/models/winnebago-revel) at $223,495, the Classic MODE starts about $31,000 lower and answers with more water, more clearance and a more flexible interior, against a smaller dealer network.",
+    faqs: [
+      {
+        question: "How much does the 2026 Storyteller Overland MODE cost?",
+        answer:
+          "Storyteller lists the 2026 Classic MODE OG at $192,206 under its See-Through pricing, base before accessories. Storyteller's own comparison page lists $187,321 for the same van; the disagreement is logged in our fact ledger, and this site displays the dedicated model page figure. The wider lineup on the same page runs from the Classic MODE XO at $200,801 to the CREW MODE XL at $272,208.",
+      },
+      {
+        question: "How much fresh water does the Storyteller Overland MODE hold?",
+        answer:
+          "37 gallons, per Storyteller's published specifications, re-verified on storytelleroverland.com on October 16, 2026. The tank is mounted inside the cabin, which is part of the four-season design, and grey water capacity is 24 gallons.",
+      },
+      {
+        question: "How many people can sleep in a Storyteller Overland MODE?",
+        answer:
+          "Storyteller rates the Classic MODE OG at sleeps 2-3: an RV queen in the rear DreamWeaver bed, plus an RV twin folded out from the GrooveLounge second row. Four seatbelts mean four can ride belted even though three is the sleeping maximum.",
+      },
+      {
+        question: "Does the Storyteller Overland MODE have a bathroom?",
+        answer:
+          "Not a fixed one. The Classic MODE OG uses a stowable Halo Shower system with a concealed shower pan, a portable cassette toilet (2.6-gallon capacity) and an exterior shower, per Storyteller's specifications. Buyers who want a hardwall wet bath should look at the Classic MODE XO, which adds one at $200,801.",
+      },
+      {
+        question: "Is the Storyteller Overland MODE a four-season van?",
+        answer:
+          "Storyteller markets a four-season design, and the hardware backs the claim: diesel-fired cabin heat and water heating, the 37-gallon fresh tank mounted inside the cabin, a heating loop on the grey tank, and polymer insulation throughout. That is why our comparison pool rates it four-season rather than extended season.",
+      },
+    ],
+    relatedSlugs: [
+      "remote-vans-review",
+      "storyteller-overland-mode-suspension",
+      "4x4-van-is-it-worth-it",
+    ],
+    ledger: storytellerModeFacts as unknown as FactLedger,
     verifiedDate: "2026-10-16",
   },
 ];
