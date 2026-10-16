@@ -3,58 +3,146 @@
   "name": "Nova",
   "builder": "Coachmen",
   "modelYear": 2027,
-  "retrievedAt": "2026-10-14",
+  "retrievedAt": "2026-10-16",
   "attributes": [
     {
       "attribute": "chassis",
       "value": "Ram ProMaster 3500, 159in wheelbase",
-      "sourceUrl": "https://www.campersinn.com/product-coachmen-rv/nova-motor-home-class-b",
-      "sourceType": "dealer_spec_table",
-      "status": "dealer-only",
-      "retrievedAt": "2026-10-14"
+      "sourceUrl": "https://coachmenrv.com/nova/20C/15161",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-16"
     },
     {
       "attribute": "drivetrain",
       "value": "FWD (platform inherent), 3.6L V6, 280 hp",
       "sourceUrl": "https://coachmenrv.com/print/features/nova",
       "sourceType": "manufacturer_features_page",
-      "status": "manufacturer-only",
-      "retrievedAt": "2026-10-14"
+      "status": "verified",
+      "retrievedAt": "2026-10-16"
+    },
+    {
+      "attribute": "startingPrice",
+      "value": 178801,
+      "sourceUrl": "https://www.campersinn.com/product-coachmen-rv/nova-motor-home-class-b",
+      "sourceType": "dealer_spec_table",
+      "status": "dealer-sourced",
+      "retrievedAt": "2026-10-14",
+      "reverifiedAt": "2026-10-16",
+      "unit": "USD",
+      "note": "Coachmen publishes no MSRP for the Nova. The displayed $178,801 is the dealer MSRP for the 2026 20RB, recorded October 14, 2026 from two independent dealers and re-corroborated October 16, 2026 in current dealer listings; it is labeled a dealer listing wherever it appears. A 2027 20RB lists at $195,170 at one dealer, and advertised sale prices run far below MSRP across the line."
     },
     {
       "attribute": "sleeps",
       "value": 2,
       "sourceUrl": "https://www.campersinn.com/product-coachmen-rv/nova-motor-home-class-b",
       "sourceType": "dealer_spec_table",
-      "status": "dealer-only",
-      "retrievedAt": "2026-10-14"
+      "status": "dealer-sourced",
+      "retrievedAt": "2026-10-16",
+      "note": "Coachmen's published spec tables list no sleeping capacity; dealer spec tables rate the Nova at 2. Every current floor plan offers an optional pop-top with an upper berth (a manufacturer option on Coachmen's features page), so a Nova can sleep more only by adding the pop-top."
     },
     {
       "attribute": "bathroom",
-      "value": "Wet bath with fiberglass shower",
+      "value": "Wet bath with fiberglass shower; flush toilet to a black tank on every floor plan (no cassette toilet)",
       "sourceUrl": "https://coachmenrv.com/print/features/nova",
       "sourceType": "manufacturer_features_page",
       "status": "verified",
-      "retrievedAt": "2026-10-14"
+      "retrievedAt": "2026-10-16"
     },
     {
       "attribute": "freshWaterGal",
       "value": 27,
-      "sourceUrl": "https://www.campersinn.com/product-coachmen-rv/nova-motor-home-class-b",
-      "sourceType": "dealer_spec_table",
-      "status": "dealer-only",
-      "retrievedAt": "2026-10-14",
+      "sourceUrl": "https://coachmenrv.com/nova/20C/15161",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-16",
       "unit": "gal"
     },
     {
-      "attribute": "winter",
-      "value": "Rockwool R-15 insulation standard; tanks above floor; optional Cozy Wrap insulation and grey tank heaters; Truma Combi Eco Plus",
+      "attribute": "grayWaterGal",
+      "value": "20 gal (20C, 20D) / 23 gal (20RB)",
+      "sourceUrl": "https://coachmenrv.com/nova/20C/15161",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-16"
+    },
+    {
+      "attribute": "exteriorLength",
+      "value": "20' 11\"",
+      "sourceUrl": "https://coachmenrv.com/nova/20C/15161",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-16"
+    },
+    {
+      "attribute": "fuelGal",
+      "value": 24,
+      "sourceUrl": "https://coachmenrv.com/nova/20C/15161",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-16",
+      "unit": "gal"
+    },
+    {
+      "attribute": "gvwr",
+      "value": 9350,
+      "sourceUrl": "https://coachmenrv.com/nova/20C/15161",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-16",
+      "unit": "lbs"
+    },
+    {
+      "attribute": "battery",
+      "value": "3 Group 31 AGM, 345 Ah total (115 Ah each)",
       "sourceUrl": "https://coachmenrv.com/print/features/nova",
       "sourceType": "manufacturer_features_page",
       "status": "verified",
-      "retrievedAt": "2026-10-14"
+      "retrievedAt": "2026-10-16",
+      "note": "The optional Li Lithium Battery System replaces the AGM bank with a 640 Ah Lithionics lithium battery with internal heater, a second under-hood alternator and a 3,000W Xantrex XC Pro inverter/charger, and deletes the Onan generator."
+    },
+    {
+      "attribute": "inverter",
+      "value": "2,000W Xantrex inverter with Auto Gen Start",
+      "sourceUrl": "https://coachmenrv.com/print/features/nova",
+      "sourceType": "manufacturer_features_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-16"
+    },
+    {
+      "attribute": "winter",
+      "value": "Rockwool R-15 insulation standard; fresh and black tanks above floor; optional Cozy Wrap insulation and grey tank heaters; Truma Combi Eco Plus",
+      "sourceUrl": "https://coachmenrv.com/print/features/nova",
+      "sourceType": "manufacturer_features_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-16"
+    },
+    {
+      "attribute": "blackWaterGal",
+      "value": "19 gal (20C, 20D) / 10 gal (20RB)",
+      "sourceUrl": "https://coachmenrv.com/nova/20C/15161",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-16"
+    },
+    {
+      "attribute": "exteriorHeight",
+      "value": "9' 4\"",
+      "sourceUrl": "https://coachmenrv.com/nova/20C/15161",
+      "sourceType": "manufacturer_spec_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-16"
+    },
+    {
+      "attribute": "solar",
+      "value": "220W standard (dual 110W roof panels); the optional pop-top carries its own 190W panel",
+      "sourceUrl": "https://coachmenrv.com/print/features/nova",
+      "sourceType": "manufacturer_features_page",
+      "status": "verified",
+      "retrievedAt": "2026-10-16",
+      "unit": "W"
     }
   ],
   "conflicts": [],
-  "notes": "Coachmen publishes no MSRP. Dealer MSRP for 2026 20RB $178,801 agreed by two independent dealers; 2027 20RB lists $195,170. Display price is a dealer MSRP reference."
+  "notes": "Current lineup re-verified October 16, 2026 on coachmenrv.com: 20C, 20D and 20RB (the 20X no longer appears on Coachmen's site). Specs were re-verified against Coachmen's own floor plan pages (chassis, fresh water, fuel and GVWR upgraded from dealer-only to manufacturer figures) and its features page: fresh water is 27 gal on all three floor plans, gray is 20 gal (20C/20D) or 23 gal (20RB), black is 19 gal (20C/20D) or 10 gal (20RB), so every Nova has a flush toilet and a black tank and none has a cassette. Coachmen publishes no MSRP and no sleeping capacity or interior height in its spec tables; the price displayed is a dealer MSRP reference (see the startingPrice note) and sleeping capacity is dealer-rated at 2. No Nova warranty figure was verified from a manufacturer source, so none is published."
 }

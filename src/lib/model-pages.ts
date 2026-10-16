@@ -6,6 +6,7 @@ import tellaroFacts from "../../data/facts/thor-tellaro.json";
 import storytellerModeFacts from "../../data/facts/storyteller-overland-mode.json";
 import fridayFacts from "../../data/facts/remote-vans-friday.json";
 import aegisFacts from "../../data/facts/remote-vans-aegis.json";
+import novaFacts from "../../data/facts/coachmen-nova.json";
 
 /**
  * Model pages: the /models/<slug> guides. Display specs come from
@@ -427,6 +428,52 @@ export const modelPages: ModelPageContent[] = [
       "4x4-van-is-it-worth-it",
     ],
     ledger: aegisFacts as unknown as FactLedger,
+    verifiedDate: "2026-10-16",
+  },
+  {
+    slug: "coachmen-nova",
+    tagline: "2027 · Ram ProMaster insulation leader · 20C, 20D and 20RB floor plans",
+    intro:
+      "The Coachmen Nova is the insulation leader among factory ProMaster campers: a Ram ProMaster 3500 Class B from Coachmen, a Forest River brand, built in three floor plans (20C, 20D and 20RB), every one with an enclosed wet bath, a fiberglass shower and a flush toilet running to a black tank, and wrapped in R-15 Rockwool insulation that Coachmen bills as the best insulation fitted to any ProMaster. Fresh water is 27 gallons on all three floor plans, per Coachmen's own spec pages. Coachmen publishes no price for the Nova; the dealer MSRP for the 2026 20RB starts at $178,801, and that is the figure this site displays, labeled as a dealer figure wherever it appears. It sleeps two, offers an optional pop-top berth on every floor plan, and trades the cassette toilets of its ProMaster rivals for insulation, hardwood cabinetry and a conventional RV bathroom.",
+    whoFor: [
+      "The Nova is built for couples who camp cold and value a quiet, well-finished cabin: cold-climate campers first. The R-15 Rockwool insulation is standard rather than a package, the fresh and black tanks ride above the floor inside the heated envelope, the windows are dual-pane acrylic, and the Truma Combi Eco Plus handles heat and hot water; the optional Cozy Wrap insulation package and grey-tank heaters extend the season further. Inside, the solid hardwood cabinetry and the fiberglass shower sit a class above the price point, which is why we class the Nova as value-premium: premium materials at a mid-market, dealer-negotiated price, with Sumo Springs front and rear smoothing the ride.",
+      "The compromises start with the drivetrain: front-wheel drive only, with no all-wheel drive at any price, so the Nova is a pavement camper and the Sumo Springs are ride quality, not off-road kit. Coachmen publishes no price, so every figure is a dealer's and negotiation is part of the purchase. The optional tank heaters cover the grey tank only. And where the Winnebago Solis sleeps four as standard, the Nova is a two-person layout whose extra berth, the pop-top, is an extra-cost option on every floor plan.",
+    ],
+    priceStory:
+      "Coachmen publishes no MSRP for the Nova, so there is no manufacturer price to display, and we will not dress a dealer's number up as one. The figure this site displays, $178,801, is the dealer MSRP for the 2026 20RB recorded in our [fact ledger](/about) from two independent dealers and re-corroborated in current dealer listings on October 16, 2026; it is labeled a dealer listing wherever it appears on this page. Current 2027 20RB units list higher (one dealer lists a 2027 at $195,170), lithium-equipped units sticker higher still, and advertised sale prices run far below MSRP across the line, so treat $178,801 as the opening position of a negotiation, not the transaction price. Against its ProMaster rivals, that dealer MSRP sits above Thor's published manufacturer prices (the [Tellaro](/models/thor-tellaro) from $140,560 and the [Sequence](/models/thor-sequence) from $151,060) and just below the [Winnebago Travato](/models/winnebago-travato) at $183,783, also a dealer figure, and the [Winnebago Solis](/models/winnebago-solis) 59PX at $180,487, a manufacturer price, though the entry Solis 59P at $156,254 undercuts it. What the Nova's money buys that none of those match is the insulation package and the interior finish. Our [chassis comparison](/blog/sprinter-vs-transit-vs-promaster) covers how the ProMaster all of these vans share stacks up against the Sprinter and the Transit.",
+    faqs: [
+      {
+        question: "How much does the Coachmen Nova cost?",
+        answer:
+          "Coachmen publishes no MSRP for the Nova, so there is no manufacturer price. The figure this site displays, $178,801, is the dealer MSRP for the 2026 20RB, recorded from two independent dealers and re-corroborated in current dealer listings on October 16, 2026, and it is labeled a dealer listing wherever it appears. A 2027 20RB lists at $195,170 at one dealer, lithium-equipped units sticker higher, and advertised sale prices run well below MSRP across the line, so the honest answer is a negotiation range with $178,801 near the top of it for a standard unit.",
+      },
+      {
+        question: "How much fresh water does the Coachmen Nova hold?",
+        answer:
+          "27 gallons, on all three floor plans, per Coachmen's own specification pages, re-verified on October 16, 2026. Gray water is 20 gallons on the 20C and 20D and 23 gallons on the 20RB; black water is 19 gallons on the 20C and 20D and 10 gallons on the 20RB. Coachmen mounts the fresh and black tanks above the floor, inside the heated envelope, which is part of why the Nova is the cold-climate pick of the ProMaster group: the Solis carries 20 gallons, and the Thor Sequence and Tellaro vary by floor plan from 22 to 35.",
+      },
+      {
+        question: "Does the Coachmen Nova have a cassette toilet?",
+        answer:
+          "No. Every Nova floor plan has an enclosed wet bath with a fiberglass shower and a flush toilet running to a black tank (19 gallons on the 20C and 20D, 10 gallons on the 20RB), per Coachmen's published specifications. That splits the ProMaster group cleanly: the Winnebago Solis is cassette throughout, the Thor Sequence and Tellaro fit a cassette on their 20U floor plans only, and the Nova is the conventional-bathroom entry, with dump-station emptying instead of a carry-out cassette.",
+      },
+      {
+        question: "How many people can sleep in a Coachmen Nova?",
+        answer:
+          "Two, as the van leaves the factory in standard form. Coachmen's published spec tables list no sleeping capacity; dealer spec tables rate the Nova at two, and we publish two with that sourcing stated. Every floor plan offers an optional pop-top with an upper berth (it carries its own 190W solar panel and air conditioning), which is how a Nova sleeps a third or fourth person, as an extra-cost option rather than standard equipment. Buyers who need four berths included should look at the Winnebago Solis, which sleeps four in both floor plans.",
+      },
+      {
+        question: "How does the Coachmen Nova compare with the Winnebago Solis and the Thor Sequence and Tellaro?",
+        answer:
+          "All four share the Ram ProMaster 3500 chassis, front-wheel drive and the 3.6L V6 gasoline engine, and split on equipment philosophy. The Nova's ground is insulation and finish: R-15 Rockwool standard where Thor publishes no insulation rating, dual-pane acrylic windows, a fiberglass shower where the competition uses ABS plastic, solid hardwood cabinetry, and a black tank on every floor plan. The Solis ($156,254 to $180,487, Winnebago's published prices) answers with a cassette toilet and four berths as standard. The Thor pair answer with price transparency: published manufacturer starting prices of $151,060 (Sequence) and $140,560 (Tellaro) against a Coachmen line whose only figures are dealers'. The Travato remains the premium benchmark of the group at $183,783 (a dealer figure), with the Nova's dealer MSRP of $178,801 just beneath it.",
+      },
+    ],
+    relatedSlugs: [
+      "sprinter-vs-transit-vs-promaster",
+      "class-b-van-buying-guide",
+      "off-grid-power-systems-class-b",
+    ],
+    ledger: novaFacts as unknown as FactLedger,
     verifiedDate: "2026-10-16",
   },
 ];

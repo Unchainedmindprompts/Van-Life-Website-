@@ -68,6 +68,12 @@ export const ENTITIES: Record<string, EntityDef> = {
   "model:remote-vans-friday": { "@type": "Product", name: "Remote Vans Friday Series" },
   "model:remote-vans-oasis": { "@type": "Product", name: "Remote Vans Oasis Series" },
   "model:remote-vans-aegis": { "@type": "Product", name: "Remote Vans Aegis Series" },
+  "org:coachmen": {
+    "@type": "Organization",
+    name: "Coachmen",
+    sameAs: ["https://coachmenrv.com"],
+  },
+  "model:coachmen-nova": { "@type": "Product", name: "Coachmen Nova" },
   "topic:lifepo4": {
     "@type": "Thing",
     name: "Lithium iron phosphate battery",
