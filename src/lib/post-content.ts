@@ -335,7 +335,7 @@ export const postContent: Record<string, PostContent> = {
       },
       {
         type: "callout",
-        text: "Buying new today? Since the 2023 model year, Mercedes sells this capability as an on-demand AWD system rather than the low-range 4x4 described in this article. Current adventure models like the [Winnebago Revel](https://www.winnebago.com/models/product?GroupID=GROUP257&ProductID=PROD670&VariantID=44E) run that AWD system. The analysis below covers the 4x4 generation, and what AWD does and does not replace.",
+        text: "Buying new today? Since the 2023 model year, Mercedes sells this capability as an on-demand AWD system rather than the low-range 4x4 described in this article. Current adventure models like the [Winnebago Revel](/models/winnebago-revel) run that AWD system. The analysis below covers the 4x4 generation, and what AWD does and does not replace.",
       },
       {
         type: "h2",
@@ -695,7 +695,7 @@ export const postContent: Record<string, PostContent> = {
         },
         {
           type: "p",
-          text: "Two honesty notes, because this site publishes what manufacturers publish and flags what they do not. Remote Vans does not publish a suspension lift height in inches for any model, and publishes no approach or departure angles, so we do not quote any. The clearance figure it does publish, on the manufacturer's own Oasis window sticker, is 9.5 inches at the rear differential. That is a real, documented number, and it puts these vans in the same working conversation as the established off-road benchmarks in our [compare tool](/compare), the Winnebago Revel and the Storyteller MODE, both of which take a different route to a similar destination. Whether any van needs this much hardware is a question we take apart in [Is 4x4 worth it?](/blog/4x4-van-is-it-worth-it)",
+          text: "Two honesty notes, because this site publishes what manufacturers publish and flags what they do not. Remote Vans does not publish a suspension lift height in inches for any model, and publishes no approach or departure angles, so we do not quote any. The clearance figure it does publish, on the manufacturer's own Oasis window sticker, is 9.5 inches at the rear differential. That is a real, documented number, and it puts these vans in the same working conversation as the established off-road benchmarks in our [compare tool](/compare), the [Winnebago Revel](/models/winnebago-revel) and the Storyteller MODE, both of which take a different route to a similar destination. Whether any van needs this much hardware is a question we take apart in [Is 4x4 worth it?](/blog/4x4-van-is-it-worth-it)",
         },
         {
           type: "h2",

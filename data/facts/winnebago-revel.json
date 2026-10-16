@@ -53,7 +53,92 @@
       "sourceType": "manufacturer_spec_page",
       "status": "manufacturer-authoritative",
       "retrievedAt": "2026-10-14",
-      "note": "Dealer spec feeds list 35 gal. Per policy the manufacturer figure is displayed."
+      "note": "Dealer spec feeds list 35 gal. Per policy the manufacturer figure is displayed. Re-verified live on winnebago.com 2026-10-16: the page still publishes 21 gal.",
+      "reverifiedAt": "2026-10-16"
+    },
+    {
+      "attribute": "exteriorLength",
+      "value": "19'7\"",
+      "sourceUrl": "https://www.winnebago.com/models/product?GroupID=GROUP257&ProductID=PROD670&VariantID=44E",
+      "sourceType": "manufacturer_spec_page",
+      "status": "manufacturer-only",
+      "retrievedAt": "2026-10-16"
+    },
+    {
+      "attribute": "interiorHeight",
+      "value": "6'3\"",
+      "sourceUrl": "https://www.winnebago.com/models/product?GroupID=GROUP257&ProductID=PROD670&VariantID=44E",
+      "sourceType": "manufacturer_spec_page",
+      "status": "manufacturer-only",
+      "retrievedAt": "2026-10-16"
+    },
+    {
+      "attribute": "wetBath",
+      "value": "31\" x 26\"",
+      "sourceUrl": "https://www.winnebago.com/models/product?GroupID=GROUP257&ProductID=PROD670&VariantID=44E",
+      "sourceType": "manufacturer_spec_page",
+      "status": "manufacturer-only",
+      "retrievedAt": "2026-10-16"
+    },
+    {
+      "attribute": "grayWaterGal",
+      "value": 21,
+      "unit": "gal",
+      "sourceUrl": "https://www.winnebago.com/models/product?GroupID=GROUP257&ProductID=PROD670&VariantID=44E",
+      "sourceType": "manufacturer_spec_page",
+      "status": "manufacturer-only",
+      "retrievedAt": "2026-10-16"
+    },
+    {
+      "attribute": "fuelGal",
+      "value": 24.5,
+      "unit": "gal",
+      "sourceUrl": "https://www.winnebago.com/models/product?GroupID=GROUP257&ProductID=PROD670&VariantID=44E",
+      "sourceType": "manufacturer_spec_page",
+      "status": "manufacturer-only",
+      "retrievedAt": "2026-10-16"
+    },
+    {
+      "attribute": "cassetteToiletGal",
+      "value": 5,
+      "unit": "gal",
+      "sourceUrl": "https://www.winnebago.com/models/product?GroupID=GROUP257&ProductID=PROD670&VariantID=44E",
+      "sourceType": "manufacturer_spec_page",
+      "status": "manufacturer-only",
+      "retrievedAt": "2026-10-16"
+    },
+    {
+      "attribute": "gvwr",
+      "value": 9050,
+      "unit": "lbs",
+      "sourceUrl": "https://www.winnebago.com/models/product?GroupID=GROUP257&ProductID=PROD670&VariantID=44E",
+      "sourceType": "manufacturer_spec_page",
+      "status": "manufacturer-only",
+      "retrievedAt": "2026-10-16"
+    },
+    {
+      "attribute": "battery",
+      "value": "320 Ah lithium-ion with dedicated second alternator",
+      "sourceUrl": "https://www.winnebago.com/models/product?GroupID=GROUP257&ProductID=PROD670&VariantID=44E",
+      "sourceType": "manufacturer_spec_page",
+      "status": "manufacturer-only",
+      "retrievedAt": "2026-10-16"
+    },
+    {
+      "attribute": "inverter",
+      "value": "2,000W inverter/charger",
+      "sourceUrl": "https://www.winnebago.com/models/product?GroupID=GROUP257&ProductID=PROD670&VariantID=44E",
+      "sourceType": "manufacturer_spec_page",
+      "status": "manufacturer-only",
+      "retrievedAt": "2026-10-16"
+    },
+    {
+      "attribute": "warranty",
+      "value": "12-month/24,000-mile basic warranty",
+      "sourceUrl": "https://www.winnebago.com/models/product?GroupID=GROUP257&ProductID=PROD670&VariantID=44E",
+      "sourceType": "manufacturer_spec_page",
+      "status": "manufacturer-only",
+      "retrievedAt": "2026-10-16"
     }
   ],
   "conflicts": [
@@ -69,13 +154,14 @@
           "sourceUrl": "https://www.lichtsinn.com/blog/the-winnebago-revel-vs-the-winnebago-revel-sport/"
         }
       ],
-      "note": "Manufacturer structured data vs dealer base MSRP consensus. Display uses the manufacturer figure with a note that dealer MSRPs run higher. Awaiting Mark's call.",
+      "note": "Manufacturer structured data vs dealer base MSRP consensus. Display uses the manufacturer figure with a note that dealer MSRPs run higher. Awaiting Mark's call. Re-verified 2026-10-16: winnebago.com still lists $223,495 base MSRP in its page data. An AI-answer panel the same day quoted $261,808 (the Lichtsinn dealer figure in this record) as the Revel price, which is the disagreement this record documents. Display unchanged: manufacturer figure.",
       "status": "resolved-by-policy",
       "resolution": "Resolved by policy (Mark, Oct 14, 2026): where sources disagree, the manufacturer's published figure is authoritative for display.",
       "chosen": {
         "value": 223495,
         "source": "winnebago.com"
-      }
+      },
+      "reverifiedAt": "2026-10-16"
     },
     {
       "attribute": "freshWaterGal",
@@ -89,13 +175,14 @@
           "sourceUrl": "https://www.rvusa.com/2026-winnebago-revel-44e-class-b-4983952"
         }
       ],
-      "note": "Not published on the site until resolved.",
+      "note": "Not published on the site until resolved. Re-verified 2026-10-16 against winnebago.com: 21 gal confirmed as the current published figure.",
       "status": "resolved-by-policy",
       "resolution": "Resolved by policy (Mark, Oct 14, 2026): where sources disagree, the manufacturer's published figure is authoritative for display.",
       "chosen": {
         "value": 21,
         "source": "winnebago.com"
-      }
+      },
+      "reverifiedAt": "2026-10-16"
     }
   ]
 }

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { MARKET, MODEL_COUNT, BRAND_COUNT, VERIFIED_COUNT, type MarketBrand } from "@/lib/market";
+import { MODEL_PAGE_SLUGS } from "@/lib/model-pages";
 import { SITE_URL } from "@/lib/entities";
 import CompareRequest from "@/components/CompareRequest";
 
@@ -31,7 +32,15 @@ function BrandSection({ brand }: { brand: MarketBrand }) {
             key={m.id}
             className="grid grid-cols-[1fr_auto] md:grid-cols-[1fr_180px_170px_130px] items-center gap-2 md:gap-4 py-3"
           >
-            <span className="text-sand-200 font-medium">{m.name}</span>
+            <span className="text-sand-200 font-medium">
+              {MODEL_PAGE_SLUGS.includes(m.id) ? (
+                <Link href={`/models/${m.id}`} className="hover:text-earth-300 underline decoration-charcoal-600 underline-offset-4">
+                  {m.name}
+                </Link>
+              ) : (
+                m.name
+              )}
+            </span>
             <span className="hidden md:block text-sm text-sand-500">
               {m.chassis ? `${m.chassis} chassis` : "Chassis: see manufacturer"}
             </span>

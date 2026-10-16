@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { SITE_URL } from "@/lib/entities";
 import { posts } from "@/lib/posts";
+import { modelPages } from "@/lib/model-pages";
 
 /* Sitemap generated from the same data that drives the pages,
    on the same SITE_URL constant as every schema @id. */
@@ -20,5 +21,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: "monthly",
     priority: 0.7,
   }));
-  return [...staticPages, ...postPages];
+  const modelPagesList: MetadataRoute.Sitemap = modelPages.map((m) => ({
+    url: `${SITE_URL}/models/${m.slug}`,
+    lastModified: new Date(m.verifiedDate),
+    changeFrequency: "monthly",
+    priority: 0.8,
+  }));
+  return [...staticPages, ...modelPagesList, ...postPages];
 }
