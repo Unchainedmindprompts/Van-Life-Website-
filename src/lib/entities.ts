@@ -81,6 +81,12 @@ export const ENTITIES: Record<string, EntityDef> = {
     sameAs: ["https://grechrv.com"],
   },
   "model:grech-terreno": { "@type": "Product", name: "Grech Terreno" },
+  "org:airstream": {
+    "@type": "Organization",
+    name: "Airstream",
+    sameAs: ["https://www.airstream.com"],
+  },
+  "model:airstream-interstate-24glx": { "@type": "Product", name: "Airstream Interstate 24GLX" },
   "topic:lifepo4": {
     "@type": "Thing",
     name: "Lithium iron phosphate battery",
