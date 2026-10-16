@@ -5,6 +5,7 @@ import sequenceFacts from "../../data/facts/thor-sequence.json";
 import tellaroFacts from "../../data/facts/thor-tellaro.json";
 import storytellerModeFacts from "../../data/facts/storyteller-overland-mode.json";
 import fridayFacts from "../../data/facts/remote-vans-friday.json";
+import aegisFacts from "../../data/facts/remote-vans-aegis.json";
 
 /**
  * Model pages: the /models/<slug> guides. Display specs come from
@@ -346,7 +347,7 @@ export const modelPages: ModelPageContent[] = [
       "The compromises are deliberate, and they are real. There is no fixed bathroom in any Remote Vans model: the shower stows away and the toilet is a portable cartridge unit, which frees the floor plan and will end the conversation for some buyers on sight. The conversion warranty is one year or 20,000 miles, average rather than generous, and Remote Vans is a young company, founded in 2021, with a dealer network in the dozens rather than the hundreds. Buyers who want an enclosed wet bath and service everywhere should cross-shop the Winnebago Revel; buyers who want the four-season rating should weigh the Storyteller MODE.",
     ],
     priceStory:
-      "Remote Vans publishes its pricing outright, under what it calls see-through, Manufacturer Direct pricing: the Friday lists at $194,900, and that is the figure this site displays. One wrinkle, documented in our [fact ledger](/about): the manufacturer's own window sticker for the Friday prints an MSRP of $272,900. The direct price is the headline figure on Remote Vans' site, and dealers can and do sell below it; one dealer has advertised a 2026 Friday at $175,610 after a factory rebate and a dealer discount. Remote Vans publishes no standing rebate of its own, so treat lower figures quoted elsewhere as dealer prices, not the manufacturer's. The rest of the lineup is published on the same comparison page: the entry T-45 at $174,900, the Oasis at $224,900 and the flagship Aegis at $247,900, all on the same Sprinter 144 AWD platform with the same 30 gallons of fresh water. Against its Sprinter rivals, the Friday starts about $28,600 below the [Winnebago Revel](/models/winnebago-revel) at $223,495 and about $2,700 above the [Storyteller Overland MODE](/models/storyteller-overland-mode) at $192,206, and answers both with roughly double the MODE's battery, a battery the Revel does not approach, and factory-fitted satellite internet. Our full [Remote Vans review](/blog/remote-vans-review) covers the range, the warranty agreement and the catches in depth.",
+      "Remote Vans publishes its pricing outright, under what it calls see-through, Manufacturer Direct pricing: the Friday lists at $194,900, and that is the figure this site displays. One wrinkle, documented in our [fact ledger](/about): the manufacturer's own window sticker for the Friday prints an MSRP of $272,900. The direct price is the headline figure on Remote Vans' site, and dealers can and do sell below it; one dealer has advertised a 2026 Friday at $175,610 after a factory rebate and a dealer discount. Remote Vans publishes no standing rebate of its own, so treat lower figures quoted elsewhere as dealer prices, not the manufacturer's. The rest of the lineup is published on the same comparison page: the entry T-45 at $174,900, the Oasis at $224,900 and the flagship [Aegis](/models/remote-vans-aegis) at $247,900, all on the same Sprinter 144 AWD platform with the same 30 gallons of fresh water. Against its Sprinter rivals, the Friday starts about $28,600 below the [Winnebago Revel](/models/winnebago-revel) at $223,495 and about $2,700 above the [Storyteller Overland MODE](/models/storyteller-overland-mode) at $192,206, and answers both with roughly double the MODE's battery, a battery the Revel does not approach, and factory-fitted satellite internet. Our full [Remote Vans review](/blog/remote-vans-review) covers the range, the warranty agreement and the catches in depth.",
     faqs: [
       {
         question: "How much does the 2026 Remote Vans Friday cost?",
@@ -380,6 +381,52 @@ export const modelPages: ModelPageContent[] = [
       "4x4-van-is-it-worth-it",
     ],
     ledger: fridayFacts as unknown as FactLedger,
+    verifiedDate: "2026-10-16",
+  },
+  {
+    slug: "remote-vans-aegis",
+    tagline: "2026 · AWD Sprinter flagship adventure van · Aegis Series",
+    intro:
+      "The Remote Vans Aegis is the flagship of the Remote Vans line and the most completely equipped factory Class B in our comparison pool: a Cincinnati-built camper on the all-wheel-drive Mercedes-Benz Sprinter 2500 chassis, with the range's full off-road build (Van Compass 4.3 suspension with Inverted Rally Struts, skid plates and onboard air), a 16.8 kWh battery, a Starlink High-Performance dish fitted as standard and a stowable Cyber Shower in place of a fixed bath. Remote Vans publishes a manufacturer direct price of $247,900 for the Aegis under its see-through pricing; the window sticker prints a $346,900 MSRP. It carries 30 gallons of fresh water, the manufacturer's figure, sleeps two to four, and trades a conventional bathroom and a deep dealer network for the most complete factory off-road and remote-work package in the segment.",
+    whoFor: [
+      "The Aegis is built for full-time travelers, serious overlanders and remote professionals who want everything included from day one. Nothing on the spec sheet is an options conversation: the rally suspension, the skid plates, the bumpers and armor, the onboard air, the biggest air conditioner in the range, the High-Performance Starlink and the standing-desk home office all arrive fitted. If your travel is rough roads to remote campsites, with full workdays in between and weeks between hookups, this is the van the top end of the segment is measured against.",
+      "The compromises are the same ones the whole Remote Vans line makes, at the highest price. There is still no fixed bathroom: the shower stows away and the toilet is a portable cassette unit, which will end the conversation for some buyers no matter how long the equipment list runs. The conversion warranty is the same one year or 20,000 miles as the $174,900 T-45, and Remote Vans is a young company, founded in 2021, with a dealer network in the dozens rather than the hundreds. Buyers who want an enclosed wet bath and service everywhere should cross-shop the Winnebago Revel; buyers who want a four-season rating and more water for less money should weigh the Storyteller MODE.",
+    ],
+    priceStory:
+      "Remote Vans publishes its pricing outright, under what it calls see-through, Manufacturer Direct pricing: the Aegis lists at $247,900, and that is the figure this site displays. One wrinkle, documented in our [fact ledger](/about): the manufacturer's own window sticker for the Aegis prints an MSRP of $346,900, and a manufacturer-hosted rebate-program sticker shows $223,110 after a $24,790 rebate. The rebate is a program price applied to individual units, not standing pricing, so treat it the way you would a dealer discount, not as the manufacturer's price. The rest of the lineup is published on the same comparison page: the entry T-45 at $174,900, the [Friday](/models/remote-vans-friday) at $194,900 and the Oasis at $224,900, all on the same Sprinter 144 AWD platform with the same 30 gallons of fresh water, the same battery and the same bed and shower arrangement. The $53,000 step from the Friday to the Aegis buys hardware, not living space: the full Van Compass 4.3 suspension with Inverted Rally Struts and skid plates, the larger Nomadic X3 air conditioner, the Starlink High-Performance dish in place of the Mini, and the bumpers, armor, onboard air and lighting packages fitted as standard. Against its Sprinter rivals, the Aegis starts about $24,400 above the [Winnebago Revel](/models/winnebago-revel) at $223,495 and about $55,700 above the [Storyteller Overland MODE](/models/storyteller-overland-mode) at $192,206, and lands within about $5,000 of Storyteller's BEAST MODE OG at $252,821. It answers all of them with the joint-largest battery in our pool, the deepest factory off-road build, and satellite internet fitted at the factory. Our full [Remote Vans review](/blog/remote-vans-review) covers the range, the warranty agreement and the catches in depth.",
+    faqs: [
+      {
+        question: "How much does the 2026 Remote Vans Aegis cost?",
+        answer:
+          "Remote Vans publishes a Manufacturer Direct price of $247,900 for the Aegis Series under its see-through pricing, re-verified on remotevans.com on October 16, 2026. The manufacturer's own window sticker prints a $346,900 MSRP for the same van, and a manufacturer-hosted rebate-program sticker shows $223,110 after a $24,790 rebate; the rebate is a program price on individual units, not standing pricing. Both manufacturer figures are logged in our fact ledger, and this site displays the direct price.",
+      },
+      {
+        question: "What does the Aegis add over the Remote Vans Friday?",
+        answer:
+          "Hardware, not living space: the two vans share the Sprinter 144 AWD platform, the 16.8 kWh battery, the 30-gallon fresh water system, the queen bed, the Vanhalla swing seat and the recirculating Cyber Shower, and the same 1-year or 20,000-mile conversion warranty. The $53,000 step to the Aegis buys the full Van Compass 4.3 suspension with Inverted Rally Struts (the Friday runs an Opti-Leaf spring pack), skid plates under the engine, transmission and rear differential, the larger Nomadic Cooling X3 air conditioner in place of the X2, a Starlink High-Performance dish in place of the Mini, and the front and rear bumpers, armor kit, ARB onboard air compressor, roof rack and full exterior lighting fitted as standard.",
+      },
+      {
+        question: "How much water and power does the Remote Vans Aegis carry?",
+        answer:
+          "30 gallons of fresh water and a 24-gallon gray tank with a heating loop, per Remote Vans' published specifications. The power system matches the Friday and Oasis: a 16.8 kWh 51V Lithionics battery, 100 percent usable with a built-in reserve, a 3,000W inverter and charger with a 5,500W boost, a 48V 100A generator alternator that refills the bank while driving, and a single 200W roof solar panel with an exterior expansion port. The solar is a maintainer; the alternator does the heavy refilling.",
+      },
+      {
+        question: "How many people can sleep in a Remote Vans Aegis?",
+        answer:
+          "Remote Vans rates the Aegis at seats and sleeps four: a queen bed for two adults, plus the Vanhalla rotating sleeper seat, which converts to a second bed sized for two smaller children, or one adult combined with a swivel seat. We record the figure as 2-4, the manufacturer's rating with its own asterisk attached. Some dealer listings say two or three; the disagreement is logged in our fact ledger.",
+      },
+      {
+        question: "How does the Remote Vans Aegis compare to the Winnebago Revel and Storyteller MODE?",
+        answer:
+          "All three are all-wheel-drive Sprinter 144 vans, and they split on philosophy. The Revel ($223,495, Winnebago's figure) is the factory benchmark with a fixed wet bath, a cassette toilet and the deepest dealer network, and the smallest water and battery of the three at 21 gallons and 320 Ah. The MODE ($192,206, Storyteller's figure) is the overland pick, with 37 gallons of fresh water carried inside the cabin, 10.5 inches of ground clearance and a four-season rating. The Aegis ($247,900 direct) answers with the most complete factory off-road build of the three (Van Compass 4.3 suspension with rally struts, skid plates, onboard air), the joint-largest battery at 16.8 kWh, and a factory-fitted Starlink High-Performance dish, and gives up the Revel's fixed bathroom, the MODE's water and winter rating, and both rivals' dealer depth to get it. Like the MODE, it has no fixed bath: a stowable Cyber Shower and a portable cassette toilet instead.",
+      },
+    ],
+    relatedSlugs: [
+      "remote-vans-review",
+      "off-grid-power-systems-class-b",
+      "4x4-van-is-it-worth-it",
+    ],
+    ledger: aegisFacts as unknown as FactLedger,
     verifiedDate: "2026-10-16",
   },
 ];
