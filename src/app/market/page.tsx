@@ -27,14 +27,21 @@ function BrandSection({ brand }: { brand: MarketBrand }) {
       </div>
       {brand.note && <p className="text-sm text-sand-500 mb-2">{brand.note}</p>}
       <ul className="divide-y divide-charcoal-700 border-y border-charcoal-700">
-        {brand.models.map((m) => (
+        {brand.models.map((m) => {
+          const hasPage = MODEL_PAGE_SLUGS.includes(m.id);
+          return (
           <li
             key={m.id}
-            className="grid grid-cols-[1fr_auto] md:grid-cols-[1fr_180px_170px_130px] items-center gap-2 md:gap-4 py-3"
+            className={`grid grid-cols-[1fr_auto] md:grid-cols-[1fr_180px_170px_130px] items-center gap-2 md:gap-4 py-3 px-2 -mx-2 ${
+              hasPage ? "group relative transition-colors hover:bg-charcoal-800/60" : ""
+            }`}
           >
             <span className="text-sand-200 font-medium">
-              {MODEL_PAGE_SLUGS.includes(m.id) ? (
-                <Link href={`/models/${m.id}`} className="hover:text-earth-300 underline decoration-charcoal-600 underline-offset-4">
+              {hasPage ? (
+                <Link
+                  href={`/models/${m.id}`}
+                  className="underline decoration-charcoal-600 underline-offset-4 after:absolute after:inset-0 hover:text-earth-300 group-hover:text-earth-300"
+                >
                   {m.name}
                 </Link>
               ) : (
@@ -54,7 +61,7 @@ function BrandSection({ brand }: { brand: MarketBrand }) {
               </span>
             )}
             {m.verified ? (
-              <Link href="/compare" className="text-sm text-earth-400 hover:text-earth-300 text-right">
+              <Link href="/compare" className="relative z-10 text-sm text-earth-400 hover:text-earth-300 text-right">
                 Compare →
               </Link>
             ) : (
@@ -68,7 +75,8 @@ function BrandSection({ brand }: { brand: MarketBrand }) {
               </a>
             )}
           </li>
-        ))}
+          );
+        })}
       </ul>
     </section>
   );

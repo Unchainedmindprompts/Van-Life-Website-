@@ -2,6 +2,25 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { vans } from "@/lib/vans";
 import type { CapabilityLevel, BuildQuality } from "@/lib/vans";
+import { MODEL_PAGE_SLUGS } from "@/lib/model-pages";
+
+/** Van name, linked to its full model guide when one exists. */
+function VanNameLink({
+  id,
+  name,
+  className,
+}: {
+  id: string;
+  name: string;
+  className?: string;
+}) {
+  if (!MODEL_PAGE_SLUGS.includes(id)) return <>{name}</>;
+  return (
+    <Link href={`/models/${id}`} className={className}>
+      {name}
+    </Link>
+  );
+}
 
 export const metadata: Metadata = {
   title: "Compare Class B Vans | Starry Van",
@@ -76,7 +95,11 @@ export default function ComparePage() {
                     </span>
                   </div>
                   <h3 className="font-display font-black text-2xl text-sand-100">
-                    {van.name}
+                    <VanNameLink
+                      id={van.id}
+                      name={van.name}
+                      className="hover:text-earth-300 transition-colors"
+                    />
                   </h3>
                   <p className="text-sand-400 text-sm mt-1">{van.chassis}</p>
                 </div>
@@ -211,7 +234,13 @@ export default function ComparePage() {
                     }`}
                   >
                     <td className="p-4">
-                      <p className="font-display font-bold text-sm text-sand-100">{van.name}</p>
+                      <p className="font-display font-bold text-sm text-sand-100">
+                        <VanNameLink
+                          id={van.id}
+                          name={van.name}
+                          className="underline decoration-charcoal-600 underline-offset-4 hover:text-earth-300 transition-colors"
+                        />
+                      </p>
                       <p className="text-xs text-sand-400">{van.maker}</p>
                     </td>
                     <td className="p-4 text-sm text-earth-300 font-semibold">{van.priceRange}</td>

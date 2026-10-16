@@ -1,11 +1,29 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import { vans } from "@/lib/vans";
+import { getModelPage } from "@/lib/model-pages";
 
 export const metadata: Metadata = {
   title: "Starry Van | Find Your Perfect Class B Adventure Van",
   description:
     "Discover and compare Class B adventure vans with our consultative guide. From Sprinter conversions to the Winnebago Boldt — find the van that fits your life.",
 };
+
+/** Featured full-guide models, ordered from the lowest starting price up. */
+const FEATURED_SLUGS = [
+  "thor-tellaro",
+  "winnebago-travato",
+  "storyteller-overland-mode",
+  "winnebago-revel",
+  "remote-vans-aegis",
+  "airstream-interstate-24glx",
+];
+
+const featuredVans = FEATURED_SLUGS.map((slug) => {
+  const van = vans.find((v) => v.id === slug);
+  const content = getModelPage(slug);
+  return van && content ? { van, content } : null;
+}).filter((f): f is NonNullable<typeof f> => f !== null);
 
 export default function HomePage() {
   return (
@@ -165,6 +183,58 @@ export default function HomePage() {
               </Link>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* ─── Featured Vans ──────────────────────────────────── */}
+      <section className="py-20 px-6 bg-charcoal-900">
+        <div className="max-w-7xl mx-auto">
+          <p className="font-display text-earth-400 text-xs font-bold tracking-[0.3em] uppercase mb-4 text-center">
+            Fact-Checked Comparisons
+          </p>
+          <h2 className="font-display font-black text-3xl md:text-4xl text-sand-100 text-center mb-4">
+            Featured Vans
+          </h2>
+          <p className="text-sand-400 text-lg leading-relaxed text-center max-w-2xl mx-auto mb-14">
+            Six of our full model guides, from the value end of the segment to the
+            top — every figure fact-checked against manufacturer sources.
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+            {featuredVans.map(({ van, content }) => (
+              <Link
+                key={van.id}
+                href={`/models/${van.id}`}
+                className="group bg-charcoal-800 border border-charcoal-600 rounded-lg p-6 flex flex-col hover:border-earth-600 transition-colors"
+              >
+                <p className="font-display text-[10px] font-bold tracking-widest uppercase text-earth-500 mb-1">
+                  {van.maker}
+                </p>
+                <h3 className="font-display font-black text-2xl text-sand-100 group-hover:text-earth-300 transition-colors mb-2">
+                  {van.name}
+                </h3>
+                <p className="text-sand-400 text-sm leading-relaxed mb-6">{content.tagline}</p>
+                <div className="mt-auto flex items-end justify-between gap-4">
+                  <div>
+                    <p className="font-display text-[10px] font-bold tracking-widest uppercase text-charcoal-600 mb-1">
+                      Starting Price
+                    </p>
+                    <p className="text-earth-300 font-semibold">{van.priceRange}</p>
+                  </div>
+                  <span className="text-sm font-display font-bold tracking-wider uppercase text-earth-400 group-hover:text-earth-300 transition-colors whitespace-nowrap">
+                    Full Guide &rarr;
+                  </span>
+                </div>
+              </Link>
+            ))}
+          </div>
+
+          <p className="text-center mt-10 text-sand-400">
+            <Link href="/market" className="text-earth-400 underline hover:text-earth-300">
+              Browse the full market index
+            </Link>{" "}
+            — every Class B you can buy, with the rest of our full comparisons.
+          </p>
         </div>
       </section>
 
