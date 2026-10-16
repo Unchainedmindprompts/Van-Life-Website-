@@ -239,12 +239,6 @@ export const MARKET: MarketBrand[] = [
     ],
   },
   {
-    brand: "Glampervan",
-    url: "https://www.glampervan.com",
-    type: "builder",
-    models: [{ id: "glampervan-muv-136", name: "MUV 136", chassis: "ProMaster" }],
-  },
-  {
     brand: "TOURIG",
     url: "https://www.mytourig.com",
     type: "builder",
