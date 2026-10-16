@@ -135,7 +135,7 @@ export const MARKET: MarketBrand[] = [
     type: "factory",
     models: [
       { id: "grech-strada-ion", name: "Strada-ion", chassis: "Sprinter" },
-      { id: "grech-terreno-ion", name: "Terreno-ion", chassis: "Sprinter", verified: true },
+      { id: "grech-terreno", name: "Terreno-ion", chassis: "Sprinter", verified: true },
       { id: "grech-turismo-ion", name: "Turismo-ion", chassis: "Sprinter" },
       { id: "grech-vacanza-ion", name: "Vacanza-ion", chassis: "Sprinter" },
     ],

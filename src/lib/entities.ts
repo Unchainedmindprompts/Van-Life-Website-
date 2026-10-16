@@ -75,6 +75,12 @@ export const ENTITIES: Record<string, EntityDef> = {
   },
   "model:coachmen-nova": { "@type": "Product", name: "Coachmen Nova" },
   "model:coachmen-galleria": { "@type": "Product", name: "Coachmen Galleria" },
+  "org:grech-rv": {
+    "@type": "Organization",
+    name: "Grech RV",
+    sameAs: ["https://grechrv.com"],
+  },
+  "model:grech-terreno": { "@type": "Product", name: "Grech Terreno" },
   "topic:lifepo4": {
     "@type": "Thing",
     name: "Lithium iron phosphate battery",

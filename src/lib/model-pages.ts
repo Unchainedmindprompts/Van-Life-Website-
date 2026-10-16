@@ -8,6 +8,7 @@ import fridayFacts from "../../data/facts/remote-vans-friday.json";
 import aegisFacts from "../../data/facts/remote-vans-aegis.json";
 import novaFacts from "../../data/facts/coachmen-nova.json";
 import galleriaFacts from "../../data/facts/coachmen-galleria.json";
+import terrenoFacts from "../../data/facts/grech-terreno.json";
 
 /**
  * Model pages: the /models/<slug> guides. Display specs come from
@@ -487,7 +488,7 @@ export const modelPages: ModelPageContent[] = [
       "The compromises are size, price opacity and purpose. At 24 feet it has the biggest footprint in this pool, which buys the living space and costs parking ease and trail access; the all-wheel drive is an extra-cost option and this remains a touring coach, not a trail build. Coachmen publishes no price, so every figure is a dealer's, stickers for the same line spread tens of thousands of dollars apart, and advertised sale prices run far below sticker, which makes negotiation part of the purchase. It sleeps two, period, with no pop-top or extra berth at any price. And it is priced against the Airstream Interstate 24GLX and the Grech Terreno, and judged on finish.",
     ],
     priceStory:
-      "Coachmen publishes no MSRP for the Galleria, so there is no manufacturer price to display, and we will not dress a dealer's number up as one. The figure this site displays, $236,822, is the dealer MSRP on a 2026 24QM listed by General RV Center, recorded in our [fact ledger](/about) on October 14, 2026 and re-corroborated in the same live listing on October 16, 2026; it is labeled a dealer listing wherever it appears on this page. Stickers on the current floor plans run higher (a 2026 24FL at $240,810, a 2026 24A at $255,756, 2026 24RB units to $271,962), and advertised sale prices run $70,000 to $105,000 below sticker across the line, so treat $236,822 as the opening position of a negotiation, not the transaction price. Against the Sprinter pool, that dealer sticker sits above the [Winnebago Revel](/models/winnebago-revel) at $223,495 (Winnebago's published figure) and the [Storyteller Overland MODE](/models/storyteller-overland-mode) at $192,206 (Storyteller's figure), in the Airstream Interstate 24GLX's territory and below the Grech Terreno at $290,400. Against its own sibling it is a $58,000 step up from the [Coachmen Nova](/models/coachmen-nova) at $178,801 (also a dealer figure), and the step buys the Sprinter chassis, four more feet of van and the luxury finish; the insulation-first formula underneath is shared. Our [chassis comparison](/blog/sprinter-vs-transit-vs-promaster) covers how the Sprinter stacks up against the Transit and the ProMaster.",
+      "Coachmen publishes no MSRP for the Galleria, so there is no manufacturer price to display, and we will not dress a dealer's number up as one. The figure this site displays, $236,822, is the dealer MSRP on a 2026 24QM listed by General RV Center, recorded in our [fact ledger](/about) on October 14, 2026 and re-corroborated in the same live listing on October 16, 2026; it is labeled a dealer listing wherever it appears on this page. Stickers on the current floor plans run higher (a 2026 24FL at $240,810, a 2026 24A at $255,756, 2026 24RB units to $271,962), and advertised sale prices run $70,000 to $105,000 below sticker across the line, so treat $236,822 as the opening position of a negotiation, not the transaction price. Against the Sprinter pool, that dealer sticker sits above the [Winnebago Revel](/models/winnebago-revel) at $223,495 (Winnebago's published figure) and the [Storyteller Overland MODE](/models/storyteller-overland-mode) at $192,206 (Storyteller's figure), in the Airstream Interstate 24GLX's territory and below the [Grech Terreno](/models/grech-terreno) at $290,400. Against its own sibling it is a $58,000 step up from the [Coachmen Nova](/models/coachmen-nova) at $178,801 (also a dealer figure), and the step buys the Sprinter chassis, four more feet of van and the luxury finish; the insulation-first formula underneath is shared. Our [chassis comparison](/blog/sprinter-vs-transit-vs-promaster) covers how the Sprinter stacks up against the Transit and the ProMaster.",
     faqs: [
       {
         question: "How much does the Coachmen Galleria cost?",
@@ -521,6 +522,52 @@ export const modelPages: ModelPageContent[] = [
       "4x4-van-is-it-worth-it",
     ],
     ledger: galleriaFacts as unknown as FactLedger,
+    verifiedDate: "2026-10-16",
+  },
+  {
+    slug: "grech-terreno",
+    tagline: "2027 · Sprinter 3500XD luxury flagship · Terreno-ion AWD, Tour floor plan",
+    intro:
+      "The Grech Terreno is the luxury flagship of the factory Class B pool: for 2027 it is sold only as the Terreno-ion AWD, a hand-built coach on the Mercedes-Benz Sprinter 3500XD chassis (170-inch wheelbase, non-extended) with all-wheel drive and air suspension as standard, a lithium-ion power system in place of a generator, and the highest level of standard equipment in its class. Grech publishes its price: the 2027 MSRP starts at $290,400, the highest starting figure in this pool. The one floor plan Grech's page publishes is the Tour, 22 feet long, seating up to five and sleeping two, with a wet bath, a porcelain toilet on a macerator pump and Timberline diesel hydronic heat and hot water. Fresh water is 26 gallons, per Grech's owner's manual. It is built for buyers who judge a van on finish, and who want the specification settled before the negotiation starts.",
+    whoFor: [
+      "The Terreno-ion is built for full-time luxury travelers and cold-climate tourers who want everything standard. There is effectively no options game to play: a 16.8 kWh Lithionics lithium system with a 3,000W Victron inverter replaces the generator entirely, all three tanks (fresh 26 gallons, gray 27, black 13) are 12V heated, the Timberline system handles heat and hot water, and the cabin is finished in hardwood cabinetry with radius doors, UltraLeather seating, a memory-foam power sofa bed and solid-surface countertops. Air suspension rides standard on the Sprinter 3500XD chassis, and Grech backs the conversion with a 3-year/36,000-mile limited warranty, the longest conversion coverage in this pool. If your travel is long-distance touring in any season and the van has to feel hand-made at the end of the day, this is the benchmark.",
+      "The compromises are price, sleeping count and purpose. At $290,400 to start it is the most expensive van in this pool, and the discounting visible in Grech's own inventory feed (2027 units advertised from $256,500) means the transaction price is a negotiation the MSRP only opens. It seats up to five but sleeps two, period, with no pop-top or extra berth at any price. And while all-wheel drive and air suspension make it a confident all-weather tourer, Grech publishes no lift or off-road package, so it is a luxury road coach, not a trail build. Buyers cross-shopping it will judge it against the Airstream Interstate 24GLX and the Coachmen Galleria on finish, and on that ground the Terreno's standard-equipment list is its whole argument.",
+    ],
+    priceStory:
+      "Grech does something its luxury rivals mostly do not: it publishes the price. The 2027 Terreno-ion AWD's MSRP starts at $290,400 on [Grech's model page](https://grechrv.com/model/2027-terreno-ion-awd/), and that manufacturer figure is what this site displays; a dealer unit in Grech's own inventory feed matches it exactly. What dealers actually ask is another matter: units in the same feed are advertised from $256,500 to $262,200, with one at the full $290,400 sticker, so treat the MSRP as the ceiling of a negotiation, not the transaction price, and never confuse a dealer's discount with Grech's figure. At $290,400 the Terreno-ion is the most expensive starting point in this pool: above the [Remote Vans Aegis](/models/remote-vans-aegis) at $247,900 direct (whose window sticker, for reference, runs to $346,900) and above the [Coachmen Galleria](/models/coachmen-galleria) at $236,822, a dealer sticker, since Coachmen publishes no price at all. What the premium buys is specification as standard: the lithium power system, the heated tanks, the air suspension and the hand-finished cabin are the base van, not a packages list. Our [fact ledger](/about) records the figure and its sources.",
+    faqs: [
+      {
+        question: "How much does the Grech Terreno cost?",
+        answer:
+          "Grech publishes the price: the 2027 Terreno-ion AWD's MSRP starts at $290,400 on Grech's own model page, and that manufacturer figure is the one this site displays. Dealer asking prices run lower: units in Grech's own inventory feed are advertised from $256,500 to $262,200, with one listed at the full $290,400 sticker, and those discounts are dealer prices, not Grech's. At $290,400 the Terreno-ion is the most expensive starting point in this pool, ahead of the Remote Vans Aegis at $247,900 direct and the Coachmen Galleria at $236,822, a dealer sticker.",
+      },
+      {
+        question: "How much fresh water does the Grech Terreno hold?",
+        answer:
+          "26 gallons, per Grech's owner's manual, and the tank is 12V heated, as are the 27-gallon gray and 13-gallon black tanks, which makes the Terreno one of the few luxury coaches with genuine four-season plumbing. The 26-gallon fresh figure matches the Coachmen Galleria's 26 and sits mid-pack for the Sprinter pool: more than the Winnebago Revel's 21, less than the Remote Vans pair's 30 and the Storyteller MODE's 37. Grech's 2027 model page publishes no tank capacities, so the manual is the manufacturer's record for them, re-verified on October 16, 2026.",
+      },
+      {
+        question: "How many people can sleep in a Grech Terreno?",
+        answer:
+          "Two. Grech's 2027 page rates the Tour floor plan at seats up to five, sleeps up to two, and the only bed is the memory-foam power sofa bed (66 by 76 inches); there is no pop-top, bunk or extra berth on the specification at any price. That is the luxury Sprinter pattern in this pool: the Coachmen Galleria and the Airstream Interstate 24GLX also sleep two. Buyers who need four berths included should look at the Winnebago Solis, which sleeps four in both floor plans.",
+      },
+      {
+        question: "What kind of bathroom and toilet does the Grech Terreno have?",
+        answer:
+          "A full wet bath with a window, a sink and a shower, and a porcelain toilet running through a macerator pump to a 13-gallon black tank, per Grech's published specifications; there is no cassette toilet. That splits the luxury Sprinter pair from the overland vans: the Coachmen Galleria is also a porcelain flush toilet to a black tank, while the Winnebago Solis is cassette throughout, the Storyteller MODE carries a portable toilet, and the Thor Sequence and Tellaro fit a cassette on their 20U floor plans only. The macerator means the Terreno empties at a dump station like a conventional motorhome, with the pump assisting the discharge.",
+      },
+      {
+        question: "How does the Grech Terreno compare with the Coachmen Galleria and the Airstream Interstate 24GLX?",
+        answer:
+          "The three are the pool's luxury Sprinter tier, and they split on price transparency, size and specification. The Terreno ($290,400, Grech's published MSRP) is the shortest at 22 feet on the non-extended 170-inch chassis, the only one with all-wheel drive standard, and the only one with a full lithium system as standard equipment; its 3-year/36,000-mile conversion warranty is also the longest of the three. The Galleria ($236,822, a dealer sticker, since Coachmen publishes no price) is the longest at 24 feet 3 inches on the extended chassis, rear-wheel drive standard with all-wheel drive optional, with R-15 insulation, hardwood finish and an AGM battery bank as standard where the Terreno is lithium. The Interstate 24GLX is Airstream's entry on the same extended Sprinter chassis; Airstream publishes no base MSRP for it either, and optioned dealer units sticker around $312,600, above even the Terreno's published figure. All three sleep two and run a porcelain toilet to a black tank; the Terreno's argument is that everything is standard and the price is published.",
+      },
+    ],
+    relatedSlugs: [
+      "class-b-van-buying-guide",
+      "4x4-van-is-it-worth-it",
+      "off-grid-power-systems-class-b",
+    ],
+    ledger: terrenoFacts as unknown as FactLedger,
     verifiedDate: "2026-10-16",
   },
 ];
