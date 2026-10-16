@@ -1,6 +1,7 @@
 import revelFacts from "../../data/facts/winnebago-revel.json";
 import travatoFacts from "../../data/facts/winnebago-travato.json";
 import solisFacts from "../../data/facts/winnebago-solis.json";
+import sequenceFacts from "../../data/facts/thor-sequence.json";
 import storytellerModeFacts from "../../data/facts/storyteller-overland-mode.json";
 
 /**
@@ -205,7 +206,7 @@ export const modelPages: ModelPageContent[] = [
       "The compromises are the price of the price. The pop-top berth suits kids and smaller adults best, the interior is simpler than the Travato's, and there is no all-wheel drive at any price. Winnebago insulates the van ceiling to floor and runs the waterlines inside, but attaches its winter-use-guidelines asterisk rather than claiming a four-season build, so we rate it cold-capable, not four-season. Buyers who travel as a couple and want the nicer road-trip interior should cross-shop the Travato; buyers who need four berths usually end the conversation here.",
     ],
     priceStory:
-      "Winnebago publishes Solis pricing on its own site, which is not true of every model it sells: the 59P starts at $156,254 and the 59PX at $180,487, base before options, and dealer stickers agree closely (Camping World has listed the 59P at $156,840). The roughly $24,000 step to the 59PX buys the extended-wheelbase body, rear gear storage and a standard ultra-quiet generator. Against its ProMaster sibling, the [Winnebago Travato](/models/winnebago-travato), which starts at a dealer-listed $183,783 and sleeps two, the Solis undercuts it in both floorplans while sleeping four, and gives up the Travato's bigger lithium power system and more finished interior to do it. All of these figures are documented in our [fact ledger](/about); where sources disagree, this site displays the manufacturer's figure and says so.",
+      "Winnebago publishes Solis pricing on its own site, which is not true of every model it sells: the 59P starts at $156,254 and the 59PX at $180,487, base before options, and dealer stickers agree closely (Camping World has listed the 59P at $156,840). The roughly $24,000 step to the 59PX buys the extended-wheelbase body, rear gear storage and a standard ultra-quiet generator. Against its ProMaster sibling, the [Winnebago Travato](/models/winnebago-travato), which starts at a dealer-listed $183,783 and sleeps two, the Solis undercuts it in both floorplans while sleeping four, and gives up the Travato's bigger lithium power system and more finished interior to do it. Thor's [Sequence](/models/thor-sequence) starts lower still, at $151,060, and answers with three floor plans and up to 35 gallons of fresh water, but sleeps two rather than four and reserves its cassette toilet for one floor plan. All of these figures are documented in our [fact ledger](/about); where sources disagree, this site displays the manufacturer's figure and says so.",
     faqs: [
       {
         question: "How much does the 2026 Winnebago Solis cost?",
@@ -239,6 +240,52 @@ export const modelPages: ModelPageContent[] = [
       "off-grid-power-systems-class-b",
     ],
     ledger: solisFacts as unknown as FactLedger,
+    verifiedDate: "2026-10-16",
+  },
+  {
+    slug: "thor-sequence",
+    tagline: "2027 · Ram ProMaster value van · 20L, 20U and 20Y floor plans",
+    intro:
+      "The Thor Sequence is the value benchmark among factory Class B vans: a Ram ProMaster camper, built by Thor Motor Coach in three floor plans, with an enclosed wet bath in every one and a published starting price lower than any Winnebago. Thor prices the line from $151,060 on its own Sequence page, for the 20L. Fresh water runs 22, 27 or 35 gallons depending on floor plan, the manufacturer's figures, the toilet is a cassette on the 20U and a gravity flush into a black tank on the 20L and 20Y, and every floor plan sleeps two. It trades the Winnebago name and dealer depth for Thor's dealer network, Thule roof kit as standard, and the lowest entry price in our comparison pool.",
+    whoFor: [
+      "The Sequence is the factory answer for budget-conscious couples and first-time Class B buyers. It drives like the cargo van it is based on, parks in a normal space, runs on gasoline, and comes with the campground kit already fitted: power awning, roof ladder and rack, a generator, solar on the roof and a Truma system for heat and hot water. If your travel is weekends, state parks and long paved trips for two, and the budget is the budget, this is the van the value end of the segment is measured against.",
+      "The compromises are the price of the price. There is no all-wheel drive at any price and no factory winter package: Thor fits heat pads to the holding tanks but publishes no insulation rating, so we rate it three-season. Only the 20U gets a cassette toilet; the 20L and 20Y use black tanks. And buyers who need real sleeping for four should look at the Winnebago Solis, which sleeps four in every floor plan, before falling for the lower sticker.",
+    ],
+    priceStory:
+      "Thor publishes Sequence pricing in the structured data on its own model page: the line runs from $151,060 for the 20L, with the 20U's bases at $162,120 to $165,060 and the 20Y at $162,960, each from Thor's floor plan pages. One wrinkle, documented in our [fact ledger](/about): Thor's class-B lineup page lists a flat $161,560 MSRP for the Sequence. Where the manufacturer's pages disagree, this site displays the dedicated model page figure, $151,060. Against its closest rival, the [Winnebago Solis](/models/winnebago-solis), which starts at $156,254 and sleeps four, the Sequence undercuts it by about $5,000 in base form and answers with a third floor plan and, in the 20Y, nearly twice the fresh water, and gives up the Solis's fourth berth and standard pop-top to do it.",
+    faqs: [
+      {
+        question: "How much does the Thor Sequence cost?",
+        answer:
+          "Thor publishes the Sequence line from $151,060 (the 20L) in the structured data on its own model page, re-verified on October 16, 2026. The 20U's published bases run $162,120 to $165,060 and the 20Y's is $162,960. Thor's class-B lineup page lists a flat $161,560 for the line; that disagreement is logged in our fact ledger, and this site displays the model page figure.",
+      },
+      {
+        question: "What is the difference between a Winnebago Solis and a Thor Sequence?",
+        answer:
+          "They share the Ram ProMaster 3500 chassis, front-wheel drive and the 3.6L V6 gasoline engine, and differ almost everywhere else. The Solis sleeps four in both of its floor plans, two of them in a standard pop-top loft; the Sequence sleeps two in all three of its floor plans, with an optional Sky Bunk pop-top on the 20L. Both have enclosed wet baths, but the Solis uses a cassette toilet throughout, while the Sequence fits a cassette only on the 20U and gravity-flush toilets with black tanks on the 20L and 20Y. The Solis carries 20 gallons of fresh water; the Sequence carries 22, 27 or 35 depending on floor plan. On power, the Solis offers an optional 5 kWh EcoFlow lithium kit, while Thor's standards list gives the Sequence AGM house batteries and a 2,800W generator, with a 400Ah lithium Re(Li)able Power Pack as the factory option. The Sequence starts lower: $151,060 against $156,254.",
+      },
+      {
+        question: "How much fresh water does the Thor Sequence hold?",
+        answer:
+          "It depends on the floor plan, per Thor's own specification pages: 22 gallons on the 20L, 27 on the 20U and 35 on the 20Y, re-verified on October 16, 2026. Gray water runs 13, 20 and 28 gallons in the same order. Any single-number answer for the Sequence is a floor plan answer in disguise.",
+      },
+      {
+        question: "How many people can sleep in a Thor Sequence?",
+        answer:
+          "Two, on every floor plan, per Thor's specification tables: an expanding sleeper sofa on the 20L and 20U and a rear bed arrangement on the 20Y. The 20L offers an optional Sky Bunk pop-top that adds a bunk over the cab, but Thor still rates the 20L at two, and two is the figure this site publishes. Families who need four rated berths should look at the Winnebago Solis.",
+      },
+      {
+        question: "Can you use a Thor Sequence in winter?",
+        answer:
+          "It has cold-weather hardware: heat pads on the holding tanks and a Truma Combi Eco furnace and water heater. But Thor publishes no winter package and no insulation rating for the Sequence, so we rate it three-season: fine for cold nights and shoulder-season trips, not a van to leave plumbed and un-winterized through a northern winter.",
+      },
+    ],
+    relatedSlugs: [
+      "class-b-van-buying-guide",
+      "sprinter-vs-transit-vs-promaster",
+      "off-grid-power-systems-class-b",
+    ],
+    ledger: sequenceFacts as unknown as FactLedger,
     verifiedDate: "2026-10-16",
   },
 ];

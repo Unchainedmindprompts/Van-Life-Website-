@@ -35,6 +35,12 @@ export const ENTITIES: Record<string, EntityDef> = {
   "model:winnebago-revel": { "@type": "Product", name: "Winnebago Revel" },
   "model:winnebago-solis": { "@type": "Product", name: "Winnebago Solis" },
   "model:winnebago-travato": { "@type": "Product", name: "Winnebago Travato" },
+  "model:thor-sequence": { "@type": "Product", name: "Thor Sequence" },
+  "org:thor-motor-coach": {
+    "@type": "Organization",
+    name: "Thor Motor Coach",
+    sameAs: ["https://www.thormotorcoach.com"],
+  },
   "org:storyteller-overland": {
     "@type": "Organization",
     name: "Storyteller Overland",
