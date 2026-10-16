@@ -1,5 +1,6 @@
 import revelFacts from "../../data/facts/winnebago-revel.json";
 import travatoFacts from "../../data/facts/winnebago-travato.json";
+import solisFacts from "../../data/facts/winnebago-solis.json";
 import storytellerModeFacts from "../../data/facts/storyteller-overland-mode.json";
 
 /**
@@ -192,6 +193,52 @@ export const modelPages: ModelPageContent[] = [
       "4x4-van-is-it-worth-it",
     ],
     ledger: storytellerModeFacts as unknown as FactLedger,
+    verifiedDate: "2026-10-16",
+  },
+  {
+    slug: "winnebago-solis",
+    tagline: "2026 · Ram ProMaster family van · 59P and 59PX floor plans",
+    intro:
+      "The Winnebago Solis is the family benchmark among factory Class B vans, and the cheapest Winnebago with a fully enclosed bath: a Ram ProMaster camper that sleeps four by stacking two berths in a pop-top loft over the rear bed, with a wet bath and a swiveling cassette toilet where rivals at the price fit a closet or no bath at all. Winnebago lists the 2026 Solis 59P from $156,254 and the longer 59PX from $180,487 on its own site. Both floorplans carry 20 gallons of fresh water, the manufacturer's figure, and both trade all-wheel drive and diesel for front-wheel drive, gasoline power and room for kids.",
+    whoFor: [
+      "The Solis is the factory answer for families. It seats up to six with seat belts on travel days and sleeps four at night, two in the rear bed and two in the pop-top loft, and it is the only van in our comparison pool rated to sleep four at all. It is also the lowest-priced Winnebago with a full bath. The enclosed wet bath matters more than it sounds: a cassette toilet behind a door, a shower, and no black tank to dump. If your trips are family vacations, school-holiday road trips and state park weekends, this is the van the rest of the value end of the segment is measured against.",
+      "The compromises are the price of the price. The pop-top berth suits kids and smaller adults best, the interior is simpler than the Travato's, and there is no all-wheel drive at any price. Winnebago insulates the van ceiling to floor and runs the waterlines inside, but attaches its winter-use-guidelines asterisk rather than claiming a four-season build, so we rate it cold-capable, not four-season. Buyers who travel as a couple and want the nicer road-trip interior should cross-shop the Travato; buyers who need four berths usually end the conversation here.",
+    ],
+    priceStory:
+      "Winnebago publishes Solis pricing on its own site, which is not true of every model it sells: the 59P starts at $156,254 and the 59PX at $180,487, base before options, and dealer stickers agree closely (Camping World has listed the 59P at $156,840). The roughly $24,000 step to the 59PX buys the extended-wheelbase body, rear gear storage and a standard ultra-quiet generator. Against its ProMaster sibling, the [Winnebago Travato](/models/winnebago-travato), which starts at a dealer-listed $183,783 and sleeps two, the Solis undercuts it in both floorplans while sleeping four, and gives up the Travato's bigger lithium power system and more finished interior to do it. All of these figures are documented in our [fact ledger](/about); where sources disagree, this site displays the manufacturer's figure and says so.",
+    faqs: [
+      {
+        question: "How much does the 2026 Winnebago Solis cost?",
+        answer:
+          "Winnebago lists the Solis 59P from $156,254 and the 59PX from $180,487 on its own site, base before options, taxes and delivery. Dealer stickers track those figures closely; Camping World has listed the 59P at $156,840.",
+      },
+      {
+        question: "Does the Winnebago Solis have a cassette toilet?",
+        answer:
+          "Yes. Both floorplans have an enclosed wet bath with a swiveling cassette toilet, 5-gallon cassette, per Winnebago's Solis brochure. There is no black-water tank: the cassette lifts out and empties at a dump station or toilet, which is a large part of the Solis's appeal for families and for buyers who do not want to queue at a dump station with a hose.",
+      },
+      {
+        question: "How many people can sleep in a Winnebago Solis?",
+        answer:
+          "Four, on both floorplans, per Winnebago's rating: two in the rear bed (a Murphy+ bed on the 59P, a fold-down bed on the 59PX) and two in the pop-top sleeping loft. The loft suits kids and smaller adults best. The Solis also seats up to six with seat belts for travel days.",
+      },
+      {
+        question: "How much fresh water does the Winnebago Solis hold?",
+        answer:
+          "20 gallons, on both floorplans, per Winnebago's Solis brochure, re-verified on October 16, 2026. Gray water is also 20 gallons by the brochure; some dealer spec feeds list 30 gallons, and that disagreement is logged in our fact ledger.",
+      },
+      {
+        question: "Can you use a Winnebago Solis in winter?",
+        answer:
+          "It is equipped for cold weather: ceiling-to-floor insulation, interior coach waterlines, a freeze-resistant exterior water fill, and Truma Combi Eco heat and hot water. But Winnebago attaches a winter-use-guidelines asterisk and recommends following its winterization procedures in freezing conditions, so we rate the Solis cold-capable and extended season rather than a true four-season van.",
+      },
+    ],
+    relatedSlugs: [
+      "class-b-van-buying-guide",
+      "sprinter-vs-transit-vs-promaster",
+      "off-grid-power-systems-class-b",
+    ],
+    ledger: solisFacts as unknown as FactLedger,
     verifiedDate: "2026-10-16",
   },
 ];
