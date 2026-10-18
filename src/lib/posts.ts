@@ -20,6 +20,31 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "class-b-vans-with-cassette-toilets",
+    title: "Which Class B Vans Have Cassette Toilets?",
+    excerpt:
+      "Two Winnebago vans use a fixed cassette toilet, two Thor lines offer one on a single floor plan, and three adventure vans carry a portable cassette. The other five use a black tank. The full list, with cassette sizes from each manufacturer, and how to choose.",
+    category: "Buying Guide",
+    readTime: "10 min",
+    date: "2026-10-18",
+    updated: "2026-10-18",
+    featured: true,
+    image: {
+      src: "/images/sportsmobile-interior-galley.jpg",
+      alt: "Inside a Class B camper van: a galley with a sink and wood cabinetry, a microwave and refrigerator, and a bench seat by the window",
+      caption: "Every Class B bathroom is a set of trades in a very small space. The toilet type decides how waste leaves the van for as long as you own it. Photo: the author.",
+    },
+    about: ["class-b"],
+    mentions: ["model:winnebago-solis", "model:winnebago-revel", "model:thor-sequence", "model:thor-tellaro", "model:storyteller-overland-mode", "model:remote-vans-friday", "model:remote-vans-aegis", "model:winnebago-travato", "model:coachmen-nova", "model:coachmen-galleria", "model:grech-terreno", "model:airstream-interstate-24glx"],
+    schema: {
+      "@type": "Article",
+      headline: "Which Class B Vans Have Cassette Toilets?",
+      description:
+        "Which Class B vans have cassette toilets, verified against manufacturer specifications: the Winnebago Solis and Revel, the Thor Sequence and Tellaro 20U, the Storyteller MODE and Remote Vans models, plus the black tank models, cassette sizes, and how to choose.",
+      keywords: ["cassette toilet Class B", "which Class B vans have cassette toilets", "Winnebago Solis cassette toilet", "Winnebago Revel cassette toilet", "Thor Tellaro cassette toilet", "Thor Sequence cassette toilet", "cassette toilet vs black tank", "Class B van bathroom", "portable cassette toilet van"],
+    },
+  },
+  {
     slug: "should-you-buy-a-covid-era-used-van",
     title: "Should You Buy a COVID-Era Used Van? What the Data Actually Shows",
     excerpt: "The COVID build quality story is real, but for Class B vans the evidence points somewhere else: supplier-part recalls, no measurable defect penalty, and a first owner who absorbed the depreciation and the punch list. The data, the exceptions, and the buying protocol.",

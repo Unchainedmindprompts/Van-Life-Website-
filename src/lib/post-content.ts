@@ -22,6 +22,172 @@ export interface PostContent {
 }
 
 export const postContent: Record<string, PostContent> = {
+  "class-b-vans-with-cassette-toilets": {
+    slug: "class-b-vans-with-cassette-toilets",
+    intro:
+      "Among the twelve Class B vans we track with verified manufacturer figures, the Winnebago Solis and Winnebago Revel have a fixed cassette toilet, the Thor Sequence and Thor Tellaro offer one on their 20U floor plan only, and the Storyteller Overland MODE, Remote Vans Friday and Remote Vans Aegis carry a portable cassette or cartridge toilet. The other five use a flush toilet plumbed to a black tank, and none of the twelve lists a composting toilet as standard equipment.",
+    relatedSlugs: [
+      "remote-vans-review",
+      "class-b-van-buying-guide",
+      "sprinter-vs-transit-vs-promaster",
+    ],
+    blocks: [
+      {
+        type: "p",
+        text: "The short answer is the list above, and it matters more than most spec lines, because the toilet decides how you empty waste for the life of the van. A cassette lifts out and empties at a dump station or into a regular toilet, with no hose and no fixed tank under the van. A black tank holds far more and empties far less often, but only at a dump station, through a sewer hose. What follows lists every verified model by toilet type, with the cassette and tank sizes each manufacturer publishes, so you can shop the decision instead of discovering it on your first trip.",
+      },
+      {
+        type: "ul",
+        heading: "Toilet type by model, from manufacturer specifications",
+        items: [
+          "Winnebago Solis (59P and 59PX): fixed swiveling cassette toilet, 5 gallon cassette, enclosed wet bath, no black tank",
+          "Winnebago Revel (44E): fixed swiveling cassette toilet, 5 gallon cassette, wet bath",
+          "Thor Sequence: cassette toilet on the 20U only (4.75 gallon cassette); the 20L and 20Y use a flush toilet and a black tank",
+          "Thor Tellaro: cassette toilet on the 20U only (4.75 gallon cassette); the 20L and 20Y use a flush toilet and a black tank",
+          "Storyteller Overland MODE (Classic MODE OG): portable cassette toilet, 2.6 gallon capacity, stowable shower, no black tank",
+          "Remote Vans Friday: portable cartridge toilet stored in the shower box, stowable shower, no black tank",
+          "Remote Vans Aegis: portable Thetford cassette toilet stored in the shower box, stowable shower, no black tank",
+          "Winnebago Travato: no cassette; flush toilet to a black tank, 11 gallons on the 59G and 12 gallons on the 59K and 59KL",
+          "Coachmen Nova: no cassette; flush toilet to a black tank on every floor plan, 19 gallons on the 20C and 20D and 10 gallons on the 20RB",
+          "Coachmen Galleria: no cassette; porcelain flush toilet to a black tank on every floor plan, 19 gallons on the 24A, 24 on the 24FL, 12 on the 24Q and 26 on the 24RB",
+          "Grech Terreno: no cassette; porcelain toilet with a macerator pump to a 13 gallon black tank",
+          "Airstream Interstate 24GLX: no cassette; foot flush toilet to an 11 gallon waste tank, emptied by a macerator pump",
+        ],
+      },
+      {
+        type: "h2",
+        heading: "What is a cassette toilet, and how is it different from a black tank?",
+        text: "A cassette toilet sits over a sealed, removable waste cassette. When the cassette is full, you slide it out and empty it through its pour spout at a dump station or into a regular toilet. Capacities in current Class B vans run from 2.6 gallons on the Storyteller MODE portable unit to 5 gallons on the fixed Winnebago installs. A black tank toilet is plumbed like a small version of a house toilet: waste drops into a fixed tank under the floor, and you empty that tank at a dump station by connecting a sewer hose. The black tanks in the vans above hold 10 to 26 gallons, so they need emptying far less often, but only where a dump connection exists.",
+      },
+      {
+        type: "h2",
+        heading: "Which vans have a fixed cassette toilet in a wet bath?",
+        text: "Two vans, both from Winnebago, and they could hardly be more different otherwise.",
+      },
+      {
+        type: "h3",
+        heading: "Winnebago Solis: cassette on every floor plan",
+        text: "The [Winnebago Solis](/models/winnebago-solis) is the clearest cassette answer in the segment. Both floor plans, the 59P and the 59PX, have an enclosed wet bath with a swiveling cassette toilet and a 5 gallon cassette, per Winnebago's Solis brochure, and there is no black water tank at all. If you want a cassette, a real enclosed bathroom and sleeping for four in the same van, the Solis is the only entry on this list that combines all three. Put it side by side with the Thor pair below in the [comparison tool](/compare) and the toilet is one of the first differences you will see.",
+      },
+      {
+        type: "h3",
+        heading: "Winnebago Revel: cassette in an adventure van",
+        text: "The [Winnebago Revel](/models/winnebago-revel) puts the same style of toilet in a very different van: a swiveling cassette toilet with a 5 gallon cassette in a 31 by 26 inch wet bath, per Winnebago's specifications for the 44E. In an all wheel drive adventure van the cassette earns its keep. There is no black tank to deal with, and the cassette can be emptied at a dump station or into a regular toilet when a trip ends nowhere near an RV dump.",
+      },
+      {
+        type: "h2",
+        heading: "Which vans offer a cassette on one floor plan only?",
+        text: "Thor's two ProMaster lines split the decision by floor plan, and this is the detail most dealer listings blur. A listing that calls the model line a cassette toilet van is right one time in three.",
+      },
+      {
+        type: "h3",
+        heading: "Thor Sequence: cassette on the 20U only",
+        text: "On the [Thor Sequence](/models/thor-sequence), only the 20U has a cassette toilet, with a 4.75 gallon cassette in its enclosed wet bath. The 20L and 20Y have gravity flush toilets running to black tanks of 13.5 and 14 gallons. Thor's own floor plan specification pages list waste water at 4.75 gallons on the 20U against those larger black tank figures on the other floor plans, and Thor lists both toilet types in its published standards for the line.",
+      },
+      {
+        type: "h3",
+        heading: "Thor Tellaro: the identical split",
+        text: "The [Thor Tellaro](/models/thor-tellaro) is the Sequence's sister line and makes the identical split: a cassette toilet on the 20U at 4.75 gallons, and gravity flush toilets with 13.5 and 14 gallon black tanks on the 20L and 20Y. Thor states the split outright in its Tellaro brochure. If a dealer advertises a Tellaro or a Sequence as a cassette toilet van, ask which floor plan is on the lot, because two of the three are not.",
+      },
+      {
+        type: "h2",
+        heading: "Which vans carry a portable cassette toilet instead of a fixed bath?",
+        text: "The adventure vans below trade the fixed bathroom for living and gear space. The toilet is a portable cassette or cartridge unit that stores away, paired with a stowable shower, and there is no black tank at all.",
+      },
+      {
+        type: "h3",
+        heading: "Storyteller Overland MODE: the 2.6 gallon portable",
+        text: "The [Storyteller Overland MODE](/models/storyteller-overland-mode), in Classic MODE OG form, skips the fixed bathroom entirely. You get a stowable Halo Shower system and a portable cassette toilet with 2.6 gallons of capacity, per Storyteller's published specifications, rechecked on the manufacturer's page on October 18, 2026. The trade is living space and a 37 gallon fresh water tank mounted inside the cabin, against a toilet you store, carry and empty more often than any other on this list.",
+      },
+      {
+        type: "h3",
+        heading: "Remote Vans Friday and Aegis: cartridge and cassette, same idea",
+        text: "Remote Vans makes the same trade across its line. The [Remote Vans Friday](/models/remote-vans-friday) carries what the manufacturer calls a portable cartridge toilet, and the [Remote Vans Aegis](/models/remote-vans-aegis) carries a portable Thetford cassette toilet. Both store in the shower box of the stowable Cyber Shower, neither van has a black tank or a fixed wet bath, and both manufacturer pages were rechecked on October 18, 2026. Remote uses the words cartridge and cassette for the same kind of removable waste container. Our [Remote Vans review](/blog/remote-vans-review) covers the rest of that bathroom trade in detail.",
+      },
+      {
+        type: "h2",
+        heading: "Which Class B vans do not have a cassette toilet?",
+        text: "Five of the twelve verified models use a flush toilet plumbed to a holding tank on every floor plan. If you want a cassette, these are the vans to cross off, whatever a listing headline suggests.",
+      },
+      {
+        type: "ul",
+        items: [
+          "[Winnebago Travato](/models/winnebago-travato): a wet bath with a foot pedal flush toilet running to a black tank, 11 gallons on the 59G and 12 gallons on the 59K and 59KL, per Winnebago's 2026 brochure. It is the Revel's ProMaster sibling, and the toilet is one of the clearest differences between the two.",
+          "[Coachmen Nova](/models/coachmen-nova): a wet bath with a fiberglass shower and a flush toilet to a black tank on every floor plan, 19 gallons on the 20C and 20D and 10 gallons on the 20RB, per Coachmen's specifications.",
+          "[Coachmen Galleria](/models/coachmen-galleria): a porcelain flush toilet to a black tank on every floor plan, 19 gallons on the 24A, 24 on the 24FL, 12 on the 24Q and 26 on the 24RB, per Coachmen's specifications.",
+          "[Grech Terreno](/models/grech-terreno): a porcelain toilet with a macerator pump to a 13 gallon black tank, per Grech's specifications and owner's manual.",
+          "[Airstream Interstate 24GLX](/models/airstream-interstate-24glx): a foot flush toilet to an 11 gallon waste tank, emptied by a macerator pump system, per Airstream's specification page.",
+        ],
+      },
+      {
+        type: "h2",
+        heading: "Cassette or black tank: which should you choose?",
+        text: "Neither system is better in the abstract. They fit different trips, and the honest way to choose is by how you actually camp.",
+      },
+      {
+        type: "ul",
+        heading: "A cassette fits if",
+        items: [
+          "You camp away from dump stations and want to empty waste at a restroom or any dump point, without a sewer hose",
+          "You like the option of carrying a spare cassette and swapping it instead of moving the van to dump",
+          "You accept emptying a 2.6 to 5 gallon container by hand, more often than a black tank would need it",
+          "You want no black tank under the van at all, as on the Solis, the MODE and the Remote Vans models",
+        ],
+      },
+      {
+        type: "ul",
+        heading: "A black tank fits if",
+        items: [
+          "You use campgrounds with dump stations or full hookups most of the time",
+          "You want the longest interval between dumps: the black tanks on this list hold 10 to 26 gallons, against 2.6 to 5 gallons for cassettes",
+          "You want a fixed, plumbed bathroom that works like the one at home, with a flush toilet in an enclosed wet bath",
+        ],
+      },
+      {
+        type: "h2",
+        heading: "What about composting toilets?",
+        text: "None of the twelve vans in our verified pool lists a composting toilet as standard equipment in its manufacturer specifications. Composting units show up in custom conversions and as owner swaps, where a cassette or portable toilet is removed and a composting unit is fitted in its place. If composting is your plan, shop the bathroom space and the venting path rather than the badge, and confirm the swap fits before you buy. The custom route is covered in our [Sportsmobile review](/blog/sportsmobile-review), about a builder that builds each van to its client's layout.",
+      },
+      {
+        type: "h2",
+        heading: "Start with the toilet, then shop the van",
+        text: "The toilet is a small line on a spec sheet and a daily fact of life on the road, so settle it early. If you have decided on a cassette, your factory short list is the Solis, the Revel, the Thor 20U floor plans, and the portable cassette adventure vans. If you want a black tank, the Travato and the Coachmen, Grech and Airstream entries above are your pool. Run your short list through the [comparison tool](/compare), take the [match quiz](/find-my-van) to check the rest of your priorities against the same models, browse the [full market index](/market) for the wider field, and read the [Class B buying guide](/blog/class-b-van-buying-guide) for the questions to answer before any of this.",
+      },
+      {
+        type: "faq-group",
+        faqs: [
+          {
+            question: "Which Class B camper vans have a cassette toilet?",
+            answer: "Among the twelve Class B vans we track with verified manufacturer figures, the Winnebago Solis and Winnebago Revel have fixed cassette toilets with 5 gallon cassettes. The Thor Sequence and Thor Tellaro offer a cassette toilet on their 20U floor plan only, with a 4.75 gallon cassette. The Storyteller Overland MODE, Remote Vans Friday and Remote Vans Aegis carry portable cassette or cartridge toilets and have no black tank. The Winnebago Travato, Coachmen Nova, Coachmen Galleria, Grech Terreno and Airstream Interstate 24GLX use flush toilets plumbed to black tanks instead.",
+          },
+          {
+            question: "Does the Winnebago Revel have a cassette toilet?",
+            answer: "Yes. The Revel 44E has a swiveling cassette toilet with a 5 gallon cassette in its 31 by 26 inch wet bath, per Winnebago's published specifications.",
+          },
+          {
+            question: "Does the Winnebago Travato have a cassette toilet?",
+            answer: "No. The Travato has a wet bath with a foot pedal flush toilet running to a black tank, 11 gallons on the 59G and 12 gallons on the 59K and 59KL, per Winnebago's 2026 brochure. Its Sprinter sibling, the Revel, is the Winnebago with the cassette.",
+          },
+          {
+            question: "Do all Thor Tellaro and Sequence floor plans have cassette toilets?",
+            answer: "No. On both lines, only the 20U floor plan has a cassette toilet, with a 4.75 gallon cassette. The 20L and 20Y floor plans have gravity flush toilets running to black tanks of 13.5 and 14 gallons. Thor states the split in its published standards and floor plan specifications.",
+          },
+          {
+            question: "How big is a Class B cassette toilet?",
+            answer: "The fixed Winnebago cassettes hold 5 gallons, the Thor 20U cassette holds 4.75 gallons, and the Storyteller MODE portable cassette holds 2.6 gallons, per each manufacturer's specifications. By comparison, the black tanks in the vans we track hold 10 to 26 gallons, which is why cassette owners empty more often.",
+          },
+          {
+            question: "Can you empty a cassette toilet without a dump station?",
+            answer: "Yes. A cassette lifts out of the van and empties through its pour spout at a dump station or into a regular toilet, with no sewer hose involved. That flexibility, rather than capacity, is the main reason buyers choose a cassette over a black tank.",
+          },
+          {
+            question: "Do any Class B vans come with a composting toilet?",
+            answer: "None of the twelve vans in our verified pool lists a composting toilet as standard equipment in its manufacturer specifications. Composting toilets in Class B vans are generally custom build choices or owner swaps in place of a cassette or portable toilet.",
+          },
+        ],
+      },
+    ],
+  },
   "class-b-van-buying-guide": {
     slug: "class-b-van-buying-guide",
     intro:
