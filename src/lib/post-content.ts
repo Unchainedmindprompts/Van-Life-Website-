@@ -22,6 +22,181 @@ export interface PostContent {
 }
 
 export const postContent: Record<string, PostContent> = {
+  "class-b-vans-that-sleep-four": {
+    slug: "class-b-vans-that-sleep-four",
+    intro:
+      "Very few Class B vans actually sleep four, and the manufacturer ratings are narrower than dealer listings suggest. Among the vans we track with verified figures, the Winnebago Solis is rated at four as a standard configuration, the four Remote Vans models are rated at two to four, and the Thor Tellaro reaches four only with its optional Sky Bunk pop-top. Everything else in the verified pool is rated at two, or two to three in the case of the Storyteller Overland MODE, including the Winnebago Travato and the Airstream Interstate, which are often described as family vans but are rated at two sleepers by their manufacturers.",
+    relatedSlugs: [
+      "class-b-vans-with-cassette-toilets",
+      "remote-vans-review",
+      "class-b-van-buying-guide",
+    ],
+    blocks: [
+      {
+        type: "p",
+        text: "The short answer is the list above, and the reason it is so short is that a Class B is a van. The second bed, where one exists at all, is usually a pop-top loft or a convertible seat bed, not a second bedroom. What follows lists every verified model by its manufacturer sleeping rating, states the mechanism that gets it to four where it does, and names the options that add a bunk without changing the rating. Sleeping capacity and belted seating are different numbers, and this article uses only the sleeping rating.",
+      },
+      {
+        type: "ul",
+        heading: "Sleeping capacity by model, from manufacturer specifications",
+        items: [
+          "Winnebago Solis (59P and 59PX): sleeps 4, manufacturer-rated. Two in the rear bed and two in the pop-top loft, counted in the rating on both floor plans",
+          "Remote Vans Friday: sleeps 2 to 4, manufacturer-rated. Queen bed plus the Vanhalla swing-seat bed, which suits two smaller children",
+          "Remote Vans Aegis: sleeps 2 to 4, manufacturer-rated. Queen bed plus the Vanhalla swing-seat bed, which suits two smaller occupants",
+          "Remote Vans Oasis: sleeps 2 to 4, manufacturer-rated, on the same queen bed plus Vanhalla swing-seat bed layout",
+          "Remote Vans T-45: sleeps 2 to 4, manufacturer-rated, on the same queen bed plus Vanhalla swing-seat bed layout",
+          "Thor Tellaro (20L and 20U): sleeps 2 as standard. Four only with the optional Sky Bunk pop-top, per Thor's brochure",
+          "Thor Sequence (20L): sleeps 2. An optional Sky Bunk pop-top adds a bunk, but Thor's specification table still rates the 20L at 2",
+          "Coachmen Nova (all floor plans): dealer-rated at 2. An optional pop-top with an upper berth is offered, but Coachmen publishes no sleeping capacity figure",
+          "Storyteller Overland MODE (Classic MODE OG): sleeps 2 to 3. Rear RV queen plus an RV twin from the convertible GrooveLounge",
+          "Winnebago Travato (all floor plans): sleeps 2, per Winnebago's brochure. Dealer listings that say 3 are counting an optional front cab air mattress",
+          "Winnebago Revel: sleeps 2",
+          "Coachmen Galleria (all floor plans): dealer-rated at 2. Coachmen publishes no sleeping capacity figure",
+          "Grech Terreno: sleeps 2",
+          "Airstream Interstate 24GLX: sleeps 2, on a 70 inch by 82 inch bed. Belted seating is up to 7, which is a seating figure, not a sleeping figure",
+          "Sportsmobile Penthouse Pop Top: a pop-top conversion component, not a factory model with a sleeping rating. Its penthouse bed is 40 inches by 78 inches on Sprinter, Transit and Chevy vans and 53 inches by 78 inches on the ProMaster",
+        ],
+      },
+      {
+        type: "h2",
+        heading: "What does sleeps four actually mean in a Class B?",
+        text: "It means two beds, and the second one is a compromise by design. On the Solis it is a pop-top loft over the main bed. On the Remote Vans models it is a swing-seat bed that the manufacturer itself describes as suiting two smaller children on the Friday and two smaller occupants on the Aegis. On the Tellaro it is an optional pop-top bunk you have to order. None of these is a second bed the size of the main one, and none of them gives four adults four full-size beds. That is not a flaw in these vans. It is the physical limit of sleeping four people inside a van body, and it is why the honest question is not whether a van sleeps four, but who the second bed actually fits.",
+      },
+      {
+        type: "h2",
+        heading: "The one mainstream factory van rated at four as standard",
+        text: "One van in the verified pool gets to four without an option box, a dealer interpretation, or a seating count standing in for a bed count.",
+      },
+      {
+        type: "h3",
+        heading: "Winnebago Solis 59P and 59PX: four, counted by the manufacturer",
+        text: "The [Winnebago Solis](/models/winnebago-solis) is rated at four by Winnebago on both of its floor plans. Two sleep in the rear bed, a Murphy+ bed on the 59P and a fold-down bed on the 59PX, and two sleep in the pop-top loft, and Winnebago counts the pop-top berth in its rating on both floor plans, per its Solis brochure. That makes the Solis the only mainstream factory floor plan in our verified pool that the manufacturer rates at four as a standard configuration. Winnebago publishes starting prices of $156,254 for the 59P and $180,487 for the 59PX on its own Solis page. The Solis is also one of the few vans on this list with an enclosed wet bath, which matters when four people share the van. Our [cassette toilet guide](/blog/class-b-vans-with-cassette-toilets) covers its 5 gallon cassette setup in detail.",
+      },
+      {
+        type: "h2",
+        heading: "Remote Vans: rated at two to four across the whole line",
+        text: "Remote Vans rates every one of its models at two to four, using the same basic arrangement: a queen bed plus a Vanhalla swing-seat bed. The manufacturer figure stands even though dealer listing metadata says two or three on various models. The catch is in the manufacturer's own description of that second bed. On the Aegis it suits two smaller occupants, and the Friday note in the manufacturer's material says two smaller children. Read the rating as two adults plus two smaller sleepers, not four adults.",
+      },
+      {
+        type: "h3",
+        heading: "Remote Vans Friday, Aegis, Oasis and T-45",
+        text: "The [Remote Vans Friday](/models/remote-vans-friday) and the [Remote Vans Aegis](/models/remote-vans-aegis) both use the queen bed plus Vanhalla swing-seat bed layout and are rated at two to four on the manufacturer's comparison page. The Oasis and the T-45 carry the same two to four rating and the same layout, and our [Remote Vans review](/blog/remote-vans-review) covers the full line, including those two models. Manufacturer direct starting prices are $194,900 for the Friday, $247,900 for the Aegis, $224,900 for the Oasis and $174,900 for the T-45, per Remote Vans. None of these vans has a fixed wet bath, so a family of four is sharing a stowable shower and a portable toilet. That trade is worth weighing alongside the sleeping rating, and you can line the Friday and Aegis up against the Solis in the [comparison tool](/compare).",
+      },
+      {
+        type: "h2",
+        heading: "Thor Tellaro: four only with the Sky Bunk option",
+        text: "This is the entry most listings get wrong, because they present an option as the standard rating.",
+      },
+      {
+        type: "h3",
+        heading: "Tellaro 20L and 20U: two as standard, four as an option",
+        text: "Thor rates all three current [Thor Tellaro](/models/thor-tellaro) floor plans at two. Thor's Tellaro brochure lists an optional Sky Bunk pop-top on the 20L and the 20U that raises sleeping capacity to four. So a Tellaro sleeps four only if that specific van was ordered with the Sky Bunk. If you are shopping used, ask to see the pop-top on the van in front of you rather than trusting a headline that says sleeps four. Thor publishes floor plan starting prices from $140,560 for the 20L and $162,120 for the 20U on its own floor plan pages. Those are starting prices before options, so a Sky Bunk equipped van costs more than the base figure.",
+      },
+      {
+        type: "h2",
+        heading: "Options that add a bunk but do not change the rating",
+        text: "Two more ProMaster lines offer a pop-top or bunk option. In both cases the published sleeping figure does not move to four, and the article would be misleading if it listed either as a sleeps four van.",
+      },
+      {
+        type: "h3",
+        heading: "Thor Sequence 20L: a Sky Bunk, and still rated at two",
+        text: "The [Thor Sequence](/models/thor-sequence) 20L offers an optional Sky Bunk pop-top that adds a bunk, advertised on Thor's 20L page. Thor's specification table still rates the 20L at two, and it rates the 20U and 20Y at two as well. Describe the Sequence as a two sleeper with an optional bunk, because that is what the manufacturer's own table says. The contrast with the sister Tellaro line is the point: Thor's brochure states the Sky Bunk raises the Tellaro to four, and makes no such statement for the Sequence.",
+      },
+      {
+        type: "h3",
+        heading: "Coachmen Nova: an optional pop-top, and no published sleeping figure",
+        text: "Every current [Coachmen Nova](/models/coachmen-nova) floor plan, the 20C, 20D and 20RB, offers an optional pop-top with an upper berth, per Coachmen's features page. Coachmen's published spec tables list no sleeping capacity at all, and dealer spec tables rate the Nova at two. A Nova with the pop-top fitted plainly has an extra berth, but there is no manufacturer rating of four behind it, so we do not headline it as a sleeps four van. If the pop-top is the reason you are considering a Nova, get the berth dimensions and the rating in writing from the dealer before you rely on them.",
+      },
+      {
+        type: "h2",
+        heading: "The vans that do not sleep four, whatever a listing says",
+        text: "Most of the verified pool sleeps two. That includes several vans whose seating, size or marketing can make them look like family vans at a glance.",
+      },
+      {
+        type: "ul",
+        items: [
+          "[Winnebago Travato](/models/winnebago-travato): rated at two on every floor plan in Winnebago's brochure. Dealer listings often say three, counting the optional front cab air mattress. The manufacturer figure is two, and the Travato does not sleep four in any floor plan.",
+          "[Storyteller Overland MODE](/models/storyteller-overland-mode): Storyteller publishes sleeps two to three for the Classic MODE OG, from a rear RV queen DreamWeaver bed plus an RV twin made from the convertible GrooveLounge. Three is the ceiling, not four.",
+          "[Airstream Interstate 24GLX](/models/airstream-interstate-24glx): sleeps two on the 70 inch by 82 inch bed formed by the power rear sofa and ottomans. Its belted seating runs up to seven, the highest in this pool, and that is the trap. Belted seats are for travel, not for sleeping.",
+          "[Winnebago Revel](/models/winnebago-revel): sleeps two. It shares the Solis badge family and the cassette toilet, but not the pop-top loft or the four sleeper rating.",
+          "[Coachmen Galleria](/models/coachmen-galleria): dealer spec tables rate every floor plan at two, and Coachmen publishes no sleeping capacity figure for the line.",
+          "[Grech Terreno](/models/grech-terreno): sleeps two, per Grech's specifications.",
+        ],
+      },
+      {
+        type: "h2",
+        heading: "The custom route: add a pop-top bed to a van that lacks one",
+        text: "If no factory floor plan fits, a pop-top conversion is the established custom route to a second bed. The Sportsmobile Penthouse Pop Top, covered in our [Sportsmobile review](/blog/sportsmobile-review), is a paint-matched fiberglass top with a penthouse bed, sold on its own or as part of a Sportsmobile conversion. Sportsmobile publishes the bed at 40 inches by 78 inches on Sprinter, Transit and Chevy vans and 53 inches by 78 inches on the ProMaster, and a starting price of $13,000 for the top with bed, installed. It is a component, not a factory model, so there is no manufacturer sleeps four rating to quote. What it gives you is a real second berth over whatever lower bed your layout already has, which is the same mechanism the factory pop-tops use.",
+      },
+      {
+        type: "h2",
+        heading: "Who should not try to sleep four in a Class B?",
+        text: "The verified pool makes this point cleanly: most Class B vans sleep two, and four usually means a pop-top loft or a swing-seat bed sized for kids, not four adults in real beds. Be honest about which group you are in before you narrow your list.",
+      },
+      {
+        type: "ul",
+        heading: "Sleeping four in a Class B is a poor fit if",
+        items: [
+          "Your four sleepers are four adults who each expect a full-size bed. No van on this list offers that, and the second beds here are lofts and convertible seat beds",
+          "Your two extra sleepers are teenagers or adults rather than smaller children. Remote Vans describes its own second bed as suiting two smaller children or two smaller occupants, so a family with older kids may outgrow the rating before the van wears out",
+          "You need an enclosed bathroom that four people can cycle through easily. The Remote Vans models have no fixed wet bath, and the Solis wet bath is shared by everyone in the van",
+          "You are counting belted seats as beds. The Interstate seats up to seven belted and sleeps two. Seating capacity tells you who can ride, not who can sleep",
+          "You plan long trips rather than weekends. Four people, their clothes and their gear in a van body is workable for a few nights and wearing over weeks, whatever the sleeping rating says",
+        ],
+      },
+      {
+        type: "ul",
+        heading: "Sleeping four can work if",
+        items: [
+          "Your group is two adults and two smaller children, which is exactly the group the Solis pop-top loft and the Remote Vans swing-seat bed are built around",
+          "You accept a pop-top loft as the second bed and the climbing, weather and headroom limits that come with one",
+          "You order the option that creates the rating, such as the Sky Bunk on a Tellaro 20L or 20U, and confirm it is fitted on the specific van you buy",
+        ],
+      },
+      {
+        type: "h2",
+        heading: "Start with the rating, then check the bed",
+        text: "Settle the sleeping question with the manufacturer's rating first, then look at what the second bed actually is. If you need four as a standard configuration, your factory short list is the Solis and the Remote Vans line. If you are open to an ordered option, the Tellaro 20L and 20U with the Sky Bunk join it. Everything else in the verified pool is a two sleeper, or a two to three in the MODE, however a listing describes it. Run your short list through the [comparison tool](/compare), take the [match quiz](/find-my-van) to check sleeping capacity against the rest of your priorities, browse the [full market index](/market) for the wider field, and read our [cassette toilet guide](/blog/class-b-vans-with-cassette-toilets) next, because bathroom type is the other decision that four people sharing a van feel every day.",
+      },
+      {
+        type: "faq-group",
+        faqs: [
+          {
+            question: "Which Class B vans sleep four?",
+            answer: "Among the vans we track with verified figures, the Winnebago Solis 59P and 59PX are rated at four by Winnebago as a standard configuration, with two in the rear bed and two in the pop-top loft. The Remote Vans Friday, Aegis, Oasis and T-45 are rated at two to four by Remote Vans, using a queen bed plus a Vanhalla swing-seat bed. The Thor Tellaro 20L and 20U sleep four only with the optional Sky Bunk pop-top. Every other model in the verified pool is rated at two, except the Storyteller Overland MODE at two to three.",
+          },
+          {
+            question: "Does the Winnebago Solis sleep four?",
+            answer: "Yes. Winnebago rates both the Solis 59P and the 59PX at four in its brochure: two in the rear bed, a Murphy+ bed on the 59P and a fold-down bed on the 59PX, plus two in the pop-top loft, which Winnebago counts in the rating on both floor plans.",
+          },
+          {
+            question: "Does the Winnebago Travato sleep four?",
+            answer: "No. Winnebago's brochure rates every Travato floor plan at two. Dealer listings often say three, counting the optional front cab air mattress, but the manufacturer figure is two, and no Travato floor plan sleeps four.",
+          },
+          {
+            question: "Does the Thor Tellaro sleep four?",
+            answer: "Only with an option. Thor rates all Tellaro floor plans at two as standard. Thor's brochure lists an optional Sky Bunk pop-top on the 20L and 20U that raises sleeping capacity to four, so a Tellaro sleeps four only if that van was ordered with the Sky Bunk.",
+          },
+          {
+            question: "Does the Thor Sequence sleep four?",
+            answer: "No, not by Thor's rating. The Sequence 20L offers an optional Sky Bunk pop-top that adds a bunk, but Thor's specification table still rates the 20L at two, as it does the 20U and 20Y.",
+          },
+          {
+            question: "Does the Storyteller Overland MODE sleep four?",
+            answer: "No. Storyteller publishes sleeps two to three for the Classic MODE OG: a rear RV queen DreamWeaver bed plus an RV twin from the convertible GrooveLounge. Three is the maximum.",
+          },
+          {
+            question: "Does the Airstream Interstate sleep four?",
+            answer: "No. The Interstate 24GLX sleeps two on the 70 inch by 82 inch bed formed by the power rear sofa and ottomans, per Airstream. Its belted seating runs up to seven, but belted seating is a travel figure, not a sleeping figure.",
+          },
+          {
+            question: "Can a Class B van sleep four adults?",
+            answer: "Not in four full-size beds. The vans rated for four get there with a second bed that is smaller than the main one: a pop-top loft on the Winnebago Solis and the optional Thor Tellaro Sky Bunk, or the Vanhalla swing-seat bed on the Remote Vans models, which Remote Vans describes as suiting two smaller children on the Friday and two smaller occupants on the Aegis. Four works best as two adults plus two smaller sleepers.",
+          },
+        ],
+      },
+    ],
+  },
   "class-b-vans-with-cassette-toilets": {
     slug: "class-b-vans-with-cassette-toilets",
     intro:

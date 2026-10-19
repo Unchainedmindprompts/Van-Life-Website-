@@ -20,6 +20,31 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "class-b-vans-that-sleep-four",
+    title: "Class B Vans That Sleep Four",
+    excerpt:
+      "Most Class B vans sleep two. The Winnebago Solis is rated at four as a standard configuration, the Remote Vans line is rated at two to four, and the Thor Tellaro reaches four only with its optional Sky Bunk pop-top. The full list, by manufacturer rating, including the popular vans that do not sleep four.",
+    category: "Buying Guide",
+    readTime: "10 min",
+    date: "2026-10-19",
+    updated: "2026-10-19",
+    featured: true,
+    image: {
+      src: "/images/sportsmobile-interior-rear.jpg",
+      alt: "The rear interior of a Class B camper van with the rear doors open, showing bench seating that converts to sleeping space and cabinetry",
+      caption: "Sleeping four in a Class B is a layout question, not a seating question. Belted seats are not beds. Photo: the author.",
+    },
+    about: ["class-b"],
+    mentions: ["model:winnebago-solis", "model:remote-vans-friday", "model:remote-vans-aegis", "model:thor-tellaro", "model:thor-sequence", "model:coachmen-nova", "model:winnebago-travato", "model:storyteller-overland-mode", "model:airstream-interstate-24glx", "model:winnebago-revel", "model:coachmen-galleria", "model:grech-terreno", "model:sportsmobile-penthouse"],
+    schema: {
+      "@type": "Article",
+      headline: "Class B Vans That Sleep Four",
+      description:
+        "Which Class B vans actually sleep four, verified against manufacturer ratings: the Winnebago Solis, the Remote Vans line, and the Thor Tellaro with its optional Sky Bunk, plus the models rated at two or three, including the Travato, Storyteller MODE and Airstream Interstate.",
+      keywords: ["Class B vans that sleep four", "camper van sleeps 4", "Winnebago Solis sleeps four", "pop top Class B sleep four", "Thor Tellaro Sky Bunk", "Remote Vans sleeps four", "does the Travato sleep four", "Class B for family of four"],
+    },
+  },
+  {
     slug: "class-b-vans-with-cassette-toilets",
     title: "Which Class B Vans Have Cassette Toilets?",
     excerpt:
