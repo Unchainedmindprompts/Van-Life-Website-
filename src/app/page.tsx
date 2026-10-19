@@ -35,7 +35,7 @@ export default function HomePage() {
           aria-hidden
           className="relative aspect-[16/10] w-full shrink-0 bg-cover bg-[position:center_40%] md:absolute md:inset-0 md:aspect-auto md:h-full"
           style={{
-            backgroundImage: "url('/DSC_0795.jpeg')",
+            backgroundImage: "url('/hero-storyteller-mode.jpg')",
           }}
         >
           <div className="absolute inset-x-0 bottom-0 h-14 bg-gradient-to-b from-transparent to-charcoal-950 md:hidden" />
