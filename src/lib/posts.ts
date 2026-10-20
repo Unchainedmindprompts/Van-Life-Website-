@@ -20,6 +20,31 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "best-transit-based-class-b-vans",
+    title: "Best Transit-Based Class B Vans",
+    excerpt:
+      "The factory Ford Transit Class B set is five models: the Coachmen Beyond, the Thor Palladium and Talavera, the Entegra Coach Expanse, and the Forest River Lucent, new for 2027. The custom builders, Sportsmobile, VanDOit and ModVans, build on Transit more broadly. Every model, checked against its manufacturer, plus why buyers pick Transit over Sprinter and ProMaster.",
+    category: "Buying Guide",
+    readTime: "10 min",
+    date: "2026-10-20",
+    updated: "2026-10-20",
+    featured: true,
+    image: {
+      src: "/images/chassis-comparison.png",
+      alt: "Bar charts comparing interior standing height and width between wheel wells for the Sprinter, Transit, and ProMaster",
+      caption: "The high roof Transit has the tallest interior standing height of the three Class B chassis, at 81.5 inches. Manufacturer figures; sources linked in the article.",
+    },
+    about: ["class-b", "chassis:transit"],
+    mentions: ["model:coachmen-beyond", "model:thor-palladium", "model:thor-talavera", "model:entegra-expanse", "model:forest-river-lucent", "model:vandoit-moov", "model:modvans-cv1", "org:sportsmobile", "model:storyteller-overland-mode", "chassis:sprinter", "chassis:promaster"],
+    schema: {
+      "@type": "Article",
+      headline: "Best Transit-Based Class B Vans",
+      description:
+        "The Transit-based Class B vans, verified against manufacturer pages on October 20, 2026: Coachmen Beyond, Thor Palladium and Talavera, Entegra Coach Expanse, and the new Forest River Lucent, plus the Transit builders Sportsmobile, VanDOit and ModVans, and why buyers choose the Ford Transit chassis.",
+      keywords: ["Transit based Class B vans", "Ford Transit camper van", "best Transit camper vans", "Coachmen Beyond Transit", "Thor Palladium Transit", "Thor Talavera Transit Trail", "Entegra Expanse Transit", "Forest River Lucent", "Transit vs Sprinter camper van", "Sportsmobile Transit conversion"],
+    },
+  },
+  {
     slug: "class-b-vans-that-sleep-four",
     title: "Class B Vans That Sleep Four",
     excerpt:

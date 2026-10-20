@@ -22,6 +22,154 @@ export interface PostContent {
 }
 
 export const postContent: Record<string, PostContent> = {
+  "best-transit-based-class-b-vans": {
+    slug: "best-transit-based-class-b-vans",
+    intro:
+      "The factory Ford Transit Class B set is small: five models in our market index, the Coachmen Beyond, the Thor Palladium and the Thor Talavera, the Entegra Coach Expanse, and the Forest River Lucent, which is new for 2027. None of the five is in our verified comparison pool, which is Sprinter and ProMaster only, so there are no Transit model pages on this site yet and every figure below was checked against the manufacturer's own page or launch release on October 20, 2026. Where a manufacturer publishes no price, this article says so rather than borrowing a dealer sticker. The wider Transit field is the custom builders: Sportsmobile, VanDOit and ModVans all build on the Transit, and on that side of the market the Transit is a first choice, not an afterthought.",
+    relatedSlugs: [
+      "sprinter-vs-transit-vs-promaster",
+      "class-b-vans-that-sleep-four",
+      "class-b-vans-with-cassette-toilets",
+    ],
+    blocks: [
+      {
+        type: "p",
+        text: "The short answer is the list above, and its shape is the story. The big factory brands put most of their Class B volume on the Sprinter and the ProMaster, so a buyer who wants a Transit gets a short factory list, a choice of three established builders, and the tallest interior in the segment. What follows covers each factory model with the figures its manufacturer actually publishes, then the builders, then the two naming traps that catch Transit shoppers, and finally how the Transit compares with the other two chassis.",
+      },
+      {
+        type: "ul",
+        heading: "The factory Transit set, from manufacturer pages checked October 20, 2026",
+        items: [
+          "Coachmen Beyond: Ford Transit 350HD gas chassis, 148 inch wheelbase, dual rear wheels with all wheel drive. 3.5L EcoBoost V6, 310 hp and 400 lb-ft of torque, 10 speed automatic, 25 gallon fuel tank. Three floor plans: 22C rear couch, 22D rear dinette, 22RB rear bath. Coachmen publishes no MSRP for the Beyond",
+          "Thor Palladium (2027): Ford Transit T-350 high roof cargo van with all wheel drive, gasoline. 19 feet 8 inches long, sleeps 1 to 2. Thor publishes a price range of $189,560 to $190,960 on its own Palladium page",
+          "Thor Talavera: the Palladium's sister model. Thor introduced the pair together as all wheel drive Transit vans built on the Ford Transit Trail chassis, with a lift kit, a rugged wheel and tire package, enhanced traction modes and rock slider step bars, per Thor's launch post",
+          "Entegra Coach Expanse (2027): Ford Transit AWD 350HD, 148 inch wheelbase, 3.5L EcoBoost V6 at 310 hp and 400 lb-ft, 10 speed transmission, 25 gallon fuel tank. 22 feet long, sleeps up to 2, two floor plans: the 21B with a power sofa bed and propane galley, and the 21T with twin beds and a more all-electric setup. Entegra published no price on its Expanse page when checked",
+          "Forest River Lucent (2027): Forest River's first Class B line, launched with the 2TBA and 5RLA floor plans on the Ford Transit, per Forest River's launch release. No manufacturer price or full spec sheet was published in that release, so this article claims nothing further for it",
+          "Sportsmobile Transit conversions (builder): conversion range $80,000 to $125,000 for Transit, per Sportsmobile's pricing examples page. That is the conversion only and excludes the van itself. A pictured complete Transit build on the same page totals $180,000",
+          "VanDOit MOOV, LIV and DO (builder): listed in our market index on the Ford Transit. VanDOit describes its vans as modular multi-purpose builds on the Ford Transit chassis, configured as camper vans, mobile offices or commercial units",
+          "ModVans CV1 and MH1 (builder): listed in our market index on the Ford Transit, with no specifications claimed here. Check ModVans directly for current specifications and pricing",
+        ],
+      },
+      {
+        type: "h2",
+        heading: "Why buyers pick the Transit in the first place",
+        text: "Three reasons come up again and again, and all three are chassis facts, not marketing. First, height: the high roof Transit gives 81.5 inches of interior standing height, the tallest of the three Class B chassis and a full 4 inches more than the high roof Sprinter, as our [chassis comparison](/blog/sprinter-vs-transit-vs-promaster) sets out. Tall buyers feel that difference at the stove and in the shower. Second, the drivetrain: the Transit is gas only in the US market, and its all wheel drive is available across the factory set above, but it has no low range, so it is a traction system for wet pavement, snow and gravel, not a technical off-road system. Third, service: a Ford can be serviced at Ford dealers almost anywhere in the country, with domestic parts pricing, which is the ownership argument our chassis article makes for the Transit over the Sprinter. If those three things are your priorities, the short factory list below is worth working through. If diesel, a low range transfer case or the widest body matter more, you are shopping the other two chassis.",
+      },
+      {
+        type: "h2",
+        heading: "The factory set, model by model",
+        text: "Five models, four brands, and two of them are sisters. All five are listed models in our [market index](/market), which is where each one links for now, because none has a verified model page yet.",
+      },
+      {
+        type: "h3",
+        heading: "Coachmen Beyond: the three floor plan Transit",
+        text: "The Beyond is Coachmen's Transit entry, built on the Ford Transit 350HD gas chassis with a 148 inch wheelbase, dual rear wheels and all wheel drive, per Coachmen's Beyond brochure. The engine is the 3.5L EcoBoost V6 at 310 hp and 400 lb-ft of torque, with a 10 speed automatic and a 25 gallon fuel tank. Coachmen offers three floor plans, the 22C with a rear couch, the 22D with a rear dinette and the 22RB with a rear bath, which is the broadest floor plan choice in the factory Transit set. Two cautions from our other Coachmen work apply here. Coachmen publishes no MSRP for the Beyond, the same pattern we found on the [Coachmen Nova](/models/coachmen-nova) and the [Coachmen Galleria](/models/coachmen-galleria), so any price you see is a dealer figure, not a manufacturer starting price. And Coachmen's own badge splits by chassis: the Galleria is a Sprinter and the Nova is a ProMaster, so only the Beyond is the Transit.",
+      },
+      {
+        type: "h3",
+        heading: "Thor Palladium: the short, published price Transit",
+        text: "Thor's 2027 Palladium page describes a camper van on the Ford Transit T-350 high roof cargo chassis with all wheel drive and a gasoline engine, 19 feet 8 inches long and rated to sleep 1 to 2. At under 20 feet it is the shortest van in the factory Transit set, which matters for parking and for buyers stepping down from a car. Thor is also the one factory brand in this set that publishes a price on its own page: a range of $189,560 to $190,960, checked on Thor's Palladium page on October 20, 2026. Read that as Thor's published range for the line, not as the sticker on any specific van on a dealer lot, where options and dealer pricing move the number.",
+      },
+      {
+        type: "h3",
+        heading: "Thor Talavera: the Transit Trail sister",
+        text: "The Talavera is the Palladium's sister model, and Thor introduced the two together. In Thor's own launch post, the Palladium and Talavera are all wheel drive Transit vans built on the Ford Transit Trail chassis, equipped with a lift kit, a rugged wheel and tire package, enhanced traction modes and rock slider step bars, and powered by a gas engine. That Trail base is the difference between the Thor pair and the other factory Transits here: the lift and tires are part of the factory package rather than an aftermarket addition. Thor's current site promotes the Palladium as its 2027 Transit van, so a Talavera shopper should confirm the current model year lineup and pricing with Thor or a Thor dealer before building a short list around it. The same brand warning applies in reverse on Thor's other lines: the Sanctuary and Tranquility are Sprinters and the [Thor Sequence](/models/thor-sequence) and [Thor Tellaro](/models/thor-tellaro) are ProMasters. Only the Palladium and the Talavera are Transits.",
+      },
+      {
+        type: "h3",
+        heading: "Entegra Coach Expanse: the 22 foot, two floor plan Transit",
+        text: "Entegra's 2027 Expanse page puts the Expanse on the Ford Transit AWD 350HD chassis with a 148 inch wheelbase, the 3.5L EcoBoost V6 at 310 hp and 400 lb-ft of torque, a 10 speed transmission, a 3.73 limited slip axle and a 25 gallon fuel tank. The van is 22 feet long and sleeps up to 2. The choice inside is between two floor plans: the 21B, built around a power sofa bed and a propane galley, and the 21T, which shifts to twin beds and a more all-electric setup with the larger inverter. Both ride on the same Transit AWD platform, so the decision is about how you sleep and cook, not about the chassis. Entegra published no price on the Expanse page when we checked it on October 20, 2026, so get pricing from a dealer and treat it as a dealer figure. Note that one gallery slide on Entegra's page labels a floor plan 21L while the page's build section and its own FAQ both name the pair as the 21B and the 21T; this article follows the build and FAQ text.",
+      },
+      {
+        type: "h3",
+        heading: "Forest River Lucent: the new entry, listed with care",
+        text: "The Lucent is the newest name in this article and the one to read most carefully. Forest River announced its entry into the Class B market for 2027 with two lines: the Lucent on the Ford Transit, launching with the 2TBA and 5RLA floor plans, and the Sommar on the Ram ProMaster. The launch release describes a shared feature set that includes a 2,800 watt flex-fuel generator, dual 12 volt house batteries, 170 watts of solar, a 1,000 watt inverter, a Timberline heat and hot water system, and a fiberglass wet bath. That is what the release supports, and it is all this article claims: Forest River published no price and no full specification sheet in the release, and the Lucent is a new line, not a long-running one. Buyers who like the idea should expect the spec sheet and pricing to firm up at dealers first, and should weigh a first year model accordingly.",
+      },
+      {
+        type: "h2",
+        heading: "The builders: where Transit choice actually lives",
+        text: "Count the factory models and the Transit looks like a niche. Count the builders and the picture flips. Three of the builders in our market index build on the Transit as a primary platform, because a builder starts from a cargo van and the Transit's height, gas engine and Ford service network suit conversion work.",
+      },
+      {
+        type: "h3",
+        heading: "Sportsmobile: published Transit conversion pricing",
+        text: "Sportsmobile converts the Transit in regular, extended and long body lengths, with factory all wheel drive and a Trail Ready package, per our verified Sportsmobile ledger, and our [Sportsmobile review](/blog/sportsmobile-review) covers the company and the process in full. Sportsmobile is unusually open about money: its pricing examples page states a conversion range of $80,000 to $125,000 for Transit, against $75,000 to $120,000 for Sprinter and ProMaster, and those are conversion prices that exclude the van itself. A pictured complete Transit build on the same page totals $180,000, which is the honest way to compare a conversion against a factory van's complete price. The conversion warranty is 3 years or 36,000 miles. None of that makes a Sportsmobile a factory model with a fixed spec, and that is the point: you are buying a layout built for you, on the Transit, at a published conversion band.",
+      },
+      {
+        type: "h3",
+        heading: "VanDOit and ModVans: listed, modular, Transit only in this index",
+        text: "VanDOit lists three models in our [market index](/market), the MOOV, the LIV and the DO, all on the Ford Transit. VanDOit describes its product as modular multi-purpose vans built on the Ford Transit chassis that can be configured as camper vans, mobile offices or commercial units, with flexible seating and modular storage. ModVans lists two models, the CV1 and the MH1, also on the Transit. For both builders we claim no specifications or prices in this article, because we have not verified a current manufacturer spec sheet for either in this pass. That is a gap in our coverage, not a judgment on the vans: if a modular Transit is your direction, these two and Sportsmobile are the builder short list, and the next step is each builder's own current pricing.",
+      },
+      {
+        type: "h2",
+        heading: "The trap: the Storyteller MODE is not a Transit van anymore",
+        text: "Search results and older articles will tell you the Storyteller Overland MODE is a Transit van. That was true of the earlier generation, and our [MODE suspension article](/blog/storyteller-overland-mode-suspension) covers that Transit generation in detail. The current [Storyteller Overland MODE](/models/storyteller-overland-mode) is built on the Mercedes Sprinter 2500 with all wheel drive, at a starting price of $192,206, per Storyteller's current page as recorded in our verified ledger, which carries an explicit note not to carry the old Transit data forward. So the MODE does not belong on a current Transit short list, however many older pages put it there. If you want the current MODE, shop it as a Sprinter. If you want a Transit, this article's list is the current one.",
+      },
+      {
+        type: "h2",
+        heading: "What is not on this list, and why",
+        text: "Two absences are worth stating plainly, because search engines get both wrong. Winnebago has no current Transit Class B in our market index: its Revel family is Sprinter and its Travato and Solis family is ProMaster, so a Winnebago Transit result is stale or wrong until a Winnebago page proves otherwise. And no Transit model appears in our [comparison tool](/compare) or on a model page on this site, because the verified pool behind those tools is Sprinter and ProMaster only. The Transit models here are listed models, presented with manufacturer-checked figures for this article, and the distinction is the same one our [sleeps four guide](/blog/class-b-vans-that-sleep-four) and our [cassette toilet guide](/blog/class-b-vans-with-cassette-toilets) draw for their pools.",
+      },
+      {
+        type: "ul",
+        heading: "A Transit Class B fits if",
+        items: [
+          "You are tall, or you simply want the most standing room available: the high roof Transit's 81.5 inches is the tallest interior of the three chassis",
+          "You want all wheel drive on a gasoline van and your driving is pavement, snow, gravel and forest roads rather than technical terrain that needs low range",
+          "You value a service network you can find in almost any town, with domestic parts pricing, over a diesel specialist network",
+          "You are open to a builder conversion, where the Transit gives you Sportsmobile, VanDOit and ModVans as established options alongside the five factory models",
+        ],
+      },
+      {
+        type: "ul",
+        heading: "Look at Sprinter or ProMaster instead if",
+        items: [
+          "You want a diesel, or a drivetrain with low range for technical terrain. The Transit is gas only in the US market and its all wheel drive has no low range",
+          "You want the widest body and crosswise sleeping. That is the ProMaster's strength, covered in our chassis comparison",
+          "You want a long factory short list with verified, comparable spec sheets today. The Sprinter and ProMaster pools are where the factory volume and our verified pool both sit",
+          "You are set on a specific feature the Transit set does not offer, such as the pop-top sleeping for four in our sleeps four guide, which is a ProMaster and Sprinter story",
+        ],
+      },
+      {
+        type: "h2",
+        heading: "Start with the chassis, then work the short list",
+        text: "Decide the Transit question first: tallest interior, gas all wheel drive with no low range, and Ford service almost anywhere. If that is your chassis, your factory short list is the Beyond for floor plan choice, the Palladium for the shortest van and the only manufacturer-published price in the set, the Talavera for the Transit Trail package, the Expanse for the 22 foot two layout choice, and the Lucent as the new 2027 entry to watch as its specifications firm up. Your builder short list is Sportsmobile, VanDOit and ModVans. Browse the [full market index](/market) to see each of them in the wider field, take the [match quiz](/find-my-van) to test the Transit against the rest of your priorities, run the verified Sprinter and ProMaster alternatives through the [comparison tool](/compare), and read the full [Sprinter vs Transit vs ProMaster comparison](/blog/sprinter-vs-transit-vs-promaster) before you commit to a chassis.",
+      },
+      {
+        type: "faq-group",
+        faqs: [
+          {
+            question: "Which Class B vans are built on the Ford Transit?",
+            answer: "The factory Transit Class B models in our market index are the Coachmen Beyond, the Thor Palladium, the Thor Talavera, the Entegra Coach Expanse and the Forest River Lucent, which is new for 2027. The builders Sportsmobile, VanDOit and ModVans also build on the Ford Transit: Sportsmobile converts it in three body lengths, VanDOit lists the MOOV, LIV and DO on the Transit, and ModVans lists the CV1 and MH1 on the Transit.",
+          },
+          {
+            question: "Which is the best Transit-based Class B van?",
+            answer: "It depends on what you are choosing between, because the factory set splits by job. The Coachmen Beyond offers the broadest floor plan choice, with the 22C, 22D and 22RB on the Transit 350HD with all wheel drive. The Thor Palladium is the shortest at 19 feet 8 inches and is the only model in the set with a manufacturer-published price, a range of $189,560 to $190,960 on Thor's own page. The Thor Talavera adds the Ford Transit Trail package of a lift kit and rugged tires. The Entegra Coach Expanse is the 22 foot option, with a choice between a power sofa floor plan and a twin bed floor plan. The Forest River Lucent is new for 2027, with no manufacturer price or full spec sheet published in its launch release.",
+          },
+          {
+            question: "How much does a Transit-based Class B van cost?",
+            answer: "Only two prices in this article come from manufacturers. Thor publishes a price range of $189,560 to $190,960 for the Palladium on its own page, checked October 20, 2026. Sportsmobile publishes a Transit conversion range of $80,000 to $125,000, which is the conversion only and excludes the van itself; a pictured complete Transit build on its pricing page totals $180,000. Coachmen publishes no MSRP for the Beyond, Entegra published no price on its Expanse page when checked, and Forest River published no price for the Lucent in its launch release, so prices for those three are dealer figures, not manufacturer starting prices.",
+          },
+          {
+            question: "Is the Storyteller Overland MODE a Transit van?",
+            answer: "Not anymore. Earlier MODE vans were Transit-based, but the current Storyteller Overland MODE is built on the Mercedes Sprinter 2500 with all wheel drive, at a starting price of $192,206 per Storyteller's current page. Listing the current MODE as a Transit option is the most common error in Transit roundups.",
+          },
+          {
+            question: "Does Winnebago make a Transit-based Class B van?",
+            answer: "No current one appears in our market index. Winnebago's Revel family is built on the Sprinter and its Travato and Solis family is built on the ProMaster, so a Winnebago Transit Class B result is stale or wrong until a Winnebago page proves otherwise.",
+          },
+          {
+            question: "Is Transit all wheel drive the same as 4x4?",
+            answer: "No. The Ford Transit's all wheel drive, fitted across the factory Transit Class B set, has no low range. It is a traction system for wet pavement, snow and gravel roads. A Sprinter 4x4 or a true four wheel drive system with high and low range is a different system for technical terrain, as our chassis comparison explains.",
+          },
+          {
+            question: "Why choose a Transit over a Sprinter for a Class B van?",
+            answer: "The three reasons buyers give are height, fuel and service. The high roof Transit has 81.5 inches of interior standing height, the tallest of the three Class B chassis and 4 inches more than the high roof Sprinter. The Transit is gasoline only in the US market, which some buyers prefer to diesel. And a Transit can be serviced at Ford dealers almost anywhere, with domestic parts pricing, while Sprinter service runs through the Mercedes network.",
+          },
+        ],
+      },
+    ],
+  },
   "class-b-vans-that-sleep-four": {
     slug: "class-b-vans-that-sleep-four",
     intro:

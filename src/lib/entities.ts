@@ -37,6 +37,13 @@ export const ENTITIES: Record<string, EntityDef> = {
   "model:winnebago-travato": { "@type": "Product", name: "Winnebago Travato" },
   "model:thor-sequence": { "@type": "Product", name: "Thor Sequence" },
   "model:thor-tellaro": { "@type": "Product", name: "Thor Tellaro" },
+  "model:coachmen-beyond": { "@type": "Product", name: "Coachmen Beyond" },
+  "model:thor-palladium": { "@type": "Product", name: "Thor Palladium" },
+  "model:thor-talavera": { "@type": "Product", name: "Thor Talavera" },
+  "model:entegra-expanse": { "@type": "Product", name: "Entegra Coach Expanse" },
+  "model:forest-river-lucent": { "@type": "Product", name: "Forest River Lucent" },
+  "model:vandoit-moov": { "@type": "Product", name: "VanDOit MOOV" },
+  "model:modvans-cv1": { "@type": "Product", name: "ModVans CV1" },
   "org:thor-motor-coach": {
     "@type": "Organization",
     name: "Thor Motor Coach",
