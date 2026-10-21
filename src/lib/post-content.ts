@@ -22,6 +22,175 @@ export interface PostContent {
 }
 
 export const postContent: Record<string, PostContent> = {
+  "how-much-does-a-class-b-van-cost": {
+    slug: "how-much-does-a-class-b-van-cost",
+    intro:
+      "A new Class B van costs from $140,560 to $290,400 in starting figures across the twelve models we track with verified figures. Only one model starts under $150,000, the Thor Tellaro. Six models start between $150,000 and $200,000, and four starting figures are over $200,000, up to the Grech Terreno at $290,400. The twelfth model, the Airstream Interstate 24GLX, has no published starting price at all: the $312,600 figure attached to it is the sticker on one optioned dealer unit, not a starting price. Every figure below comes from our verified ledger, re-verified on October 16, 2026, and every dealer figure is labeled as a dealer figure.",
+    relatedSlugs: [
+      "best-transit-based-class-b-vans",
+      "class-b-vans-that-sleep-four",
+      "class-b-vans-with-cassette-toilets",
+    ],
+    blocks: [
+      {
+        type: "p",
+        text: "The short answer is the range above, and the label on each figure matters as much as the number. Some of these prices are published by the manufacturer. Three are dealer figures, because Coachmen and Winnebago publish no price for those models. One model publishes two different prices depending on where you read, and one publishes none. Search results and AI answers tend to mix those figures together, and to mix in used vans and optioned stickers as if they were starting prices. This article keeps them separate, band by band, so the number you budget from is the number the source actually published.",
+      },
+      {
+        type: "ul",
+        heading: "Starting prices for the verified pool, from the verified ledger",
+        items: [
+          "Thor Tellaro: $140,560, manufacturer figure (Thor model page, low end for the 20L)",
+          "Thor Sequence: $151,060, manufacturer figure (Thor model page, 20L)",
+          "Winnebago Solis 59P: $156,254, manufacturer figure (Winnebago Starting At price)",
+          "Coachmen Nova: $178,801, dealer MSRP (2026 20RB, two dealers agree; Coachmen publishes no MSRP)",
+          "Winnebago Travato: $183,783, dealer base (Lichtsinn RV; Winnebago publishes no Travato price)",
+          "Storyteller Overland MODE (Classic OG): $192,206, manufacturer figure (Storyteller 2026 model page)",
+          "Remote Vans Friday: $194,900, manufacturer direct price (Remote Vans)",
+          "Winnebago Revel: $223,495, manufacturer figure (Winnebago listed starting price)",
+          "Coachmen Galleria: $236,822, dealer sticker, lowest verified (2026 24QM; Coachmen publishes no MSRP)",
+          "Remote Vans Aegis: $247,900, manufacturer direct price (Remote Vans)",
+          "Grech Terreno: $290,400, manufacturer figure (2027 starting MSRP)",
+          "Airstream Interstate 24GLX: no manufacturer starting price published. The $312,600 figure is a dealer sticker on an optioned 2027 unit, and it appears in this article only as an optioned sticker example, never as a starting price",
+        ],
+      },
+      {
+        type: "p",
+        text: "Counting those twelve models, the middle of the pool falls between the MODE at $192,206 and the Friday at $194,900, a median of about $193,553. That is the honest center of the new Class B market on verified figures: not under $150,000, and not the $250,000 plus that the top of the market suggests. Six of the twelve models sit in the $150,000 to $200,000 band, so a buyer with a budget in that band has the widest choice, and a buyer under $150,000 has exactly one factory option in this pool.",
+      },
+      {
+        type: "h2",
+        heading: "How to read a Class B price",
+        text: "Three kinds of figure appear in this article, and they are not interchangeable. A manufacturer starting price is the price the maker publishes for the lowest priced floor plan, before options. A dealer figure is the price a dealer publishes for a model whose maker publishes none, or the sticker on a specific van on a lot, with its floor plan and options already chosen. A manufacturer direct price, which is how Remote Vans sells, is the price the maker itself charges, separate from the higher window sticker MSRP the same maker also publishes. A discounted sale price at a dealer is none of those three: it is what one dealer is asking for one van right now. This article bands models by their starting figures only, with the source label kept on each one, and uses stickers only as examples of how far a specific van can sit from its starting figure.",
+      },
+      {
+        type: "h2",
+        heading: "Under $150,000: exactly one van",
+        text: "There is no verified factory Class B under $140,000 in this pool, and only one under $150,000. An article or an answer that implies a lower factory tier exists is not working from these figures.",
+      },
+      {
+        type: "h3",
+        heading: "Thor Tellaro: $140,560, manufacturer figure",
+        text: "The [Thor Tellaro](/models/thor-tellaro) is the lowest priced verified model, at $140,560 from Thor's own model page for the 20L floor plan. The same line shows why a starting price is a floor, not a typical price: Thor's other Tellaro floor plan bases are $162,120 for the 20U and $162,960 for the 20Y, both in the next band up, before options such as the Sky Bunk pop-top covered in our [sleeps four guide](/blog/class-b-vans-that-sleep-four). A Tellaro buyer who wants the 20U layout is a $160,000 plus buyer, whatever the headline starting price says. One more Thor wrinkle is logged in our ledger: Thor's class B lineup page lists a flat $161,560 for both the Tellaro and the Sequence, while the dedicated model pages publish $140,560 and $151,060. The model page figures govern here, per our manufacturer first policy.",
+      },
+      {
+        type: "h2",
+        heading: "From $150,000 to $200,000: six vans, and the center of the market",
+        text: "This is the band with real choice in it: two Thor and Winnebago ProMaster lines at the bottom, two dealer priced models in the middle, and the MODE and the Friday at the top.",
+      },
+      {
+        type: "h3",
+        heading: "Thor Sequence and Winnebago Solis: the bottom of the band",
+        text: "The [Thor Sequence](/models/thor-sequence) starts at $151,060, a manufacturer figure from Thor's model page for the 20L, with the 20U and 20Y floor plan bases at $162,120 to $165,060 and $162,960. The [Winnebago Solis](/models/winnebago-solis) starts at $156,254, a manufacturer Starting At price for the 59P. The Solis also shows the floor plan spread inside one model: the 59PX starts at $180,487 on Winnebago's own page, $24,233 above the 59P, for the same nameplate. Both vans are ProMaster based, and both are covered for sleeping capacity in our sleeps four guide and for bathrooms in our [cassette toilet guide](/blog/class-b-vans-with-cassette-toilets).",
+      },
+      {
+        type: "h3",
+        heading: "Coachmen Nova and Winnebago Travato: dealer figures, labeled",
+        text: "The [Coachmen Nova](/models/coachmen-nova) is listed at $178,801, which is a dealer MSRP for the 2026 20RB that two dealers agree on, because Coachmen publishes no MSRP for the Nova. A 2027 20RB lists at $195,170 at one dealer, which is a reminder that a dealer figure moves with model year and dealer. The [Winnebago Travato](/models/winnebago-travato) is listed at $183,783, which is Lichtsinn RV's published dealer base for the line, because Winnebago publishes no Travato price. Neither figure is wrong, but neither is a manufacturer starting price, and any table that drops the dealer label off them is overstating what the makers publish.",
+      },
+      {
+        type: "h3",
+        heading: "Storyteller MODE and Remote Vans Friday: the top of the band",
+        text: "The [Storyteller Overland MODE](/models/storyteller-overland-mode) starts at $192,206 on Storyteller's 2026 Classic MODE OG model page. Storyteller's own comparison page says $187,321 for the same van; the model page figure governs, and the disagreement is logged in our ledger rather than averaged. The [Remote Vans Friday](/models/remote-vans-friday) is $194,900 at Remote Vans' manufacturer direct price. Remote Vans also publishes a window sticker MSRP of $272,900 for the Friday, and that sticker figure is not in the band table above: the direct price is the price the maker displays for the van, and the sticker is disclosed here only so a buyer who meets it on a lot is not confused by it.",
+      },
+      {
+        type: "h2",
+        heading: "Over $200,000: four starting figures, and one sticker",
+        text: "Four models have starting figures over $200,000. The fifth name in this part of the market, the Interstate, belongs here by price level but not by starting price, because it does not have one.",
+      },
+      {
+        type: "h3",
+        heading: "Winnebago Revel and Coachmen Galleria",
+        text: "The [Winnebago Revel](/models/winnebago-revel) starts at $223,495, Winnebago's listed starting price. Dealer base figures for the Revel run higher, to $261,808 in the dealer record in our ledger, which is exactly the kind of figure that shows up in search answers as if it were the manufacturer's price. The [Coachmen Galleria](/models/coachmen-galleria) is listed at $236,822, a dealer sticker and the lowest verified sticker for the line, on a 2026 24QM from General RV Center, because Coachmen publishes no Galleria MSRP. Other Galleria stickers in our ledger run to $271,962, so the Galleria's real sticker range sits well above its lowest verified figure.",
+      },
+      {
+        type: "h3",
+        heading: "Remote Vans Aegis and Grech Terreno: the top starting figures",
+        text: "The [Remote Vans Aegis](/models/remote-vans-aegis) is $247,900 at Remote Vans' manufacturer direct price, with the same dual pricing pattern as the Friday: its window sticker MSRP is $346,900, disclosed here and kept out of the band table. The [Grech Terreno](/models/grech-terreno) has the highest manufacturer starting price in the pool, $290,400, which is Grech's published 2027 starting MSRP. That figure, not any dealer sticker, is the top of the honest starting price range. Grech's own inventory feed includes dealer units advertised below the MSRP, at $256,500 to $262,200, and those are dealer asking prices for specific vans, not a lower starting price for the line.",
+      },
+      {
+        type: "h3",
+        heading: "Airstream Interstate 24GLX: the optioned sticker example",
+        text: "The [Airstream Interstate 24GLX](/models/airstream-interstate-24glx) is the clearest starting versus sticker case in the pool. Airstream publishes no base MSRP for the 24GLX on its product page or its specification page. The $312,600 figure in our ledger is the MSRP on one optioned 2027 unit at Airstream of Minnesota. It proves that an optioned Interstate on a lot can be a $312,600 van. It does not make the Interstate a $312,600 starting price, and it does not extend the starting price range in this article past the Grech figure. Airstream does publish a starting price for the sibling Interstate 24GL, from $274,900, which is lineup context only and not a 24GLX figure.",
+      },
+      {
+        type: "h2",
+        heading: "Why the sticker is not the starting price",
+        text: "The gap between a line starting figure and the sticker on a specific van is where most published Class B prices go wrong. The examples below are all from our verified ledger, and each one is a different mechanism.",
+      },
+      {
+        type: "ul",
+        heading: "Four ways a price moves away from the starting figure",
+        items: [
+          "Floor plan: the Winnebago Solis 59PX starts at $180,487 against $156,254 for the 59P, and the Thor Tellaro 20U and 20Y bases sit over $162,000 against $140,560 for the 20L. The starting price belongs to one floor plan only",
+          "Window sticker base: a 2026 Winnebago Travato 59KL manufacturer window sticker lists a $216,037 suggested base price, against the $183,783 dealer base for the line in our table",
+          "Dealer sticker spread: Coachmen Galleria stickers in our ledger run from the $236,822 low figure to $271,962, a spread of about $35,000 inside one model line with no manufacturer MSRP to anchor it",
+          "Dual pricing: Remote Vans publishes a manufacturer direct price and a much higher window sticker MSRP for the same van, $194,900 against $272,900 on the Friday and $247,900 against $346,900 on the Aegis. Neither figure is an average of the two, and the direct price is the one this site displays",
+        ],
+      },
+      {
+        type: "h2",
+        heading: "Listed models and conversions are not in the bands",
+        text: "The wider market in our [market index](/market) includes models and builders that do not belong in a verified starting price table, and putting them there would produce the most misleading numbers in this article. The Thor Palladium, covered in our [Transit guide](/blog/best-transit-based-class-b-vans), has a manufacturer published range of $189,560 to $190,960, but it is a listed model with no verified model page, so it is named here and not banded. The Coachmen Beyond and the Forest River Lucent have no manufacturer published price at all. Remote Vans' Oasis at $224,900 and T-45 at $174,900 are listed models from the maker's comparison page, with no model pages on this site, so they are not thirteenth and fourteenth verified models. Sportsmobile conversions are the sharpest trap: Sportsmobile publishes conversion ranges of $80,000 to $125,000 for Transit and from $50,000 for Sprinter, and those are conversion prices only, excluding the van itself. A pictured complete Transit build on the same page totals $180,000, which is the honest comparison point against a factory van's complete price.",
+      },
+      {
+        type: "ul",
+        heading: "Sources for the figures in this article",
+        items: [
+          "Thor Tellaro: [Thor Tellaro model page](https://www.thormotorcoach.com/tellaro), and Thor Sequence: [Thor Sequence model page](https://www.thormotorcoach.com/sequence)",
+          "Winnebago Solis: [Winnebago Solis page](https://www.winnebago.com/models/solis-series/solis), and Winnebago Revel: [Winnebago Revel product page](https://www.winnebago.com/models/product?GroupID=GROUP257&ProductID=PROD670&VariantID=44E)",
+          "Storyteller Overland MODE: [Storyteller 2026 Classic MODE OG page](https://www.storytelleroverland.com/pages/2026-classic-mode-og)",
+          "Remote Vans Friday and Aegis: [Remote Vans comparison page](https://remotevans.com/compare-adventure-vans/) and the Friday and Aegis model pages linked from it",
+          "Grech Terreno: [Grech 2027 Terreno page](https://grechrv.com/model/2027-terreno-ion-awd/)",
+          "Winnebago Travato dealer base: [Lichtsinn RV camper vans](https://www.lichtsinn.com/winnebago/camper-vans), labeled a dealer figure because Winnebago publishes no Travato price",
+          "Coachmen Nova dealer MSRP: [Campers Inn Nova listing](https://www.campersinn.com/product-coachmen-rv/nova-motor-home-class-b), labeled a dealer figure because Coachmen publishes no Nova MSRP",
+          "Airstream Interstate 24GLX: [Airstream Interstate 24GLX specification page](https://www.airstream.com/explore-products/touring-coaches/interstate/interstate-24glx-spec-detail-page), which publishes specifications and no price; the $312,600 sticker is from an optioned 2027 unit at Airstream of Minnesota, as recorded in our ledger",
+        ],
+      },
+      {
+        type: "h2",
+        heading: "Start with a band, then price the specific van",
+        text: "Budget from the band first, then price the exact floor plan and the exact van. If your ceiling is $150,000, your factory short list in this pool is the Tellaro 20L at its starting figure, and you should expect options to test that ceiling. If your band is $150,000 to $200,000, you have six models to work through, and the decision moves to layout, bathroom and sleeping questions, which our cassette toilet guide and sleeps four guide cover model by model. If you are shopping over $200,000, compare the Revel, Galleria, Aegis and Terreno on their starting figures, and treat every Interstate price you see as a sticker on a specific unit until Airstream publishes a base price. Run your short list through the [comparison tool](/compare), take the [match quiz](/find-my-van) to check price against the rest of your priorities, and browse the [full market index](/market) for the listed models and builders outside the verified bands. Purchase price is only part of ownership cost, and that is a separate article in this series.",
+      },
+      {
+        type: "faq-group",
+        faqs: [
+          {
+            question: "How much does a Class B van cost in 2026?",
+            answer: "In verified starting figures for the twelve models we track, a new Class B van costs from $140,560 for the Thor Tellaro to $290,400 for the Grech Terreno. Six models start between $150,000 and $200,000, and the median of the pool is about $193,553, between the Storyteller MODE at $192,206 and the Remote Vans Friday at $194,900. The Airstream Interstate 24GLX has no published starting price; its $312,600 figure is a dealer sticker on an optioned 2027 unit.",
+          },
+          {
+            question: "What is the cheapest new Class B van?",
+            answer: "The Thor Tellaro, at a manufacturer starting price of $140,560 for the 20L floor plan, from Thor's own model page. It is the only verified model that starts under $150,000, and its other floor plans start over $162,000, so the cheapest figure belongs to the 20L only.",
+          },
+          {
+            question: "Is there a new Class B van under $140,000?",
+            answer: "Not in the verified pool we track. No factory model in the pool starts under $140,000. Conversion prices that appear lower, such as Sportsmobile conversion ranges, are for the conversion only and exclude the van itself.",
+          },
+          {
+            question: "What is the most expensive Class B van?",
+            answer: "By manufacturer starting price, the Grech Terreno, at a published 2027 starting MSRP of $290,400. The Airstream Interstate 24GLX has a higher figure attached to it, $312,600, but that is the sticker on one optioned dealer unit, not a starting price, because Airstream publishes no base MSRP for the 24GLX.",
+          },
+          {
+            question: "Why is the price on a dealer lot higher than the starting price?",
+            answer: "Because the starting price belongs to the lowest priced floor plan before options, and the lot price belongs to a specific van. In our verified ledger, the Winnebago Solis 59PX starts $24,233 above the 59P, a Travato 59KL window sticker lists a $216,037 suggested base against a $183,783 dealer base for the line, and Coachmen Galleria stickers run from $236,822 to $271,962 inside one model line.",
+          },
+          {
+            question: "Which Class B prices are dealer figures, not manufacturer prices?",
+            answer: "Three in this article. The Coachmen Nova at $178,801 is a dealer MSRP, the Winnebago Travato at $183,783 is a dealer base from Lichtsinn RV, and the Coachmen Galleria at $236,822 is a dealer sticker, because Coachmen publishes no MSRP for the Nova or the Galleria and Winnebago publishes no price for the Travato. Each figure is labeled a dealer figure wherever this site uses it.",
+          },
+          {
+            question: "Does a Class B starting price include options?",
+            answer: "No. A starting price is the published figure for the lowest priced floor plan before options. Options, a different floor plan, and dealer pricing on a specific van all move the final figure up from the starting price, which is why this article bands models by starting figures and uses stickers only as labeled examples.",
+          },
+          {
+            question: "Are van conversions cheaper than factory Class B vans?",
+            answer: "The published conversion ranges look cheaper because they exclude the van. Sportsmobile publishes conversion ranges of $80,000 to $125,000 for Transit and from $50,000 for Sprinter, for the conversion only. A pictured complete Transit build on its pricing page totals $180,000, which is the figure to compare against a factory van's complete starting price.",
+          },
+        ],
+      },
+    ],
+  },
   "best-transit-based-class-b-vans": {
     slug: "best-transit-based-class-b-vans",
     intro:

@@ -20,6 +20,31 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "how-much-does-a-class-b-van-cost",
+    title: "How Much Does a Class B Van Cost in 2026?",
+    excerpt:
+      "A new Class B van starts at $140,560 and runs to $290,400 in verified starting figures across the models we track. Only one model starts under $150,000, six sit between $150,000 and $200,000, and four starting figures are over $200,000. The Airstream Interstate has no published starting price: its $312,600 figure is a sticker on an optioned unit. Which figures are manufacturer prices, which are dealer figures, and why a sticker can sit well above the starting price.",
+    category: "Buying Guide",
+    readTime: "11 min",
+    date: "2026-10-21",
+    updated: "2026-10-21",
+    featured: true,
+    image: {
+      src: "/images/sportsmobile-interior-door.jpg",
+      alt: "Inside a Class B camper van: galley and sink by the sliding door, a lounge bench opposite, and the bed at the rear of a 170-inch Sprinter",
+      caption: "What a starting price buys is a complete factory van on the lowest priced floor plan, before options. The specific van on a dealer lot is priced on its sticker, not on the line starting figure. Photo: the author.",
+    },
+    about: ["class-b"],
+    mentions: ["model:thor-tellaro", "model:thor-sequence", "model:winnebago-solis", "model:coachmen-nova", "model:winnebago-travato", "model:storyteller-overland-mode", "model:remote-vans-friday", "model:winnebago-revel", "model:coachmen-galleria", "model:remote-vans-aegis", "model:grech-terreno", "model:airstream-interstate-24glx"],
+    schema: {
+      "@type": "Article",
+      headline: "How Much Does a Class B Van Cost in 2026?",
+      description:
+        "How much a new Class B van costs in 2026, from verified starting prices: the Thor Tellaro at $140,560 is the only model under $150,000, six models sit between $150,000 and $200,000, and manufacturer starting figures run to the Grech Terreno at $290,400, with dealer figures labeled and the Airstream Interstate optioned sticker explained.",
+      keywords: ["how much does a Class B van cost", "Class B van prices 2026", "Class B camper van cost", "cheapest Class B van", "Thor Tellaro price", "Winnebago Solis price", "Winnebago Revel price", "Storyteller MODE price", "Grech Terreno price", "Class B starting price vs sticker"],
+    },
+  },
+  {
     slug: "best-transit-based-class-b-vans",
     title: "Best Transit-Based Class B Vans",
     excerpt:
