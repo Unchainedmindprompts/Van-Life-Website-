@@ -20,6 +20,31 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "class-b-fresh-water-capacity-compared",
+    title: "Class B Fresh Water Capacity, Compared",
+    excerpt:
+      "Fresh water in the verified Class B pool runs from 18 gallons on the Winnebago Travato to 37 gallons on the Storyteller MODE. The Thor Tellaro and Sequence have no single figure: they carry 22, 27 or 35 gallons depending on floor plan. The clean per floor plan table for all twelve verified models, with gray and waste paired alongside, and the dealer figures that should not be in the table.",
+    category: "Buying Guide",
+    readTime: "10 min",
+    date: "2026-10-22",
+    updated: "2026-10-22",
+    featured: true,
+    image: {
+      src: "/images/sportsmobile-interior-galley.jpg",
+      alt: "Inside a Class B camper van: a galley with a sink and wood cabinetry, a microwave and refrigerator, and a bench seat by the window",
+      caption: "Fresh water is only half the system. The gray tank decides how long that water can stay in use before you need a dump point. Photo: the author.",
+    },
+    about: ["class-b"],
+    mentions: ["model:storyteller-overland-mode", "model:thor-tellaro", "model:thor-sequence", "model:remote-vans-friday", "model:remote-vans-aegis", "model:coachmen-nova", "model:coachmen-galleria", "model:grech-terreno", "model:airstream-interstate-24glx", "model:winnebago-revel", "model:winnebago-solis", "model:winnebago-travato"],
+    schema: {
+      "@type": "Article",
+      headline: "Class B Fresh Water Capacity, Compared",
+      description:
+        "Class B fresh water capacity compared for the twelve verified models, from 18 gallons on the Winnebago Travato to 37 gallons on the Storyteller MODE, with the Thor Tellaro and Sequence shown per floor plan at 22, 27 and 35 gallons, gray and waste capacities paired, and manufacturer figures used where dealer feeds disagree.",
+      keywords: ["Class B fresh water capacity", "camper van fresh water tank size", "Winnebago Travato water capacity", "Storyteller MODE 37 gallon", "Thor Tellaro water capacity", "Winnebago Revel 21 gallon fresh water", "Class B gray water capacity", "how long does camper van water last"],
+    },
+  },
+  {
     slug: "how-much-does-a-class-b-van-cost",
     title: "How Much Does a Class B Van Cost in 2026?",
     excerpt:

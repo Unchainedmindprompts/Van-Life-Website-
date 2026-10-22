@@ -22,6 +22,181 @@ export interface PostContent {
 }
 
 export const postContent: Record<string, PostContent> = {
+  "class-b-fresh-water-capacity-compared": {
+    slug: "class-b-fresh-water-capacity-compared",
+    intro:
+      "Class B fresh water capacity runs from 18 gallons to 37 gallons across the twelve models we track with verified figures. The largest tank is the Storyteller MODE at 37 gallons, with its tank mounted inside the cabin. The smallest is the Winnebago Travato at 18 gallons on every floor plan. Two models have no single figure at all: the Thor Tellaro and the Thor Sequence each carry 22 gallons on the 20L, 27 gallons on the 20U and 35 gallons on the 20Y. Every figure below comes from our verified ledger, re-verified on October 16, 2026, and fresh water is paired with gray and waste capacity for each model, because fresh water alone does not decide how long you can stay out.",
+    relatedSlugs: [
+      "how-much-does-a-class-b-van-cost",
+      "class-b-vans-with-cassette-toilets",
+      "class-b-vans-that-sleep-four",
+    ],
+    blocks: [
+      {
+        type: "p",
+        text: "The short answer is the range above, and the floor plan matters as much as the model name. Search results and AI answers tend to give one number per model. That works for ten of the twelve models here. It fails for the Tellaro and the Sequence, where the same nameplate spans 13 gallons across its own floor plans. A flat 27 gallon figure for the Tellaro is not an average and it is not the line figure: it is the 20U floor plan only, generalized to the whole line. This article keeps the per floor plan numbers separate, and it keeps dealer figures out of the table where a manufacturer figure exists.",
+      },
+      {
+        type: "ul",
+        heading: "Fresh, gray and waste capacity for the verified pool, from the verified ledger",
+        items: [
+          "Storyteller MODE (Classic OG): 37 gal fresh, 24 gal gray, 2.6 gal portable toilet",
+          "Thor Tellaro: 22 gal fresh (20L), 27 gal (20U), 35 gal (20Y); gray 13 gal (20L), 20 gal (20U), 28 gal (20Y); waste 4.75 gal cassette on the 20U only, black 13.5 gal (20L) and 14 gal (20Y)",
+          "Thor Sequence: 22 gal fresh (20L), 27 gal (20U), 35 gal (20Y); gray 13 gal (20L), 20 gal (20U), 28 gal (20Y); waste 4.75 gal cassette on the 20U only, black 13.5 gal (20L) and 14 gal (20Y)",
+          "Remote Vans Friday: 30 gal fresh, 24 gal gray; no waste figure in the verified ledger, so none is claimed here",
+          "Remote Vans Aegis: 30 gal fresh, 24 gal gray; no waste figure in the verified ledger, so none is claimed here",
+          "Coachmen Nova: 27 gal fresh; gray 20 gal (20C, 20D) and 23 gal (20RB); black 19 gal (20C, 20D) and 10 gal (20RB)",
+          "Coachmen Galleria: 26 gal fresh on all four floor plans; gray 24 gal (24A, 24FL, 24Q) and 26 gal (24RB); black 19 gal (24A), 24 gal (24FL), 12 gal (24Q) and 26 gal (24RB)",
+          "Grech Terreno: 26 gal fresh, 12V heated; gray 27 gal, 12V heated; black 13 gal, 12V heated",
+          "Airstream Interstate 24GLX: 23 gal fresh, 24 gal gray, 11 gal waste with macerator",
+          "Winnebago Revel: 21 gal fresh, manufacturer figure; gray 21 gal; 5 gal cassette",
+          "Winnebago Solis 59P and 59PX: 20 gal fresh on both floor plans; gray 20 gal in the Winnebago brochure; 5 gal cassette",
+          "Winnebago Travato: 18 gal fresh on every floor plan; gray 14 gal (59G) and 13 gal (59K, 59KL); black 11 gal (59G) and 12 gal (59K, 59KL)",
+        ],
+      },
+      {
+        type: "p",
+        text: "Read the table as three linked numbers, not one headline number. Water you use for a shower, a sink or a toilet has to go somewhere. If the gray tank is smaller than the fresh tank, the gray tank fills first and ends the stay, even with fresh water left. The MODE carries 37 gallons of fresh against 24 gallons of gray. The Travato carries 18 gallons of fresh against 13 or 14 gallons of gray. The Interstate is the exception in the pool, with 23 gallons of fresh against 24 gallons of gray, and the Galleria 24RB is balanced at 26 and 26. That pairing is the honest off grid question, and it is why our [cassette toilet guide](/blog/class-b-vans-with-cassette-toilets) and this guide belong together.",
+      },
+      {
+        type: "h2",
+        heading: "The largest and smallest tanks in the pool",
+        text: "The spread in this pool is two to one. That is a real buying difference, not a rounding difference, and the two ends of it are built for different kinds of travel.",
+      },
+      {
+        type: "h3",
+        heading: "Storyteller MODE: 37 gallons, inside the cabin",
+        text: "The [Storyteller Overland MODE](/models/storyteller-overland-mode) carries the largest fresh tank in the verified pool, at 37 gallons. The ledger notes that the tank is mounted inside the cabin, as part of the MODE four season design. Its gray tank is 24 gallons and its portable toilet holds 2.6 gallons, per Storyteller specifications for the Classic MODE OG. The fresh figure leads the pool by 7 gallons over the next models. The gray figure does not lead the pool, so a MODE owner who uses water freely still meets the gray limit before the fresh tank is empty.",
+      },
+      {
+        type: "h3",
+        heading: "Remote Vans Friday and Aegis: 30 gallons each",
+        text: "The [Remote Vans Friday](/models/remote-vans-friday) and the [Remote Vans Aegis](/models/remote-vans-aegis) each carry 30 gallons of fresh water and 24 gallons of gray, per Remote Vans. Their ledgers record fresh and gray only. No waste figure is in the verified ledger for either model, so this article claims none for them, rather than filling the column from a dealer listing. If waste capacity decides between these vans and another model, verify it on the Remote Vans model page for the specific van before you rely on it.",
+      },
+      {
+        type: "h3",
+        heading: "Winnebago Travato: 18 gallons on every floor plan",
+        text: "The [Winnebago Travato](/models/winnebago-travato) carries the smallest fresh tank in the pool, at 18 gallons on every floor plan in the Winnebago 2026 brochure. The 59G, 59K and 59KL columns are identical for fresh water. Gray is 14 gallons on the 59G and 13 gallons on the 59K and 59KL in the brochure, and black is 11 gallons on the 59G and 12 gallons on the 59K and 59KL. One gray conflict is logged in the ledger: a Winnebago point of purchase sheet and a 2026 59KL window sticker list 12 gallons for the 59KL gray tank, where the brochure lists 13. This site displays the brochure figure, 13, with the disagreement noted, as the Travato model page does.",
+      },
+      {
+        type: "h2",
+        heading: "Thor Tellaro and Sequence: one model, three water figures",
+        text: "This is the section the flat answers get wrong. Both Thor lines use the same per floor plan figures, and neither line has a single capacity that describes it.",
+      },
+      {
+        type: "h3",
+        heading: "Tellaro and Sequence, floor plan by floor plan",
+        text: "The [Thor Tellaro](/models/thor-tellaro) and the [Thor Sequence](/models/thor-sequence) each carry 22 gallons on the 20L, 27 gallons on the 20U and 35 gallons on the 20Y, per Thor own specification pages, re-verified on October 16, 2026. Gray follows the same split, at 13, 20 and 28 gallons. Waste follows the bathroom, not the tank size: the 20U uses a 4.75 gallon cassette, while the 20L and 20Y use black tanks of 13.5 and 14 gallons. A buyer comparing a Tellaro 20L against a Solis is comparing 22 gallons against 20. A buyer comparing a Tellaro 20Y against a Solis is comparing 35 against 20. The model name alone does not tell you which comparison you are in, which is why the price guide for these vans, in our [cost guide](/blog/how-much-does-a-class-b-van-cost), also splits them by floor plan.",
+      },
+      {
+        type: "callout",
+        text: "A range of 22 to 35 gallons by floor plan is consistent with the Thor figures in our ledger. The error to watch for is not the range. It is a single flat figure, such as 27 gallons, presented as the capacity of the whole Tellaro or Sequence line. That figure belongs to the 20U only.",
+      },
+      {
+        type: "h2",
+        heading: "The middle of the pool: 20 to 27 gallons",
+        text: "Seven models sit between the Travato at the bottom and the Remote Vans pair at 30 gallons. Their differences are smaller, so the gray and waste pairing matters more than the fresh headline.",
+      },
+      {
+        type: "h3",
+        heading: "Coachmen Nova and Galleria",
+        text: "The [Coachmen Nova](/models/coachmen-nova) carries 27 gallons of fresh water, with gray at 20 gallons on the 20C and 20D and 23 gallons on the 20RB, and black at 19 gallons on the 20C and 20D and 10 gallons on the 20RB. The [Coachmen Galleria](/models/coachmen-galleria) carries 26 gallons of fresh water on all four floor plans, per Coachmen own floor plan specification pages. Its gray is 24 gallons on the 24A, 24FL and 24Q and 26 gallons on the 24RB, and its black ranges widely by floor plan, from 12 gallons on the 24Q to 26 gallons on the 24RB.",
+      },
+      {
+        type: "h3",
+        heading: "Grech Terreno and Airstream Interstate 24GLX",
+        text: "The [Grech Terreno](/models/grech-terreno) carries 26 gallons of fresh, 27 gallons of gray and 13 gallons of black, per the Grech owner manual specification table, and all three tanks are listed as 12V heated. The [Airstream Interstate 24GLX](/models/airstream-interstate-24glx) carries 23 gallons of fresh, 24 gallons of gray and 11 gallons of waste, discharged through a macerator pump system, per Airstream specification page. The Interstate is the one model in the pool whose gray tank is larger than its fresh tank.",
+      },
+      {
+        type: "h3",
+        heading: "Winnebago Revel and Solis",
+        text: "The [Winnebago Revel](/models/winnebago-revel) carries 21 gallons of fresh water on Winnebago own page, with 21 gallons of gray and a 5 gallon cassette. The [Winnebago Solis](/models/winnebago-solis) carries 20 gallons of fresh water on both floor plans, with a 5 gallon cassette, per the Winnebago Solis brochure. For the Solis gray tank, the brochure lists 20 gallons for both floor plans, and this article uses that figure. Dealer spec feeds list 30 gallons for Solis gray, and that disagreement is logged in our ledger rather than averaged.",
+      },
+      {
+        type: "h2",
+        heading: "Where published water figures go wrong",
+        text: "Three disagreements in our ledger explain most of the wrong water numbers in search results. In each case the manufacturer figure governs on this site, and the other figure is logged, not hidden.",
+      },
+      {
+        type: "ul",
+        heading: "Logged disagreements behind the table above",
+        items: [
+          "Revel fresh water: dealer spec feeds list 35 gallons. Winnebago own page publishes 21 gallons, re-verified live on October 16, 2026. This article uses 21 and does not put the 35 gallon dealer figure in the table, because a manufacturer figure exists for this model",
+          "Galleria fresh water: an RVUSA dealer spec block recorded 27 gallons for a 2026 24QM. Coachmen own floor plan specification pages list 26 gallons for every current floor plan. This article uses 26",
+          "Solis gray water: dealer spec feeds list 30 gallons. The Winnebago Solis brochure lists 20 gallons for both floor plans, and individual dealer listings for 2025 units agree with the brochure. This article uses 20",
+          "Travato gray water on the 59KL: a Winnebago point of purchase sheet and a 2026 59KL window sticker list 12 gallons, where the 2026 brochure lists 13. Fresh water, at 18 gallons on every floor plan, is not disputed. This article uses the brochure figure of 13, with the conflict noted",
+        ],
+      },
+      {
+        type: "h2",
+        heading: "What capacity means for days off grid, as an estimate",
+        text: "No manufacturer in the ledger publishes a days off grid figure, and this section does not present one as a specification. It is an estimate, built on one stated assumption, so you can test it against your own use. Assume, as an estimate only, that two people together use about 6 gallons a day for drinking, cooking, washing and short showers. On that assumed use, 18 gallons is about three days of fresh water, 26 to 27 gallons is about four days, 30 gallons is about five days, and 37 gallons is about six days. Change the assumed daily use and every one of those day counts changes with it. A couple that skips showers in the van will go longer. A family using the shower daily will go shorter. Treat these as planning estimates, not as promises from any maker.",
+      },
+      {
+        type: "p",
+        text: "The estimate has a second limit that the fresh tank does not show. Gray water accumulates as fresh water is used, so the gray tank can end a stay before the fresh tank runs dry. On the MODE, 37 gallons of fresh feeds a 24 gallon gray tank. On the Travato, 18 gallons of fresh feeds 13 or 14 gallons of gray. Cassette models work differently again: the Solis and Revel each carry a 5 gallon cassette and the Thor 20U carries a 4.75 gallon cassette, and a cassette can be emptied at a wider range of places than a black tank, which is the trade covered in our [cassette toilet guide](/blog/class-b-vans-with-cassette-toilets). For a real trip, plan around whichever fills or empties first in the specific floor plan, not around the fresh headline alone. Sleeping capacity interacts with water use too, because more people use more water, and our [sleeps four guide](/blog/class-b-vans-that-sleep-four) covers which of these vans are actually rated for four.",
+      },
+      {
+        type: "h2",
+        heading: "Models that are not in this table, and why",
+        text: "The wider market in our [market index](/market) includes listed models with no water figures in the verified ledger, including the Coachmen Beyond, the Entegra Coach Expanse, the Forest River Lucent and the Thor Palladium covered in our Transit guide, and the Sportsmobile conversions. No figures are printed for them here, because printing a figure without manufacturer verification in the ledger would repeat the error this article exists to correct. Remote Vans Oasis and T-45 do have ledger figures of 30 gallons fresh and 24 gallons gray, but they are not among the twelve verified model pages, so, as in the cost guide, they are kept out of the verified table.",
+      },
+      {
+        type: "ul",
+        heading: "Sources for the figures in this article",
+        items: [
+          "Thor Tellaro: [Thor Tellaro floor plan pages](https://www.thormotorcoach.com/tellaro/floor-plans/20y), and Thor Sequence: [Thor Sequence floor plan pages](https://www.thormotorcoach.com/sequence/floor-plans/20y), with the 20U cassette figures from the 20U pages for each line",
+          "Winnebago Revel: [Winnebago Revel product page](https://www.winnebago.com/models/product?GroupID=GROUP257&ProductID=PROD670&VariantID=44E), and Winnebago Solis and Travato figures from the Winnebago Solis and 2026 Travato brochures recorded in our ledger",
+          "Storyteller MODE: [Storyteller 2026 Classic MODE OG page](https://www.storytelleroverland.com/pages/2026-classic-mode-og)",
+          "Remote Vans Friday: [Remote Vans Friday Series page](https://remotevans.com/van/2026-friday-series/), and Remote Vans Aegis: [Remote Vans Aegis Series page](https://remotevans.com/van/aegis-series-2026/)",
+          "Coachmen Nova: [Coachmen Nova floor plan page](https://coachmenrv.com/nova/20C/15161), and Coachmen Galleria: [Coachmen Galleria floor plan page](https://coachmenrv.com/galleria/24A/15164)",
+          "Grech Terreno: the Grech Terreno owner manual specification table recorded in our ledger, and Airstream Interstate 24GLX: [Airstream Interstate 24GLX specification page](https://www.airstream.com/explore-products/touring-coaches/interstate/interstate-24glx-spec-detail-page)",
+        ],
+      },
+      {
+        type: "h2",
+        heading: "Compare the whole system, not just the fresh tank",
+        text: "Start with the floor plan figure, not the model headline, then pair fresh with gray and waste for that exact floor plan. If you stay at campgrounds with hookups and dump stations, the difference between 18 and 37 gallons may rarely decide a trip. If you camp away from hookups, it decides how often you move to refill and dump, and the gray tank may decide before the fresh tank does. Run your short list through the [comparison tool](/compare), take the [match quiz](/find-my-van) to check water against the rest of your priorities, and browse the [full market index](/market) for the listed models outside the verified table.",
+      },
+      {
+        type: "faq-group",
+        faqs: [
+          {
+            question: "How much fresh water does a Class B van hold?",
+            answer: "In the twelve verified models we track, fresh water runs from 18 gallons on the Winnebago Travato to 37 gallons on the Storyteller MODE. Most models sit between 20 and 30 gallons. The Thor Tellaro and Thor Sequence have no single figure: each carries 22 gallons on the 20L, 27 gallons on the 20U and 35 gallons on the 20Y.",
+          },
+          {
+            question: "Which Class B van has the largest fresh water tank?",
+            answer: "The Storyteller MODE, at 37 gallons, with the tank mounted inside the cabin as part of its four season design. Its gray tank is 24 gallons and its portable toilet holds 2.6 gallons.",
+          },
+          {
+            question: "Which Class B van has the smallest fresh water tank?",
+            answer: "The Winnebago Travato, at 18 gallons on every floor plan in the Winnebago 2026 brochure. Its gray tank is 14 gallons on the 59G and 13 gallons on the 59K and 59KL, and its black tank is 11 gallons on the 59G and 12 gallons on the 59K and 59KL.",
+          },
+          {
+            question: "How much fresh water does a Thor Tellaro hold?",
+            answer: "It depends on the floor plan. The Tellaro carries 22 gallons on the 20L, 27 gallons on the 20U and 35 gallons on the 20Y, per Thor own specification pages. A flat 27 gallon figure for the Tellaro is the 20U only, not the whole line. The Thor Sequence uses the same three figures on the same floor plan names.",
+          },
+          {
+            question: "How much fresh water does a Winnebago Revel hold?",
+            answer: "21 gallons, per Winnebago own page, re-verified on October 16, 2026. Dealer spec feeds list 35 gallons for the Revel, but the manufacturer figure governs on this site. The Revel also carries 21 gallons of gray water and a 5 gallon cassette.",
+          },
+          {
+            question: "How long does fresh water last in a Class B van?",
+            answer: "That is an estimate, not a manufacturer specification. If two people together use about 6 gallons a day, as an assumed estimate for drinking, cooking, washing and short showers, 18 gallons lasts about three days, 30 gallons about five days and 37 gallons about six days. Your own daily use changes those counts, and the gray tank can fill before the fresh tank empties, as on the MODE with 37 gallons fresh and 24 gallons gray.",
+          },
+          {
+            question: "Is fresh water capacity the limit on days off grid?",
+            answer: "Not on its own. Water used in the van goes to the gray or waste tank, so a smaller gray tank can end a stay with fresh water left. The MODE carries 37 gallons fresh against 24 gallons gray, and the Travato carries 18 gallons fresh against 13 or 14 gallons gray. The Airstream Interstate 24GLX is the exception in this pool, with 23 gallons fresh and 24 gallons gray.",
+          },
+          {
+            question: "How much fresh water do the Remote Vans Friday and Aegis hold?",
+            answer: "30 gallons each, with 24 gallons of gray water, per Remote Vans. No waste figure is in our verified ledger for either model, so this site claims none for them rather than taking one from a dealer listing.",
+          },
+        ],
+      },
+    ],
+  },
   "how-much-does-a-class-b-van-cost": {
     slug: "how-much-does-a-class-b-van-cost",
     intro:
