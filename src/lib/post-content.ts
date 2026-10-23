@@ -22,6 +22,192 @@ export interface PostContent {
 }
 
 export const postContent: Record<string, PostContent> = {
+  "best-class-b-vans-for-winter": {
+    slug: "best-class-b-vans-for-winter",
+    intro:
+      "The strongest winter hardware in the twelve verified Class B models is specific, and it is not a label. The Grech Terreno heats all three of its tanks with 12V heat and runs Timberline diesel hydronic heat. The Airstream Interstate 24GLX heats its fresh and gray tanks and heats its lithium bank. The Storyteller MODE keeps its 37 gallon fresh tank inside the cabin and heats its gray tank with a heating loop. At the other end, the Coachmen Galleria and Nova sell their tank heating as options, not standard equipment, the Remote Vans Aegis and Friday publish no four-season rating, and Thor publishes no winter package and no insulation rating for the Sequence or Tellaro. Every claim below comes from our verified ledger, and the Winnebago Revel winter equipment was re-verified on Winnebago own page on October 23, 2026.",
+    relatedSlugs: [
+      "class-b-fresh-water-capacity-compared",
+      "best-transit-based-class-b-vans",
+      "how-much-does-a-class-b-van-cost",
+    ],
+    blocks: [
+      {
+        type: "p",
+        text: "The short answer is to buy the features, not the phrase four-season. Only one model in this pool, the Storyteller MODE, is even marketed as a four-season design, and this article still judges it on the features underneath that marketing: diesel-fired heat, a gray tank heating loop and a fresh tank inside the cabin. Two models are described by their own makers in weaker terms: Winnebago attaches winter use guidelines to the Solis and does not market it as true four-season, and the Travato is marketed for extended-season camping. The rest publish features without a season rating at all. So the comparison that matters is four checks per van: how the cabin is heated, whether the tanks are heated or placed inside, what insulation is published, and which wheels drive the van.",
+      },
+      {
+        type: "ul",
+        heading: "Winter features for the verified pool, from the verified ledger",
+        items: [
+          "Grech Terreno: all three tanks 12V heated; Timberline diesel hydronic heat and hot water; full fiberglass insulation; insulated subfloor; AWD",
+          "Airstream Interstate 24GLX: 12V heated fresh and gray tanks; Timberline diesel hydronic heat and hot water; 10.3 kWh lithium battery with built-in heater; AWD",
+          "Storyteller MODE: diesel-fired heat and water heating; gray tank heating loop; fresh tank inside the cabin at 37 gal; polymer insulation; marketed as four-season design; AWD",
+          "Winnebago Revel: hydronic heating; insulated gray tank; winterization package; dual-pane windows; AWD. Re-verified on Winnebago own page on October 23, 2026",
+          "Remote Vans Aegis: upgraded Rixen hydronic air and water heating, diesel and electric, with main and rear blowers; gray tank heating loop; Kilmat, Solarcore and Havelock wool insulation; no four-season rating published; AWD",
+          "Remote Vans Friday: Rixen hydronic air and water heating; gray tank heating loop; Kilmat, Solarcore and Havelock wool insulation; no four-season rating published; AWD",
+          "Coachmen Galleria: R-15 insulation standard and R-38 reflective floor insulation; Truma Combi Eco Plus heat and hot water; Cozy Wrap insulation and Polar Package Plus tank heating pads are options, not standard; RWD standard, AWD optional on all floor plans",
+          "Coachmen Nova: Rockwool R-15 insulation standard; fresh and black tanks above the floor; Cozy Wrap insulation and gray tank heaters are options, not standard; Truma Combi Eco Plus; front wheel drive on the Ram ProMaster",
+          "Winnebago Travato: Truma Combi G Comfort Plus heat and hot water; heated tanks; insulation; thermal window covers; marketed for extended-season camping, not four-season; front wheel drive on the Ram ProMaster",
+          "Winnebago Solis: ceiling-to-floor insulation; interior waterlines; freeze-resistant exterior fill; Truma Combi Eco; Winnebago attaches a winter use guidelines note and does not market the Solis as true four-season; front wheel drive on the Ram ProMaster",
+          "Thor Sequence and Thor Tellaro: holding tank heat pads; Truma Combi Eco heat and hot water; Thor publishes no winter package and no insulation rating for either model; front wheel drive on the Ram ProMaster",
+        ],
+      },
+      {
+        type: "p",
+        text: "Read the table by what is standard. A feature listed as an option protects you only if the specific van you are buying has that option fitted, and a used van listing may not say. That distinction decides the Coachmen section below. It also decides how to read the absences: where a maker publishes no insulation rating and no winter package, this article reports that absence rather than filling it from a dealer page. Tank size interacts with winter use as well, because a heated tank still has to hold enough water for the trip, and our [fresh water capacity guide](/blog/class-b-fresh-water-capacity-compared) pairs every fresh figure here with its gray and waste figures.",
+      },
+      {
+        type: "h2",
+        heading: "The strongest standard winter hardware: Terreno and Interstate",
+        text: "Two luxury Sprinter models publish the most complete standard winter lists in the pool. Both heat their tanks as standard equipment, both use diesel hydronic heat, and both drive all four wheels.",
+      },
+      {
+        type: "h3",
+        heading: "Grech Terreno: all three tanks heated",
+        text: "The [Grech Terreno](/models/grech-terreno) is the only model in the verified pool whose ledger records all three tanks, fresh, gray and black, as 12V heated, per the Grech owner manual specification table. Its heat and hot water come from a Timberline diesel hydronic system, its insulation is full fiberglass, and its subfloor is insulated. The Terreno is all wheel drive on the Sprinter 3500XD chassis. No option package has to be added to get the tank heating: it is part of the standard winter record for the model.",
+      },
+      {
+        type: "h3",
+        heading: "Airstream Interstate 24GLX: heated tanks and a heated battery",
+        text: "The [Airstream Interstate 24GLX](/models/airstream-interstate-24glx) heats its fresh and gray tanks with 12V heat, runs Timberline diesel hydronic heat and hot water, and carries a 10.3 kWh lithium battery with a built-in heater, per Airstream specification page. That battery heater matters in winter because a cold lithium bank is a power limit as well as a comfort question. The Interstate is all wheel drive. Its ledger records no heated black tank, so this article claims heated fresh and gray only, which is the exact split Airstream publishes.",
+      },
+      {
+        type: "h2",
+        heading: "The adventure pair: MODE and Revel",
+        text: "The two best known adventure vans take a different route to winter use. Instead of heating every tank, they protect the fresh supply by placement and heat the gray side with insulation or a heating loop.",
+      },
+      {
+        type: "h3",
+        heading: "Storyteller MODE: the fresh tank lives inside",
+        text: "The [Storyteller Overland MODE](/models/storyteller-overland-mode) carries its 37 gallon fresh tank inside the cabin, which is the simplest freeze protection in this pool: the water sits in heated living space rather than under the floor. Its heat and water heating are diesel-fired, its gray tank has a heating loop, and its insulation is polymer, per Storyteller specifications for the Classic MODE OG. Storyteller markets the MODE as a four-season design. The features above are the substance behind that phrase, and they are what a buyer should verify on a specific van. The MODE is all wheel drive. Its full tank pairing is in our [fresh water guide](/blog/class-b-fresh-water-capacity-compared), and its starting price is covered in our [cost guide](/blog/how-much-does-a-class-b-van-cost).",
+      },
+      {
+        type: "h3",
+        heading: "Winnebago Revel: hydronic heat and an insulated gray tank",
+        text: "The [Winnebago Revel](/models/winnebago-revel) winter record in our ledger was manufacturer-only, so it was re-verified on Winnebago own Revel page on October 23, 2026 before this article was written. That page still publishes a hydronic heating system, an insulated gray water holding tank, a winterization package with valve and siphon tube, and tinted dual-pane windows, on an all wheel drive Sprinter chassis. Winnebago's page also carries its own caution: it recommends following the winter use guidelines and winterization procedures in the owner manual whenever camping in freezing conditions. Read that as part of the Revel winter story. The hardware is real, and the maker still tells owners to winterize by the book.",
+      },
+      {
+        type: "h2",
+        heading: "Remote Vans Aegis and Friday: strong heat, no season rating",
+        text: "Remote Vans publishes heating and insulation detail for its two higher models and, notably, no season claim to go with it. That restraint is information a buyer can use.",
+      },
+      {
+        type: "h3",
+        heading: "Aegis and Friday, feature by feature",
+        text: "The [Remote Vans Aegis](/models/remote-vans-aegis) runs an upgraded Rixen hydronic air and water heating system, diesel and electric, with main and rear blowers, a gray tank heating loop, and an insulation stack of Kilmat, Solarcore and Havelock wool, per Remote Vans. The [Remote Vans Friday](/models/remote-vans-friday) runs Rixen hydronic heating with the same gray tank heating loop and the same insulation stack. Both are all wheel drive Sprinters. The ledger states explicitly for both models that no four-season rating is published, so this article does not call either van four-season rated. Judge them on the Rixen system, the gray loop and the insulation, which are published, rather than on a rating that does not exist.",
+      },
+      {
+        type: "callout",
+        text: "Do not borrow winter equipment across a brand lineup. Remote Vans Oasis and T-45 carry no winter attribute in our ledger, so no Aegis or Friday heating or insulation claim is extended to them here. The same rule applies in reverse: a feature on one floor plan or one model year is not a feature of the whole line until the maker publishes it that way.",
+      },
+      {
+        type: "h2",
+        heading: "Coachmen Galleria and Nova: the option package decides",
+        text: "Coachmen publishes real insulation figures for both of its verified models, which puts it ahead of brands that publish none. The trap is the tank heating: on both models it is an option, and the classic error in winter roundups is printing it as standard equipment.",
+      },
+      {
+        type: "h3",
+        heading: "Galleria: R-15 and R-38 standard, tank heat optional",
+        text: "The [Coachmen Galleria](/models/coachmen-galleria) carries R-15 insulation as standard equipment and R-38 reflective insulation in the floor, with Truma Combi Eco Plus heat and hot water, per Coachmen. The Cozy Wrap insulation package and the Polar Package Plus tank heating pads are options. A Galleria without the Polar Package Plus does not have the tank heating pads, whatever a roundup says. The Galleria also breaks the all wheel drive pattern in this pool: it is rear wheel drive as standard, with all wheel drive optional on all floor plans, so the drivetrain is an option to verify on the specific van as well.",
+      },
+      {
+        type: "h3",
+        heading: "Nova: above-floor tanks help, gray heat is optional",
+        text: "The [Coachmen Nova](/models/coachmen-nova) carries Rockwool R-15 insulation as standard and places its fresh and black tanks above the floor, which keeps those tanks in the warmer part of the van, per Coachmen. Its heat and hot water are Truma Combi Eco Plus. The Cozy Wrap insulation package and the gray tank heaters are options, not standard equipment, so a Nova buyer who needs gray tank heat has to confirm the option on the specific van. The Nova is a Ram ProMaster van, so it is front wheel drive, like the other ProMaster models in this pool.",
+      },
+      {
+        type: "h2",
+        heading: "Extended season, honestly labeled: Travato and Solis",
+        text: "Winnebago's two ProMaster vans publish useful cold weather equipment and weaker season language than the adventure vans. That combination makes them shoulder-season vans on their own maker wording, not four-season vans.",
+      },
+      {
+        type: "h3",
+        heading: "Winnebago Travato: heated tanks, extended-season wording",
+        text: "The [Winnebago Travato](/models/winnebago-travato) runs a Truma Combi G Comfort Plus furnace and water heater, heated tanks, insulation and thermal window covers, per the Winnebago 2026 Travato brochure recorded in our ledger. Winnebago markets the Travato for extended-season camping. This article keeps that wording, because it is the maker own limit: extended season is a real capability, and it is not the same claim as four-season. The Travato is front wheel drive on the ProMaster.",
+      },
+      {
+        type: "h3",
+        heading: "Winnebago Solis: insulated, with an asterisk",
+        text: "The [Winnebago Solis](/models/winnebago-solis) publishes ceiling-to-floor insulation, interior waterlines, a freeze-resistant exterior fill and a Truma Combi Eco, per Winnebago. Interior waterlines and a freeze-resistant fill are sensible cold weather design. Winnebago still attaches a winter use guidelines asterisk to the Solis and does not market it as true four-season, so this article does not either. A Solis buyer planning winter trips should read Winnebago winter use guidelines for the model before relying on the insulation list. The Solis is also the only van in the pool rated at four as a standard configuration, covered in our [sleeps four guide](/blog/class-b-vans-that-sleep-four), and it is front wheel drive on the ProMaster.",
+      },
+      {
+        type: "h2",
+        heading: "Thor Sequence and Tellaro: heat pads, and two absences",
+        text: "The Thor pair have the thinnest published winter record in the verified pool. What they have is simple to state, and what they do not publish matters just as much.",
+      },
+      {
+        type: "h3",
+        heading: "What Thor publishes, and what it does not",
+        text: "The [Thor Sequence](/models/thor-sequence) and the [Thor Tellaro](/models/thor-tellaro) each carry holding tank heat pads and Truma Combi Eco furnace and water heating, per Thor own pages recorded in our ledger. Thor publishes no winter package for either model and no insulation rating for either model. That absence is a reportable fact, not a gap to fill from a dealer page: no R-value for a Sequence or Tellaro appears in this article, because no manufacturer R-value exists in the ledger to quote. Both models are front wheel drive ProMaster vans. Their bathrooms and cassette options are covered in our [cassette toilet guide](/blog/class-b-vans-with-cassette-toilets).",
+      },
+      {
+        type: "h2",
+        heading: "Drivetrain: all wheel drive is not universal",
+        text: "Winter driving is the second half of a winter van, and the pool splits cleanly by chassis. The Sprinter-based models in the table, the Terreno, Interstate, MODE, Revel, Aegis and Friday, are all wheel drive. The Galleria is the exception on Sprinter, rear wheel drive standard with all wheel drive optional. Every ProMaster model in the pool, the Nova, Travato, Solis, Sequence and Tellaro, is front wheel drive. Front wheel drive is not a winter disqualification, and this article makes no traction claim beyond the drivetrain each maker publishes. It does mean a buyer who sets all wheel drive as a hard requirement is shopping the Sprinter list plus an optioned Galleria, and should say so early. Custom builders such as Sportsmobile convert on several chassis, including Sprinter, Transit all wheel drive, ProMaster and a Chevrolet Express 4x4, but our ledger carries no per model winter specification for Sportsmobile, so it gets a chassis mention here and no place in the winter table.",
+      },
+      {
+        type: "h2",
+        heading: "Models that are not in this table, and why",
+        text: "The Transit-based factory models in our [market index](/market), the Coachmen Beyond, the Entegra Coach Expanse, the Thor Palladium and the Forest River Lucent covered in our [Transit guide](/blog/best-transit-based-class-b-vans), are all wheel drive vans, but our ledger carries chassis and drivetrain only for them and no winter attribute. No winter claim is made for them here, because a winter claim needs a manufacturer heating, tank or insulation record behind it, not just a driven axle. If winter use is your deciding factor on a Transit van, verify the heating system, tank placement and any winter package on the manufacturer page for the specific model before you rely on it.",
+      },
+      {
+        type: "ul",
+        heading: "Sources for the winter features in this article",
+        items: [
+          "Airstream Interstate 24GLX: [Airstream Interstate 24GLX specification page](https://www.airstream.com/explore-products/touring-coaches/interstate/interstate-24glx-spec-detail-page)",
+          "Grech Terreno: [Grech Terreno model page](https://grechrv.com/model/2027-terreno-ion-awd/), with tank and insulation figures from the Grech owner manual specification table recorded in our ledger",
+          "Storyteller MODE: [Storyteller 2026 Classic MODE OG page](https://www.storytelleroverland.com/pages/2026-classic-mode-og)",
+          "Winnebago Revel: [Winnebago Revel product page](https://www.winnebago.com/models/product?GroupID=GROUP257&ProductID=PROD670&VariantID=44E), re-verified on October 23, 2026, and Winnebago Solis: [Winnebago Solis page](https://www.winnebago.com/models/solis-series/solis), with Travato figures from the 2026 Travato brochure recorded in our ledger",
+          "Remote Vans Aegis: [Remote Vans Aegis Series page](https://remotevans.com/van/aegis-series-2026/), and Remote Vans Friday: [Remote Vans Friday Series page](https://remotevans.com/van/2026-friday-series/)",
+          "Coachmen Galleria: [Coachmen Galleria floor plan page](https://coachmenrv.com/galleria/24A/15164) and Coachmen features pages recorded in our ledger, and Coachmen Nova: [Coachmen Nova floor plan page](https://coachmenrv.com/nova/20C/15161)",
+          "Thor Sequence: [Thor Sequence floor plan pages](https://www.thormotorcoach.com/sequence/floor-plans/20y), and Thor Tellaro: [Thor Tellaro floor plan pages](https://www.thormotorcoach.com/tellaro/floor-plans/20y)",
+        ],
+      },
+      {
+        type: "h2",
+        heading: "How to choose a Class B for winter",
+        text: "Start with the trip you actually plan. For regular below-freezing camping, put heated or in-cabin tanks and hydronic or diesel heat at the top of the list, which is the Terreno, Interstate and MODE pattern, and confirm whether any feature you are counting on is an option on the specific van, which is the Coachmen lesson. For shoulder-season trips with occasional cold nights, the Travato and Solis equipment lists are built for that use, on their makers own wording. Whatever you choose, read the maker winterization guidance for that model, because even Winnebago best equipped van here carries it. Then run your short list through the [comparison tool](/compare), take the [match quiz](/find-my-van) to weigh winter against sleeping, bathroom and budget, and browse the [full market index](/market) for the listed models outside the verified table.",
+      },
+      {
+        type: "faq-group",
+        faqs: [
+          {
+            question: "Which Class B van is best for winter camping?",
+            answer: "On verified standard equipment, the Grech Terreno and the Airstream Interstate 24GLX publish the most complete winter lists: the Terreno heats all three tanks with 12V heat and the Interstate heats its fresh and gray tanks, and both use Timberline diesel hydronic heat and are all wheel drive. The Storyteller MODE is the other strong pattern, with diesel-fired heat, a gray tank heating loop and its 37 gallon fresh tank inside the cabin.",
+          },
+          {
+            question: "Which Class B vans are four-season rated?",
+            answer: "None of the twelve verified models carries a published four-season rating that can be compared across brands. The Storyteller MODE is marketed as a four-season design, based on diesel-fired heat, a gray tank heating loop, an in-cabin fresh tank and polymer insulation. Remote Vans publishes no four-season rating for the Aegis or Friday, Winnebago does not market the Solis as true four-season, and the Travato is marketed for extended-season camping.",
+          },
+          {
+            question: "Does the Winnebago Revel work in winter?",
+            answer: "The Revel publishes real winter equipment: a hydronic heating system, an insulated gray water holding tank, a winterization package and dual-pane windows, re-verified on Winnebago own page on October 23, 2026, on an all wheel drive Sprinter chassis. Winnebago also recommends following its winter use guidelines and winterization procedures whenever camping in freezing conditions, so the maker expects owners to winterize by the book.",
+          },
+          {
+            question: "Are the Coachmen Galleria and Nova good for winter?",
+            answer: "Both publish standard insulation, R-15 on the Galleria with R-38 reflective floor insulation and Rockwool R-15 on the Nova, and both use the Truma Combi Eco Plus. Their tank heating is not standard: the Galleria Cozy Wrap and Polar Package Plus tank heating pads are options, and the Nova Cozy Wrap and gray tank heaters are options. A winter buyer has to confirm those options on the specific van.",
+          },
+          {
+            question: "Do the Thor Sequence and Tellaro have insulation ratings?",
+            answer: "No insulation rating is published by Thor for either model in our verified ledger, and Thor publishes no winter package for either. What Thor does publish is holding tank heat pads and Truma Combi Eco furnace and water heating for both models. Any R-value for a Sequence or Tellaro on a dealer page is not a manufacturer figure.",
+          },
+          {
+            question: "Is all wheel drive necessary for a winter Class B van?",
+            answer: "It depends on where you drive, and the pool splits by chassis. The Sprinter models here are all wheel drive, except the Coachmen Galleria, which is rear wheel drive standard with all wheel drive optional. Every ProMaster model in the pool, the Nova, Travato, Solis, Sequence and Tellaro, is front wheel drive. This site reports the drivetrain each maker publishes and makes no traction claim beyond it.",
+          },
+          {
+            question: "What winter features matter most in a Class B van?",
+            answer: "Four checks, in the order this article uses: how the cabin is heated, whether the tanks are heated or placed inside the van, what insulation the maker publishes, and which wheels drive the van. A four-season label without those features named is marketing. An option package only counts if the specific van you are buying has it fitted.",
+          },
+          {
+            question: "Are the Remote Vans Aegis and Friday four-season vans?",
+            answer: "Remote Vans publishes no four-season rating for either model, and this site does not upgrade them to one. What is published is strong equipment: Rixen hydronic air and water heating, a gray tank heating loop, and Kilmat, Solarcore and Havelock wool insulation on both models, with an upgraded Rixen system and main and rear blowers on the Aegis. Both are all wheel drive.",
+          },
+        ],
+      },
+    ],
+  },
   "class-b-fresh-water-capacity-compared": {
     slug: "class-b-fresh-water-capacity-compared",
     intro:

@@ -43,7 +43,9 @@
       "sourceUrl": "https://www.winnebago.com/models/product?GroupID=GROUP257&ProductID=PROD670&VariantID=44E",
       "sourceType": "manufacturer_spec_page",
       "status": "manufacturer-only",
-      "retrievedAt": "2026-10-14"
+      "retrievedAt": "2026-10-14",
+      "reverifiedAt": "2026-10-23",
+      "note": "Re-verified live on winnebago.com on 2026-10-23 for the winter article: the page still publishes the hydronic heating system, insulated gray water holding tank, winterization package and tinted dual-pane windows, and still carries the recommendation to follow the winter use guidelines and winterization procedures in the owner manual whenever camping in freezing conditions."
     },
     {
       "attribute": "freshWaterGal",

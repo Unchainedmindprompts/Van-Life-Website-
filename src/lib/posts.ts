@@ -20,6 +20,31 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "best-class-b-vans-for-winter",
+    title: "Best Class B Vans for Winter and Four-Season Use",
+    excerpt:
+      "No Class B van in the verified pool carries a published four-season rating you can compare across brands. What can be compared is the hardware: heated tanks, hydronic heat, insulation and drivetrain. The Grech Terreno heats all three tanks, the Airstream Interstate heats fresh and gray, and the Storyteller MODE keeps its fresh tank inside the cabin. The Coachmen Galleria and Nova put their tank heating in option packages, the Remote Vans Aegis and Friday publish no four-season rating at all, and Thor publishes no insulation rating for the Sequence or Tellaro. The full per model table, from the verified ledger.",
+    category: "Buying Guide",
+    readTime: "11 min",
+    date: "2026-10-23",
+    updated: "2026-10-23",
+    featured: true,
+    image: {
+      src: "/images/sportsmobile-interior-door.jpg",
+      alt: "Inside a Class B camper van: galley and sink by the sliding door, a lounge bench opposite, and the bed at the rear of a 170-inch Sprinter",
+      caption: "Winter use is decided by systems, not labels: the heating system, where the tanks sit and whether they are heated, the insulation, and the drivetrain. Photo: the author.",
+    },
+    about: ["class-b"],
+    mentions: ["model:grech-terreno", "model:airstream-interstate-24glx", "model:storyteller-overland-mode", "model:winnebago-revel", "model:remote-vans-aegis", "model:remote-vans-friday", "model:coachmen-galleria", "model:coachmen-nova", "model:winnebago-travato", "model:winnebago-solis", "model:thor-sequence", "model:thor-tellaro"],
+    schema: {
+      "@type": "Article",
+      headline: "Best Class B Vans for Winter and Four-Season Use",
+      description:
+        "The best Class B vans for winter, compared on verified features rather than four-season labels: heated tanks on the Grech Terreno and Airstream Interstate, the Storyteller MODE in-cabin fresh tank, Revel hydronic heat re-verified on Winnebago own page on October 23, 2026, Coachmen Galleria and Nova tank heating as options, no four-season rating published for the Remote Vans Aegis and Friday, and no insulation rating published by Thor for the Sequence and Tellaro.",
+      keywords: ["best Class B vans for winter", "four season Class B van", "Class B winter camping", "heated tanks camper van", "Grech Terreno winter", "Airstream Interstate winter", "Winnebago Revel winter", "Storyteller MODE four season", "Coachmen Galleria Polar Package", "Class B AWD winter"],
+    },
+  },
+  {
     slug: "class-b-fresh-water-capacity-compared",
     title: "Class B Fresh Water Capacity, Compared",
     excerpt:
