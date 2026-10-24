@@ -22,6 +22,179 @@ export interface PostContent {
 }
 
 export const postContent: Record<string, PostContent> = {
+  "class-b-van-bathrooms-wet-bath-dry-bath": {
+    slug: "class-b-van-bathrooms-wet-bath-dry-bath",
+    intro:
+      "No Class B van we track with verified figures offers a true dry bath. Of the twelve verified models, nine have an enclosed wet bath and three have no fixed bath at all. The wet bath group splits two ways: five models run a plumbed flush toilet to a holding tank on every floor plan, the Winnebago Solis and Revel run a fixed cassette toilet, and the Thor Sequence and Tellaro split by floor plan, with a cassette on the 20U and a flush toilet on the 20L and 20Y. The three with no fixed bath, the Storyteller MODE and the Remote Vans Aegis and Friday, pair a stowable shower with a portable toilet. Every claim below comes from our verified ledger. The Winnebago Revel bathroom was re-verified on Winnebago own page on October 24, 2026, and the Winnebago Travato toilet was re-verified in Winnebago 2026 Travato brochure the same day.",
+    relatedSlugs: [
+      "class-b-vans-with-cassette-toilets",
+      "class-b-fresh-water-capacity-compared",
+      "best-class-b-vans-for-winter",
+    ],
+    blocks: [
+      {
+        type: "p",
+        text: "A wet bath is a single waterproof room: the shower, the toilet and usually a small sink share one space, and shower water runs across the floor of the whole room to one drain. A dry bath keeps the shower in its own separate space, so the toilet sits outside the shower and stays dry. That second layout needs more floor space than a Class B van usually has, and in this pool it does not exist: no verified model separates the shower from the toilet. So the real choice in a factory Class B is not wet against dry. It is an enclosed wet bath against no fixed bath at all, and then, inside the wet bath group, a plumbed flush toilet against a removable cassette.",
+      },
+      {
+        type: "ul",
+        heading: "Bathroom type by model, from the verified ledger",
+        items: [
+          "Enclosed wet bath, plumbed flush toilet: Airstream Interstate 24GLX: space-saving wet bath with shower; foot-flush toilet to an 11 gal waste tank, emptied by macerator pump",
+          "Enclosed wet bath, plumbed flush toilet: Coachmen Galleria: wet bath with sink and shower; porcelain flush toilet to a black tank on every floor plan, 19 gal (24A), 24 gal (24FL), 12 gal (24Q), 26 gal (24RB)",
+          "Enclosed wet bath, plumbed flush toilet: Coachmen Nova: wet bath with fiberglass shower; flush toilet to a black tank on every floor plan, 19 gal (20C and 20D), 10 gal (20RB)",
+          "Enclosed wet bath, plumbed flush toilet: Grech Terreno: wet bath with window, sink and shower; porcelain toilet with macerator pump to a 13 gal black tank",
+          "Enclosed wet bath, plumbed flush toilet: Winnebago Travato: wet bath; flush toilet to a black tank, 11 gal (59G), 12 gal (59K and 59KL). Re-verified in the 2026 Travato brochure on October 24, 2026",
+          "Enclosed wet bath, split by floor plan: Thor Sequence: cassette toilet on the 20U only, 4.75 gal cassette; gravity-flush toilet with black tank on the 20L (13.5 gal) and 20Y (14 gal)",
+          "Enclosed wet bath, split by floor plan: Thor Tellaro: cassette toilet on the 20U only, 4.75 gal cassette; gravity-flush toilet with black tank on the 20L (13.5 gal) and 20Y (14 gal)",
+          "Enclosed wet bath, fixed cassette: Winnebago Solis: enclosed wet bath with swiveling cassette toilet, 5 gal cassette, on both floor plans",
+          "Enclosed wet bath, fixed cassette: Winnebago Revel: wet bath, 31 in by 26 in, with swiveling cassette toilet, 5 gal cassette. Re-verified on Winnebago own page on October 24, 2026",
+          "No fixed bath: Storyteller MODE (Classic MODE OG): Halo Shower system plus portable cassette toilet, 2.6 gal, and exterior shower",
+          "No fixed bath: Remote Vans Aegis: Cyber Shower recirculating stowable shower plus portable Thetford cassette toilet stored in the shower box; exterior shower",
+          "No fixed bath: Remote Vans Friday: Cyber Shower stowable shower plus portable cartridge toilet; exterior shower",
+        ],
+      },
+      {
+        type: "p",
+        text: "Read the table as three different daily routines, not three trim levels. In a wet bath, the shower is the room: you shower standing in the same space as the toilet, and the whole room is built to get wet and drain. In the no fixed bath group, the shower sets up when you need it and stows when you do not, and the toilet is a portable unit you store, carry and empty by hand. The toilet half of the decision, cassette against black tank, decides how waste leaves the van for as long as you own it, and our [cassette toilet guide](/blog/class-b-vans-with-cassette-toilets) works through that trade in full. The water half is paired tank by tank in our [fresh water capacity guide](/blog/class-b-fresh-water-capacity-compared).",
+      },
+      {
+        type: "h2",
+        heading: "Why there is no dry bath on this list",
+        text: "A dry bath needs two separate spaces where a wet bath needs one: a shower that keeps its water to itself, and a toilet space outside it. In a van that also has to hold a bed, a galley and belted seating inside a cargo van shell, every verified maker in this pool spends that floor space once, on a combined wet bath, or does not spend it on a fixed bathroom at all. That is why the honest headline of this article is an absence. If a listing or a roundup calls a Class B bathroom dry, check where the toilet sits: if the toilet stands in the shower space, it is a wet bath, whatever the headline calls it.",
+      },
+      {
+        type: "h2",
+        heading: "Group one: enclosed wet bath with a plumbed flush toilet",
+        text: "Five verified models give you the conventional RV bathroom in miniature on every floor plan: an enclosed wet bath, a sink or shower fittings as listed, and a flush toilet plumbed to a holding tank that empties at a dump station.",
+      },
+      {
+        type: "h3",
+        heading: "Airstream Interstate and Grech Terreno: the macerator pair",
+        text: "The [Airstream Interstate 24GLX](/models/airstream-interstate-24glx) has what Airstream calls a space-saving wet bath with a shower and a foot-flush toilet running to an 11 gallon waste tank, emptied by a macerator pump system with electric retract, per Airstream specification page. There is no cassette toilet. The [Grech Terreno](/models/grech-terreno) has a wet bath with a window, a sink and a shower, and a porcelain toilet with a macerator pump running to a 13 gallon black tank, per Grech. On both vans the macerator is the detail to notice: the toilet is plumbed and fixed, and emptying is a pump and hose job at a dump point, not a carry-out container.",
+      },
+      {
+        type: "h3",
+        heading: "Coachmen Galleria and Nova: wet bath on every floor plan",
+        text: "The [Coachmen Galleria](/models/coachmen-galleria) has a wet bath with a sink and a shower and a porcelain flush toilet running to a black tank on every floor plan, per Coachmen: 19 gallons on the 24A, 24 on the 24FL, 12 on the 24Q and 26 on the 24RB. The [Coachmen Nova](/models/coachmen-nova) has a wet bath with a fiberglass shower and a flush toilet running to a black tank on every floor plan: 19 gallons on the 20C and 20D and 10 gallons on the 20RB. Neither Coachmen model offers a cassette on any floor plan, which splits the ProMaster and Sprinter pools cleanly against the Winnebago and Thor entries below.",
+      },
+      {
+        type: "h3",
+        heading: "Winnebago Travato: wet bath, flush toilet, no cassette",
+        text: "The [Winnebago Travato](/models/winnebago-travato) ledger line for its bathroom is the bare words wet bath, so the toilet was re-verified in Winnebago 2026 Travato brochure on October 24, 2026 before this article was written. The brochure publishes a full wet bath and black holding tanks of 11 gallons on the 59G and 12 gallons on the 59K and 59KL, and publishes no cassette capacity for the model. Our ledger records the Travato toilet as a foot pedal flush toilet running to that black tank. The Travato does not use a cassette toilet. Its Sprinter sibling, the [Winnebago Revel](/models/winnebago-revel), is the Winnebago with the cassette, which is one of the clearest differences between the two vans.",
+      },
+      {
+        type: "h3",
+        heading: "Thor Sequence and Tellaro, 20L and 20Y: the flush half of a split line",
+        text: "The [Thor Sequence](/models/thor-sequence) and the [Thor Tellaro](/models/thor-tellaro) belong in this group on two of their three floor plans. On the 20L and the 20Y, each line has an enclosed wet bath with a gravity-flush toilet running to a black tank of 13.5 gallons on the 20L and 14 gallons on the 20Y, per Thor floor plan specifications. The third floor plan, the 20U, is in the cassette group below, and that split is the single most blurred bathroom fact in this segment: the model name alone does not tell you which toilet a specific van has.",
+      },
+      {
+        type: "h2",
+        heading: "Group two: enclosed wet bath with a fixed cassette",
+        text: "Two Winnebago models, and one floor plan in each Thor line, keep the enclosed wet bath and change how waste leaves it: a sealed cassette that slides out and empties through a pour spout, at a dump station or into a regular toilet, with no sewer hose and no black tank.",
+      },
+      {
+        type: "h3",
+        heading: "Winnebago Solis: cassette on both floor plans",
+        text: "The [Winnebago Solis](/models/winnebago-solis) has an enclosed wet bath with a swiveling cassette toilet and a 5 gallon cassette on both floor plans, the 59P and the 59PX, per Winnebago Solis brochure, and there is no black water tank at all. The Solis is also the only van in this pool rated at four as a standard configuration, covered in our [sleeps four guide](/blog/class-b-vans-that-sleep-four), so it is the one entry here that combines an enclosed bathroom, a cassette and sleeping for four in the same van.",
+      },
+      {
+        type: "h3",
+        heading: "Winnebago Revel: the one published wet bath size in the pool",
+        text: "The [Winnebago Revel](/models/winnebago-revel) bathroom in our ledger was manufacturer-only, so it was re-verified on Winnebago own Revel page on October 24, 2026 before this article was written. That page still publishes a shower with wall surround, a wet bath at 31 inches by 26 inches, a swiveling cassette toilet and a cassette toilet capacity of 5 gallons. The Revel is the only verified model whose maker publishes a wet bath size in our ledger, which is why it is the only dimension in this article. The cassette trade itself, capacity against emptying flexibility, is worked through in our [cassette toilet guide](/blog/class-b-vans-with-cassette-toilets).",
+      },
+      {
+        type: "h3",
+        heading: "Thor Sequence and Tellaro, 20U: the cassette floor plan",
+        text: "On the [Thor Sequence](/models/thor-sequence) and the [Thor Tellaro](/models/thor-tellaro), only the 20U has a cassette toilet, with a 4.75 gallon cassette in its enclosed wet bath. Thor floor plan specification pages list waste water at 4.75 gallons on the 20U against the 13.5 and 14 gallon black tanks on the other floor plans, and Thor Tellaro brochure states the split outright. If a dealer advertises a Sequence or a Tellaro as a cassette toilet van, ask which floor plan is on the lot, because two of the three are not.",
+      },
+      {
+        type: "h2",
+        heading: "Group three: no fixed bath, stowable shower and portable toilet",
+        text: "Three verified models spend the bathroom floor space on living and gear space instead. None of the three has a fixed wet bath or a black tank. What each has is a shower system that stows away, a portable toilet, and an exterior shower.",
+      },
+      {
+        type: "h3",
+        heading: "Storyteller MODE: Halo Shower and a 2.6 gallon portable",
+        text: "The [Storyteller Overland MODE](/models/storyteller-overland-mode), in Classic MODE OG form, has no fixed wet bath. Storyteller fits a Halo Shower system, a portable cassette toilet with 2.6 gallons of capacity and an exterior shower, per Storyteller specifications. The trade is stated plainly in the rest of the MODE record: the floor space a fixed bathroom would take goes to the living layout, and the van carries its 37 gallon fresh tank inside the cabin, the largest in this pool, paired in our [fresh water guide](/blog/class-b-fresh-water-capacity-compared). A buyer who needs an enclosed bathroom should cross this van off early. A buyer who showers outside or at facilities is not paying for a room they will not use.",
+      },
+      {
+        type: "h3",
+        heading: "Remote Vans Aegis and Friday: Cyber Shower and a toilet in the shower box",
+        text: "The [Remote Vans Aegis](/models/remote-vans-aegis) has no fixed wet bath: a Cyber Shower recirculating stowable shower system, a portable Thetford cassette toilet stored in the shower box, and an exterior shower, per Remote Vans. Remote Vans describes the Cyber Shower as recirculating and claims showers of 10 or more minutes on under 3.5 gallons, which is the manufacturer claim recorded in our ledger. The [Remote Vans Friday](/models/remote-vans-friday) makes the same trade with the same Cyber Shower pattern and what Remote Vans calls a portable cartridge toilet, plus an exterior shower. Neither van has a black tank. Our [Remote Vans review](/blog/remote-vans-review) covers the rest of that bathroom trade in detail.",
+      },
+      {
+        type: "callout",
+        text: "Do not borrow a bathroom across a brand lineup. Remote Vans Oasis and T-45 carry the same Cyber Shower and portable toilet pattern in our market records, but they are listed models, not verified pool models, so they are not in the table above. The rule runs the other way as well: a bathroom fitted on one floor plan is not a bathroom fitted on the whole line, which is exactly the Thor 20U split.",
+      },
+      {
+        type: "h2",
+        heading: "Bathroom dimensions: one published size, and the missing ones",
+        text: "Buyers ask for wet bath dimensions more than almost any other bathroom figure, and the verified record is thin. The Revel at 31 inches by 26 inches, re-verified on Winnebago own page on October 24, 2026, is the only wet bath size in our ledger. Coachmen publishes no wet bath dimensions in its specification tables for the Galleria or the Nova. Winnebago Travato brochure floor plan diagrams state no consistent figure for every floor plan, so no Travato size is quoted here. Thor Tellaro brochure graphics carry a 48 inch by 26 inch wet bath figure that cannot be attributed to a specific floor plan from the published material, so this article does not use it. Where a maker publishes no size, this article reports that absence rather than filling it from a dealer page. If the size of the room decides your purchase, measure the specific van, because the published record will not settle it for any model but the Revel.",
+      },
+      {
+        type: "h2",
+        heading: "Models that are not in this table, and why",
+        text: "The Transit-based factory models in our [market index](/market), the Coachmen Beyond, the Entegra Coach Expanse, the Thor Palladium and the Forest River Lucent covered in our [Transit guide](/blog/best-transit-based-class-b-vans), carry no bathroom attribute in our verified ledger, so no bathroom claim is made for them here. Custom builders such as Sportsmobile build bathrooms to each client layout, so there is no single factory bathroom to tabulate. If the bathroom decides your purchase on any of those vans, verify the bath type and the toilet type on the manufacturer page for the specific model and floor plan before you rely on a listing description.",
+      },
+      {
+        type: "ul",
+        heading: "Sources for the bathroom claims in this article",
+        items: [
+          "Airstream Interstate 24GLX: [Airstream Interstate 24GLX specification page](https://www.airstream.com/explore-products/touring-coaches/interstate/interstate-24glx-spec-detail-page)",
+          "Coachmen Galleria: [Coachmen Galleria floor plan page](https://coachmenrv.com/galleria/24Q/15166), and Coachmen Nova: [Coachmen Nova features page](https://coachmenrv.com/print/features/nova)",
+          "Grech Terreno: [Grech Terreno model page](https://grechrv.com/model/2027-terreno-ion-awd/)",
+          "Winnebago Solis: [Winnebago Solis brochure](https://assets-cdn.interactcp.com/lichtsinn/pdfs/Solis-brochure.pdf), and Winnebago Travato: [Winnebago 2026 Travato brochure](https://assets-cdn.interactcp.com/lichtsinn/pdfs/Travato-2026-brochure.pdf), re-verified on October 24, 2026",
+          "Winnebago Revel: [Winnebago Revel product page](https://www.winnebago.com/models/product?GroupID=GROUP257&ProductID=PROD670&VariantID=44E), re-verified on October 24, 2026",
+          "Thor Sequence: [Thor Sequence 20U floor plan page](https://www.thormotorcoach.com/sequence/floor-plans/20u), and Thor Tellaro: [Thor Tellaro brochure](https://media-center.thormotorcoach.com/m/64eff1d433c59607/original/aNvCQZ5xUNkB1RNP_2026-OH-Tellaro-pdf.pdf)",
+          "Storyteller MODE: [Storyteller 2026 Classic MODE OG page](https://www.storytelleroverland.com/pages/2026-classic-mode-og)",
+          "Remote Vans Aegis: [Remote Vans Aegis Series page](https://remotevans.com/van/aegis-series-2026/), and Remote Vans Friday: [Remote Vans Friday Series page](https://remotevans.com/van/2026-friday-series/)",
+        ],
+      },
+      {
+        type: "h2",
+        heading: "How to choose a Class B bathroom",
+        text: "Start with the routine you will actually live with. If you want a private enclosed room and a plumbed toilet that works like the one at home, your pool is group one: the Interstate, the Terreno, the Galleria, the Nova and the Travato, plus the Thor 20L and 20Y. If you want that same enclosed room with waste you can empty at a wider range of places, your pool is group two: the Solis, the Revel and the Thor 20U floor plans. If living space matters more than an enclosed bathroom, and you are content to set a shower up and stow it again, your pool is group three: the MODE, the Aegis and the Friday. And if a separate dry toilet space is a hard requirement, no van in the verified factory pool meets it, and that is worth knowing before you shop, not after. Run your short list through the [comparison tool](/compare), take the [match quiz](/find-my-van) to weigh the bathroom against sleeping, water and budget, and browse the [full market index](/market) for the listed models outside the verified table.",
+      },
+      {
+        type: "faq-group",
+        faqs: [
+          {
+            question: "Do any Class B vans have a dry bath?",
+            answer: "No. None of the twelve Class B vans we track with verified manufacturer figures offers a true dry bath, meaning a shower kept separate from the toilet. Nine models have an enclosed wet bath, where the shower, toilet and usually a sink share one waterproof room, and three models, the Storyteller MODE and the Remote Vans Aegis and Friday, have no fixed bath at all.",
+          },
+          {
+            question: "What is a wet bath in a Class B van?",
+            answer: "A wet bath is a single waterproof bathroom room: the shower, the toilet and usually a small sink share one space, and shower water runs across the floor of the whole room to one drain. Every enclosed bathroom in the verified Class B pool is a wet bath, including the Airstream Interstate, the Coachmen Galleria and Nova, the Grech Terreno, the Winnebago Travato, Solis and Revel, and the Thor Sequence and Tellaro.",
+          },
+          {
+            question: "Which Class B vans have an enclosed wet bath?",
+            answer: "Nine of the twelve verified models: the Airstream Interstate 24GLX, Coachmen Galleria, Coachmen Nova, Grech Terreno, Winnebago Travato, Winnebago Solis, Winnebago Revel, Thor Sequence and Thor Tellaro. Five of them, the Interstate, Galleria, Nova, Terreno and Travato, run a plumbed flush toilet on every floor plan. The Solis and Revel run a fixed cassette toilet, and the Sequence and Tellaro split by floor plan.",
+          },
+          {
+            question: "Which Class B vans have no fixed bathroom?",
+            answer: "Three verified models: the Storyteller MODE, the Remote Vans Aegis and the Remote Vans Friday. The MODE pairs a Halo Shower system with a portable cassette toilet of 2.6 gallons and an exterior shower. The Aegis and Friday pair a stowable Cyber Shower with a portable cassette or cartridge toilet stored in the shower box, plus an exterior shower. None of the three has a fixed wet bath or a black tank.",
+          },
+          {
+            question: "What bathroom does the Winnebago Travato have?",
+            answer: "The Travato has a wet bath with a flush toilet running to a black tank, 11 gallons on the 59G and 12 gallons on the 59K and 59KL, per Winnebago 2026 Travato brochure, re-verified on October 24, 2026. It does not use a cassette toilet. The Winnebago with the fixed cassette in an enclosed wet bath is the Solis, and the adventure van with one is the Revel.",
+          },
+          {
+            question: "How big is a Class B wet bath?",
+            answer: "The Winnebago Revel is the only verified model whose maker publishes a wet bath size in our ledger: 31 inches by 26 inches, with a 5 gallon swiveling cassette toilet, re-verified on Winnebago own page on October 24, 2026. Coachmen publishes no wet bath dimensions for the Galleria or Nova, and no consistent Travato figure is published, so no other size is quoted on this site. A wet bath figure on a dealer page is not a manufacturer figure.",
+          },
+          {
+            question: "Do the Thor Sequence and Tellaro have the same bathroom on every floor plan?",
+            answer: "No. Both lines split by floor plan. The 20U has an enclosed wet bath with a cassette toilet and a 4.75 gallon cassette. The 20L and 20Y have an enclosed wet bath with a gravity-flush toilet running to a black tank of 13.5 gallons on the 20L and 14 gallons on the 20Y. Thor states the Tellaro split in its brochure and lists both waste figures on its floor plan specification pages.",
+          },
+          {
+            question: "What do you actually get instead of a bathroom in the MODE and Remote Vans models?",
+            answer: "A shower system that stows away and a portable toilet. The Storyteller MODE has a Halo Shower system, a portable cassette toilet of 2.6 gallons and an exterior shower. The Remote Vans Aegis has a recirculating Cyber Shower, a portable Thetford cassette toilet stored in the shower box and an exterior shower, and the Friday has the same Cyber Shower pattern with a portable cartridge toilet. The trade is floor space: no fixed bathroom room, and no black tank.",
+          },
+        ],
+      },
+    ],
+  },
   "best-class-b-vans-for-winter": {
     slug: "best-class-b-vans-for-winter",
     intro:

@@ -35,7 +35,9 @@
       "sourceUrl": "https://www.winnebago.com/models/product?GroupID=GROUP257&ProductID=PROD670&VariantID=44E",
       "sourceType": "manufacturer_spec_page",
       "status": "manufacturer-only",
-      "retrievedAt": "2026-10-14"
+      "retrievedAt": "2026-10-14",
+      "reverifiedAt": "2026-10-24",
+      "note": "Re-verified live on winnebago.com on 2026-10-24 for the bathrooms article: the page still publishes the wet bath at 31in x 26in with a shower and wall surround, a swiveling cassette toilet, and a cassette toilet capacity of 5 gal, alongside 21 gal fresh and 21 gal gray."
     },
     {
       "attribute": "winter",
@@ -80,7 +82,9 @@
       "sourceUrl": "https://www.winnebago.com/models/product?GroupID=GROUP257&ProductID=PROD670&VariantID=44E",
       "sourceType": "manufacturer_spec_page",
       "status": "manufacturer-only",
-      "retrievedAt": "2026-10-16"
+      "retrievedAt": "2026-10-16",
+      "reverifiedAt": "2026-10-24",
+      "note": "Re-verified live on winnebago.com on 2026-10-24 for the bathrooms article: the page still publishes the wet bath at 31in x 26in with a shower and wall surround, a swiveling cassette toilet, and a cassette toilet capacity of 5 gal, alongside 21 gal fresh and 21 gal gray."
     },
     {
       "attribute": "grayWaterGal",
@@ -107,7 +111,9 @@
       "sourceUrl": "https://www.winnebago.com/models/product?GroupID=GROUP257&ProductID=PROD670&VariantID=44E",
       "sourceType": "manufacturer_spec_page",
       "status": "manufacturer-only",
-      "retrievedAt": "2026-10-16"
+      "retrievedAt": "2026-10-16",
+      "reverifiedAt": "2026-10-24",
+      "note": "Re-verified live on winnebago.com on 2026-10-24 for the bathrooms article: the page still publishes the wet bath at 31in x 26in with a shower and wall surround, a swiveling cassette toilet, and a cassette toilet capacity of 5 gal, alongside 21 gal fresh and 21 gal gray."
     },
     {
       "attribute": "gvwr",

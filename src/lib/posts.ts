@@ -20,6 +20,31 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "class-b-van-bathrooms-wet-bath-dry-bath",
+    title: "Class B Bathrooms: Wet Bath, Dry Bath, and What You Actually Get",
+    excerpt:
+      "No Class B van in the verified pool offers a true dry bath. Nine of the twelve verified models have an enclosed wet bath: five with a plumbed flush toilet on every floor plan, two Winnebago models with a fixed cassette, and the Thor Sequence and Tellaro split by floor plan, cassette on the 20U and flush on the 20L and 20Y. The other three, the Storyteller MODE and the Remote Vans Aegis and Friday, have no fixed bath at all, with a stowable shower and a portable toilet instead. The full per model table, from the verified ledger, with the Winnebago Revel bathroom re-verified on Winnebago own page on October 24, 2026.",
+    category: "Buying Guide",
+    readTime: "11 min",
+    date: "2026-10-24",
+    updated: "2026-10-24",
+    featured: true,
+    image: {
+      src: "/images/sportsmobile-interior-galley.jpg",
+      alt: "Inside a Class B camper van: a galley with a sink and wood cabinetry, a microwave and refrigerator, and a bench seat by the window",
+      caption: "In a Class B van the bathroom competes for the same floor space as the galley, the bed and the seating. What each maker does with that space is the bathroom decision. Photo: the author.",
+    },
+    about: ["class-b"],
+    mentions: ["model:airstream-interstate-24glx", "model:coachmen-galleria", "model:coachmen-nova", "model:grech-terreno", "model:winnebago-travato", "model:thor-sequence", "model:thor-tellaro", "model:winnebago-solis", "model:winnebago-revel", "model:storyteller-overland-mode", "model:remote-vans-aegis", "model:remote-vans-friday"],
+    schema: {
+      "@type": "Article",
+      headline: "Class B Bathrooms: Wet Bath, Dry Bath, and What You Actually Get",
+      description:
+        "Class B bathrooms compared from the verified ledger: no verified model offers a true dry bath, nine models have an enclosed wet bath split between plumbed flush toilets and fixed cassettes, the Thor Sequence and Tellaro split by floor plan, and the Storyteller MODE and Remote Vans Aegis and Friday have no fixed bath, with stowable showers and portable toilets. The Winnebago Revel wet bath, 31 by 26 inches with a 5 gallon swiveling cassette, was re-verified on Winnebago own page on October 24, 2026.",
+      keywords: ["Class B van bathroom", "wet bath vs dry bath camper van", "Class B dry bath", "Winnebago Revel wet bath size", "Winnebago Solis bathroom", "Storyteller MODE Halo Shower", "Remote Vans Cyber Shower", "Thor Tellaro bathroom", "Class B wet bath dimensions", "camper van bathroom types"],
+    },
+  },
+  {
     slug: "best-class-b-vans-for-winter",
     title: "Best Class B Vans for Winter and Four-Season Use",
     excerpt:
