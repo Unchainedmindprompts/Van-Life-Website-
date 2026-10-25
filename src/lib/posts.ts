@@ -20,6 +20,31 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "cost-of-owning-a-class-b-van",
+    title: "What It Costs to Own a Class B Van",
+    excerpt:
+      "Owning a Class B van costs money in five places the purchase price does not cover: insurance, maintenance, fuel, storage and tires, plus depreciation, which is the largest cost of all and not a cash cost. Recreational insurance runs $504 to $1,500 a year in the ranges published by Roamly, citing Progressive data, checked on October 25, 2026. Annual routine maintenance runs $1,050 to $1,500 for a gas ProMaster van and $1,200 to $2,500 for a diesel Sprinter in the published guides checked the same day. Paid storage for a Class B starts at $160 a month in Neighbor figures. Depreciation estimates disagree: one published curve puts a Class B down 31.5 percent at five years, another compilation puts the five year loss at 35 to 45 percent. Every range in the article is named, dated and shown with its basis, because our verified ledger contains no ownership cost figures at all.",
+    category: "Buying Guide",
+    readTime: "12 min",
+    date: "2026-10-25",
+    updated: "2026-10-25",
+    featured: true,
+    image: {
+      src: "/images/sportsmobile-interior-door.jpg",
+      alt: "Inside a Class B camper van: galley and sink by the sliding door, a lounge bench opposite, and the bed at the rear of a 170-inch Sprinter",
+      caption: "The purchase price is the start of Class B ownership, not the whole of it. Insurance, service, fuel, storage and tires are decided by the chassis under the van and how you use it. Photo: the author.",
+    },
+    about: ["class-b"],
+    mentions: ["model:thor-tellaro", "model:winnebago-solis", "model:coachmen-nova", "model:winnebago-travato", "model:thor-sequence", "model:winnebago-revel", "model:coachmen-galleria", "model:storyteller-overland-mode", "model:remote-vans-friday", "model:remote-vans-aegis", "model:grech-terreno", "model:airstream-interstate-24glx"],
+    schema: {
+      "@type": "Article",
+      headline: "What It Costs to Own a Class B Van",
+      description:
+        "What it costs to own a Class B van beyond the purchase price, with every figure named, dated and shown with its basis, checked on October 25, 2026: insurance at $504 to $1,500 a year for recreational use in Roamly ranges citing Progressive data, routine maintenance at $1,050 to $1,500 a year for a gas ProMaster and $1,200 to $2,500 for a diesel Sprinter in published guides, paid Class B storage from $160 a month in Neighbor figures, all-terrain tire prices for the two verified Remote Vans fitments, a fuel example built only on labeled assumptions, and depreciation estimates that disagree, 31.5 percent at five years on one published curve and 35 to 45 percent in another compilation.",
+      keywords: ["cost of owning a Class B van", "Class B van ownership costs", "Class B RV insurance cost", "Sprinter van maintenance cost", "ProMaster maintenance cost", "RV storage cost Class B", "Class B depreciation", "camper van running costs", "Class B van tires cost", "how much does it cost to own a camper van"],
+    },
+  },
+  {
     slug: "class-b-van-bathrooms-wet-bath-dry-bath",
     title: "Class B Bathrooms: Wet Bath, Dry Bath, and What You Actually Get",
     excerpt:
