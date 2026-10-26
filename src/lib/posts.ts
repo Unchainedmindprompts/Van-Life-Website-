@@ -20,6 +20,31 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "best-class-b-vans-under-175k",
+    title: "Best Class B Vans Under $175,000",
+    excerpt:
+      "Exactly three of the twelve verified Class B models start under $175,000 on a manufacturer published starting price, and all three are Ram ProMaster models: the Thor Tellaro from $140,560, the Thor Sequence from $151,060, and the Winnebago Solis 59P at $156,254. No Sprinter or Transit factory model qualifies on that basis. The Coachmen Nova is out twice over, at $178,801 and dealer priced because Coachmen publishes no Nova MSRP, and the Remote Vans T-45 at $174,900 is a listed model, not a verified pool model. The full per floor plan table, what each qualifier gives up at this band, and the near misses with the reason each one is out.",
+    category: "Buying Guide",
+    readTime: "9 min",
+    date: "2026-10-26",
+    updated: "2026-10-26",
+    featured: true,
+    image: {
+      src: "/images/sportsmobile-interior-galley.jpg",
+      alt: "Inside a Class B camper van: a galley with a sink and wood cabinetry, a microwave and refrigerator, and a bench seat by the window",
+      caption: "Under $175,000 on a manufacturer starting price, the factory Class B choice is three ProMaster models. What separates them is floor plan, bathroom and sleeping, not chassis. Photo: the author.",
+    },
+    about: ["class-b"],
+    mentions: ["model:thor-tellaro", "model:thor-sequence", "model:winnebago-solis", "model:coachmen-nova", "model:winnebago-travato", "model:remote-vans-t45"],
+    schema: {
+      "@type": "Article",
+      headline: "Best Class B Vans Under $175,000",
+      description:
+        "The Class B vans under $175,000 on manufacturer published starting prices from the verified ledger: the Thor Tellaro from $140,560, the Thor Sequence from $151,060, and the Winnebago Solis 59P at $156,254, all Ram ProMaster models, with floor plans split where the ledger splits them, and the near misses named with their reasons, the Coachmen Nova at $178,801 as a dealer figure, the Winnebago Travato at $183,783 as a dealer figure, the Solis 59PX at $180,487, and the listed Remote Vans T-45 at $174,900 kept out of the verified table.",
+      keywords: ["Class B vans under $175000", "best Class B vans under 175k", "cheapest Class B vans", "Thor Tellaro price", "Thor Sequence price", "Winnebago Solis 59P price", "Class B vans under $175,000", "affordable Class B camper vans", "ProMaster Class B vans", "Coachmen Nova price"],
+    },
+  },
+  {
     slug: "cost-of-owning-a-class-b-van",
     title: "What It Costs to Own a Class B Van",
     excerpt:

@@ -22,6 +22,137 @@ export interface PostContent {
 }
 
 export const postContent: Record<string, PostContent> = {
+  "best-class-b-vans-under-175k": {
+    slug: "best-class-b-vans-under-175k",
+    intro:
+      "Exactly three of the twelve Class B models we track with verified figures start under $175,000 on a manufacturer published starting price, and all three sit on the Ram ProMaster chassis. The Thor Tellaro starts at $140,560, the Thor Sequence starts at $151,060, and the Winnebago Solis starts at $156,254 in its 59P floor plan only. No Sprinter model and no Transit model in the verified pool qualifies on that basis. Every figure below comes from our verified ledger, on one basis only: manufacturer published starting prices, before options, with floor plans split where the ledger splits them. Dealer figures and listed models are named as near misses, with the reason each one is out, and none of them is counted as a qualifier.",
+    relatedSlugs: [
+      "how-much-does-a-class-b-van-cost",
+      "class-b-vans-that-sleep-four",
+      "cost-of-owning-a-class-b-van",
+    ],
+    blocks: [
+      {
+        type: "p",
+        text: "The label on the price decides whether this band means anything. A manufacturer starting price is the figure the maker publishes for the lowest priced floor plan, before options. A dealer figure is what a dealer publishes for a model whose maker publishes no price, or the sticker on one specific van. A discounted dealer sale price is neither, and using sale prices would put almost any model under almost any line for as long as one listing lasted. So this article holds the rule our [cost guide](/blog/how-much-does-a-class-b-van-cost) holds: starting prices only, source labels intact. On that basis the under $175,000 factory market is three ProMaster models from two brands, and that small answer is the finding.",
+      },
+      {
+        type: "ul",
+        heading: "The verified table: Class B starting prices under $175,000, per floor plan",
+        items: [
+          "Thor Tellaro 20L: $140,560 starting price, manufacturer figure from Thor model page. Enclosed wet bath, gravity flush toilet to a 13.5 gallon black tank, 22 gallons fresh water, sleeps two as standard",
+          "Thor Tellaro 20U: $162,120 starting price, manufacturer figure from Thor floor plan page. Enclosed wet bath, cassette toilet at 4.75 gallons, 27 gallons fresh water, sleeps two as standard",
+          "Thor Tellaro 20Y: $162,960 starting price, manufacturer figure from Thor floor plan page. Enclosed wet bath, gravity flush toilet to a 14 gallon black tank, 35 gallons fresh water, sleeps two as standard",
+          "Thor Sequence 20L: $151,060 starting price, manufacturer figure from Thor model page. Enclosed wet bath, gravity flush toilet to a 13.5 gallon black tank, 22 gallons fresh water, sleeps two as standard",
+          "Thor Sequence 20U: $162,120 to $165,060 starting prices, manufacturer figures from Thor floor plan pages. Enclosed wet bath, cassette toilet at 4.75 gallons, 27 gallons fresh water, sleeps two as standard",
+          "Thor Sequence 20Y: $162,960 starting price, manufacturer figure from Thor floor plan page. Enclosed wet bath, gravity flush toilet to a 14 gallon black tank, 35 gallons fresh water, sleeps two as standard",
+          "Winnebago Solis 59P: $156,254 starting price, manufacturer figure from Winnebago own Solis page. Enclosed wet bath with a swiveling cassette toilet, 20 gallons fresh water, sleeps four as standard with the pop-top",
+          "Not in this table: the Winnebago Solis 59PX, which starts at $180,487 on Winnebago own page. The Solis name alone does not put a van under the line; the 59P floor plan does",
+        ],
+      },
+      {
+        type: "p",
+        text: "One logged conflict belongs with the Thor figures. Thor class B lineup page lists a flat $161,560 for both the Tellaro and the Sequence, while the dedicated model pages publish $140,560 and $151,060 as the low ends. The model page figures govern here, per our manufacturer first policy, and the disagreement stays logged in our ledger rather than hidden. Either way, all three Thor floor plans for each line start under $175,000, so the conflict does not change who qualifies. It changes only the exact starting figure a buyer should budget from, which is why the model page for the specific floor plan is the page to check.",
+      },
+      {
+        type: "h2",
+        heading: "The three qualifiers, model by model",
+        text: "All three qualifiers are front wheel drive, gasoline, ProMaster based vans with enclosed wet baths. The differences that matter are the starting figure, the floor plan spread, the toilet type, the fresh water size, and whether the van sleeps four without adding an option.",
+      },
+      {
+        type: "h3",
+        heading: "Thor Tellaro: from $140,560, the lowest starting price in the pool",
+        text: "The [Thor Tellaro](/models/thor-tellaro) is the cheapest verified Class B van on a manufacturer figure, and the only model in the pool that starts under $150,000. All three of its floor plans start under $175,000: the 20L at $140,560, the 20U at $162,120, and the 20Y at $162,960, per Thor own floor plan pages. That spread matters more than the headline. A buyer who wants the 20U or 20Y layout is a $162,000 plus buyer before options, whatever the starting price says. The bathroom splits by floor plan, covered in our [bathroom guide](/blog/class-b-van-bathrooms-wet-bath-dry-bath): a cassette toilet on the 20U, and a gravity flush toilet to a black tank on the 20L and 20Y. Fresh water splits the same way, at 22 gallons on the 20L, 27 on the 20U, and 35 on the 20Y, so the 20Y carries the largest fresh tank in this band. Thor rates the Tellaro at two sleepers as standard. It reaches four only with the optional Sky Bunk pop-top, which is an option at extra cost, not the standard rating, as our [sleeps four guide](/blog/class-b-vans-that-sleep-four) sets out.",
+      },
+      {
+        type: "h3",
+        heading: "Thor Sequence: from $151,060, the second Thor line under the line",
+        text: "The [Thor Sequence](/models/thor-sequence) starts at $151,060 for the 20L, a manufacturer figure from Thor model page, with the 20U at $162,120 to $165,060 and the 20Y at $162,960. Like the Tellaro, every Sequence floor plan starts under $175,000. The two Thor lines are close twins on the figures this article can verify: the same ProMaster 3500 chassis, the same floor plan names, the same bathroom split with a cassette toilet on the 20U and a flush toilet to a black tank on the 20L and 20Y, and the same fresh water split of 22, 27, and 35 gallons by floor plan. Thor rates the Sequence at two sleepers as standard as well. A buyer choosing between the Tellaro and the Sequence is therefore choosing on layout details, equipment lists, and the specific van and price in front of them, not on a verified headline figure that separates the two lines. Compare the two side by side in the [comparison tool](/compare) and on their model pages before treating either starting price as the price of the van you want.",
+      },
+      {
+        type: "h3",
+        heading: "Winnebago Solis 59P: $156,254, and the only qualifier that sleeps four as standard",
+        text: "The [Winnebago Solis](/models/winnebago-solis) qualifies in one floor plan only. The 59P starts at $156,254, a manufacturer Starting At figure on Winnebago own Solis page. The 59PX starts at $180,487 on the same page and is out, so any claim that the Solis starts under $175,000 needs the 59P qualifier attached to it. Inside the band, the 59P is the differentiator on sleeping: Winnebago rates it at four as a standard configuration, with the pop-top loft counted in that rating, which makes it the only qualifier that sleeps four without an added option. Its trade is water. At 20 gallons, the 59P carries the smallest fresh tank in this band, against 22 to 35 gallons on the Thor floor plans, and our [fresh water guide](/blog/class-b-fresh-water-capacity-compared) shows what that means for days between fills. Its bathroom is an enclosed wet bath with a swiveling cassette toilet on every Solis floor plan, covered in our [cassette toilet guide](/blog/class-b-vans-with-cassette-toilets). A family of four shopping this band on a manufacturer starting price has, on verified figures, exactly one factory option, and this is it.",
+      },
+      {
+        type: "h2",
+        heading: "What each van gives up at this band",
+        text: "The band has a shape, and the shape is the honest limit of shopping under $175,000 on a starting price. Every qualifier is a front wheel drive ProMaster van on gasoline. No all wheel drive, no diesel, and no Sprinter or Transit factory option exists under the line on a manufacturer starting price in the verified pool. That absence is a finding, stated as such, not a gap to fill with dealer sale prices. On winter use, per our [winter guide](/blog/best-class-b-vans-for-winter), the Thor lines carry heat pads, and Thor publishes no winter package and no insulation rating for the Sequence or the Tellaro, so neither should be upgraded to a four-season claim. Every qualifier has an enclosed wet bath, and none offers a dry bath, which is true of the whole verified pool. What the band buys you is a complete new factory van with a real bathroom at the lowest verified prices in the market. What it does not buy is drivetrain choice, a published winter rating, or, except in the Solis 59P, standard sleeping for four.",
+      },
+      {
+        type: "h2",
+        heading: "The near misses, and why each one is out",
+        text: "Four names come up in almost every under $175,000 search, and each one fails the band for a stated reason. Naming them here, with the reason, is what keeps the table above honest.",
+      },
+      {
+        type: "ul",
+        heading: "Near misses, with the reason each is out or listed only",
+        items: [
+          "Coachmen Nova: $178,801, which is over the $175,000 line, and it is a dealer figure. Coachmen publishes no MSRP for the Nova, so the figure in our ledger is a dealer MSRP for the 2026 20RB. It is out twice over, and it is not rounded down or averaged into the band. See the [Coachmen Nova](/models/coachmen-nova) model page for the labeled figure",
+          "Winnebago Travato: $183,783, over the line, and also a dealer figure. Winnebago publishes no Travato price, so our ledger carries a dealer base from Lichtsinn RV. See the [Winnebago Travato](/models/winnebago-travato) model page",
+          "Winnebago Solis 59PX: $180,487 starting price on Winnebago own page, over the line. Same nameplate as the qualifier, different floor plan, different answer",
+          "Remote Vans T-45: $174,900 on Remote Vans own comparison page, which is under the line as a number, but the T-45 is a listed model in our [market index](/market), not one of the twelve verified pool models. Our verified Remote Vans entries are the Friday and the Aegis only. The T-45 is named here as a listed near entry with that status attached, and it does not appear in the verified table",
+          "Sportsmobile conversions: published conversion ranges of $80,000 to $125,000 for Transit builds are conversion prices only and exclude the van itself, so they never belong in a factory starting price band, as our [cost guide](/blog/how-much-does-a-class-b-van-cost) sets out",
+          "Dealer sale and discount prices generally: advertised sale prices on specific vans run below MSRP across the market. They are prices for one van at one dealer at one moment, not starting prices for a model line, and this band does not use them",
+        ],
+      },
+      {
+        type: "h2",
+        heading: "How to choose inside a three van band",
+        text: "Start with sleeping, because it narrows the band fastest. If four people need to sleep in the van as a standard configuration, the Solis 59P is the only qualifier, and the decision becomes whether its 20 gallon fresh tank and cassette wet bath work for you. If two people travel, all three lines stay in play, and the next filter is the bathroom and water pairing by floor plan: the Thor 20U floor plans pair the band cassette option with 27 gallons of fresh water, the Thor 20Y floor plans pair a flush toilet and black tank with the band largest 35 gallons, and the Thor 20L floor plans are the lowest priced way into each Thor line at 22 gallons. Then price the specific van, not the line. The starting figure belongs to one floor plan before options, and options, a different floor plan, and dealer pricing on a specific unit all move the final figure up from it, which is also why ownership cost belongs in a separate column, as our [ownership cost guide](/blog/cost-of-owning-a-class-b-van) sets out. If your ceiling is firm at $175,000 for the finished van rather than the starting figure, treat the Thor 20L floor plans and the Solis 59P as your realistic starting points and get an out the door price on the exact van before you assume it fits.",
+      },
+      {
+        type: "ul",
+        heading: "Sources for the figures in this article",
+        items: [
+          "Thor Tellaro starting prices by floor plan, 20L from $140,560, 20U from $162,120, 20Y from $162,960, and the logged lineup page figure of $161,560: [Thor Tellaro model page](https://www.thormotorcoach.com/tellaro) and Thor own floor plan pages, as recorded in our verified ledger",
+          "Thor Sequence starting prices by floor plan, 20L from $151,060, 20U $162,120 to $165,060, 20Y from $162,960, and the same logged lineup page figure: [Thor Sequence model page](https://www.thormotorcoach.com/sequence) and Thor own floor plan pages, as recorded in our verified ledger",
+          "Winnebago Solis 59P Starting At $156,254 and 59PX Starting At $180,487: [Winnebago Solis page](https://www.winnebago.com/models/solis-series/solis), re-verified October 16, 2026 in our verified ledger",
+          "Coachmen Nova $178,801 dealer MSRP for the 2026 20RB, labeled a dealer figure because Coachmen publishes no Nova MSRP, and Winnebago Travato $183,783 dealer base from Lichtsinn RV, labeled a dealer figure because Winnebago publishes no Travato price: our verified ledger, as published in our [cost guide](/blog/how-much-does-a-class-b-van-cost)",
+          "Remote Vans T-45 $174,900 from Remote Vans own comparison page, recorded as a listed model in our market index, not as a verified pool model: [Remote Vans comparison page](https://remotevans.com/compare-adventure-vans/)",
+          "Fresh water, bathroom, toilet and sleeping figures for every model above: the Starry Van verified ledger in data/facts, as published in our fresh water, bathroom, cassette toilet and sleeps four guides linked in this article",
+        ],
+      },
+      {
+        type: "h2",
+        heading: "Three vans under the line, then price the exact one",
+        text: "Under $175,000 on a manufacturer published starting price, the factory Class B market is the [Thor Tellaro](/models/thor-tellaro), the [Thor Sequence](/models/thor-sequence), and the [Winnebago Solis](/models/winnebago-solis) in its 59P floor plan. That is a narrow band, and a narrow band is useful: it tells a buyer exactly where new van money goes furthest, and exactly what has to be given up to stay under the line. Run the three through the [comparison tool](/compare), take the [match quiz](/find-my-van) to weigh price against sleeping, water and bathroom layout, and browse the [full market index](/market) for the listed models outside the verified pool, including the T-45 named above. Then price the exact floor plan and the exact van in front of you, because the starting price is a floor for the line, not a promise for a specific unit.",
+      },
+      {
+        type: "faq-group",
+        faqs: [
+          {
+            question: "Which Class B vans cost under $175,000?",
+            answer: "On manufacturer published starting prices in our verified pool, exactly three models: the Thor Tellaro from $140,560, the Thor Sequence from $151,060, and the Winnebago Solis at $156,254 in its 59P floor plan only. All three are Ram ProMaster models. No Sprinter or Transit factory model in the verified pool starts under $175,000 on a manufacturer published starting price.",
+          },
+          {
+            question: "What is the cheapest Class B van under $175,000?",
+            answer: "The Thor Tellaro, at a manufacturer starting price of $140,560 for the 20L floor plan, from Thor own model page. Its other floor plans also start under the line, at $162,120 for the 20U and $162,960 for the 20Y. Thor class B lineup page lists a flat $161,560 for the Tellaro; the model page figure governs on this site, and the disagreement is logged in our ledger.",
+          },
+          {
+            question: "Is the Coachmen Nova under $175,000?",
+            answer: "No. The Nova figure in our verified ledger is $178,801, which is over the $175,000 line, and it is a dealer figure, because Coachmen publishes no MSRP for the Nova. The $178,801 is a dealer MSRP for the 2026 20RB. Dealer sale prices on specific Nova units can be lower, but a sale price on one van is not a starting price for the model line, and this band uses starting prices only.",
+          },
+          {
+            question: "Is the Winnebago Solis under $175,000?",
+            answer: "Only in one floor plan. The Solis 59P starts at $156,254, a manufacturer Starting At figure on Winnebago own Solis page. The Solis 59PX starts at $180,487 on the same page and is over the line. The 59P is also the only van in this band that sleeps four as a standard configuration, and it carries the smallest fresh tank in the band, at 20 gallons.",
+          },
+          {
+            question: "Are there any Sprinter Class B vans under $175,000?",
+            answer: "Not in the verified pool on a manufacturer published starting price. Every Sprinter model in the pool starts at $192,206 or more on its verified figure. The Remote Vans T-45, a Sprinter based model listed in our market index at $174,900 from Remote Vans own comparison page, is a listed model, not a verified pool model, so it is named in this article as a listed near entry and not counted as a qualifier in the verified table.",
+          },
+          {
+            question: "Which van under $175,000 sleeps four?",
+            answer: "The Winnebago Solis 59P, rated at four by Winnebago as a standard configuration with its pop-top loft. The Thor Tellaro is rated at two as standard and reaches four only with the optional Sky Bunk pop-top, which is an added option, not the standard rating. The Thor Sequence is also rated at two as standard. Sleeping figures for all three are covered model by model in our sleeps four guide.",
+          },
+          {
+            question: "Why does this article not use dealer sale prices?",
+            answer: "Because a sale price belongs to one specific van at one dealer at one moment, and it changes or disappears with that listing. A starting price belongs to the model line and can be checked on the manufacturer page. Mixing sale prices into a price band would put almost any model under almost any line and would make the band impossible to verify, which is the problem this site exists to fix.",
+          },
+        ],
+      },
+    ],
+  },
   "cost-of-owning-a-class-b-van": {
     slug: "cost-of-owning-a-class-b-van",
     intro:
