@@ -20,6 +20,31 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "promaster-vs-sprinter-vs-transit-class-b",
+    title: "ProMaster vs Sprinter vs Transit: Which Chassis Fits Your Class B?",
+    excerpt:
+      "Pick a chassis first and the Class B market sorts itself into three very different short lists. In our verified pool of twelve factory models, seven sit on the Mercedes Sprinter, five sit on the Ram ProMaster, and none sits on the Ford Transit. Every verified Sprinter is diesel, every verified ProMaster is a front wheel drive gasoline van on a 159 inch wheelbase, and every factory Transit model in our market index is a listed model only, with no verified model page. The full model finder, placement by placement from our verified ledger, with the brand splits, the one drivetrain exception, and the listed models kept in their own tables.",
+    category: "Buying Guide",
+    readTime: "11 min",
+    date: "2026-10-27",
+    updated: "2026-10-27",
+    featured: true,
+    image: {
+      src: "/images/chassis-comparison.png",
+      alt: "Bar charts comparing interior standing height and width between wheel wells for the Sprinter, Transit, and ProMaster",
+      caption: "Chassis first, model second. The verified factory pool splits seven Sprinter, five ProMaster and zero Transit, and that split decides your short list before floor plans do. Manufacturer figures; sources linked in the article.",
+    },
+    about: ["class-b", "chassis:sprinter", "chassis:transit", "chassis:promaster"],
+    mentions: ["model:winnebago-revel", "model:storyteller-overland-mode", "model:remote-vans-friday", "model:remote-vans-aegis", "model:coachmen-galleria", "model:grech-terreno", "model:airstream-interstate-24glx", "model:thor-tellaro", "model:thor-sequence", "model:winnebago-solis", "model:winnebago-travato", "model:coachmen-nova", "model:coachmen-beyond", "model:thor-palladium", "model:thor-talavera", "model:entegra-expanse", "model:forest-river-lucent", "model:remote-vans-oasis", "model:remote-vans-t45", "org:sportsmobile"],
+    schema: {
+      "@type": "Article",
+      headline: "ProMaster vs Sprinter vs Transit: Which Chassis Fits Your Class B?",
+      description:
+        "A Class B model finder by chassis, from the verified ledger: seven verified Sprinter models and five verified ProMaster models, placed model by model with chassis, wheelbase and drivetrain, and no verified Transit model, because every factory Transit model, the Coachmen Beyond, the Entegra Coach Expanse, the Thor Palladium and the Forest River Lucent, is listed only. The Coachmen Galleria is the drivetrain exception, rear wheel drive standard with all wheel drive optional, and brand does not tell you the chassis, because Coachmen, Thor and Winnebago all split across chassis.",
+      keywords: ["ProMaster vs Sprinter vs Transit", "which chassis Class B van", "Sprinter Class B vans list", "ProMaster Class B vans list", "Transit Class B vans list", "Class B vans by chassis", "Sprinter vs ProMaster camper van models", "Ford Transit Class B models", "Ram ProMaster camper van models", "Mercedes Sprinter camper van models"],
+    },
+  },
+  {
     slug: "best-class-b-vans-under-175k",
     title: "Best Class B Vans Under $175,000",
     excerpt:

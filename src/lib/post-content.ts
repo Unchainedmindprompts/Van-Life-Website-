@@ -22,6 +22,200 @@ export interface PostContent {
 }
 
 export const postContent: Record<string, PostContent> = {
+  "promaster-vs-sprinter-vs-transit-class-b": {
+    slug: "promaster-vs-sprinter-vs-transit-class-b",
+    intro:
+      "Pick a chassis first and the Class B market sorts itself into three very different short lists. Of the twelve factory models we track with verified figures, seven sit on the Mercedes Sprinter, five sit on the Ram ProMaster, and none sits on the Ford Transit. Every verified Sprinter is diesel. Every verified ProMaster is a front wheel drive gasoline van on a 159 inch wheelbase, with no all wheel drive or diesel version in the pool. Every factory Transit model in our market index is a listed model only, presented from its manufacturer page with no verified model page of its own. This article is a model finder, not a second chassis argument: every placement below comes from the chassis attribute in our verified ledger, verified and listed models are kept in separate tables, and the arguments about height, ride and ownership sit in our existing chassis comparison, linked throughout.",
+    relatedSlugs: [
+      "sprinter-vs-transit-vs-promaster",
+      "best-transit-based-class-b-vans",
+      "best-class-b-vans-under-175k",
+    ],
+    blocks: [
+      {
+        type: "p",
+        text: "A full Sprinter vs Transit vs ProMaster comparison already lives on this site at [Sprinter vs Transit vs ProMaster](/blog/sprinter-vs-transit-vs-promaster): interior dimensions, generic strengths and weaknesses, and the builder ecosystem. This piece extends that article rather than repeating it. Its one job is placement: if you have decided on a chassis, or you are trying to decide, here is exactly which current factory models sit on it, with the wheelbase and drivetrain the manufacturer publishes for each one. If a model cannot be tied to a chassis entry in our ledger, it does not go in a table here. Prices are left out on purpose, because a finder that mixes starting prices, dealer figures and unpublished prices would mislead; prices live in our [cost guide](/blog/how-much-does-a-class-b-van-cost) and our [under $175,000 guide](/blog/best-class-b-vans-under-175k), with their source labels attached.",
+      },
+      {
+        type: "ul",
+        heading: "The verified split at a glance, from the ledger chassis attribute",
+        items: [
+          "Mercedes Sprinter, 7 verified models: Winnebago Revel, Storyteller Overland MODE, Remote Vans Friday, Remote Vans Aegis, Coachmen Galleria, Grech Terreno and Airstream Interstate 24GLX. All diesel, all all wheel drive standard except the Coachmen Galleria",
+          "Ram ProMaster, 5 verified models: Thor Tellaro, Thor Sequence, Winnebago Solis, Winnebago Travato and Coachmen Nova. All front wheel drive, all gasoline 3.6L V6, all on a 159 inch wheelbase",
+          "Ford Transit, 0 verified models. The factory Transit set in our market index is listed only: Coachmen Beyond, Entegra Coach Expanse, Thor Palladium and Forest River Lucent, each linked to the market index rather than a model page",
+          "Listed Sprinter additions, not verified models: Remote Vans Oasis and Remote Vans T-45, both on the Sprinter 144 inch wheelbase with all wheel drive, named in a listed section below and never counted in the verified seven",
+        ],
+      },
+      {
+        type: "h2",
+        heading: "Sprinter: seven verified models, diesel throughout, in two lengths",
+        text: "The Sprinter group is the largest verified group and the only diesel group. It splits cleanly by wheelbase: four shorter vans on the 144 inch wheelbase, built around adventure and modular layouts, and three longer vans on the 170 inch wheelbase, built around touring and luxury layouts. All wheel drive is standard on six of the seven. The one exception matters, and it is named in its own section below: the Coachmen Galleria is rear wheel drive standard, with all wheel drive optional on all floor plans, per our ledger. Never read the Sprinter table as seven all wheel drive vans without that exception attached.",
+      },
+      {
+        type: "ul",
+        heading: "Verified Sprinter models, chassis, wheelbase and drivetrain from the ledger",
+        items: [
+          "Winnebago Revel: Mercedes-Benz Sprinter, 144 inch wheelbase. All wheel drive, 2.0L high output turbo diesel, 211 hp",
+          "Storyteller Overland MODE: Mercedes-Benz Sprinter 2500, high roof, 144 inch wheelbase. All wheel drive, always engaged, 4 cylinder high output turbo diesel",
+          "Remote Vans Friday: Mercedes-Benz Sprinter 2500, high roof, 144 inch wheelbase. All wheel drive, 4 cylinder twin turbo diesel, 208 hp, 9 speed automatic",
+          "Remote Vans Aegis: Mercedes-Benz Sprinter 2500, high roof, 144 inch wheelbase. All wheel drive, 4 cylinder twin turbo diesel, 208 hp, 9 speed automatic",
+          "Coachmen Galleria: Mercedes-Benz Sprinter 3500 EXT, 170 inch wheelbase. Rear wheel drive standard, all wheel drive optional on all floor plans, 2.0L turbo I4 diesel, 208 hp and 332 lb-ft, 9 speed automatic",
+          "Grech Terreno: Mercedes-Benz Sprinter 3500XD, 170 inch wheelbase, high roof. All wheel drive, 4 cylinder high output diesel, 211 hp and 332 lb-ft, 9 speed automatic, air suspension",
+          "Airstream Interstate 24GLX: Mercedes-Benz Sprinter 3500 Extended, 170 inch wheelbase. All wheel drive, 2.0L turbo diesel high output, 208 hp and 332 lb-ft, 9G-TRONIC Plus automatic, air ride suspension",
+        ],
+      },
+      {
+        type: "h3",
+        heading: "Winnebago Revel: the 144 inch Sprinter benchmark",
+        text: "The [Winnebago Revel](/models/winnebago-revel) is the factory adventure benchmark on the short Sprinter. Its ledger placement is the Sprinter at a 144 inch wheelbase, all wheel drive and diesel. A buyer who wants the shortest Sprinter with a factory adventure layout starts here, and a buyer who wants a Winnebago on any other chassis is shopping a different Winnebago: the Solis and the Travato below are ProMasters.",
+      },
+      {
+        type: "h3",
+        heading: "Storyteller Overland MODE: a Sprinter now, whatever older pages say",
+        text: "The [Storyteller Overland MODE](/models/storyteller-overland-mode) sits on the Sprinter 2500 at a 144 inch wheelbase, all wheel drive and diesel, per Storyteller current page as recorded in our ledger. Older Storyteller history and older search results place the MODE on the Transit. That was an earlier generation. The current MODE must never appear in a Transit list, and it does not appear in one here. Our [Transit guide](/blog/best-transit-based-class-b-vans) makes the same correction in full.",
+      },
+      {
+        type: "h3",
+        heading: "Remote Vans Friday and Aegis: the two verified Remote Vans Sprinters",
+        text: "The [Remote Vans Friday](/models/remote-vans-friday) and the [Remote Vans Aegis](/models/remote-vans-aegis) share one verified placement: Sprinter 2500, high roof, 144 inch wheelbase, all wheel drive and the same twin turbo diesel. They are the two verified Remote Vans entries in our pool. The other two Remote Vans series, the Oasis and the T-45, sit on the same Sprinter 144 inch platform in our market records, but they are listed models only, so they are named in the listed section below and not counted here.",
+      },
+      {
+        type: "h3",
+        heading: "Coachmen Galleria: the 170 inch Sprinter, and the drivetrain exception",
+        text: "The [Coachmen Galleria](/models/coachmen-galleria) is the long wheelbase touring entry in the verified Sprinter group, on the Sprinter 3500 EXT at 170 inches. It is also the exception this whole article has to carry carefully: rear wheel drive is standard, and all wheel drive is optional on all floor plans, per the Coachmen features page recorded in our ledger. Every other verified Sprinter is all wheel drive standard. A buyer who needs all wheel drive in a Galleria is buying an option, not the standard van, and should confirm it on the specific van in front of them.",
+      },
+      {
+        type: "h3",
+        heading: "Grech Terreno and Airstream Interstate 24GLX: the 170 inch luxury pair",
+        text: "The [Grech Terreno](/models/grech-terreno), on the Sprinter 3500XD at 170 inches, and the [Airstream Interstate 24GLX](/models/airstream-interstate-24glx), on the Sprinter 3500 Extended at 170 inches, are both all wheel drive diesel vans with air suspension or air ride in their ledger drivetrain records. Together with the Galleria, they are the long van half of the Sprinter group: more interior length, a touring layout, and the highest belted seating and luxury positioning in the verified pool. A buyer choosing inside the Sprinter group is often choosing this split first, 144 inches for adventure and parking, 170 inches for touring space.",
+      },
+      {
+        type: "h2",
+        heading: "ProMaster: five verified models, one uniform specification",
+        text: "The ProMaster group is the opposite of the Sprinter group in one useful way: it is uniform. All five verified models are front wheel drive, all run the gasoline 3.6L V6, and all sit on a 159 inch wheelbase. There is no all wheel drive ProMaster and no diesel ProMaster in the pool, at any price. That uniformity is the finder fact. Choosing inside this group is never a chassis decision, because the chassis is the same; it is a floor plan, bathroom, sleeping and price decision, covered model by model in our other guides.",
+      },
+      {
+        type: "ul",
+        heading: "Verified ProMaster models, chassis, wheelbase and drivetrain from the ledger",
+        items: [
+          "Thor Tellaro: Ram ProMaster 3500 XT Window Van, 159 inch wheelbase. Front wheel drive, 3.6L Pentastar V6",
+          "Thor Sequence: Ram ProMaster 3500 Window Van, 159 inch wheelbase. Front wheel drive, 3.6L Pentastar V6",
+          "Winnebago Solis: Ram ProMaster, 159 inch wheelbase. Front wheel drive, 3.6L V6 gasoline, 280 hp. The Solis line covers the 59P and 59PX floor plans",
+          "Winnebago Travato: Ram ProMaster 3500, 159 inch wheelbase. Front wheel drive, 3.6L V6 gasoline, 280 hp",
+          "Coachmen Nova: Ram ProMaster 3500, 159 inch wheelbase. Front wheel drive, platform inherent, 3.6L V6, 280 hp",
+        ],
+      },
+      {
+        type: "h3",
+        heading: "Thor Tellaro and Thor Sequence: two Thor lines, one ProMaster placement",
+        text: "The [Thor Tellaro](/models/thor-tellaro) and the [Thor Sequence](/models/thor-sequence) are close twins in this finder, on the same ProMaster 3500 chassis at the same 159 inch wheelbase with the same front wheel drive V6. Nothing in their chassis placement separates them. Thor as a brand separates a lot, though: Thor other Class B lines sit on other chassis, which is the brand trap covered below. Within these two lines, choose on floor plan and the specific van, and run them side by side in the [comparison tool](/compare).",
+      },
+      {
+        type: "h3",
+        heading: "Winnebago Solis and Winnebago Travato: the Winnebago ProMaster pair",
+        text: "The [Winnebago Solis](/models/winnebago-solis) and the [Winnebago Travato](/models/winnebago-travato) are Winnebago ProMaster half, both front wheel drive gasoline vans on a 159 inch wheelbase. Set against the Revel, they state the Winnebago split plainly: one brand, two chassis, and no overlap. A shopper who starts with the Winnebago name still has to pick a chassis, because the name alone picks neither the fuel, nor the drivetrain, nor the wheelbase.",
+      },
+      {
+        type: "h3",
+        heading: "Coachmen Nova: the Coachmen ProMaster",
+        text: "The [Coachmen Nova](/models/coachmen-nova) completes the Coachmen split that runs through this whole article. Coachmen builds one verified model on each chassis: the Galleria on the Sprinter above, the Nova here on the ProMaster, and the Beyond on the Transit in the listed table below. The Nova placement itself is the uniform ProMaster one, a 3500 at 159 inches, front wheel drive and gasoline. Our [winter guide](/blog/best-class-b-vans-for-winter) covers the Nova cold weather options, which are options and not a standard rating.",
+      },
+      {
+        type: "h2",
+        heading: "Transit: no verified models, and a listed set of four",
+        text: "This is the headline a chassis first buyer has to hear plainly. There is no Transit model in our verified pool of twelve, so there is no Transit model page on this site and no Transit row in our comparison tool. That is a statement about our verified pool, not a claim that Transit vans do not exist. The factory Transit set exists in our [market index](/market) as listed models, each placed below on exactly what its manufacturer page or launch release publishes in our ledger, and no more than that. Thin ledger entries stay thin in this article.",
+      },
+      {
+        type: "ul",
+        heading: "Listed Transit models, kept out of the verified tables, from the ledger",
+        items: [
+          "Coachmen Beyond, listed: Ford Transit 350HD, gasoline, 148 inch wheelbase, dual rear wheels with all wheel drive. Engine in its ledger: 3.5L EcoBoost V6, 310 hp and 400 lb-ft, 10 speed automatic. Three floor plans: 22C, 22D and 22RB. See the market index",
+          "Entegra Coach Expanse, listed: Ford Transit all wheel drive 350HD, 148 inch wheelbase, 3.73 limited slip axle. Engine in its ledger: 3.5L EcoBoost V6, 310 hp and 400 lb-ft, 10 speed transmission. Two floor plans: 21B and 21T. See the market index",
+          "Thor Palladium, listed: Ford Transit T-350, high roof cargo van, all wheel drive, gasoline. Its ledger carries chassis, length and sleeping only, so no engine figure is claimed for it here. See the market index",
+          "Forest River Lucent, listed: Ford Transit, and nothing further. Its ledger carries only the chassis name, two launch floor plan names, and no drivetrain, wheelbase or price from its launch release, so none is claimed here. See the market index",
+        ],
+      },
+      {
+        type: "p",
+        text: "Two rules were held in that table, and both come from the ledger. First, the EcoBoost figures belong only to the two models whose ledgers publish them, the Beyond and the Expanse. They are not borrowed across to the Palladium or the Lucent. Second, where the ledger states a drivetrain for a Transit model, it is gasoline and all wheel drive, and that all wheel drive has no low range: it is a traction system for wet pavement, snow and gravel, not a technical off road system, as our [Transit guide](/blog/best-transit-based-class-b-vans) sets out. The Thor Talavera, the Palladium sister model introduced with it on the Transit Trail chassis in Thor launch post, is named here as that sister and in that guide; it has no ledger file of its own, so it gets no table row in this finder.",
+      },
+      {
+        type: "h2",
+        heading: "Listed Sprinter additions, and the builder that builds on all three",
+        text: "Two more Sprinter names belong in a complete finder, with their status attached. The Remote Vans Oasis and the Remote Vans T-45 both sit on the Sprinter at a 144 inch wheelbase with all wheel drive, per their ledger files, and both appear in our [market index](/market) as listed models. Our verified Remote Vans entries are the Friday and the Aegis only, under the pool rule this site has held since the Transit guide, so the Oasis and the T-45 are named here as listed additions and never added to the verified count of seven. Sportsmobile is different again: it is a builder, not a factory model line. Our Sportsmobile ledger records conversions on the Sprinter, the Transit with factory all wheel drive, the ProMaster and the Chevrolet Express, with no per model chassis table to publish, so Sportsmobile gets a mention here and our full [Sportsmobile review](/blog/sportsmobile-review), and no table row.",
+      },
+      {
+        type: "h2",
+        heading: "Brand does not tell you the chassis",
+        text: "The most common way to misuse a finder like this is to shop by brand and assume the chassis follows. In the current factory market it does not, and three brands in the verified and listed pools prove it.",
+      },
+      {
+        type: "ul",
+        heading: "The brand splits, from the placements above",
+        items: [
+          "Coachmen splits three ways: Galleria on the Sprinter, Nova on the ProMaster, Beyond on the Transit. One brand, all three chassis",
+          "Thor splits across all three as well in the wider pool: Sequence and Tellaro on the ProMaster, Palladium and its sister Talavera on the Transit, and Sanctuary and Tranquility named as Thor Sprinters in our Transit guide. Those two Sprinter lines are article sourced with no ledger file here, so they are named in this sentence only and given no table row in this finder",
+          "Winnebago splits two ways: Revel on the Sprinter, Solis and Travato on the ProMaster. Winnebago has no current Transit Class B in our market index",
+          "Storyteller Overland and Remote Vans and Grech and Airstream are Sprinter only in the placements above, and Forest River enters with the Lucent on the Transit and the Sommar on the ProMaster in its launch release, the Sommar named here from that release and given no table row",
+        ],
+      },
+      {
+        type: "h2",
+        heading: "How to use this finder",
+        text: "Work in order. First, decide whether the chassis short list itself rules anything out: diesel and all wheel drive standard point to the Sprinter list, with the Galleria option exception checked van by van; the lowest entry prices and a uniform gasoline front wheel drive specification point to the ProMaster list, which is also where every qualifier in our [under $175,000 guide](/blog/best-class-b-vans-under-175k) sits; the tallest interior and Ford service point to the Transit, where your factory choice is the short listed set above and your wider choice is the builders. Second, read the chassis arguments themselves in our existing [chassis comparison](/blog/sprinter-vs-transit-vs-promaster), which covers dimensions, drivetrain and ownership in the depth this finder deliberately does not repeat. Third, choose inside your chassis list on the things the chassis does not decide: floor plan, bathroom, sleeping and water, which our bathroom, sleeps four and fresh water guides cover model by model. Ownership cost follows the same split, as our [ownership cost guide](/blog/cost-of-owning-a-class-b-van) shows: maintenance and fuel are organized by chassis group, not by conversion brand.",
+      },
+      {
+        type: "ul",
+        heading: "Sources for the placements in this article",
+        items: [
+          "Every chassis, wheelbase and drivetrain placement for the twelve verified models: the Starry Van verified ledger in data/facts, one placement basis throughout, the ledger chassis attribute per model, as recorded from each manufacturer spec or features page and re-verified in October 2026",
+          "Coachmen Galleria drivetrain, rear wheel drive standard with all wheel drive optional on all floor plans: Coachmen Galleria features page, as recorded in our verified ledger",
+          "Coachmen Beyond chassis and engine, Entegra Coach Expanse chassis and engine, Thor Palladium chassis, and Forest River Lucent chassis: the listed model ledgers behind our Transit guide, checked against each manufacturer page or launch release on October 20, 2026",
+          "Remote Vans Oasis and T-45 chassis, Sprinter 144 inch with all wheel drive, as listed models: Remote Vans own pages, as recorded in our market records",
+          "Sportsmobile platforms, Sprinter, Transit, ProMaster and Chevrolet Express: Sportsmobile own material, as recorded in our verified Sportsmobile ledger",
+          "Chassis arguments, interior dimensions and ownership reasoning referenced rather than repeated: our existing Sprinter vs Transit vs ProMaster comparison, linked in this article",
+        ],
+      },
+      {
+        type: "h2",
+        heading: "Start with the chassis, then work your short list",
+        text: "Seven Sprinters, five ProMasters and no verified Transit: that is the current factory map, and it is more useful than any single recommendation, because it tells you exactly which list to work once you know your chassis. Work your list model by model on the model pages linked throughout this article, run the verified vans through the [comparison tool](/compare), take the [match quiz](/find-my-van) to test your chassis choice against sleeping, bathroom and winter use, and browse the [full market index](/market) for the listed Transit models and the listed Sprinter additions named above. Then verify the chassis, wheelbase and drivetrain on the manufacturer page for the specific van in front of you, because an option like Galleria all wheel drive is decided by that van, not by the line name.",
+      },
+      {
+        type: "faq-group",
+        faqs: [
+          {
+            question: "Which Class B vans are built on the Sprinter?",
+            answer: "Seven verified models: the Winnebago Revel, the Storyteller Overland MODE, the Remote Vans Friday, the Remote Vans Aegis, the Coachmen Galleria, the Grech Terreno and the Airstream Interstate 24GLX. All are diesel. The Revel, MODE, Friday and Aegis sit on a 144 inch wheelbase, and the Galleria, Terreno and Interstate sit on a 170 inch wheelbase. Two more Remote Vans series, the Oasis and the T-45, sit on the Sprinter 144 inch as listed models, not verified pool models.",
+          },
+          {
+            question: "Which Class B vans are built on the ProMaster?",
+            answer: "Five verified models: the Thor Tellaro, the Thor Sequence, the Winnebago Solis, the Winnebago Travato and the Coachmen Nova. The group is uniform: every one is front wheel drive, runs the gasoline 3.6L V6, and sits on a 159 inch wheelbase. There is no all wheel drive or diesel ProMaster model in the verified pool.",
+          },
+          {
+            question: "Which Class B vans are built on the Transit?",
+            answer: "None in our verified pool of twelve. The factory Transit models in our market index are listed models only: the Coachmen Beyond, the Entegra Coach Expanse, the Thor Palladium and the Forest River Lucent, each presented from its manufacturer page with no verified model page. The Thor Talavera, the Palladium sister on the Transit Trail chassis, is named in our Transit guide and has no ledger file of its own.",
+          },
+          {
+            question: "Is the Storyteller Overland MODE a Transit van?",
+            answer: "Not anymore. The current Storyteller Overland MODE is built on the Mercedes Sprinter 2500 at a 144 inch wheelbase, all wheel drive and diesel, per Storyteller current page as recorded in our verified ledger. Earlier MODE vans were Transit based, which is why older articles and search results still place it on the Transit.",
+          },
+          {
+            question: "Are all Sprinter Class B vans all wheel drive?",
+            answer: "No. Six of the seven verified Sprinter models are all wheel drive standard. The Coachmen Galleria is the exception: rear wheel drive is standard, and all wheel drive is optional on all floor plans, per Coachmen features page as recorded in our ledger. Confirm the drivetrain on the specific Galleria in front of you.",
+          },
+          {
+            question: "Does the brand tell you which chassis a Class B van uses?",
+            answer: "No. Coachmen builds one model on each chassis, the Galleria on the Sprinter, the Nova on the ProMaster and the Beyond on the Transit. Winnebago splits two ways, the Revel on the Sprinter and the Solis and Travato on the ProMaster. Thor verified lines, the Sequence and Tellaro, are ProMasters, while its Palladium is a Transit and its Sanctuary and Tranquility are Sprinters. Shop the model placement, not the brand name.",
+          },
+          {
+            question: "Which chassis should I choose for a Class B van?",
+            answer: "Start from the short lists in this finder, then read the chassis arguments in our Sprinter vs Transit vs ProMaster comparison. In placement terms: the Sprinter list is the diesel list, mostly all wheel drive standard, split between 144 inch adventure vans and 170 inch touring vans. The ProMaster list is the uniform gasoline front wheel drive list on a 159 inch wheelbase, and it holds every factory model that starts under $175,000 on a manufacturer price. The Transit list is the short listed factory set, gasoline and all wheel drive where the ledger states a drivetrain, with no low range, plus the builder conversions. The right chassis is the one whose short list still contains a floor plan, bathroom and sleeping layout you want.",
+          },
+        ],
+      },
+    ],
+  },
   "best-class-b-vans-under-175k": {
     slug: "best-class-b-vans-under-175k",
     intro:
