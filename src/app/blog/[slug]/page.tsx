@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { posts } from "@/lib/posts";
 import { postContent } from "@/lib/post-content";
-import { SITE_URL, resolveEntity } from "@/lib/entities";
+import { SITE_URL, resolveReference } from "@/lib/entities";
 import type { ContentBlock } from "@/lib/post-content";
 
 export function generateStaticParams() {
@@ -252,9 +252,9 @@ export default async function BlogPostPage({
           "@type": "SpeakableSpecification",
           cssSelector: ["h1", ".article-intro"],
         },
-        about: post.about.map(resolveEntity),
+        about: post.about.map(resolveReference),
         ...(post.mentions.length > 0
-          ? { mentions: post.mentions.map(resolveEntity) }
+          ? { mentions: post.mentions.map(resolveReference) }
           : {}),
       },
       {

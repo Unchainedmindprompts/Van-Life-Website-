@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { vans } from "@/lib/vans";
 import { getModelPage } from "@/lib/model-pages";
+import { SITE_URL } from "@/lib/entities";
 
 export const metadata: Metadata = {
   title: "Starry Van | Find Your Perfect Class B Adventure Van",
@@ -25,9 +26,43 @@ const featuredVans = FEATURED_SLUGS.map((slug) => {
   return van && content ? { van, content } : null;
 }).filter((f): f is NonNullable<typeof f> => f !== null);
 
+/* Canonical definitions of the site's hub entities. Article and model
+   pages reference these @ids; the homepage is where they are defined
+   in their own right. */
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": `${SITE_URL}/#organization`,
+      name: "Starry Van",
+      url: SITE_URL,
+    },
+    {
+      "@type": "WebSite",
+      "@id": `${SITE_URL}/#website`,
+      url: SITE_URL,
+      name: "Starry Van",
+      publisher: { "@id": `${SITE_URL}/#organization` },
+    },
+    {
+      "@type": "WebPage",
+      "@id": SITE_URL,
+      url: SITE_URL,
+      name: "Starry Van | Find Your Perfect Class B Adventure Van",
+      isPartOf: { "@id": `${SITE_URL}/#website` },
+      about: { "@id": `${SITE_URL}/#organization` },
+    },
+  ],
+};
+
 export default function HomePage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* ─── Hero ─────────────────────────────────────────────── */}
       <section className="relative flex flex-col overflow-hidden bg-charcoal-950 md:min-h-screen md:items-center md:justify-center">
         {/* Hero photo: a full-width band on mobile, a full-bleed background on desktop */}

@@ -119,3 +119,18 @@ export function resolveEntity(key: string) {
     ...(def.sameAs ? { sameAs: def.sameAs } : {}),
   };
 }
+
+/* Reference form for entities named on a page about something else
+   (an article's about/mentions). Product-typed entities are emitted as
+   Thing here: the canonical Product node — with description, brand and
+   the manufacturer's offer — lives on the model's own page under the
+   same @id, and a name-only Product node is invalid for Google's
+   product rich results. Identity is the @id, so graph consumers still
+   merge the reference with the full node. */
+export function resolveReference(key: string) {
+  const def = ENTITIES[key];
+  if (def && def["@type"] === "Product") {
+    return { "@type": "Thing", "@id": entityId(key), name: def.name };
+  }
+  return resolveEntity(key);
+}

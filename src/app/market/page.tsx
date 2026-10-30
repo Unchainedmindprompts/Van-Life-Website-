@@ -86,6 +86,14 @@ export default function MarketPage() {
   const factory = MARKET.filter((b) => b.type === "factory");
   const builders = MARKET.filter((b) => b.type === "builder");
 
+  // ItemList entries reference each model by name + manufacturer URL.
+  // They are deliberately not Product nodes: a name-only Product is
+  // invalid for Google's product rich results, and the canonical
+  // Product data for models with their own pages lives on those pages.
+  const marketItems = MARKET.flatMap((b) =>
+    b.models.map((m) => ({ name: `${b.brand} ${m.name}`, url: b.url }))
+  );
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
@@ -101,18 +109,12 @@ export default function MarketPage() {
         "@id": `${SITE_URL}/market#list`,
         name: "Class B camper van market index",
         numberOfItems: MODEL_COUNT,
-        itemListElement: MARKET.flatMap((b) =>
-          b.models.map((m, i) => ({
-            "@type": "ListItem",
-            position: i + 1,
-            item: {
-              "@type": "Product",
-              name: `${b.brand} ${m.name}`,
-              brand: { "@type": "Brand", name: b.brand },
-              url: b.url,
-            },
-          }))
-        ),
+        itemListElement: marketItems.map((m, i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          name: m.name,
+          item: m.url,
+        })),
       },
       {
         "@type": "BreadcrumbList",
