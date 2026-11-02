@@ -22,6 +22,214 @@ export interface PostContent {
 }
 
 export const postContent: Record<string, PostContent> = {
+  "buying-a-2021-2022-used-class-b-what-to-check": {
+    slug: "buying-a-2021-2022-used-class-b-what-to-check",
+    intro:
+      "A 2021 or 2022 used Class B is not a yes or no question about an era. It is a checklist question about one specific van. Work in this order: run the van 17 character VIN at nhtsa.gov/recalls before you travel to see it, check for water damage before you check anything cosmetic, run every house system on every power source it can use, read the tire date codes instead of judging the tread, and read the service and recall records before you talk price. The named recall campaigns that can touch these model years are specific and checkable by VIN, and an open one is a free dealer remedy, not a dealbreaker. The vans to walk away from are the vans with water damage, old tires sold as good tires, and no records, and those exist in every model year. This article is the checklist. Our earlier article on [whether a COVID era used van is a smart buy](/blog/should-you-buy-a-covid-era-used-van) covers the era evidence itself: what actually went wrong, and why the trailer record is a poor predictor for vans.",
+    relatedSlugs: [
+      "should-you-buy-a-covid-era-used-van",
+      "class-b-van-buying-guide",
+      "cost-of-owning-a-class-b-van",
+    ],
+    blocks: [
+      {
+        type: "ul",
+        heading: "The checks in order, at a glance",
+        items: [
+          "Step 1, before you visit: run the VIN for open recalls, confirm the build month on the door jamb label, and ask the seller for service and recall completion records",
+          "Step 2, water first: roof seams and sealant, window and vent seals, interior staining, soft floors and musty smells. Water damage is the failure that hides and the one that costs the most to put right",
+          "Step 3, run the house: heat, hot water, refrigerator on each of its power sources, air conditioning, generator under load, house batteries and charging, plumbing under pressure, toilet and dump valves",
+          "Step 4, gas safety: a propane leak test by a qualified inspector, cooktop and furnace operation, and the expiry dates on the carbon monoxide, smoke and propane detectors",
+          "Step 5, chassis and tires: tire DOT date codes on all four tires and the spare if there is one, brakes, fluids, leaks, and a test drive long enough to reach full operating temperature",
+          "Step 6, records last, before price: service history, recall completion, appliance and system manuals, and any warranty paperwork that transfers. No used market price is claimed anywhere in this article, on purpose: a price belongs to a specific van, in a specific place, on a specific day",
+        ],
+      },
+      {
+        type: "h2",
+        heading: "Step 1: Run the VIN before you visit",
+        text: "The single highest value check costs nothing and takes minutes. Enter the van full VIN at [nhtsa.gov/recalls](https://www.nhtsa.gov/recalls). The result is specific to that van, not to the model line: it lists safety recalls that have not yet been repaired on that vehicle. A result of zero open recalls means no unrepaired safety recall is showing for that VIN, not that the van was never recalled, because a completed recall clears from the open list. While you have the paperwork, confirm the build month on the manufacturer label, usually on the driver door jamb or the entry door frame. A van built early in 2021 and a van built late in 2022 came out of different factories in practical terms, and several of the campaigns below are bounded by production dates, not just model years.",
+      },
+      {
+        type: "ul",
+        heading: "Recall campaigns that can touch a 2021 or 2022 Class B, from NHTSA documents checked on November 2, 2026. Totals are campaign totals across every model in the campaign, not per model counts",
+        items: [
+          "Winnebago cooktop, NHTSA campaign 23V049: 9,720 vans. Certain 2020 to 2023 Solis, 2021 to 2023 Travato and 2022 to 2023 Ekko models with certain Suburban SDS2 two burner cooktops. The internal aluminum burner tubes can fracture and leak gas",
+          "Winnebago generator fuel hose, NHTSA campaign 23V307: 6,536 vans. Certain 2020 to 2023 Travato, 2021 to 2023 Solis and 2022 to 2023 Ekko models with certain Cummins Onan QG 2800i generator sets. The fuel hose between the fuel filter and the injection pump module may not be properly secured and can leak gasoline",
+          "Winnebago seat belts, NHTSA campaign 21V480: 1,566 vans. Certain 2021 to 2022 Solis, Travato and Ekko models with certain flip seats, where the seat belt retractor may lock when the vehicle is on a slight incline",
+          "Winnebago Revel awning, NHTSA campaign 22V863: 4,521 vans. Certain 2021 to 2023 Revel models. The retractable awning may extend unintentionally during transit, after the awning supplier identified a possible gearbox housing failure",
+          "Winnebago Travato awning, NHTSA campaign 23V627: 8,583 vans. Certain 2017 to 2024 Travato models. This campaign supersedes the earlier Travato awning campaign 22V696, and vans repaired under the earlier campaign still need the new remedy, per the NHTSA filing",
+          "Thor LP quick disconnect, NHTSA campaign 22V300: 3,374 vans. Certain 2022 models including the Sequence and Tellaro. The quick disconnect fittings in the LP gas system may be cracked and can leak gas. Thor repair instructions identify the recalled fitting by the Enerco Group name etched on its dust cap slider",
+          "Thor solar junction box, NHTSA campaign 21V396: 53 vans in total. Certain 2022 Rize, Scope, Sequence and Tellaro models built in a short spring 2021 production window, where the solar panel junction box may short. The Thor filing counts 17 Sequence and 20 Tellaro units inside that total",
+          "Thor generator fuel hose, NHTSA campaign 23V285: certain 2021 to 2023 Sequence and 2021 to 2024 Tellaro models, among others, with certain Cummins Onan QG 2800i generator sets, for the same fuel hose clamp concern as the Winnebago campaign above. No campaign total is claimed here",
+          "Coachmen generator fuel hose, NHTSA campaign 23V286: 1,027 vehicles. Certain 2021 to 2024 Nova and 2021 to 2023 Galleria models, among other Forest River lines, with certain Cummins Onan QG 2800i generator sets. The fuel hose may have inadequate clamp force and can leak gasoline",
+        ],
+      },
+      {
+        type: "callout",
+        text: "Read that table the right way. A campaign on the list does not mean the van in front of you is affected, and a van on the list with the remedy completed is not damaged goods. Only the VIN result for that specific van settles either question. What should concern you is not an open recall, which a dealer remedies free of charge. It is a seller who never checked, cannot show any completion record, and has no service history to go with it.",
+      },
+      {
+        type: "h2",
+        heading: "Step 2: Check water before anything cosmetic",
+        text: "Water is the used van check that outranks every other house check, on a 2021 or 2022 build and on any other year. A van can pass a driveway walk around and still carry a leak history in its roof seams, window seals and floor. Inspect in this order, and do not let new tires, a clean detail or a long option list move it down the list.",
+      },
+      {
+        type: "ul",
+        heading: "Water checks, in order",
+        items: [
+          "Roof and sealant: every roof seam, vent, antenna, air conditioner and solar panel penetration, looking for cracked, lifted or missing sealant and for fresh sealant laid over old damage",
+          "Walls and windows: staining, bubbling or soft spots on wall and ceiling panels, especially below windows and roof fittings, and any sign a panel has been replaced to hide a stain",
+          "Floor: walk the whole floor in socks or bare feet and feel for soft, spongy or lifted areas, especially around the bathroom, the galley and the rear doors",
+          "Smell: a musty or mildew smell with the van closed up is evidence, not a detail to air out and forget. Ask when it was last opened and how it is stored",
+          "Cabinets and storage: look inside low cabinets and under benches with a flashlight for water marks, swollen board edges and corrosion on fittings",
+          "Underneath: staining or rust patterns under the bathroom and tank area, and dump valve and tank fitting leaks when the tanks hold water",
+        ],
+      },
+      {
+        type: "h2",
+        heading: "Step 3: Run every house system, on every power source",
+        text: "Present is not working. A refrigerator that is cold on shore power may not run on propane or on the house batteries. A generator that starts may not carry a load. The check is to run each system the way you would camp with it, long enough for it to fail in front of you if it is going to fail. If the seller will not let you run the systems, that refusal is the answer to the check.",
+      },
+      {
+        type: "ul",
+        heading: "House systems to run, not just look at",
+        items: [
+          "Heat and hot water: run the furnace or combined heat and hot water unit until it cycles, and run hot water at the galley and in the bathroom",
+          "Refrigerator: confirm it cools on shore power and on its other source, propane or 12 volt, depending on the unit fitted to that van",
+          "Air conditioning: run it on shore power, and on the generator if the van is set up to do that, until the air is plainly cold",
+          "Generator, if fitted: start it cold, run it under a real load such as the air conditioner or microwave, and check its hour meter against the service records",
+          "House batteries and charging: check battery age from labels or records, confirm charging from the engine, from shore power and from solar if fitted, and watch whether the voltage holds under a load",
+          "Plumbing under pressure: fill the fresh tank part way, run the pump, open every faucet and the shower in turn, flush the toilet, and look for leaks at fittings while the system is pressurized. Check that the dump valves open, close and seal",
+          "Power gear: test every outlet, the inverter if fitted, the awning, any pop top or power bed, and slide or swivel hardware the floor plan uses, through a full cycle each",
+        ],
+      },
+      {
+        type: "h2",
+        heading: "Step 4: Propane, gas appliances and detectors",
+        text: "Two of the largest campaigns in the table above are gas leaks, one at a cooktop burner tube and one at an LP quick disconnect fitting, and both are supplier part failures with free remedies. That history is exactly why the gas check on a 2021 or 2022 van should be a leak test by a qualified inspector or RV technician, not a sniff test by the buyer. The same visit should confirm the cooktop and furnace light and stay lit, and should read the manufacture or expiry dates printed on the carbon monoxide, smoke and propane detectors. Detectors age out whether the van was used or not, and a 2021 or 2022 van is old enough for that date to matter.",
+      },
+      {
+        type: "h2",
+        heading: "Step 5: Chassis, tires by date code, and a real test drive",
+        text: "The chassis under a 2021 or 2022 Class B is a Mercedes Benz Sprinter, a Ram ProMaster or, on a Winnebago Ekko, a Ford Transit, built on an automotive line, and it should be checked like a used vehicle as well as a used RV. That means two different inspections, covered in the inspector section below. Start with the tires, because they carry a date most sellers do not mention.",
+      },
+      {
+        type: "ul",
+        heading: "Chassis and tire checks",
+        items: [
+          "Tire date codes: find the letters DOT on each sidewall. The last four digits of the code that follows are the week and year the tire was made, so a code ending 3521 was made in week 35 of 2021. Read all four tires and the spare if the van carries one, because tires on the same van are often different ages",
+          "Tire age against guidance: NHTSA notes that some vehicle and tire manufacturers recommend replacing tires that are six to ten years old regardless of tread wear. A tire fitted to a 2021 van when it was built sits inside that window now, in November 2026, even if its tread looks deep. Price a set of tires into the deal or walk, but do not accept tread depth as proof a tire is young",
+          "Tire condition as well as age: sidewall cracking, uneven wear that points to alignment or suspension wear, and any mismatch of brand, size or load rating across an axle",
+          "Brakes, steering and fluids: brake feel and pull on the test drive, steering play, fluid levels and condition, and fresh leaks under the van after the drive, not just before it",
+          "Service evidence: oil and filter records, brake and coolant work, and any chassis recall or service campaign completion the seller can show. A diesel Sprinter and a gasoline ProMaster keep different service schedules, so judge the records against the manual for that chassis, not against a generic interval",
+          "Test drive length: drive long enough to reach full operating temperature, at highway speed as well as in town, and listen with the radio off. Short loops around the block hide heat, vibration and shifting faults",
+        ],
+      },
+      {
+        type: "h2",
+        heading: "What to check, model by model",
+        text: "The campaigns and systems above land differently on each line. These are the per model notes for the verified models on this site that a buyer is most likely to meet as a 2021 or 2022 used van. Each note names only what the NHTSA documents above support for that line. It does not transfer a campaign from one model to another, and it does not use current model year specifications to describe a 2021 or 2022 van.",
+      },
+      {
+        type: "h3",
+        heading: "Winnebago Revel: the awning campaign is the headline check",
+        text: "On a 2021 or 2022 [Winnebago Revel](/models/winnebago-revel), start with campaign 22V863, the retractable awning that may extend unintentionally during transit, covering certain 2021 to 2023 Revel models at 4,521 vans. Run the VIN, ask for the remedy record, and operate the awning through a full cycle. Then do the standard Revel work: run the heat and hot water, check the cassette toilet and wet bath area for water signs, and read the tire date codes, because an adventure van can carry hard use as well as high mileage.",
+      },
+      {
+        type: "h3",
+        heading: "Winnebago Solis: cooktop, generator and seat belts",
+        text: "On a 2021 or 2022 [Winnebago Solis](/models/winnebago-solis), three campaigns can apply: the Suburban cooktop campaign 23V049, the Cummins generator fuel hose campaign 23V307, and the seat belt retractor campaign 21V480 for certain 2021 to 2022 models. The VIN result separates them. In the van, test the flip seat belts on a slope if the floor plan uses them, run the generator under load if one is fitted, and on a pop top floor plan, raise and lower the top and check its canvas, seals and latches for water signs and wear.",
+      },
+      {
+        type: "h3",
+        heading: "Winnebago Travato: the superseded awning campaign",
+        text: "On a 2021 or 2022 [Winnebago Travato](/models/winnebago-travato), the trap is the awning history. Campaign 23V627 supersedes the earlier 22V696 remedy, and the NHTSA filing says vans repaired under the earlier campaign still need the new remedy. A seller record showing an awning recall done in 2022 is therefore not the end of that check. The Travato can also sit inside the cooktop, generator and seat belt campaigns listed for the Solis above, because those campaigns name both lines. Confirm each one by VIN, not by the seller memory of a dealer visit.",
+      },
+      {
+        type: "h3",
+        heading: "Thor Sequence and Thor Tellaro: LP fitting first, then solar and generator",
+        text: "On a 2022 [Thor Sequence](/models/thor-sequence) or [Thor Tellaro](/models/thor-tellaro), the first check is the LP quick disconnect campaign 22V300: ask for its completion record and have the inspector leak test the LP system. A small number of early 2022 models also sit inside the solar junction box campaign 21V396, 17 Sequence and 20 Tellaro units in a 53 van total, so only a VIN result can tell you whether a given van is one of them. Certain 2021 to 2023 Sequence and 2021 to 2024 Tellaro models also sit inside the Cummins generator campaign 23V285. Beyond recalls, run the combined heat and hot water unit, test the toilet type fitted to that floor plan, cassette on some floor plans and flush on others, and check the roof solar panel mounting and wiring as part of the roof pass.",
+      },
+      {
+        type: "h3",
+        heading: "Coachmen Nova and Coachmen Galleria: the shared generator campaign",
+        text: "On a 2021 or 2022 [Coachmen Nova](/models/coachmen-nova) or [Coachmen Galleria](/models/coachmen-galleria), the named campaign in the documents checked for this article is the Forest River Cummins generator campaign 23V286, covering certain 2021 to 2024 Nova and 2021 to 2023 Galleria models among other lines, at 1,027 vehicles in total. If the van has the Cummins Onan generator, run the VIN and then run the generator under load. That shared campaign is also a useful reminder: the same supplier generator sits in vans from competing brands, so a brand level verdict about this era misses the part level facts a VIN check finds.",
+      },
+      {
+        type: "h2",
+        heading: "Step 6: Read the records before you talk price",
+        text: "Records are the last check because they confirm or undo the first five. Ask for chassis service records, house system service, generator service and hours, recall completion records that match your VIN results, tire purchase receipts that match the date codes you read, and the manuals for the van and its appliances. The strongest 2021 or 2022 buy is usually the van whose first owner worked through the early faults under warranty and kept the paperwork. The weakest is a van with no folder at all, where every claim about maintenance is a story. No price guidance is given in this article, and that is deliberate: the queue rule for this piece is no invented used market prices, and a fair price for a specific van comes from current listings for that model and floor plan, its mileage and condition, and the cost of the faults your inspection actually found, not from the price the seller paid in 2021 or 2022.",
+      },
+      {
+        type: "h2",
+        heading: "Who should inspect it: two inspectors, not one",
+        text: "A Class B is a vehicle and a house in one box, and no single driveway check covers both well. Use an independent RV inspector for the house side, ideally one certified through the [National Recreational Vehicle Inspectors Association](https://nrvia.org), whose inspection scope covers roof and sealant condition, water intrusion, propane leak testing, electrical systems, appliances and tire date codes. Use a mechanic who knows the specific chassis for the vehicle side: engine, transmission, brakes, suspension and a lift inspection where it is warranted. Ask each inspector, before you book, what is included, whether you get a written report with photos, and whether fluid analysis is included or an extra. Get the inspections done before money changes hands, and make any offer conditional on them if the seller will accept that term.",
+      },
+      {
+        type: "ul",
+        heading: "Walk away, or price it as a project, if you find these",
+        items: [
+          "Water staining, soft floors or walls, or a musty smell the seller explains away without a repair record",
+          "An open safety recall the seller refuses to let a dealer remedy before or as part of the sale, or recall records that do not match the VIN result",
+          "Tires inside or past the six to ten year replacement window sold as good tires on tread depth alone, with no allowance in the price",
+          "House systems the seller will not demonstrate running, especially the generator, the heat and hot water unit, and the refrigerator on its second power source",
+          "No service records at all for a van of this age, or records that contradict the hour meter, the odometer or the tire dates you read yourself",
+          "Propane or detector problems: a failed leak test, gas appliances that will not stay lit, or detectors past their printed dates with no plan to replace them",
+        ],
+      },
+      {
+        type: "ul",
+        heading: "Sources for the checks in this article",
+        items: [
+          "Recall campaigns, model years, production windows and campaign totals: NHTSA Part 573 filings and recall documents for campaigns 23V049, 23V307, 21V480, 22V863, 23V627, 22V300, 21V396, 23V285 and 23V286, checked on November 2, 2026. Campaign totals are the totals published for each campaign across every model it covers",
+          "VIN recall lookup, what an open recall means and free dealer remedy: NHTSA recall lookup at nhtsa.gov/recalls",
+          "Thor LP quick disconnect identification, the Enerco Group name etched on the recalled fitting dust cap slider: Thor Motor Coach recall repair instructions for campaign 22V300, filed with NHTSA",
+          "Thor solar junction box per model counts, 17 Sequence and 20 Tellaro units inside a 53 van total, and the spring 2021 production window: Thor Motor Coach Part 573 filing for campaign 21V396, filed with NHTSA",
+          "Tire DOT date code reading, last four digits as week and year of manufacture, and the six to ten year replacement guidance: NHTSA tire guidance, as published on its tire pages",
+          "Independent inspection scope, roof, water, propane, electrical, appliances and tire dates: National Recreational Vehicle Inspectors Association inspection practice, at nrvia.org",
+          "Era context, shipment figures, the towable frame investigation and why the van record differs: our earlier COVID era used van article, linked in the introduction, with its own RVIA, NHTSA and J.D. Power sources",
+        ],
+      },
+      {
+        type: "h2",
+        heading: "Check the van, not the era",
+        text: "A 2021 or 2022 Class B earns a yes the same way any used van does: a clean VIN result or a plan to complete the free remedies, no water damage, house systems that run under load, tires judged by their dates, and records that match the van in front of you. Start the search itself with the [match quiz](/find-my-van) to settle which floor plans fit how you travel, run the current factory models through the [comparison tool](/compare) so you know what a used van is being priced against, and browse the [full market index](/market) for the wider field. Then take this checklist, and the era evidence in our [COVID era used van guide](/blog/should-you-buy-a-covid-era-used-van), to the specific van, and let that van pass or fail on its own record.",
+      },
+      {
+        type: "faq-group",
+        faqs: [
+          {
+            question: "What should I check first when buying a 2021 or 2022 used Class B van?",
+            answer: "Run the van 17 character VIN at nhtsa.gov/recalls before you visit. It lists unrepaired safety recalls for that specific van, and the remedies are free at a dealer. Then confirm the build month on the door jamb label, ask for service and recall completion records, and only then inspect in person, starting with water damage, then house systems under load, then tires by date code.",
+          },
+          {
+            question: "Are 2021 and 2022 Class B vans safe to buy?",
+            answer: "A specific van can be, and the checks are named rather than general. The large campaigns for these model years are supplier part failures with free, VIN checkable remedies: the Winnebago Suburban cooktop campaign 23V049 at 9,720 vans, the Cummins generator fuel hose campaigns at 6,536 Winnebago vans and 1,027 Forest River vehicles, and the Thor LP quick disconnect campaign 22V300 at 3,374 vans. Safety for a given van comes from completed recalls, a passed propane leak test, working detectors, sound tires and no water damage, all of which an inspection can verify.",
+          },
+          {
+            question: "Which recalls affect 2021 and 2022 Winnebago vans?",
+            answer: "By line: the Solis and Travato can sit inside cooktop campaign 23V049, generator campaign 23V307 and seat belt campaign 21V480. The Travato also sits inside awning campaign 23V627, which supersedes 22V696, so a 2022 awning remedy does not close that check. The Revel sits inside awning campaign 22V863 at 4,521 vans. Only a VIN search at nhtsa.gov/recalls says which campaigns apply to the van in front of you.",
+          },
+          {
+            question: "Which recalls affect 2021 and 2022 Thor Sequence and Tellaro vans?",
+            answer: "The 2022 Sequence and Tellaro sit inside LP quick disconnect campaign 22V300 at 3,374 vans. A small number of early 2022 models, 17 Sequence and 20 Tellaro, sit inside solar junction box campaign 21V396, inside a 53 van total. Certain 2021 to 2023 Sequence and 2021 to 2024 Tellaro models also sit inside Cummins generator campaign 23V285. Check the VIN, because none of these campaigns covers every van in the line.",
+          },
+          {
+            question: "How old are the tires on a 2021 or 2022 used van, and when should they be replaced?",
+            answer: "Read the date, do not guess from the model year or the tread. The last four digits after DOT on the sidewall are the week and year of manufacture, so 3521 means week 35 of 2021. NHTSA notes that some vehicle and tire manufacturers recommend replacing tires that are six to ten years old regardless of tread wear. A tire made in 2021 is inside that window in November 2026, so budget for tires or negotiate the price, and read all four tires and the spare, because their dates often differ.",
+          },
+          {
+            question: "Should I hire an inspector for a used 2021 or 2022 Class B?",
+            answer: "Yes, and hire for both halves of the van. An independent RV inspector, ideally certified through the National Recreational Vehicle Inspectors Association, covers the house: roof and sealant, water intrusion, propane leak testing, electrical systems, appliances and tire date codes. A mechanic who knows the Sprinter, ProMaster or Transit chassis covers the vehicle: engine, transmission, brakes, suspension and fluids. Ask what is included and whether you get a written report with photos before you book.",
+          },
+          {
+            question: "What is a fair price for a 2021 or 2022 used Class B van?",
+            answer: "This article does not publish a price, on purpose, because no verified source sets one for a specific van. A fair price comes from current listings for the same model and floor plan, the van mileage and condition, its recall and service records, and the cost of what your inspection found, starting with tires inside the replacement window and any water or system repairs. The price the seller paid in 2021 or 2022 is not evidence of what the van is worth now.",
+          },
+        ],
+      },
+    ],
+  },
   "promaster-vs-sprinter-vs-transit-class-b": {
     slug: "promaster-vs-sprinter-vs-transit-class-b",
     intro:

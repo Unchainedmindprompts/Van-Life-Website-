@@ -20,6 +20,31 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "buying-a-2021-2022-used-class-b-what-to-check",
+    title: "Buying a 2021–2022 Used Class B: What to Check",
+    excerpt:
+      "Check a 2021 or 2022 used Class B in this order: run its 17 character VIN at nhtsa.gov/recalls before you visit, look for water damage before you look at anything cosmetic, run every house system on every power source it can use, read the tire date codes instead of the tread, and read the service records as the van history. The era has named, checkable recall campaigns, not a blanket verdict: the Winnebago cooktop campaign 23V049 covers 9,720 vans, the Winnebago Cummins generator campaign 23V307 covers 6,536 vans, the Thor LP quick disconnect campaign 22V300 covers 3,374 vans, and the Revel awning campaign 22V863 covers 4,521 vans, with campaign totals stated as campaign totals throughout. An open recall is a free dealer remedy, not a dealbreaker. Water damage, aged out tires and a seller with no records are the real reasons to walk away.",
+    category: "Buying Guide",
+    readTime: "11 min",
+    date: "2026-11-02",
+    updated: "2026-11-02",
+    featured: true,
+    image: {
+      src: "/images/sportsmobile-interior-rear.jpg",
+      alt: "The rear interior of a Class B camper van with the rear doors open, showing bench seating that converts to sleeping space and cabinetry",
+      caption: "On a 2021 or 2022 used van, check in order: recalls by VIN, water, house systems under load, tires by date code, and records. The era is checkable, item by item. Photo: the author.",
+    },
+    about: ["class-b"],
+    mentions: ["model:winnebago-revel", "model:winnebago-solis", "model:winnebago-travato", "model:thor-sequence", "model:thor-tellaro", "model:coachmen-nova", "model:coachmen-galleria"],
+    schema: {
+      "@type": "Article",
+      headline: "Buying a 2021–2022 Used Class B: What to Check",
+      description:
+        "A sourced inspection checklist for buying a 2021 or 2022 used Class B van, checked against NHTSA recall documents on November 2, 2026: run the VIN first for the named campaigns that can touch these model years, including Winnebago cooktop campaign 23V049 at 9,720 vans, Winnebago Cummins generator campaign 23V307 at 6,536 vans, Thor LP quick disconnect campaign 22V300 at 3,374 vans and Revel awning campaign 22V863 at 4,521 vans, then check water damage, run every house system, read tire DOT date codes against the six to ten year replacement guidance NHTSA notes, and read the service records before you price the van.",
+      keywords: ["buying a 2021 used Class B van", "buying a 2022 used Class B van", "used Class B inspection checklist", "what to check used camper van", "COVID era used camper van safe to buy", "2021 2022 Class B recalls", "Winnebago Revel recall check", "Thor Tellaro recall check", "used RV tire DOT date code", "NRVIA used RV inspection"],
+    },
+  },
+  {
     slug: "promaster-vs-sprinter-vs-transit-class-b",
     title: "ProMaster vs Sprinter vs Transit: Which Chassis Fits Your Class B?",
     excerpt:
