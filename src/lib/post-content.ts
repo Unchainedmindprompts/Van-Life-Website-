@@ -22,6 +22,137 @@ export interface PostContent {
 }
 
 export const postContent: Record<string, PostContent> = {
+  "solis-vs-sequence": {
+    slug: "solis-vs-sequence",
+    intro:
+      "Pick the Solis if you need to sleep four. Pick the Sequence if you are a couple who wants more floor plan choice, more fresh water, and a lower starting price. That is the short answer, and the figures behind it are clean. The [Winnebago Solis](/models/winnebago-solis) is rated at four in both of its floor plans, with the pop-top berth counted in that rating, starts at $156,254, and carries 20 gallons of fresh water with a 5 gallon cassette toilet on both floor plans. The [Thor Sequence](/models/thor-sequence) is rated at two in all three of its floor plans, starts at $151,060, and carries 22, 27 or 35 gallons of fresh water depending on floor plan, with a cassette toilet only on the 20U and black tanks on the 20L and 20Y. Both vans sit on the same Ram ProMaster chassis, so this is not a chassis decision. It is a sleeping, water and toilet decision. Both manufacturer pages were re-checked on November 3, 2026, and every figure below comes from our verified ledger or from that re-check.",
+    relatedSlugs: [
+      "class-b-vans-that-sleep-four",
+      "class-b-fresh-water-capacity-compared",
+      "class-b-vans-with-cassette-toilets",
+    ],
+    blocks: [
+      {
+        type: "ul",
+        heading: "Solis vs. Sequence at a glance, from the verified ledger",
+        items: [
+          "Chassis, shared: Ram ProMaster, 159 inch wheelbase, front wheel drive, 3.6L V6 gasoline. Winnebago publishes 280 hp for the Solis; Thor publishes no horsepower figure for the Sequence, so none is claimed for it here",
+          "Starting price: Solis 59P from $156,254, Solis 59PX from $180,487, both published by Winnebago on its own Solis page and re-checked November 3, 2026. Sequence from $151,060 for the 20L, in the $151,060 to $165,060 range Thor publishes on its Sequence model page, also re-checked November 3, 2026. All figures are starting prices before options",
+          "Sleeps: Solis 4 on both floor plans, with the pop-top berth counted. Sequence 2 on all three floor plans; the 20L offers an optional Sky Bunk pop-top that adds a bunk, and Thor still rates the 20L at two",
+          "Floor plans: Solis 2 (59P and 59PX). Sequence 3 (20L, 20U and 20Y)",
+          "Length: Solis 19 ft 9 in (59P) and 21 ft (59PX). Sequence 20 ft 11 in on all floor plans. Interior height is 6 ft 3 in on both lines",
+          "Fresh water: Solis 20 gallons on both floor plans. Sequence 22 gallons (20L), 27 gallons (20U) and 35 gallons (20Y), never averaged",
+          "Gray water: Solis 20 gallons on both floor plans, from the Winnebago brochure. Sequence 13 gallons (20L), 20 gallons (20U) and 28 gallons (20Y)",
+          "Bathroom: Solis enclosed wet bath with a swiveling cassette toilet, 5 gallons, on both floor plans. Sequence enclosed wet bath on all floor plans, with a 4.75 gallon cassette on the 20U only and black tanks on the 20L (13.5 gallons) and 20Y (14 gallons)",
+          "Weight rating: Solis 8,900 lbs GVWR (59P) and 9,350 lbs (59PX). Sequence 9,350 lbs on all floor plans",
+          "Fuel: Solis 24 gallons, from the Winnebago brochure. Thor publishes no fuel capacity for the Sequence; the 24 gallon figure in dealer tables is a dealer figure, not a Thor figure, and it is not presented as a specification here",
+        ],
+      },
+      {
+        type: "h2",
+        heading: "The shared ground: same chassis, same height, different vans",
+        text: "Both lines are built on the Ram ProMaster on a 159 inch wheelbase, front wheel drive, with a 3.6L V6 gasoline engine, and both give you 6 ft 3 in of interior height. If you have already settled the chassis question, and our [chassis model finder](/blog/promaster-vs-sprinter-vs-transit-class-b) can help you check that you have, then nothing in this comparison reopens it. The differences that decide this pair sit inside the conversion: how many people sleep in it as rated, how much fresh water it carries by floor plan, and how waste leaves the van. Those three answers point in different directions, which is why this pair is worth a dedicated comparison instead of a shared row in a bigger table.",
+      },
+      {
+        type: "h2",
+        heading: "Sleeping: the Solis is the four berth van, the Sequence is a two berth van",
+        text: "This is the clearest split in the comparison. Winnebago rates both Solis floor plans at four: two in the rear bed, a Murphy+ bed on the 59P and a fold-down bed on the 59PX, and two in the pop-top loft, and Winnebago confirmed sleeps up to four on its Solis page when it was re-checked on November 3, 2026. Thor rates all three Sequence floor plans at two. The Sequence 20L offers an optional Sky Bunk pop-top that adds a bunk, but Thor specification table still rates the 20L at two, and two is the figure to plan around unless you confirm the option and its rating on the specific van you are buying. Our [sleep four guide](/blog/class-b-vans-that-sleep-four) works through what sleeping four in a Class B actually means in practice, including who should not try it. If regular travel with three or four people is the plan, the Solis answers it as standard. If you travel as two, the Sequence gives up nothing here, and its berths do not depend on a pop-top at all.",
+      },
+      {
+        type: "h2",
+        heading: "The Winnebago Solis, floor plan by floor plan",
+        text: "The Solis comes in two floor plans. The 59P starts at $156,254 and is 19 ft 9 in long, with the Murphy+ bed, pop-top sleeping, a fully equipped galley and a wet bath. The 59PX starts at $180,487 and is 21 ft long on the extended body, with a fold-down bed, rear storage, pop-top sleeping, a wet bath and an ultra-quiet generator as Winnebago describes it. The step between them is about $24,000, and what it buys is length, storage and the generator, not more berths or more water: both floor plans sleep four, and both carry 20 gallons of fresh water, 20 gallons of gray water and the same 5 gallon cassette. Read the full [Solis model page](/models/winnebago-solis) for the model guide, and note one logged disagreement before you shop: Winnebago brochure lists 20 gallons of gray water for both floor plans, while dealer spec feeds list 30 gallons. The brochure figure is the one used here, and the disagreement stays logged in our ledger rather than being averaged away.",
+      },
+      {
+        type: "h2",
+        heading: "The Thor Sequence, floor plan by floor plan",
+        text: "The Sequence comes in three floor plans, and in this line the floor plan choice is the water and toilet choice. The 20L starts at $151,060, the lowest starting price in this comparison, and carries 22 gallons of fresh water, 13 gallons of gray water and a 13.5 gallon black tank with a gravity flush toilet. The 20U, with published bases at $162,120 to $165,060, carries 27 gallons of fresh water, 20 gallons of gray water and the line only cassette toilet, at 4.75 gallons. The 20Y starts at $162,960 and carries the most fresh water in this comparison, 35 gallons, with 28 gallons of gray water and a 14 gallon black tank. All three are 20 ft 11 in long, all rate at two sleepers, and all sit at 9,350 lbs GVWR. Read the full [Sequence model page](/models/thor-sequence) for the model guide. One price wrinkle is logged, not hidden: Thor class B lineup page lists a flat $161,560 MSRP for the Sequence, while its dedicated Sequence model page and the 20L floor plan page put the low base at $151,060. The model page figure is used here, by the same manufacturer first rule applied across this site. Thor sister line, the [Tellaro](/models/thor-tellaro), shares these three floor plans and this toilet split and starts lower, from $140,560, so a buyer who likes the Sequence layout should price both lines before deciding.",
+      },
+      {
+        type: "h2",
+        heading: "Water: the Sequence carries more, and the 20Y carries the most",
+        text: "On water, the Sequence wins on capacity in every floor plan, and the gap grows with the floor plan. The Solis holds 20 gallons of fresh water whichever floor plan you choose. The smallest Sequence, the 20L, holds 22 gallons, the 20U holds 27 gallons, and the 20Y holds 35 gallons, which is 15 gallons more than either Solis. Gray water follows the same pattern, from the Solis 20 gallons against 13, 20 and 28 gallons across the Sequence floor plans, with the 20L the one Sequence that holds less gray water than the Solis. How long any of those figures lasts depends on how you shower and wash up, and our [fresh water capacity comparison](/blog/class-b-fresh-water-capacity-compared) puts both lines in the full twelve model table and works through the days off grid arithmetic on a stated assumption. The plain read for this pair is that a couple who camps away from hookups will feel the 20Y extra water, and a family of four in a Solis will work through 20 gallons faster than a couple will, which makes refill planning a larger part of a Solis trip.",
+      },
+      {
+        type: "h2",
+        heading: "Bathroom and toilet: cassette everywhere, or cassette on one floor plan",
+        text: "Both lines give you an enclosed wet bath on every floor plan. The toilet is where they part. Every Solis has the same answer: a swiveling cassette toilet with a 5 gallon cassette, emptied by carrying the cassette to a dump point or a household toilet. In the Sequence, only the 20U has a cassette, at 4.75 gallons, while the 20L and 20Y use a gravity flush toilet and a black tank, emptied at a dump station through a hose. Neither answer is better in the abstract. A cassette suits buyers who want to empty waste without moving the van and without depending on a dump station, and a black tank suits buyers who want a flush and forget routine between dump stations. Our [cassette toilet guide](/blog/class-b-vans-with-cassette-toilets) explains that decision across the full pool. In this pair, the practical effect is narrow and important: if you want a Sequence with a cassette, you are shopping for one floor plan, the 20U, while any Solis you find has one fitted as standard.",
+      },
+      {
+        type: "h2",
+        heading: "Power and heat: read the standards lists, not the badges",
+        text: "Both lines use the Truma Combi Eco for heat and hot water. Beyond that, the published systems differ in shape. Winnebago lists two deep-cycle Group 31 AGM batteries for the Solis, with an optional 5 kWh lithium system, the Winnebago x EcoFlow Power Kit Pro, whose power management controller is rated at 3,600W. Winnebago publishes no standard inverter rating for the Solis, so none is claimed as standard here. Winnebago Solis page, re-checked on November 3, 2026, also lists a 190W roof solar panel, with a 220W system on the pop-top model. Thor published standards list for the Sequence includes a 1,000W inverter, two Group 31 house batteries, a 200W solar panel with a 30 amp controller, and a 2,800W Onan gasoline generator, with the Re(Li)able Power Pack, 400Ah of lithium with a 3,000W inverter, as the factory lithium option. Those Thor figures come from Thor published standards list as recorded in our ledger. The buyer takeaway is to price the lithium option on whichever line you choose rather than assume either van is lithium as standard, because in base form both lines start on AGM batteries.",
+      },
+      {
+        type: "h2",
+        heading: "Winter use: insulation on one side, tank heat pads on the other",
+        text: "Neither line is marketed on a verified four-season rating that can be compared across brands, and our [winter guide](/blog/best-class-b-vans-for-winter) judges both on hardware rather than labels. The Solis hardware is insulation and water routing: ceiling to floor insulation, interior coach waterlines, a freeze-resistant exterior fill, and the Truma Combi Eco, with Winnebago attaching its winter use guidelines asterisk rather than a four-season claim. The Sequence hardware is holding tank heat pads and the same Truma Combi Eco, and Thor publishes no winter package and no insulation rating for the line. A buyer planning regular below freezing travel should ask each dealer the same specific questions about tank protection and waterline routing, and should not read either line label as a guarantee.",
+      },
+      {
+        type: "h2",
+        heading: "Price: the Sequence starts lower, the Solis 59PX costs the most",
+        text: "On starting price alone, the order is Sequence 20L at $151,060, Solis 59P at $156,254, Sequence 20U and 20Y in the low $160,000s, and Solis 59PX at $180,487 at the top. That is a spread of about $5,000 between the two entry vans, and about $29,000 across the whole pair. Every figure here is a starting price published by the manufacturer, before options, tax, title, license and delivery. The specific van on a dealer lot is priced on its sticker, and optioned stickers sit above these bases. What the money turns on is not the badge. The Sequence lower bases buy a two berth van with more water. The Solis bases buy a four berth rating with a pop-top and a cassette on every floor plan. Neither is the cheaper version of the other.",
+      },
+      {
+        type: "callout",
+        text: "The decision in one line: travelers of three or four start with the Solis, because it is the only van in this pair rated at four as standard. Couples start with the Sequence, because it starts lower, offers three floor plans instead of two, and carries up to 35 gallons of fresh water, and they narrow it to the 20U if a cassette toilet is required or to the 20Y if water capacity matters most.",
+      },
+      {
+        type: "h2",
+        heading: "Sources and how the figures were checked",
+        text: "Starting prices, sleeping ratings and lengths for the Solis come from Winnebago own Solis page, re-checked on November 3, 2026, with tank, bathroom, battery and warranty figures from the Winnebago Solis brochure as recorded in our fact ledger. Starting price range, sleeping rating and length for the Sequence come from Thor Motor Coach own Sequence model page, re-checked on November 3, 2026, with per floor plan prices, tank figures and toilet split from Thor floor plan specification pages as recorded in our ledger. Where a manufacturer pages disagree, this article follows the dedicated model page and logs the disagreement: the Solis gray water conflict, brochure 20 gallons against dealer feeds at 30 gallons, and the Sequence starting price conflict, model page $151,060 against the lineup page at $161,560, are both recorded in the ledger with both values shown.",
+      },
+      {
+        type: "ul",
+        heading: "Sources",
+        items: [
+          "Winnebago Solis page, starting prices ($156,254 for the 59P and $180,487 for the 59PX), sleeps four, lengths, solar and insulation features: winnebago.com, re-checked November 3, 2026",
+          "Winnebago Solis brochure, fresh water 20 gallons, gray water 20 gallons, 5 gallon cassette, fuel 24 gallons, GVWR, batteries and warranty: Winnebago Solis brochure, as recorded in the Starry Van fact ledger",
+          "Thor Motor Coach Sequence model page, published price range $151,060 to $165,060, Ram ProMaster 3500 chassis, 20 ft 11 in length and sleeping capacity of two: thormotorcoach.com, re-checked November 3, 2026",
+          "Thor Motor Coach Sequence floor plan pages (20L, 20U and 20Y), per floor plan bases, fresh water at 22, 27 and 35 gallons, gray water at 13, 20 and 28 gallons, and the 4.75 gallon cassette on the 20U against black tanks on the 20L and 20Y: Thor floor plan specification pages, as recorded in the Starry Van fact ledger",
+          "Thor Motor Coach Tellaro model page, for the sister line comparison at $140,560: thormotorcoach.com, as recorded in the Starry Van fact ledger",
+        ],
+      },
+      {
+        type: "h2",
+        heading: "Make the call with your own short list",
+        text: "Start with the [match quiz](/find-my-van) if sleeping count and bathroom type are still open questions, because those two answers settle this pair faster than any price check. Run both vans, floor plan by floor plan, through the [comparison tool](/compare), and browse the [full market index](/market) before you decide, because the Solis and the Sequence are two answers on one chassis, not the whole ProMaster field: the [Tellaro](/models/thor-tellaro), the Travato and the Nova sit on the same chassis and answer some of these same questions differently. Then read the two model guides, [Winnebago Solis](/models/winnebago-solis) and [Thor Sequence](/models/thor-sequence), and take the floor plan specific figures in this article to the dealer and confirm them on the exact van, with its options, before you sign.",
+      },
+      {
+        type: "faq-group",
+        faqs: [
+          {
+            question: "What is the main difference between the Solis and the Sequence?",
+            answer: "Sleeping, water and toilet. The Winnebago Solis is rated at four in both floor plans, with the pop-top counted, carries 20 gallons of fresh water, and uses a 5 gallon cassette toilet on both floor plans. The Thor Sequence is rated at two in all three floor plans, carries 22, 27 or 35 gallons of fresh water by floor plan, and uses a cassette only on the 20U, with black tanks on the 20L and 20Y. Both sit on the Ram ProMaster 159 inch wheelbase chassis.",
+          },
+          {
+            question: "Which costs less, the Solis or the Sequence?",
+            answer: "The Sequence starts lower. Thor publishes the Sequence from $151,060 for the 20L, in a published range to $165,060. Winnebago publishes the Solis 59P from $156,254 and the Solis 59PX from $180,487. All of these are manufacturer starting prices before options, and optioned dealer stickers sit above them.",
+          },
+          {
+            question: "Does the Thor Sequence sleep four?",
+            answer: "Thor rates all three Sequence floor plans, the 20L, 20U and 20Y, at two. The 20L offers an optional Sky Bunk pop-top that adds a bunk, but Thor specification table still rates the 20L at two. Buyers who need a four berth rating as standard should look at the Solis, which Winnebago rates at four on both floor plans.",
+          },
+          {
+            question: "Does the Winnebago Solis have a cassette toilet?",
+            answer: "Yes, on both floor plans. The Solis has an enclosed wet bath with a swiveling cassette toilet, and the cassette holds 5 gallons, per the Winnebago Solis brochure. In the Sequence, only the 20U has a cassette, at 4.75 gallons; the 20L and 20Y use black tanks of 13.5 and 14 gallons.",
+          },
+          {
+            question: "How much fresh water do the Solis and Sequence carry?",
+            answer: "The Solis carries 20 gallons on both the 59P and the 59PX. The Sequence depends on floor plan: 22 gallons on the 20L, 27 gallons on the 20U and 35 gallons on the 20Y, per Thor floor plan specification pages. The Sequence figures are floor plan figures and should never be averaged into a single number for the line.",
+          },
+          {
+            question: "Are the Solis and Sequence built on the same chassis?",
+            answer: "Yes. Both are Ram ProMaster vans on a 159 inch wheelbase, front wheel drive, with a 3.6L V6 gasoline engine. Winnebago publishes 280 hp for the Solis. Thor publishes no horsepower figure for the Sequence, so this site claims none for it. Both lines have an interior height of 6 ft 3 in.",
+          },
+          {
+            question: "Which is better for winter use, the Solis or the Sequence?",
+            answer: "Neither carries a comparable published four-season rating. The Solis lists ceiling to floor insulation, interior waterlines and a freeze-resistant exterior fill, with Winnebago winter use guidelines attached. The Sequence lists holding tank heat pads, and Thor publishes no winter package or insulation rating for the line. Judge both on that hardware and on dealer answers about tank and waterline protection, not on a label.",
+          },
+        ],
+      },
+    ],
+  },
   "buying-a-2021-2022-used-class-b-what-to-check": {
     slug: "buying-a-2021-2022-used-class-b-what-to-check",
     intro:

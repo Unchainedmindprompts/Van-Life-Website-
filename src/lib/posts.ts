@@ -20,6 +20,31 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "solis-vs-sequence",
+    title: "Solis vs. Sequence: Which ProMaster Class B Fits You?",
+    excerpt:
+      "The Winnebago Solis and the Thor Sequence sit on the same Ram ProMaster chassis, and they split on three things: sleeping, water, and toilet. The Solis is rated at four in both of its floor plans, with the pop-top counted in that rating, starts at $156,254 for the 59P, carries 20 gallons of fresh water on both floor plans, and puts a 5 gallon cassette toilet in every van. The Sequence is rated at two in all three of its floor plans, starts lower at $151,060 for the 20L, carries 22, 27 or 35 gallons of fresh water depending on floor plan, and splits its toilet by floor plan, a 4.75 gallon cassette on the 20U and black tanks on the 20L and 20Y. The full head to head, floor plan by floor plan, from the verified ledger, with both manufacturer pages re-checked on November 3, 2026.",
+    category: "Van Comparison",
+    readTime: "10 min",
+    date: "2026-11-03",
+    updated: "2026-11-03",
+    featured: true,
+    image: {
+      src: "/images/sportsmobile-interior-galley.jpg",
+      alt: "Inside a Class B camper van: a galley with a sink and wood cabinetry, a microwave and refrigerator, and a bench seat by the window",
+      caption: "Same chassis, different answers. The Solis and the Sequence split on sleeping, water and toilet, not on the van underneath. Photo: the author.",
+    },
+    about: ["class-b", "chassis:promaster"],
+    mentions: ["model:winnebago-solis", "model:thor-sequence", "model:thor-tellaro"],
+    schema: {
+      "@type": "Article",
+      headline: "Solis vs. Sequence: Which ProMaster Class B Fits You?",
+      description:
+        "Winnebago Solis vs Thor Sequence, compared floor plan by floor plan from the verified ledger, with both manufacturer pages re-checked on November 3, 2026: the Solis starts at $156,254, sleeps four with its pop-top counted, carries 20 gallons of fresh water and uses a 5 gallon cassette toilet on both floor plans, while the Sequence starts at $151,060, is rated at two, carries 22, 27 or 35 gallons of fresh water by floor plan, and uses a 4.75 gallon cassette only on the 20U, with black tanks on the 20L and 20Y. Both sit on the Ram ProMaster 159 inch wheelbase chassis.",
+      keywords: ["Solis vs Sequence", "Winnebago Solis vs Thor Sequence", "Solis or Sequence camper van", "Thor Sequence price", "Winnebago Solis price", "Solis sleeps four vs Sequence sleeps two", "Sequence 20Y fresh water 35 gallons", "ProMaster Class B comparison", "Solis cassette toilet", "Sequence 20U cassette toilet"],
+    },
+  },
+  {
     slug: "buying-a-2021-2022-used-class-b-what-to-check",
     title: "Buying a 2021–2022 Used Class B: What to Check",
     excerpt:
