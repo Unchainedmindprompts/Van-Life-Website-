@@ -22,6 +22,137 @@ export interface PostContent {
 }
 
 export const postContent: Record<string, PostContent> = {
+  "revel-vs-travato": {
+    slug: "revel-vs-travato",
+    intro:
+      "Pick the Revel if your trips leave the pavement. Pick the Travato if your trips are long paved miles between campgrounds, family driveways and national park roads. That is the short answer, and the figures behind it are clean, including one figure that does not exist. The [Winnebago Revel](/models/winnebago-revel) is a single floor plan adventure van on the all wheel drive Mercedes-Benz Sprinter, starting at $223,495 on Winnebago own published price, with 21 gallons of fresh water and a 5 gallon cassette toilet. The [Winnebago Travato](/models/winnebago-travato) is a four floor plan road trip van on the front wheel drive Ram ProMaster. Winnebago publishes no Travato price at all, and its product page showed a price of 0 USD again when it was re-checked on November 4, 2026, so the Travato starting figure in this article is a dealer figure, $183,783 from Lichtsinn RV, labeled as a dealer figure every time it appears. The Travato carries 18 gallons of fresh water on every floor plan and uses a flush toilet running to a black tank, not a cassette. Both Winnebago pages were re-checked on November 4, 2026, and every figure below comes from our verified ledger or from that re-check.",
+    relatedSlugs: [
+      "solis-vs-sequence",
+      "class-b-fresh-water-capacity-compared",
+      "class-b-vans-with-cassette-toilets",
+    ],
+    blocks: [
+      {
+        type: "ul",
+        heading: "Revel vs. Travato at a glance, from the verified ledger",
+        items: [
+          "Chassis: Revel on the Mercedes-Benz Sprinter, 144 inch wheelbase, all wheel drive, 2.0L high-output turbo-diesel at 211 hp. Travato on the Ram ProMaster 3500, 159 inch wheelbase, front wheel drive, 3.6L V6 gasoline at 280 hp",
+          "Starting price: Revel 44E from $223,495, published by Winnebago on its own Revel page and re-checked November 4, 2026. Travato from $183,783, a dealer base from Lichtsinn RV, because Winnebago publishes no Travato price and its page showed 0 USD on the same re-check. Both figures are starting prices before options, and the Travato figure is a dealer figure, not a manufacturer price",
+          "Floor plans: Revel 1 (44E). Travato 4 (59G, 59GL, 59K and 59KL)",
+          "Sleeps: Travato rated at two on every floor plan in Winnebago brochure. Winnebago publishes no sleeping capacity for the Revel; dealer spec sheets list two in the power lift bed, and an optional front cab air mattress adds a third berth",
+          "Length: Revel 19 ft 7 in. Travato 21 ft. Interior height is 6 ft 3 in on both vans",
+          "Fresh water: Revel 21 gallons. Travato 18 gallons on every floor plan",
+          "Gray water: Revel 21 gallons. Travato 14 gallons on the 59G and 13 gallons on the 59K and 59KL in Winnebago brochure, with a logged 12 gallon conflict for the 59KL noted below",
+          "Bathroom: Revel wet bath at 31 in by 26 in with a swiveling cassette toilet, cassette 5 gallons, and no black tank. Travato wet bath with a foot pedal flush toilet running to a black tank, 11 gallons on the 59G and 12 gallons on the 59K and 59KL, and no cassette",
+          "Fuel and weight: Revel 24.5 gallons of diesel capacity and 9,050 lbs GVWR. Travato 24 gallons of gasoline capacity and 9,350 lbs GVWR",
+          "Power: Revel 320 Ah lithium-ion battery with a dedicated second alternator and a 2,000W inverter/charger. Travato 8.4 kWh Lithionics lithium system, the Winnebago Power Max, with a second battery optional. The two battery figures are published in different units by the maker, so they are stated as published and not converted here",
+        ],
+      },
+      {
+        type: "h2",
+        heading: "The split: same badge, different chassis, different trip",
+        text: "Unlike our [Solis vs. Sequence](/blog/solis-vs-sequence) comparison, where both vans share one chassis, this pair splits at the chassis itself, and almost every other difference follows from that split. The Revel sits on the short Sprinter, at a 144 inch wheelbase, with all wheel drive and a diesel engine, and it is built around a power lift bed over a gear garage. The Travato sits on the longer ProMaster, at a 159 inch wheelbase, with front wheel drive and a gasoline engine, and it is built around fixed beds and paved road travel. If you have not settled the chassis question yet, our [chassis model finder](/blog/promaster-vs-sprinter-vs-transit-class-b) places every verified model on its chassis. A buyer choosing between these two Winnebagos is really choosing the trip first and the van second.",
+      },
+      {
+        type: "h2",
+        heading: "Sleeping: both are two person vans, stated two different ways",
+        text: "Plan on two sleepers in either van, but read the small print, because the two ratings come from different places. Winnebago brochure rates every Travato floor plan at two, and Winnebago Travato page, re-checked on November 4, 2026, says the van sleeps up to two. Dealer listings often say three for the Travato, counting the optional front cab air mattress, and the manufacturer figure of two is the figure to plan around. For the Revel, Winnebago does not publish a sleeping capacity in its specifications. Dealer spec sheets list two, in the power lift bed, and Winnebago offers an optional front cab air mattress, at 30 in by 65 in, that adds a third berth. Neither van is a family van, and neither belongs on a sleep four short list. Buyers who need to sleep three or four as a standard rating should start with the Solis instead, in our [sleep four guide](/blog/class-b-vans-that-sleep-four).",
+      },
+      {
+        type: "h2",
+        heading: "The Winnebago Revel: one floor plan, built around the gear garage",
+        text: "The Revel comes in one floor plan, the 44E, at 19 ft 7 in long. Its defining layout is the power lift bed at the rear, which rises so bikes and other gear can travel in the gear garage underneath it, with six removable cargo tie-down anchors. The wet bath, at 31 in by 26 in, carries a shower with a wall surround and the swiveling cassette toilet. Winnebago page, re-checked on November 4, 2026, still publishes the same core figures recorded in our ledger: 21 gallons of fresh water, 21 gallons of gray water, a 5 gallon cassette, 24.5 gallons of fuel, 9,050 lbs GVWR, a 320 Ah lithium-ion battery with a dedicated second alternator, a 2,000W inverter/charger, and a 12 month, 24,000 mile basic warranty. Read the full [Revel model page](/models/winnebago-revel) for the model guide. One price disagreement is logged, not hidden: Winnebago publishes $223,495 as the base price, while a major dealer publishes a $261,808 base MSRP for the same van. This site displays the manufacturer figure, $223,495, and labels the dealer figure as a dealer figure.",
+      },
+      {
+        type: "h2",
+        heading: "The Winnebago Travato, floor plan by floor plan",
+        text: "The Travato comes in four floor plans, the 59G, 59GL, 59K and 59KL, all at 21 ft long and all rated at two sleepers. The floor plan choice in this line is mostly a bed and bathroom layout choice, not a capacity choice, because the water figures barely move: fresh water is 18 gallons on every floor plan in Winnebago 2026 Travato brochure, gray water is 14 gallons on the 59G and 13 gallons on the 59K and 59KL, and the black tank is 11 gallons on the 59G and 12 gallons on the 59K and 59KL. One gray water conflict is logged in our ledger: a Winnebago point of purchase sheet and a 2026 59KL window sticker list 12 gallons for the 59KL gray tank, where the brochure lists 13. This article displays the brochure figure, 13, with the disagreement stated rather than averaged. Read the full [Travato model page](/models/winnebago-travato) for the model guide, including how the base price climbs by floor plan, to a $216,037 manufacturer window sticker base for the 59KL.",
+      },
+      {
+        type: "h2",
+        heading: "Water: the Revel carries more fresh, and neither van is a long stay van",
+        text: "On fresh water, the Revel wins by a small and real margin: 21 gallons against 18 gallons on every Travato floor plan. Gray water is not close. The Revel holds 21 gallons of gray water, against 14 gallons on the Travato 59G and 13 gallons on the 59K and 59KL. In practice, gray water is often the tank that ends a stay, because shower and galley water has to go somewhere, and on that measure the Revel can stay out longer before it needs a dump point for gray water, while its cassette can be emptied without moving the van. The Travato black tank, at 11 or 12 gallons by floor plan, is emptied at a dump station through a hose, on the same stop as its gray water. Our [fresh water capacity comparison](/blog/class-b-fresh-water-capacity-compared) puts both vans in the full twelve model table. The plain read for this pair is that both vans are sized for days, not weeks, away from services, and the Revel water system is the more self contained of the two.",
+      },
+      {
+        type: "h2",
+        heading: "Bathroom and toilet: cassette against black tank",
+        text: "Both vans give you an enclosed wet bath with a shower. The toilet is one of the clearest differences between them, and it is a difference buyers live with every day they own the van. The Revel uses a swiveling cassette toilet with a 5 gallon cassette, emptied by carrying the cassette to a dump point or a regular toilet. There is no black tank to rinse and no dump hose to handle for toilet waste. The Travato uses a foot pedal flush toilet running to a black tank, 11 gallons on the 59G and 12 gallons on the 59K and 59KL, emptied at a dump station. Neither answer is better in the abstract. A cassette suits buyers who camp away from dump stations and want to empty waste without moving the van. A black tank suits buyers who prefer a flush and forget routine between dump stations and a larger waste capacity per fill. Our [cassette toilet guide](/blog/class-b-vans-with-cassette-toilets) and our [bathroom guide](/blog/class-b-van-bathrooms-wet-bath-dry-bath) work through that decision across the full pool. In this pair, the choice is fixed by the model: any Revel has the cassette, and no Travato does.",
+      },
+      {
+        type: "h2",
+        heading: "Power and heat: lithium in both vans, in different shapes",
+        text: "Both vans carry lithium power in the forms covered here, so check the exact model year and build before you apply this section to a used van. The Revel system, per Winnebago specifications, is a 320 Ah lithium-ion battery with a dedicated second alternator to charge it, and a 2,000W inverter/charger. The Travato system, per Winnebago 2026 brochure, is an 8.4 kWh Lithionics lithium system, the Winnebago Power Max, with a second battery optional. The brochure names an EcoFlow power hub for the Travato without publishing an inverter wattage; a 3,600W rating appears in dealer listings and is a dealer figure, not a Winnebago specification, so it is not presented as one here. Heat differs in the same pattern. The Revel uses a hydronic heating system. The Travato uses a Truma Combi G Comfort Plus furnace and water heater. The buyer takeaway is to compare the usable battery capacity and the charging sources on the spec sheet of the exact van in front of you, because the two makers figures in this pair are published in different units and do not convert cleanly into a single headline number.",
+      },
+      {
+        type: "h2",
+        heading: "Winter use: real hardware on both sides, an extended season rating on both",
+        text: "Neither van carries a published four-season rating that can be compared across brands, and this site rates both as extended season rather than true four-season, for reasons stated on their model pages. The Revel winter hardware is a hydronic heating system, an insulated gray water holding tank, a winterization package with valve and siphon tube, and tinted dual-pane windows, all re-confirmed on Winnebago page on November 4, 2026. That same page carries Winnebago own caution: it recommends following the winter use guidelines and winterization procedures in the owner manual whenever camping in freezing conditions. The Travato winter hardware, per the brochure, is the Truma Combi G Comfort Plus, heated tanks, insulation and thermal window covers, and Winnebago markets the Travato for extended-season camping. The drivetrain gap matters here too: the Revel is all wheel drive, and the Travato is front wheel drive, with no all wheel drive offered at any price. Our [winter guide](/blog/best-class-b-vans-for-winter) judges both vans on this hardware rather than on labels.",
+      },
+      {
+        type: "h2",
+        heading: "Price: the Travato starts about $40,000 lower, on a dealer figure",
+        text: "On starting figures, the order is simple and the labels matter. The Travato starts at $183,783, which is Lichtsinn RV published dealer base for the line, because Winnebago publishes no Travato price. The Revel starts at $223,495, which is Winnebago own published base price. The gap between those two starting figures is about $40,000. Travato bases climb by floor plan, to a $216,037 manufacturer window sticker base for the 59KL, which is close to the Revel base, so a highly specified Travato and a base Revel can sit near each other in price even though the lines start far apart. Revel dealer base figures run higher than the manufacturer figure, to $261,808 in the dealer record in our ledger. Every starting figure here is before options, tax, title, license and delivery, and the specific van on a dealer lot is priced on its sticker. What the gap buys, when it holds, is the Sprinter chassis, all wheel drive, diesel, the cassette system and the gear garage layout. What giving it up buys is a longer van, four floor plans, gasoline service almost anywhere, and a lower starting price.",
+      },
+      {
+        type: "callout",
+        text: "The decision in one line: travelers who leave the pavement, carry gear inside the van, and want to empty the toilet without a dump station start with the Revel. Travelers who drive long paved miles, want four floor plans to choose from, and want the lower starting price start with the Travato, and they price the exact floor plan carefully, because a 59KL window sticker base sits close to the Revel base price.",
+      },
+      {
+        type: "h2",
+        heading: "Sources and how the figures were checked",
+        text: "Revel figures come from Winnebago own Revel page, re-checked on November 4, 2026, which still publishes a price of $223,495, a length of 19 ft 7 in, an interior height of 6 ft 3 in, 21 gallons of fresh water, 21 gallons of gray water, a 5 gallon cassette, 24.5 gallons of fuel, 9,050 lbs GVWR, a 144 inch wheelbase, a wet bath at 31 in by 26 in with a swiveling cassette toilet, a 320 Ah lithium-ion battery, a 2,000W inverter/charger, hydronic heat, an insulated gray tank, a winterization package, dual-pane windows, and a 12 month, 24,000 mile basic warranty. Travato figures come from Winnebago 2026 Travato brochure as recorded in our fact ledger, with Winnebago Travato page re-checked on November 4, 2026, which states that the van is built on the Ram ProMaster chassis and sleeps up to two, and which publishes no price, showing 0 USD. Where sources disagree, this article follows the manufacturer figure and logs the disagreement: the Revel starting price conflict, manufacturer $223,495 against a dealer base of $261,808, the Revel fresh water conflict, manufacturer 21 gallons against dealer feeds at 35 gallons, and the Travato 59KL gray water conflict, brochure 13 gallons against a point of purchase sheet and window sticker at 12 gallons, are all recorded in the ledger with both values shown.",
+      },
+      {
+        type: "ul",
+        heading: "Sources",
+        items: [
+          "Winnebago Revel page, price $223,495, Mercedes-Benz AWD Sprinter chassis, 2.0L high-output turbo-diesel, length 19 ft 7 in, interior height 6 ft 3 in, fresh water 21 gallons, gray water 21 gallons, cassette 5 gallons, fuel 24.5 gallons, GVWR 9,050 lbs, wheelbase 144 in, wet bath 31 in by 26 in, 320 Ah lithium-ion battery, 2,000W inverter/charger, hydronic heat and 12 month, 24,000 mile basic warranty: winnebago.com, re-checked November 4, 2026",
+          "Winnebago Revel ledger record, 211 hp drivetrain figure and the logged dealer conflicts on price ($261,808) and fresh water (35 gallons): Starry Van fact ledger, data/facts/winnebago-revel.json",
+          "Winnebago Travato page, Ram ProMaster chassis, sleeps up to two, and no published price (price shown as 0 USD): winnebago.com, re-checked November 4, 2026",
+          "Winnebago 2026 Travato brochure, ProMaster 3500 with 159 in wheelbase, front wheel drive, 3.6L V6 gasoline at 280 hp, sleeps two, fresh water 18 gallons on every floor plan, gray water 14 gallons (59G) and 13 gallons (59K and 59KL), black water 11 gallons (59G) and 12 gallons (59K and 59KL), fuel 24 gallons, GVWR 9,350 lbs, length 21 ft, 8.4 kWh Lithionics lithium and Truma Combi G Comfort Plus heat, as recorded in the Starry Van fact ledger",
+          "Lichtsinn RV, Travato dealer base of $183,783, labeled as a dealer figure because Winnebago publishes no Travato price, as recorded in the Starry Van fact ledger, data/facts/winnebago-travato.json",
+        ],
+      },
+      {
+        type: "h2",
+        heading: "Make the call with your own short list",
+        text: "Start with the [match quiz](/find-my-van) if the chassis and toilet questions are still open, because those two answers settle this pair faster than any price check. Run both vans through the [comparison tool](/compare), and browse the [full market index](/market) before you decide, because these are two Winnebago answers, not the whole field: the Revel Sprinter rivals and the Travato ProMaster rivals answer some of these same questions differently, and our [Solis vs. Sequence](/blog/solis-vs-sequence) comparison covers the other dedicated pair on the ProMaster. Then read the two model guides, [Winnebago Revel](/models/winnebago-revel) and [Winnebago Travato](/models/winnebago-travato), and take the floor plan specific figures in this article to the dealer and confirm them on the exact van, with its options, before you sign.",
+      },
+      {
+        type: "faq-group",
+        faqs: [
+          {
+            question: "What is the main difference between the Revel and the Travato?",
+            answer: "Chassis, fuel, toilet and price. The Winnebago Revel sits on the Mercedes-Benz Sprinter 144 inch wheelbase chassis with all wheel drive and a 2.0L turbo-diesel, carries 21 gallons of fresh water, and uses a 5 gallon cassette toilet. The Winnebago Travato sits on the Ram ProMaster 3500 159 inch wheelbase chassis with front wheel drive and a 3.6L V6 gasoline engine, carries 18 gallons of fresh water on every floor plan, and uses a flush toilet running to a black tank. The Revel starts at $223,495 on Winnebago published price. The Travato starts at $183,783 on a dealer figure, because Winnebago publishes no Travato price.",
+          },
+          {
+            question: "Which costs less, the Revel or the Travato?",
+            answer: "The Travato starts lower, by about $40,000 on starting figures. Its starting figure is $183,783, a dealer base from Lichtsinn RV, labeled as a dealer figure because Winnebago publishes no Travato price. The Revel starts at $223,495, Winnebago own published base price. Travato bases climb by floor plan to a $216,037 manufacturer window sticker base for the 59KL, so a highly specified Travato can sit close to the Revel base. All starting figures are before options, and optioned dealer stickers sit above them.",
+          },
+          {
+            question: "Does the Travato have a cassette toilet like the Revel?",
+            answer: "No. The Revel has a swiveling cassette toilet with a 5 gallon cassette in a wet bath at 31 in by 26 in, and no black tank. The Travato has a wet bath with a foot pedal flush toilet running to a black tank, 11 gallons on the 59G and 12 gallons on the 59K and 59KL, per Winnebago 2026 Travato brochure, and it does not use a cassette toilet on any floor plan.",
+          },
+          {
+            question: "How much fresh water do the Revel and Travato carry?",
+            answer: "The Revel carries 21 gallons of fresh water and 21 gallons of gray water, per Winnebago specifications re-checked on November 4, 2026. The Travato carries 18 gallons of fresh water on every floor plan, with gray water at 14 gallons on the 59G and 13 gallons on the 59K and 59KL, per Winnebago 2026 Travato brochure. A Winnebago point of purchase sheet and a 2026 59KL window sticker list 12 gallons for the 59KL gray tank; that disagreement is logged, and this site displays the brochure figure.",
+          },
+          {
+            question: "How many people sleep in the Revel and the Travato?",
+            answer: "Plan on two in either van. Winnebago brochure rates every Travato floor plan at two, and its Travato page says the van sleeps up to two; dealer listings that say three are counting an optional front cab air mattress. Winnebago does not publish a sleeping capacity for the Revel; dealer spec sheets list two in the power lift bed, and Winnebago offers an optional front cab air mattress that adds a third berth.",
+          },
+          {
+            question: "Are the Revel and Travato built on the same chassis?",
+            answer: "No, and that is the core of this comparison. The Revel is a Mercedes-Benz Sprinter on a 144 inch wheelbase, all wheel drive, with a 2.0L high-output turbo-diesel at 211 hp. The Travato is a Ram ProMaster 3500 on a 159 inch wheelbase, front wheel drive, with a 3.6L V6 gasoline engine at 280 hp. Both vans have an interior height of 6 ft 3 in, and the Travato, at 21 ft, is the longer van against the Revel at 19 ft 7 in.",
+          },
+          {
+            question: "Which is better for winter use, the Revel or the Travato?",
+            answer: "Neither carries a comparable published four-season rating, and this site rates both as extended season. The Revel lists hydronic heat, an insulated gray water tank, a winterization package and dual-pane windows, with Winnebago recommending its winterization procedures in freezing conditions, and it is all wheel drive. The Travato lists a Truma Combi G Comfort Plus furnace and water heater, heated tanks, insulation and thermal window covers, and it is front wheel drive only. Judge both on that hardware, not on a label.",
+          },
+        ],
+      },
+    ],
+  },
   "solis-vs-sequence": {
     slug: "solis-vs-sequence",
     intro:

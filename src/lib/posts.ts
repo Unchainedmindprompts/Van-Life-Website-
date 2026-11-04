@@ -20,6 +20,31 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "revel-vs-travato",
+    title: "Revel vs. Travato: Which Winnebago Class B Fits You?",
+    excerpt:
+      "The Winnebago Revel and the Winnebago Travato are both Winnebago Class B vans for two people, and almost everything else about them splits. The Revel is the all wheel drive diesel adventure van on the short Mercedes-Benz Sprinter, in a single 44E floor plan, starting at $223,495 on Winnebago own published price, with 21 gallons of fresh water and a 5 gallon cassette toilet in a 31 by 26 inch wet bath. The Travato is the front wheel drive gasoline road trip van on the longer Ram ProMaster, in four floor plans, with no manufacturer price published at all: the best verified dealer base is $183,783, about $40,000 below the Revel, and it carries 18 gallons of fresh water on every floor plan with a flush toilet running to a black tank, not a cassette. The full head to head, from the verified ledger, with both Winnebago pages re-checked on November 4, 2026.",
+    category: "Van Comparison",
+    readTime: "10 min",
+    date: "2026-11-04",
+    updated: "2026-11-04",
+    featured: true,
+    image: {
+      src: "/images/sportsmobile-interior-rear.jpg",
+      alt: "The rear interior of a Class B camper van with the rear doors open, showing bench seating that converts to sleeping space and cabinetry",
+      caption: "Same badge, different vans. The Revel and the Travato split on chassis, fuel, toilet and price, not on the name on the door. Photo: the author.",
+    },
+    about: ["class-b", "chassis:sprinter", "chassis:promaster"],
+    mentions: ["model:winnebago-revel", "model:winnebago-travato"],
+    schema: {
+      "@type": "Article",
+      headline: "Revel vs. Travato: Which Winnebago Class B Fits You?",
+      description:
+        "Winnebago Revel vs Winnebago Travato, compared from the verified ledger, with both Winnebago pages re-checked on November 4, 2026: the Revel starts at $223,495 on Winnebago published price, sits on the all wheel drive Sprinter 144 chassis with a 2.0L turbo diesel, carries 21 gallons of fresh water and uses a 5 gallon cassette toilet, while the Travato has no manufacturer price published, starts at a dealer listed $183,783, sits on the front wheel drive ProMaster 159 chassis with a 3.6L V6 gasoline engine, carries 18 gallons of fresh water on every floor plan, and uses a flush toilet to a black tank of 11 or 12 gallons by floor plan. Both are two person vans with a wet bath and 6 ft 3 in of interior height.",
+      keywords: ["Revel vs Travato", "Winnebago Revel vs Travato", "Revel or Travato camper van", "Winnebago Revel price", "Winnebago Travato price", "Revel fresh water 21 gallons", "Travato fresh water 18 gallons", "Revel cassette toilet vs Travato black tank", "Sprinter vs ProMaster Winnebago", "Winnebago Class B comparison"],
+    },
+  },
+  {
     slug: "solis-vs-sequence",
     title: "Solis vs. Sequence: Which ProMaster Class B Fits You?",
     excerpt:
