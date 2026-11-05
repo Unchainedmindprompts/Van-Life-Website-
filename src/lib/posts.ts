@@ -20,6 +20,31 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "sportsmobile-vs-factory-class-b",
+    title: "Sportsmobile vs. Factory Class B for a Custom Build",
+    excerpt:
+      "Choose a factory Class B if you want a fixed floor plan, a complete price on a sticker, and a van you can inspect before you buy. Choose Sportsmobile if no factory floor plan fits and you want the layout built around your own list, on a Sprinter, Transit, ProMaster or Chevy Express, at a published conversion price that excludes the van itself. Sportsmobile conversion ranges, re-checked on its own pricing page on November 5, 2026, run $75,000 to $120,000 for Sprinter and ProMaster and $80,000 to $125,000 for Transit, plus the van, plus tax, title and license, with a worked complete Sprinter example at $164,400. Factory starting prices in the verified pool run from $140,560 for the Thor Tellaro to $290,400 for the Grech Terreno, and those figures are for a complete van. The full decision, price math, warranty and service comparison, from the verified ledger.",
+    category: "Van Comparison",
+    readTime: "11 min",
+    date: "2026-11-05",
+    updated: "2026-11-05",
+    featured: true,
+    image: {
+      src: "/images/sportsmobile-interior-door.jpg",
+      alt: "Inside a Class B camper van: galley and sink by the sliding door, a lounge bench opposite, and the bed at the rear of a 170-inch Sprinter",
+      caption: "A custom conversion and a factory van can end up at similar money. What differs is who chose the layout, how the price is built, and where you go for service. Photo: the author.",
+    },
+    about: ["class-b", "chassis:sprinter", "chassis:transit", "chassis:promaster"],
+    mentions: ["org:sportsmobile", "model:sportsmobile-penthouse", "model:thor-tellaro", "model:thor-sequence", "model:winnebago-solis", "model:winnebago-travato", "model:winnebago-revel", "model:storyteller-overland-mode", "model:remote-vans-friday", "model:remote-vans-aegis", "model:coachmen-nova", "model:coachmen-galleria", "model:grech-terreno", "model:airstream-interstate-24glx"],
+    schema: {
+      "@type": "Article",
+      headline: "Sportsmobile vs. Factory Class B for a Custom Build",
+      description:
+        "Sportsmobile custom conversions compared with factory Class B vans, with Sportsmobile pricing re-checked on its own pricing page on November 5, 2026: conversion ranges of $75,000 to $120,000 for Sprinter and ProMaster and $80,000 to $125,000 for Transit, excluding the van, a worked complete Sprinter example at $164,400 plus tax, title and license, a 3 year, 36,000 mile conversion warranty, and factory-direct sales from three locations, against factory starting prices in the verified pool from $140,560 for the Thor Tellaro to $290,400 for the Grech Terreno for a complete van, with fixed floor plans and dealer sales.",
+      keywords: ["Sportsmobile vs factory Class B", "custom van conversion vs factory camper van", "Sportsmobile conversion cost", "Sportsmobile pricing examples", "custom Class B build cost", "Sportsmobile worked example $164,400", "factory Class B starting prices", "Sportsmobile warranty 3 years 36000 miles", "Penthouse pop top $13,000", "should I buy a custom conversion or a factory Class B"],
+    },
+  },
+  {
     slug: "revel-vs-travato",
     title: "Revel vs. Travato: Which Winnebago Class B Fits You?",
     excerpt:
